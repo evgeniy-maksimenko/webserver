@@ -1,0 +1,12 @@
+{application,webserver,
+             [{description,[]},
+              {vsn,"1"},
+              {modules,[auth_handler,auth_success_handler,base_handler,
+                        c_application,c_http_request,error404_handler,
+                        webserver,webserver_app,webserver_sup]},
+              {registered,[webserver_sup]},
+              {applications,[kernel,stdlib,crypto,asn1,public_key,ssl,sasl,
+                             inets,compiler,syntax_tools,ranch,cowlib,cowboy,
+                             goldrush,lager,sync,jsx]},
+              {mod,{webserver_app,[]}},
+              {env,[]}]}.
