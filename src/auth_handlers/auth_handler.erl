@@ -72,10 +72,10 @@ getResponse(Echo) ->
   Body = c_http_request:response_body(Response),
   getToken(Body).
 
-%% ----------------------------
+%% -----------------------------
 %% 3 ШАГ
 %% Ответ сервера аутентификации
-%% ----------------------------
+%% -----------------------------
 getToken(Body) ->
   case jsx:is_json(list_to_binary(Body)) of
     true ->
