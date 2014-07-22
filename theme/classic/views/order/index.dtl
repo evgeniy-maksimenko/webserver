@@ -1,10 +1,12 @@
 {% extends "layout.dtl" %}
 {% block content %}
-<script>
-    var app = app || {};
-    app.Order = Backbone.Model.extend();
-    app.Orders = Backbone.Collection.extend({
-    	url: '/api/get_all_orders?status=WORK&destinate=MY_GROUP'
-    });
+
+<div id="orders"></div>
+
+<script id="orderTemplate" type="text/template">
+    <ul>
+        <li><%= id  %></li>
+        <li><%= date %></li>
+    </ul>
 </script>
 {% endblock %}

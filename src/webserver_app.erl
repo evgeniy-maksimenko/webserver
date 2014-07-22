@@ -16,6 +16,7 @@ start(_StartType, _StartArgs) ->
       {"/authorize/", auth_handler,[]},
       {"/auth_success", auth_success_handler,[]},
       {"/order", order_handler,[]},
+      {"/api/test", api_test_handler,[]},
       {"/api/get_all_orders", api_get_all_orders_handler,[]},
       {"/", base_handler, []},
       {'_', error404_handler, []}
