@@ -2,6 +2,7 @@ var app = app || {};
 
 app.OrderViews = Backbone.View.extend({
     el: '#orders',
+
     initialize: function(){
         this.collection = new app.Orders();
         this.collection.fetch({reset:true});

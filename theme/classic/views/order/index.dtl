@@ -1,12 +1,111 @@
 {% extends "layout.dtl" %}
 {% block content %}
+<div class="row">
+    <div class="span12">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>№ заявки</th>
+                <th>Дата создания</th>
+                <th>Автор заявки</th>
+                <th>ОС</th>
+                <th>Заголовок</th>
+                <th>Статус</th>
+                <th>№ ордера</th>
+                <th>Приоритет</th>
+                <th>Назначего группе</th>
+                <th>Кому назначено</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="orders">
+            </tbody>
+        </table>
+    </div>
+</div>
 
-<div id="orders"></div>
+
+<div id="orderInfo"></div>
+
 
 <script id="orderTemplate" type="text/template">
-    <ul>
-        <li><%= id  %></li>
-        <li><%= date %></li>
-    </ul>
+    <td><%= bid_number %></td>
+    <td><%= created_at %></td>
+    <td><%= author %></td>
+    <td><%= oc %></td>
+    <td><%= title %></td>
+    <td><%= status %></td>
+    <td><%= order_number %></td>
+    <td><%= priority %></td>
+    <td><%= group %></td>
+    <td><%= appointed %></td>
 </script>
+
+<script id="orderInfoTemplate" type="text/template">
+    <div class="row">
+        <div class="col-xs-6">
+            <div style="height:50px">
+                <p class="lead">Детали заявки</p>
+            </div>
+
+            <fieldset>
+                <div style="height: 50px;overflow-y: auto;">
+                    <h5>Заголовок: <strong><%= description %></strong></h5>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Проблема</legend>
+                <div style="height: 175px;overflow-y: auto;">
+                    <p><%= info %></p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Вложения</legend>
+                <div class="list-group" >
+                    <% _.each(attachments,function(item,key,list){ %>
+                    <a href="/api/get_order_file/?oid=<%= item.oid %>&fileName=<%= item.filename %>&sc_oid=<%= item.entityOid %>" class="list-group-item">
+                        <p class="list-group-item-text"><span class="glyphicon glyphicon-save"></span> <%= item.filename %></p>
+
+                    </a>
+                    <% }) %>
+                </div>
+            </fieldset>
+
+        </div>
+        <div class="col-xs-6">
+            <div style="height:50px">
+                <div class="btn btn-primary" style="float:left; margin-right:10px;">В работу</div>
+                <div class="btn btn-default" style="float:left; margin-right:10px;">Назначить</div>
+                <div class="btn btn-default" style="float:left; margin-right:10px;">Временное решение</div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Закрыть</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Вернуть</a></li>
+                        <li><a href="#">Забраковать</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <fieldset>
+                <div style="height: 50px;overflow-y: auto;">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Решение</legend>
+                <div style="height: 175px;overflow-y: auto;">
+                    <p><%= solution %></p>
+                </div>
+            </fieldset>
+
+        </div>
+    </div>
+</script>
+
 {% endblock %}
