@@ -3,17 +3,26 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap-select.min.css">
     <title>Ковбой сервер</title>
-    <script src="/assets/js/lib/jquery-1.10.1.min.js"></script>
-    <script src="/assets/js/lib/underscore-min.js"></script>
-    <script src="/assets/js/lib/backbone-min.js"></script>
-    <script src="/assets/js/lib/handlebars-v1.3.0.js"></script>
-    <script src="/assets/js/app.js"></script>
+
 
 </head>
 <body>
 {% block content %}
 {% endblock %}
 
+<script src="/assets/js/lib/jquery-1.10.1.min.js"></script>
+<script src="/assets/js/lib/underscore-min.js"></script>
+<script src="/assets/js/lib/backbone-min.js"></script>
+<script src="/assets/js/lib/handlebars-v1.3.0.js"></script>
+<script src="/assets/js/models/order.js"></script>
+<script src="/assets/js/collections/orders.js"></script>
+<script src="/assets/js/views/order.js"></script>
+<script src="/assets/js/views/orders.js"></script>
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/bootstrap-select.min.js"></script>
 </body>
 </html>

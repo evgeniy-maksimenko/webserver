@@ -13,13 +13,15 @@
 -export([
   getAllOrders/3,
   getOrderInfo/2,
-  getOrderFile/4
+  getOrderFile/4,
+  setOrderWork/3
 ]).
 
 -define(URL,"http://10.1.193.201:4040").
 -define(ALL_ORDERS,?URL++"/tech/rest/dt_workorders/list.json").
 -define(ORDER_INFO,?URL++"/tech/rest/dt_workorders/info.json").
 -define(ORDER_FILE,?URL++"/tech/rest/dt_files/get/").
+-define(ORDER_WORK,?URL++"/tech/rest/dt_workorders/in-work.json").
 
 getAllOrders(Req, Status, Dest) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
@@ -38,6 +40,13 @@ getOrderInfo(Req, OrderId) ->
 
 getOrderFile(Req, Oid, FileName, ScOid) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
-  URL = ?ORDER_FILE++binary_to_list(Oid)++"?fileName="++binary_to_list(FileName)++"&sc_oid="++binary_to_list(ScOid)++"&access_token="++binary_to_list(AccessToken),
+  URL = ?ORDER_FILE++binary_to_list(Oid)++"?fileName="++FileName++"&sc_oid="++binary_to_list(ScOid)++"&access_token="++binary_to_list(AccessToken),
   Response = c_http_request:get(URL),
   Response.
+
+setOrderWork(Req, Oid, Workgroup) ->
+  AccessToken = c_application:getCookie(<<"access_token">>,Req),
+  URL = ?ORDER_WORK++"?wo-oid="++Oid++"&workgroup="++Workgroup++"&access_token="++binary_to_list(AccessToken),
+  Response = c_http_request:get(URL),
+  true.
+

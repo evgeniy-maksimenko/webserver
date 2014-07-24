@@ -4,6 +4,7 @@ app.OrderViews = Backbone.View.extend({
     el: '#orders',
 
     initialize: function(){
+        this.$el.empty();
         this.collection = new app.Orders();
         this.collection.fetch({reset:true});
         this.render();

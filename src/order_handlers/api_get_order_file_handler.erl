@@ -25,8 +25,10 @@ init({tcp, http}, Req, _Opts) ->
 
 handle(Req, State) ->
   {[ {<<"oid">> , Oid} , {<<"fileName">> , FileName}, {<<"sc_oid">> , ScOid}| _], _} = cowboy_req:qs_vals(Req),
-  Result = orders_module:getOrderFile(Req, Oid, FileName, ScOid),
+  Newfile = re:replace(FileName, " ", "_", [global, {return, list}]),
+  Result = orders_module:getOrderFile(Req, Oid, Newfile, ScOid),
   { ok, {Status, Header, Body}} = Result,
+
   [_,_,_,_,_,_,_,_,_,Filename|_] = Header,
 
   {ok, Req3} = cowboy_req:reply(200, [

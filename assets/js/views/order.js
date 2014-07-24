@@ -1,26 +1,38 @@
 var app = app || {};
-
+//========================================================
+//======== Представление для "Детали заявки"        ======
+//========================================================
 app.OrderInfo = Backbone.View.extend({
     el: '#orderInfo',
     template: _.template( $("#orderInfoTemplate").html()),
-    initialize: function(data){
-        this.render(data);
+    initialize: function(data, workgroup, isAppointed){
+        this.render(data, workgroup, isAppointed);
     },
-    render: function(data) {
+    render: function(data, workgroup, isAppointed) {
         this.$el.html( this.template( data ) );
+        $("#set_order_work").attr('oid',data.oid).attr("workgroup",workgroup);
+        if(isAppointed == true)
+        {
+              $("#set_order_work").attr('disabled','disabled');
+              $("#temp_result").removeAttr('disabled');
+              $("#close_order").removeAttr('disabled');
+              $("#close_dropdown").removeAttr('disabled');
+        }
+        new app.OrderGetWork();
         return this;
     }
 });
-
+//========================================================
+//======== Представление для всего списка ордеров ========
+//========================================================
 app.OrderView = Backbone.View.extend({
     tagName: 'tr',
-    className: 'orderId',
     events: {
         'click' : 'get_more_info'
     },
     template: _.template( $("#orderTemplate").html()),
     render: function(){
-        this.$el.attr('id',this.model.get("DT_RowId")).css( 'cursor', 'pointer' ).html( this.template( {
+        this.$el.attr('id',this.model.get("DT_RowId")).attr('workgroup',this.model.get("workgroup")).attr('appointed',this.model.get(9)).css( 'cursor', 'pointer' ).html( this.template( {
             bid_number  : this.model.get(0),
             created_at  : this.model.get(1),
             author      : this.model.get(2),
@@ -30,21 +42,53 @@ app.OrderView = Backbone.View.extend({
             order_number: this.model.get(6),
             priority    : this.model.get(7),
             group       : this.model.get(8),
-            appointed   : this.model.get(9)
+            appointed   : this.model.get(9),
         }));
         return this;
     },
     get_more_info: function() {
+        $('tr').removeClass('info');
+        this.$el.addClass('info');
         var id = this.$el.attr('id');
-
+        var workgroup = this.$el.attr('workgroup');
+        var isAppointed = false;
+        if(this.$el.attr('appointed') != '')
+        {
+            isAppointed = true;
+        }
         $.ajax({
             url : '/api/get_order_info?wo-oid='+id,
             type: "POST",
             dataType: "json",
             success: function(data){
-                new app.OrderInfo(data);
+                new app.OrderInfo(data, workgroup, isAppointed);
             }
         })
     }
 });
+//========================================================
+//======== Представление для кнопки "В работу"      ======
+//========================================================
+app.OrderGetWork = Backbone.View.extend({
+    el: "#set_order_work",
+    events: {
+        'click' : 'orderInWork',
+    },
+    orderInWork: function(){
+        var oid = this.$el.attr('oid');
+        var workgroup = this.$el.attr('workgroup');
+        $.ajax({
+            url : '/api/set_order_work?oid='+oid+'&workgroup='+workgroup,
+            type: "POST",
+            dataType: "json",
+            success: function(){
+                var appendOrders = new app.OrderViews();
+                 setTimeout(function (){
+                     $('#'+oid).click();
+                 }, 1000);
+            }
+        });
+    }
+});
+
 

@@ -15,12 +15,15 @@ start(_StartType, _StartArgs) ->
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},
       {"/authorize/", auth_handler,[]},
       {"/auth_success", auth_success_handler,[]},
+
       {"/order", order_handler,[]},
+      {"/order/edit", order_edit_handler,[]},
       %%================================================================================================================
       {"/api/test", api_test_handler,[]},
       {"/api/get_all_orders", api_get_all_orders_handler,[]},
       {"/api/get_order_info", api_get_order_info_handler,[]},
       {"/api/get_order_file", api_get_order_file_handler,[]},
+      {"/api/set_order_work", api_set_order_work_handler,[]},
       %%================================================================================================================
       {"/", base_handler, []},
       {'_', error404_handler, []}
