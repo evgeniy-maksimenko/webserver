@@ -28,12 +28,10 @@ handle(Req, State) ->
   Newfile = re:replace(FileName, " ", "_", [global, {return, list}]),
   Result = orders_module:getOrderFile(Req, Oid, Newfile, ScOid),
   { ok, {Status, Header, Body}} = Result,
-
-  [_,_,_,_,_,_,_,_,_,Filename|_] = Header,
-
+  GetFileName = proplists:get_value("content-disposition",Header),
   {ok, Req3} = cowboy_req:reply(200, [
     {<<"content-type">>, <<"application/octet-stream">>},
-    Filename
+    {<<"content-disposition">>,GetFileName}
   ], [Body], Req),
   {ok, Req3, State}.
 

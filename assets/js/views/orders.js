@@ -22,3 +22,40 @@ app.OrderViews = Backbone.View.extend({
         this.$el.append(orderView.render().el);
     }
 });
+
+app.OrderEdit = Backbone.View.extend({
+    el: '#orderInfo',
+    template: _.template( $("#orderInfoTemplate").html()),
+    initialize: function(data){
+        this.render(data);
+    },
+    render: function(data) {
+        this.$el.html( this.template( data ) );
+        this.renderSuccess();
+        return this;
+    },
+    renderSuccess: function() {
+        $("#wo-solution").focus();
+        new app.OrderClose();
+    }
+});
+
+app.OrderClose = Backbone.View.extend({
+    el: "#close-form",
+    events: {
+        'submit' : 'closeForm'
+    },
+    closeForm: function(e) {
+        e.preventDefault();
+        var solution = $("#wo-solution").val();
+        var id = $("#oid").val();
+        $.ajax({
+            url : '/api/close_order?id='+id+'&solution='+solution,
+            type: "POST",
+            dataType: "json",
+            success: function(){
+                window.location = "/order";
+            }
+        });
+    }
+});

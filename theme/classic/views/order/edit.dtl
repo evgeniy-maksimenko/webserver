@@ -1,6 +1,69 @@
 {% extends "layout.dtl" %}
 {% block content %}
 <div class="container">
-    <div id="content"></div>
+    <div id="content">
+        <div id="orderInfo"></div>
+    </div>
 </div>
+
+<script id="orderInfoTemplate" type="text/template">
+    <div class="row">
+        <div class="col-xs-6">
+            <div style="height:50px">
+                <p class="lead">Детали заявки</p>
+            </div>
+
+            <fieldset>
+                <div style="height: 50px;overflow-y: auto;">
+                    <h5>Заголовок: <strong><%= description %></strong></h5>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Проблема</legend>
+                <div style="height: 200px;overflow-y: auto;">
+                    <p><%= info %></p>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-xs-6">
+            <div style="height:50px">
+
+            </div>
+
+            <fieldset>
+                <div style="height: 50px;overflow-y: auto;">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Вложения</legend>
+                <div class="list-group">
+                    <% _.each(attachments,function(item,key,list){ %>
+                    <a href="/api/get_order_file/?oid=<%= item.oid %>&fileName=<%= item.filename %>&sc_oid=<%= item.entityOid %>" class="list-group-item">
+                        <p class="list-group-item-text"><span class="glyphicon glyphicon-save"></span> <%= item.filename %></p>
+                    </a>
+                    <% }) %>
+                </div>
+            </fieldset>
+
+        </div>
+    </div>
+    <form id="close-form">
+        <div class="row">
+            <div class="col-xs-12">
+                <legend>Решение</legend>
+                <input type="hidden" id="oid" value="<%= oid %>">
+                <textarea required="required" id="wo-solution" class="form-control" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="row" style="margin-top:25px;">
+            <div class="col-xs-12">
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Применить</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</script>
 {% endblock %}

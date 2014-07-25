@@ -51,25 +51,29 @@
 <div class="container">
     <div class="row">
         <div class="span12">
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>№ заявки</th>
-                    <th>Дата создания</th>
-                    <th>Автор заявки</th>
-                    <th>ОС</th>
-                    <th>Заголовок</th>
-                    <th>Статус</th>
-                    <th>№ ордера</th>
-                    <th>Приоритет</th>
-                    <th>Назначего группе</th>
-                    <th>Кому назначено</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody id="orders">
-                </tbody>
-            </table>
+            <fieldset>
+                <div style="height: 400px;overflow-y: auto;">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>№ заявки</th>
+                            <th>Дата создания</th>
+                            <th>Автор заявки</th>
+                            <th>ОС</th>
+                            <th>Заголовок</th>
+                            <th>Статус</th>
+                            <th>№ ордера</th>
+                            <th>Приоритет</th>
+                            <th>Назначего группе</th>
+                            <th>Кому назначено</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody id="orders">
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
         </div>
 
         <div id="orderInfo"></div>
@@ -104,7 +108,7 @@
 
             <fieldset>
                 <legend>Проблема</legend>
-                <div style="height: 175px;overflow-y: auto;">
+                <div style="height: 125px;overflow-y: auto;">
                     <p><%= info %></p>
                 </div>
             </fieldset>
@@ -127,7 +131,7 @@
                 <div class="btn btn-default" style="float:left; margin-right:10px;">Назначить</div>
                 <div class="btn btn-default" style="float:left; margin-right:10px;" disabled="disabled" id="temp_result">Временное решение</div>
                 <div class="btn-group">
-                    <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/order/edit/?id=<%= oid %>">Закрыть</a>
+                    <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/order/edit/<%= oid %>">Закрыть</a>
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" disabled="disabled" id="close_dropdown">
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>

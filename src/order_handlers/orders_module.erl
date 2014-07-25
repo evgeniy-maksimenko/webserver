@@ -14,14 +14,16 @@
   getAllOrders/3,
   getOrderInfo/2,
   getOrderFile/4,
-  setOrderWork/3
+  setOrderWork/3,
+  closeOrder/3
 ]).
 
--define(URL,"http://10.1.193.201:4040").
+-define(URL,"https://itsmtest.it.loc").
 -define(ALL_ORDERS,?URL++"/tech/rest/dt_workorders/list.json").
 -define(ORDER_INFO,?URL++"/tech/rest/dt_workorders/info.json").
 -define(ORDER_FILE,?URL++"/tech/rest/dt_files/get/").
 -define(ORDER_WORK,?URL++"/tech/rest/dt_workorders/in-work.json").
+-define(ORDER_CLOSE,?URL++"/tech/rest/dt_workorders/close.json").
 
 getAllOrders(Req, Status, Dest) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
@@ -48,5 +50,16 @@ setOrderWork(Req, Oid, Workgroup) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
   URL = ?ORDER_WORK++"?wo-oid="++Oid++"&workgroup="++Workgroup++"&access_token="++binary_to_list(AccessToken),
   Response = c_http_request:get(URL),
+  lager:log(info, [], Response),
+  true.
+
+closeOrder(Req, Id, Solution) ->
+  AccessToken = c_application:getCookie(<<"access_token">>,Req),
+  Response = httpc:request(post,
+    {?ORDER_CLOSE,
+      [],
+      "application/x-www-form-urlencoded",
+      "wo-oid="++Id++"&wo-solution="++Solution++"&wo-workgroup=281518223917264&wo-close-code=3095134405&wo-back-cause=0&wo-subject=-1&access_token="++binary_to_list(AccessToken)
+    }, [], []),
   true.
 
