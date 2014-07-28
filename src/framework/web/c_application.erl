@@ -1,9 +1,8 @@
 %%%-------------------------------------------------------------------
-%%% @author Admin
-%%% @copyright (C) 2014, <COMPANY>
-%%% @doc
+%%% @author Evgenij.Maksimenko
+%%% @copyright (C) 2014, PrivatBank
+%%% @mail evgenij.maksimenko.01@privatbank.ua
 %%%
-%%% @end
 %%% Created : 18. июл 2014 14:55
 %%%-------------------------------------------------------------------
 -module(c_application).

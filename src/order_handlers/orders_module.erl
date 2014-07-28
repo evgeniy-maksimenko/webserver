@@ -1,13 +1,12 @@
 %%%-------------------------------------------------------------------
-%%% @author Admin
-%%% @copyright (C) 2014, <COMPANY>
-%%% @doc
+%%% @author Evgenij.Maksimenko
+%%% @copyright (C) 2014, PrivatBank
+%%% @mail evgenij.maksimenko.01@privatbank.ua
 %%%
-%%% @end
 %%% Created : 22. июл 2014 14:31
 %%%-------------------------------------------------------------------
 -module(orders_module).
--author("Admin").
+-include("../logs.hrl").
 
 %% API
 -export([

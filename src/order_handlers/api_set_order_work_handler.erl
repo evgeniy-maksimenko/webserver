@@ -1,13 +1,13 @@
 %%%-------------------------------------------------------------------
-%%% @author Admin
-%%% @copyright (C) 2014, <COMPANY>
-%%% @doc
+%%% @author Evgenij.Maksimenko
+%%% @copyright (C) 2014, PrivatBank
+%%% @mail evgenij.maksimenko.01@privatbank.ua
 %%%
-%%% @end
 %%% Created : 22. июл 2014 14:07
 %%%-------------------------------------------------------------------
 -module(api_set_order_work_handler).
 -behaviour(cowboy_http_handler).
+-include("../logs.hrl").
 
 %% API
 -export([
@@ -20,11 +20,24 @@ init({tcp, http}, Req, _Opts) ->
   {ok, Req, undefined_state}.
 
 handle(Req, State) ->
-  {[ {<<"oid">> , Oid} , {<<"workgroup">> , Workgroup}| _], _} = cowboy_req:qs_vals(Req),
-  Result = orders_module:setOrderWork(Req, binary_to_list(Oid), binary_to_list(Workgroup)),
-    {ok, Req2} = cowboy_req:reply(200, [
-      {<<"content-type">>, <<"application/json">>}
+  {Code, Result} =
+    try
+      {NewOid, NewWg} =
+        case cowboy_req:qs_vals(Req) of
+          {[ {<<"oid">> , Oid} , {<<"workgroup">> , Workgroup}| _], _} -> {Oid, Workgroup};
+          _ -> mossing_echo_params
+        end,
+      Res = orders_module:setOrderWork(Req, binary_to_list(NewOid), binary_to_list(NewWg)),
+      {200,Res}
+    catch
+      _ : Reason -> ?LOG_ERROR("TAG ~p", [Reason]),
+        {400, <<"Missing echo parameters.">>}
+    end,
+
+  {ok, Req2} = cowboy_req:reply(Code, [
+    {<<"content-type">>, <<"application/json">>}
   ], jsx:encode([{<<"status">>,Result}]), Req),
+
   {ok, Req2, State}.
 
 terminate(_Reason, _Req, _State) ->

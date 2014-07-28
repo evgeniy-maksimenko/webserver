@@ -1,9 +1,8 @@
-%%%-------------------------------------------
-%%% @author jeka
-%%% @copyright (C) 2014, <COMPANY>
-%%% @doc
+%%%-------------------------------------------------------------------
+%%% @author Evgenij.Maksimenko
+%%% @copyright (C) 2014, PrivatBank
+%%% @mail evgenij.maksimenko.01@privatbank.ua
 %%%
-%%% @end
 %%% Created : 22. июл 2014 20:18
 %%%-------------------------------------------------------------------
 -module(api_test_handler).
