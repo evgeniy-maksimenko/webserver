@@ -53,12 +53,18 @@ setOrderWork(Req, Oid, Workgroup) ->
   true.
 
 closeOrder(Req, Id, Solution) ->
+
+   Answer = <<"<br/>Мы ответили на Ваш вопрос <a href=\"http://localhost:8008/order/answer?id=1&status=1\">Да</a>&nbsp;<a href=\"http://localhost:8008/order/answer?id=1&status=0\">Нет</a>">>,
+
+    SignedBody = c_mail:signed_body(<<"test">>,<<"test">>,<<"test">>, list_to_binary(Solution++binary_to_list(Answer))),
+    c_mail:send(SignedBody, "siemenspromaster@gmail.com","siemenspromaster@gmail.com"),
+
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
-  Response = httpc:request(post,
-    {?ORDER_CLOSE,
-      [],
-      "application/x-www-form-urlencoded",
-      "wo-oid="++Id++"&wo-solution="++Solution++"&wo-workgroup=281518223917264&wo-close-code=3095134405&wo-back-cause=0&wo-subject=-1&access_token="++binary_to_list(AccessToken)
-    }, [], []),
+%%   Response = httpc:request(post,
+%%     {?ORDER_CLOSE,
+%%       [],
+%%       "application/x-www-form-urlencoded",
+%%       "wo-oid="++Id++"&wo-solution="++Solution++"&wo-workgroup=281518223917264&wo-close-code=3095134405&wo-back-cause=0&wo-subject=-1&access_token="++binary_to_list(AccessToken)
+%%     }, [], []),
   true.
 

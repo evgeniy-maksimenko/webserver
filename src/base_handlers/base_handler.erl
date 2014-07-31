@@ -7,7 +7,9 @@
 %%%-------------------------------------------------------------------
 -module(base_handler).
 -behaviour(cowboy_http_handler).
--author("jeka").
+-include("../logs.hrl").
+-author("Evgenij.Maksimenko").
+
 
 %% API
 -export([
@@ -16,6 +18,8 @@
   terminate/3
 ]).
 
+
+
 init({tcp, http}, Req, _Opts) ->
   {ok, Req, undefined_state}.
 
@@ -23,6 +27,8 @@ init({tcp, http}, Req, _Opts) ->
 %% Решение unicode:characters_to_binary([Body])
 
 handle(Req, State) ->
+
+
   auth_handler:getAuthPage(Req),
 
   erlydtl:compile_file("theme/classic/views/layouts/index.dtl", index_tpl),
@@ -32,3 +38,7 @@ handle(Req, State) ->
 
 terminate(_Reason, _Req, _State) ->
   ok.
+
+
+
+

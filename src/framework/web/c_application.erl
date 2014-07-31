@@ -6,7 +6,7 @@
 %%% Created : 18. июл 2014 14:55
 %%%-------------------------------------------------------------------
 -module(c_application).
--author("Admin").
+-author("Evgenij.Maksimenko").
 
 %% API
 -export([

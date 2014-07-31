@@ -6,7 +6,6 @@
 %%% Created : 16. июл 2014 21:07
 %%%-------------------------------------------------------------------
 -module(webserver).
--author("jeka").
 
 %% API
 -export([
@@ -30,4 +29,6 @@ start() ->
 
 stop() ->
   application:stop(?MODULE).
+
+
 

@@ -21,7 +21,9 @@
     goldrush, %% приблуда для лагера +
     lager,    %% логирование ошибок +
     sync,     %% авторебар +
-    jsx       %% json(ecode | decode) +
+    jsx,       %% json(ecode | decode) +
+    gen_smtp,
+    emysql
   ]},
   {mod, { webserver_app, []}},
   {env, []}

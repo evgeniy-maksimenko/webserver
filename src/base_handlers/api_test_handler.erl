@@ -7,7 +7,7 @@
 %%%-------------------------------------------------------------------
 -module(api_test_handler).
 -behaviour(cowboy_http_handler).
--author("jeka").
+-author("Evgenij.Maksimenko").
 
 %% API
 -export([
