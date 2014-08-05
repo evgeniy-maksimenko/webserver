@@ -22,8 +22,7 @@
     lager,    %% логирование ошибок +
     sync,     %% авторебар +
     jsx,       %% json(ecode | decode) +
-    gen_smtp,
-    emysql
+    gen_smtp
   ]},
   {mod, { webserver_app, []}},
   {env, []}

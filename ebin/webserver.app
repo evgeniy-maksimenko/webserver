@@ -11,6 +11,6 @@
               {registered,[webserver_sup]},
               {applications,[kernel,stdlib,crypto,asn1,public_key,ssl,sasl,
                              inets,compiler,syntax_tools,ranch,cowlib,cowboy,
-                             goldrush,lager,sync,jsx,gen_smtp,emysql]},
+                             goldrush,lager,sync,jsx,gen_smtp]},
               {mod,{webserver_app,[]}},
               {env,[]}]}.

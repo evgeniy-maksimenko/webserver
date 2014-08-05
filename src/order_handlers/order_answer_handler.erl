@@ -41,14 +41,14 @@ handle(Req, State) ->
     end,
 
 
-  Is_Answered = emysql:execute(model, list_to_binary("SELECT id_solution, is_answered FROM result_response WHERE is_answered=1 AND id_solution=" ++ binary_to_list(_ID))),
+  Is_Answered = emysql:execute(model, list_to_binary("SELECT id_solution, is_answered FROM result_response WHERE is_answered=1 AND id_solution=" ++ binary_to_list(ID))),
   {_, _, _, Ans, _} = Is_Answered,
   IsAnswerEmpty = string:len(Ans),
 
   {MainCode, _MainId, MainStatus} =
     if
       IsAnswerEmpty == ?IS_EMPTY ->
-        emysql:execute(model, list_to_binary("INSERT INTO result_response SET id_solution=" ++ binary_to_list(_ID) ++ " , is_answered=1 , status=" ++ STATUS)),
+        emysql:execute(model, list_to_binary("INSERT INTO result_response SET id_solution=" ++ binary_to_list(ID) ++ " , is_answered=1 , status=" ++ STATUS)),
         {200, ID, <<"Спасибо за ответ">>};
       IsAnswerEmpty == ?IS_SET ->
         {400, ID, <<"Извините вы уже ответили">>}

@@ -29,7 +29,7 @@ init({tcp, http}, Req, _Opts) ->
 handle(Req, State) ->
 
 
-  auth_handler:getAuthPage(Req),
+  % auth_handler:getAuthPage(Req),
 
   erlydtl:compile_file("theme/classic/views/layouts/index.dtl", index_tpl),
   {ok, Body} = index_tpl:render([{content, "Привет МИР!"}]),

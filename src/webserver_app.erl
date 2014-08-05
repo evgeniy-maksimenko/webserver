@@ -4,13 +4,13 @@
 
 %% Application callbacks
 -export([start/2, stop/1]).
--export([connect_to_mysql/0]).
+% -export([connect_to_mysql/0]).
 %% ===================================================================
 %% Application callbacks
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-  connect_to_mysql(),
+  % connect_to_mysql(),
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},
@@ -28,7 +28,7 @@ start(_StartType, _StartArgs) ->
       {"/api/set_order_work", api_set_order_work_handler, []},
       {"/api/close_order", api_close_order_handler, []},
       %%================================================================================================================
-      {"/", base_handler, []},
+      {"/[...]", cowboy_static, {file, "priv/index.html"}},
       {'_', error404_handler, []}
     ]}
   ]),
@@ -45,9 +45,9 @@ stop(_State) ->
 %% ===================================================================
 %% Подключение конфига к бд mysql
 %% ===================================================================
-connect_to_mysql() ->
-    {ok, [Val|_]} = application:get_env(emysql, pools),
-    {PoolName, Params} = Val,
-    emysql:add_pool(PoolName, Params).
+% connect_to_mysql() ->
+%     {ok, [Val|_]} = application:get_env(emysql, pools),
+%     {PoolName, Params} = Val,
+%     emysql:add_pool(PoolName, Params).
 
 

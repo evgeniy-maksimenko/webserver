@@ -21,6 +21,7 @@
 <script src="/assets/js/collections/orders.js"></script>
 <script src="/assets/js/views/order.js"></script>
 <script src="/assets/js/views/orders.js"></script>
+<script src="/assets/js/views/test.js"></script>
 <script src="/assets/js/app.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/bootstrap-select.min.js"></script>
