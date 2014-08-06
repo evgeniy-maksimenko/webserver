@@ -1,17 +1,38 @@
-<header class="navbar navbar-default">
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
   <div class="container">
-    <nav>
-      <a href="#/" class="navbar-brand">RequireJS Router - Backbone</a>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#/demo/123?queryParam1=Routing%20with%20Backbone!">Demo</a></li>
-        <li><a href="#/sidebar1">Sidebar 1</a></li>
-        <li><a href="#/sidebar2">Sidebar 2</a></li>
-        <li><a href="https://github.com/erikringsmuth/requirejs-router/tree/gh-pages/examples/backbone" target="_blank">View Source <i class="fa fa-github fa-lg"></i></a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project name</a>
+    </div>
+    <div class="navbar-collapse collapse">
 
-<main class="container">
-  <content-placeholder/>
-</main>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <div class="btn-group">
+            <a title="Не работает? Жми сюда!" target="_blank" href="https://itsm.privatbank.ua/servicedesk/appeal_to_helpdesk.sd">
+              <img style="margin-top: 8px;" src="/assets/img/img.png" />
+            </a> 
+          </div>
+        </li>
+        <li><a href="#">Выход</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+<div class="container">
+   <content-placeholder/>
+</div> <!-- /container -->
+
+<div class="footer">
+  <div class="container">
+    <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</div>

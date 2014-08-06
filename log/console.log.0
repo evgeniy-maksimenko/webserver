@@ -1,4 +1,41 @@
-2014-08-04 09:13:56.829 [info] <0.7.0> Application lager started on node nonode@nohost
-2014-08-04 09:13:56.836 [info] <0.7.0> Application sync started on node nonode@nohost
-2014-08-04 09:13:56.838 [info] <0.7.0> Application jsx started on node nonode@nohost
-2014-08-04 09:13:56.840 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 10:22:12.590 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-05 10:22:12.596 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-08-05 10:22:12.598 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-08-05 10:22:12.601 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 10:26:57.796 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-05 10:26:57.802 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-08-05 10:26:57.804 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-08-05 10:26:57.806 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 12:24:21.471 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-05 12:24:21.477 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-08-05 12:24:21.479 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-08-05 12:24:21.481 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 12:53:25.274 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-05 12:53:25.280 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-08-05 12:53:25.282 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-08-05 12:53:25.284 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 19:21:51.788 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-05 19:21:51.793 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-08-05 19:21:51.796 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-08-05 19:21:51.798 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-08-05 20:06:03.371 [warning] <0.6.0> lager_error_logger_h dropped 62 messages in the last second that exceeded the limit of 50 messages/sec
+2014-08-05 20:06:03.371 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/erlydtl/src/erlydtl_beam_compiler.erl:0: Recompiled.
+2014-08-05 20:06:04.458 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/merl/src/merl_tests.erl:0: Recompiled.
+2014-08-05 20:06:04.640 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/merl/src/merl_transform.erl:0: Recompiled.
+2014-08-05 20:06:04.660 [info] <0.114.0> erlydtl_beam_compiler: Reloaded! (Beam changed.)
+2014-08-05 20:06:17.492 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-05 20:07:19.687 [error] emulator Error in process <0.7028.0> with exit value: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"sr... 
+
+
+2014-08-05 20:07:19.688 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7028.0> exit with reason: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth_handlers/auth_handler.erl"},{line,38}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11746>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7028.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},50052}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-05 20:07:24.318 [error] emulator Error in process <0.7039.0> with exit value: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"sr... 
+
+
+2014-08-05 20:07:24.319 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7039.0> exit with reason: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth_handlers/auth_handler.erl"},{line,38}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11817>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7039.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},50055}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-05 20:07:52.624 [info] <0.114.0> /Users/Admin/Sites/webserver/src/base_handlers/base_handler.erl:0: Recompiled.
+2014-08-05 20:08:00.706 [info] <0.114.0> /Users/Admin/Sites/webserver/src/base_handlers/base_handler.erl:0: Recompiled.
+2014-08-05 20:08:23.929 [info] <0.114.0> /Users/Admin/Sites/webserver/src/base_handlers/base_handler.erl:0: Recompiled.
+2014-08-05 20:08:23.937 [info] <0.114.0> base_handler: Reloaded! (Beam changed.)

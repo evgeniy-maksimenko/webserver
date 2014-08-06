@@ -1,8 +1,6 @@
-define([
-
-], function() {
-	'use strict';
-
+define([], function() {
+  'use strict';
+	
 	requirejs.config({
 		paths: {
 			'jquery' 		: 'libs/jquery/jquery-1.11.1.min',
@@ -21,39 +19,22 @@ define([
 		}
 	});
 
-	requirejs([
+	require([
 		'jquery',
 		'router'
 	], function($, router) {
+		
 		var view;
-
 		router.registerRoutes({
-			home 		: { path: '/', moduleId: 'views/home'},
-			notFound 	: { path: '*', moduleId: 'views/notFound'}
+			sidebar1: { path: '/workorders', moduleId: 'modules/workorders/views/list' },
+			sidebar2: { path: '/test', moduleId: 'modules/workorders/views/test' }
 		}).on('routeload', function onRouteLoad(View, routeArguments) {
-			if(view) {
-				view.remove();
-			}
-			view = new View(null, routeArguments);
-			view.render();
-			$('body').append(view.el);
+			if (view) {
+	          view.remove();
+	        }
+	        view = new View(null, routeArguments);
+	        view.render();
+	        $('body').append(view.el);
 		}).init();
 	});
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
