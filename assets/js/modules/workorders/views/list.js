@@ -1,18 +1,21 @@
-define(function(require){
+define([
 
-	'use strict';
-	
-	var Backbone 	  		= require('backbone'),
-		_ 			 		= require('underscore'),
-		OrdersCollection 	= require('modules/workorders/collections/orders'),
-		OrderView 			= require('modules/workorders/views/item');
+	'backbone',
+	'underscore',
+	'modules/workorders/collections/orders',
+	'modules/workorders/views/item',
+	'layouts/layoutBasic/layout'
+
+],function(Backbone, _, OrdersCollection, OrderView, Layout) {
 	
 	var View1 = Backbone.View.extend({
 		
 		tagName: 'ul',
 		initialize: function() {
 			this.collection = new OrdersCollection();
-	        this.collection.fetch({reset:true});
+	        this.collection.fetch({
+	        	reset:true
+	        });
 	       	this.listenTo(this.collection, 'reset', this.render); 
 		},
 		render: function() {
@@ -26,8 +29,9 @@ define(function(require){
 	        this.$el.append(orderView.render().el);
 	        return this;
 		}
-		 
 	});
 	
-	return View1;
+	return Layout.extend({
+		content: View1
+	});
 });

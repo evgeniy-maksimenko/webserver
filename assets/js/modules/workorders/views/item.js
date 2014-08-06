@@ -1,5 +1,5 @@
 define([
-	
+
 	'backbone',
 	'text!modules/workorders/templates/indexTemplate.html',
 	'modules/workorders/models/order',
@@ -9,12 +9,14 @@ define([
 	var ItemPage = Backbone.View.extend({		
 		tagName: 'li',
 		template : _.template(indexTemplate),
-		render: function() {
 
+		render: function() {
+			//console.log(this);
 			this.$el.html(this.template(this.model.toJSON()));
 			return this;
 		}
 	});
 
 	return ItemPage;
+	
 });
