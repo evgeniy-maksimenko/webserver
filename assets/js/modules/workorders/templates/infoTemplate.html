@@ -1,22 +1,4 @@
-{% extends "layout.dtl" %}
-{% block content %}
-
-
-<script id="orderTemplate" type="text/template">
-    <td><%= bid_number %></td>
-    <td><%= created_at %></td>
-    <td><%= author %></td>
-    <td><%= oc %></td>
-    <td><%= title %></td>
-    <td><%= status %></td>
-    <td><%= order_number %></td>
-    <td><%= priority %></td>
-    <td><%= group %></td>
-    <td><%= appointed %></td>
-</script>
-
-<script id="orderInfoTemplate" type="text/template">
-    <div class="row">
+<div class="row">
         <div class="col-xs-6">
             <div style="height:50px">
                 <p class="lead">Детали заявки</p>
@@ -53,7 +35,7 @@
                 <div class="btn btn-default" style="float:left; margin-right:10px;">Назначить</div>
                 <div class="btn btn-default" style="float:left; margin-right:10px;" disabled="disabled" id="temp_result">Временное решение</div>
                 <div class="btn-group">
-                    <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/order/edit/<%= oid %>">Закрыть</a>
+                    <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/workorders/edit/<%= oid %>">Закрыть</a>
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" disabled="disabled" id="close_dropdown">
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
@@ -79,6 +61,3 @@
 
         </div>
     </div>
-</script>
-
-{% endblock %}

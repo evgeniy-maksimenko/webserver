@@ -1,0 +1,79 @@
+<div class="navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-form">
+                <div class="btn btn-primary">Обновить</div>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <div class="navbar-form">
+                        Статус:
+                        <select class="selectpicker span2">
+                            <option value="WORK" selected>Новый/В работе</option>
+                            <option value="REGISTERED">Новый</option>
+                            <option value="OPEN">В работе</option>
+                            <option value="APPROVED">На одобрении</option>
+                            <option value="REDMINE">PrivatProject</option>
+                            <option value="CLOSED">Закрыто</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="navbar-form">
+                        Назначение:
+                        <select class="selectpicker span2">
+                            <option value="MY_GROUP">Мне и моим группам</option>
+                            <option value="GROUP_SUBGROUP">Группам и подгруппам</option>
+                            <option value="MY">Только мне</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                    <input placeholder="Что будем искать?" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Поиск</button>
+            </form>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <fieldset>
+                <div style="height: 250px;overflow-y: auto;">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>№ заявки</th>
+                            <th>Дата создания</th>
+                            <th>Автор заявки</th>
+                            <th>ОС</th>
+                            <th>Заголовок</th>
+                            <th>Статус</th>
+                            <th>№ ордера</th>
+                            <th>Приоритет</th>
+                            <th>Назначего группе</th>
+                            <th>Кому назначено</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody id="orders">
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
+        </div>
+
+        <div id="orderInfo" style="margin-top:15px;"></div>
+    </div>
+</div>

@@ -28,7 +28,6 @@ init({tcp, http}, Req, _Opts) ->
 
 handle(Req, State) ->
 
-
   % auth_handler:getAuthPage(Req),
 
   erlydtl:compile_file("theme/classic/views/layouts/index.dtl", index_tpl),

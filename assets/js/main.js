@@ -26,8 +26,13 @@ define([], function() {
 		
 		var view;
 		router.registerRoutes({
-			sidebar1: { path: '/workorders', moduleId: 'modules/workorders/views/list' },
-			sidebar2: { path: '/test', moduleId: 'modules/workorders/views/test' }
+			home: 		{ path: '/', 					moduleId: 'views/home'},
+			admin: 		{ path: '/admin', 				moduleId: 'modules/admin/views/index'},
+			sidebar1: 	{ path: '/workorders', 			moduleId: 'modules/workorders/views/list' },
+			ws_edit :   { path: '/workorders/edit/:id', moduleId: 'modules/workorders/views/edit'},
+			sidebar2: 	{ path: '/test', 				moduleId: 'modules/workorders/views/test' },
+			notFound: 	{ path: '*',					moduleId: 'views/notFound'},
+		
 		}).on('routeload', function onRouteLoad(View, routeArguments) {
 			if (view) {
 	          view.remove();

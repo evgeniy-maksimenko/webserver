@@ -23,6 +23,9 @@ init({tcp, http}, Req, _Opts) ->
 %% Решение unicode:characters_to_binary([Body])
 
 handle(Req, State) ->
+
+   auth_handler:getAuthPage(Req),
+
   Body = jsx:encode([
     [
       {<<"id">>,<<"1">>},
