@@ -10,23 +10,41 @@
 
 %% API
 -export([
-  getAllOrders/3,
+  getAllOrders/2,
   getOrderInfo/2,
   getOrderFile/4,
   setOrderWork/3,
   closeOrder/3
 ]).
 
--define(URL,"https://itsmtest.it.loc").
+ -define(URL,"https://itsmtest.it.loc").
+%%  -define(URL,"http://10.1.193.201:4040").
 -define(ALL_ORDERS,?URL++"/tech/rest/dt_workorders/list.json").
 -define(ORDER_INFO,?URL++"/tech/rest/dt_workorders/info.json").
 -define(ORDER_FILE,?URL++"/tech/rest/dt_files/get/").
 -define(ORDER_WORK,?URL++"/tech/rest/dt_workorders/in-work.json").
 -define(ORDER_CLOSE,?URL++"/tech/rest/dt_workorders/close.json").
 
-getAllOrders(Req, Status, Dest) ->
+getAllOrders(Req, List) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
-  Response = c_http_request:get(?ALL_ORDERS++"?status="++Status++"&destinate="++Dest++"&access_token="++binary_to_list(AccessToken)),
+
+  Response = case proplists:is_defined(<<"fromDate">>, List) of
+    false ->
+      c_http_request:get(
+        ?ALL_ORDERS++
+          "?status="++binary_to_list(proplists:get_value(<<"status">>, List))++
+          "&destinate="++binary_to_list(proplists:get_value(<<"destinate">>, List))++
+          "&access_token="++binary_to_list(AccessToken));
+    true ->
+      c_http_request:get(
+        ?ALL_ORDERS++
+          "?status="++binary_to_list(proplists:get_value(<<"status">>, List))++
+          "&destinate="++binary_to_list(proplists:get_value(<<"destinate">>, List))++
+          "&fromDate="++binary_to_list(proplists:get_value(<<"fromDate">>, List))++
+          "&toDate="++binary_to_list(proplists:get_value(<<"toDate">>, List))++
+          "&access_token="++binary_to_list(AccessToken))
+  end,
+
   Body = c_http_request:response_body(Response),
   Result = list_to_binary(Body),
   AaData = proplists:get_value(<<"aaData">>,jsx:decode(Result)),
@@ -47,9 +65,9 @@ getOrderFile(Req, Oid, FileName, ScOid) ->
 
 setOrderWork(Req, Oid, Workgroup) ->
   AccessToken = c_application:getCookie(<<"access_token">>,Req),
-  URL = ?ORDER_WORK++"?wo-oid="++Oid++"&workgroup="++Workgroup++"&access_token="++binary_to_list(AccessToken),
-  Response = c_http_request:get(URL),
-  lager:log(info, [], Response),
+  % URL = ?ORDER_WORK++"?wo-oid="++Oid++"&workgroup="++Workgroup++"&access_token="++binary_to_list(AccessToken),
+  % Response = c_http_request:get(URL),
+  % lager:log(info, [], Response),
   true.
 
 closeOrder(Req, Id, Solution) ->

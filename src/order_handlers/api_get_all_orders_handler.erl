@@ -20,14 +20,10 @@ init({tcp, http}, Req, _Opts) ->
   {ok, Req, undefined_state}.
 
 handle(Req, State) ->
+  {GetList, _}  = cowboy_req:qs_vals(Req),
   {Code, Result} =
     try
-      {NewStatus, NewDestinate} =
-        case cowboy_req:qs_vals(Req) of
-          {[ {<<"status">> , Status} , {<<"destinate">> , Destinate}| _], _} -> {Status, Destinate};
-          _ -> throw
-        end,
-      Res = orders_module:getAllOrders(Req, binary_to_list(NewStatus), binary_to_list(NewDestinate)),
+      Res = orders_module:getAllOrders(Req, GetList),
       {200, Res}
     catch
       _ : Reason -> ?LOG_ERROR("TAG ~p", [Reason]),

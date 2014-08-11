@@ -3,12 +3,16 @@ define([
 	'backbone',
 	'text!modules/workorders/templates/infoTemplate.html',
 	'layouts/layoutBasic/layout',
+  'modules/workorders/views/list',
 
-],function(Backbone, infoTemplate, Layout, orderView){
+],function(Backbone, infoTemplate, Layout, ListView){
 	
 	var OrderInfo = Backbone.View.extend({
         el: '#orderInfo',
         template: _.template(infoTemplate),
+        events: {
+            'click #set_order_work' : 'orderInWork',
+        },
         initialize: function(data, workgroup, isAppointed){
 
             this.render(data, workgroup, isAppointed);
@@ -27,6 +31,21 @@ define([
             }            
 
             return this;
+        },
+        orderInWork : function() {
+          
+          var buttonOrderWord = $("#set_order_work");
+          var oid       = buttonOrderWord.attr('oid');
+          var workgroup = buttonOrderWord.attr('workgroup');
+ 
+            $.ajax({
+                url : '/api/set_order_work?oid='+oid+'&workgroup='+workgroup,
+                type: "POST",
+                dataType: "json",
+                success: function(){
+                  window.location = "/workorders/" + oid;    
+                }
+            });
         }
     });
 

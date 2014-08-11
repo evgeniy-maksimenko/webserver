@@ -4,10 +4,19 @@ define([
 ],function(Backbone){
 	
 	
-	var Collection = Backbone.Model.extend({
+	var Collection = Backbone.Collection.extend({
 		 
 	   	//url: '/api/test'
-	   	url: '/api/get_all_orders?status=WORK&destinate=MY_GROUP'
+
+		initialize: function(status, fromDate, toDate) {
+			if(fromDate && toDate)
+			{
+				this.url =  '/api/get_all_orders?status='+ status +'&destinate=MY_GROUP&fromDate='+fromDate+'&toDate='+toDate
+			} else {
+		    	this.url =  '/api/get_all_orders?status='+ status +'&destinate=MY_GROUP'
+		    }
+		  },
+	 
 	});
 
 	return Collection;

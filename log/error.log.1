@@ -1,12 +1,343 @@
-2014-08-05 20:06:17.492 [error]  api_get_all_orders_handler:33(): TAG badarg
+2014-08-08 08:38:34.287 [error]  api_get_order_info_handler:33(): TAG badarg
 
-2014-08-05 20:07:19.687 [error] emulator Error in process <0.7028.0> with exit value: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"sr... 
-
-
-2014-08-05 20:07:19.688 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7028.0> exit with reason: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth_handlers/auth_handler.erl"},{line,38}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11746>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7028.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},50052}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-08-05 20:07:24.318 [error] emulator Error in process <0.7039.0> with exit value: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"sr... 
+2014-08-08 08:45:36.557 [error] emulator Error in process <0.7331.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.23212>,ranch_tcp,keepalive,<0.7331.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63188},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
 
 
-2014-08-05 20:07:24.319 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7039.0> exit with reason: {[{reason,badarg},{mfa,{auth_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_handler,getResponse,1,[{file,"src/auth_handlers/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth_handlers/auth_handler.erl"},{line,38}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11817>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7039.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},50055}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-08-08 08:45:36.560 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7331.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.23212>,ranch_tcp,keepalive,<0.7331.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63188},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808084534WS3macaa&state=enter">>,[{<<"code">>,<<"140808084534WS3macaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 08:48:18.701 [error] emulator Error in process <0.7732.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.23262>,ranch_tcp,keepalive,<0.7732.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63253},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 08:48:18.701 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7732.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.23262>,ranch_tcp,keepalive,<0.7732.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63253},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808084816WS3uacaa&state=enter">>,[{<<"code">>,<<"140808084816WS3uacaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 09:37:27.364 [error] emulator Error in process <0.13705.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.23358>,ranch_tcp,keepalive,<0.13705.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63956},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 09:37:27.365 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.13705.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.23358>,ranch_tcp,keepalive,<0.13705.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63956},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808093728WS1hhcaa&state=enter">>,[{<<"code">>,<<"140808093728WS1hhcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 09:50:07.169 [error] emulator Error in process <0.15550.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.23918>,ranch_tcp,keepalive,<0.15550.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64364},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 09:50:07.169 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.15550.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.23918>,ranch_tcp,keepalive,<0.15550.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64364},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808095007WS1thcaa&state=enter">>,[{<<"code">>,<<"140808095007WS1thcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 09:51:47.510 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 09:51:47.510 [error]  api_get_order_info_handler:33(): TAG badarg
+
+2014-08-08 10:02:32.564 [error] emulator Error in process <0.17278.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.23988>,ranch_tcp,keepalive,<0.17278.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64655},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 10:02:32.564 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.17278.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.23988>,ranch_tcp,keepalive,<0.17278.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64655},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808100233WS1eicaa&state=enter">>,[{<<"code">>,<<"140808100233WS1eicaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 10:05:16.768 [error] <0.114.0> /Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Oid' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Workgroup' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:49: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:55: Warning: variable 'Id' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:62: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:0: Recompiled with 1 warnings
+2014-08-08 10:17:51.951 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:17:51.951 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:18:13.721 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:18:13.721 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:18:47.720 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:18:47.720 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:18:51.414 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:18:51.414 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:19:17.010 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:19:17.010 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:20:25.035 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:20:25.035 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:20:26.999 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:20:27.000 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:20:50.738 [error] emulator Error in process <0.19854.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.24175>,ranch_tcp,keepalive,<0.19854.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},65182},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 10:20:50.738 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.19854.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.24175>,ranch_tcp,keepalive,<0.19854.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},65182},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808102050WS3vecaa&state=enter">>,[{<<"code">>,<<"140808102050WS3vecaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 10:20:59.895 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:20:59.895 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:25:46.003 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:25:46.003 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:26:18.889 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:26:18.889 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:26:26.114 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:26:26.114 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:26:50.154 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:26:50.154 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:27:04.530 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:27:04.531 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:27:11.487 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:27:11.487 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:27:41.762 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:27:41.763 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:32:54.316 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:32:54.316 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:32:57.227 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:32:57.227 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:33:04.553 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:33:10.799 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:33:31.147 [error] emulator Error in process <0.21654.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.24300>,ranch_tcp,keepalive,<0.21654.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},65487},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 10:33:31.147 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.21654.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.24300>,ranch_tcp,keepalive,<0.21654.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},65487},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808103330WS31ecaa&state=enter">>,[{<<"code">>,<<"140808103330WS31ecaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 10:33:35.265 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:33:35.265 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:33:38.236 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:33:38.236 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 10:33:58.183 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 10:33:58.183 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:01:39.571 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:01:39.571 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:01:49.685 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:01:49.685 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:02:29.746 [error] <0.114.0> /Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:55: Warning: variable 'Id' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:62: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:0: Recompiled with 1 warnings
+2014-08-08 11:02:32.423 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:02:32.423 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:02:35.832 [error] <0.114.0> /Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Oid' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Workgroup' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:49: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:55: Warning: variable 'Id' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:62: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:0: Recompiled with 1 warnings
+2014-08-08 11:02:40.273 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:02:40.273 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:15:45.487 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:15:45.487 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:18:01.562 [error] <0.114.0> /Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:49: Warning: variable 'Oid' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:49: Warning: variable 'Workgroup' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:50: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:56: Warning: variable 'Id' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:63: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:0: Recompiled with 1 warnings
+2014-08-08 11:18:03.542 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 11:18:03.542 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 11:28:27.120 [error]  c_http_request:43(): TAG {case_clause,"Bad Gateway"}
+
+2014-08-08 11:28:27.121 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 12:07:59.140 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 12:08:16.986 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 12:08:46.884 [error] emulator Error in process <0.30472.7> with exit value: {{try_clause,{ok,{http_req,#Port<0.24596>,ranch_tcp,keepalive,<0.30472.7>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50960},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 12:08:46.884 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.30472.7> exit with reason: {{try_clause,{ok,{http_req,#Port<0.24596>,ranch_tcp,keepalive,<0.30472.7>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50960},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808120848WS1jlcaa&state=enter">>,[{<<"code">>,<<"140808120848WS1jlcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 13:10:44.427 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 13:11:00.520 [error] emulator Error in process <0.6527.8> with exit value: {{try_clause,{ok,{http_req,#Port<0.24816>,ranch_tcp,keepalive,<0.6527.8>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52308},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 13:11:00.521 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6527.8> exit with reason: {{try_clause,{ok,{http_req,#Port<0.24816>,ranch_tcp,keepalive,<0.6527.8>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52308},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808131059WS2mncaa&state=enter">>,[{<<"code">>,<<"140808131059WS2mncaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 14:14:21.888 [error] <0.114.0> /Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Oid' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:48: Warning: variable 'Workgroup' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:49: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:55: Warning: variable 'Id' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:62: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/order_handlers/orders_module.erl:0: Recompiled with 1 warnings
+2014-08-08 14:16:19.958 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:16:24.102 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:16:31.970 [error] emulator Error in process <0.15620.8> with exit value: {{try_clause,{ok,{http_req,#Port<0.25075>,ranch_tcp,keepalive,<0.15620.8>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53502},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 14:16:31.971 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.15620.8> exit with reason: {{try_clause,{ok,{http_req,#Port<0.25075>,ranch_tcp,keepalive,<0.15620.8>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53502},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808141633WS1kpcaa&state=enter">>,[{<<"code">>,<<"140808141633WS1kpcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 14:50:02.077 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:50:03.802 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:50:08.315 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:51:21.586 [error] emulator Error in process <0.20466.8> with exit value: {{try_clause,{ok,{http_req,#Port<0.25221>,ranch_tcp,keepalive,<0.20466.8>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54930},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 14:51:21.586 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.20466.8> exit with reason: {{try_clause,{ok,{http_req,#Port<0.25221>,ranch_tcp,keepalive,<0.20466.8>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54930},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808145120WS37ocaa&state=enter">>,[{<<"code">>,<<"140808145120WS37ocaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 14:56:10.479 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:56:21.853 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:56:37.883 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:56:52.306 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:57:15.919 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:57:49.080 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:58:27.161 [error]  api_get_all_orders_handler:33(): TAG {badmatch,throw}
+
+2014-08-08 14:58:49.759 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 14:58:49.759 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 14:59:20.379 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 14:59:20.379 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:22:08.558 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 15:22:08.558 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:30:34.715 [error]  c_http_request:43(): TAG {case_clause,"Forbidden"}
+
+2014-08-08 15:30:34.715 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:35:56.898 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:36:12.197 [error] emulator Error in process <0.26815.8> with exit value: {{try_clause,{ok,{http_req,#Port<0.25533>,ranch_tcp,keepalive,<0.26815.8>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56463},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 15:36:12.198 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.26815.8> exit with reason: {{try_clause,{ok,{http_req,#Port<0.25533>,ranch_tcp,keepalive,<0.26815.8>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56463},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808153613WS1eucaa&state=enter">>,[{<<"code">>,<<"140808153613WS1eucaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 15:39:56.666 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 15:39:56.666 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:51:59.126 [error]  c_http_request:43(): TAG {case_clause,"Not Found"}
+
+2014-08-08 15:51:59.126 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 15:53:43.053 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 15:53:43.053 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:06:08.788 [error]  c_http_request:43(): TAG {case_clause,"Bad Gateway"}
+
+2014-08-08 16:06:08.788 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:06:16.075 [error]  c_http_request:43(): TAG {case_clause,"Bad Gateway"}
+
+2014-08-08 16:06:16.075 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:06:30.149 [error]  c_http_request:43(): TAG {case_clause,"Bad Gateway"}
+
+2014-08-08 16:06:30.149 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:36:12.292 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:36:16.382 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 16:36:23.930 [error] emulator Error in process <0.2635.9> with exit value: {{try_clause,{ok,{http_req,#Port<0.26008>,ranch_tcp,keepalive,<0.2635.9>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58218},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<6 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 16:36:23.931 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2635.9> exit with reason: {{try_clause,{ok,{http_req,#Port<0.26008>,ranch_tcp,keepalive,<0.2635.9>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58218},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808163625WS1yvcaa&state=enter">>,[{<<"code">>,<<"140808163625WS1yvcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"status=CLOSED">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 17:06:10.543 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 17:06:10.543 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 17:06:54.896 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 17:06:54.896 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 17:31:10.813 [error] emulator Error in process <0.10403.9> with exit value: {{try_clause,{ok,{http_req,#Port<0.26370>,ranch_tcp,keepalive,<0.10403.9>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59778},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 17:31:10.813 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10403.9> exit with reason: {{try_clause,{ok,{http_req,#Port<0.26370>,ranch_tcp,keepalive,<0.10403.9>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59778},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808173112WS13ycaa&state=enter">>,[{<<"code">>,<<"140808173112WS13ycaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 18:33:32.226 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 18:33:34.679 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 18:33:40.483 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 18:33:47.892 [error] emulator Error in process <0.19203.9> with exit value: {{try_clause,{ok,{http_req,#Port<0.26724>,ranch_tcp,keepalive,<0.19203.9>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},61605},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 18:33:47.892 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.19203.9> exit with reason: {{try_clause,{ok,{http_req,#Port<0.26724>,ranch_tcp,keepalive,<0.19203.9>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},61605},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808183347WS21ycaa&state=enter">>,[{<<"code">>,<<"140808183347WS21ycaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 18:41:01.363 [error] emulator Error in process <0.20233.9> with exit value: {{try_clause,{ok,{http_req,#Port<0.26767>,ranch_tcp,keepalive,<0.20233.9>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},61900},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}}},[{cowboy_handler,handler_handle... 
+
+
+2014-08-08 18:41:01.364 [error] <0.122.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.20233.9> exit with reason: {{try_clause,{ok,{http_req,#Port<0.26767>,ranch_tcp,keepalive,<0.20233.9>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},61900},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140808184100WS3owcaa&state=enter">>,[{<<"code">>,<<"140808184100WS3owcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-08-08 18:56:27.819 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 18:56:27.819 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:00:02.260 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:00:02.260 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:12:19.172 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:12:19.172 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:14:31.270 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:14:31.270 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:15:11.486 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:15:11.486 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:15:21.086 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:15:21.086 [error]  api_get_all_orders_handler:33(): TAG badarg
+
+2014-08-08 19:15:53.561 [error]  c_http_request:43(): TAG {case_clause,"Internal Server Error"}
+
+2014-08-08 19:15:53.561 [error]  api_get_all_orders_handler:33(): TAG badarg
 

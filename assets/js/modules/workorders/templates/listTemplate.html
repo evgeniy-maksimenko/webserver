@@ -8,16 +8,15 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-form">
-                <div class="btn btn-primary">Обновить</div>
+                <div class="btn btn-primary" id="btn_refresh"><span class="glyphicon glyphicon-refresh"></span> Обновить</div>
             </div>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li>
                     <div class="navbar-form">
-                        Статус:
-                        <select class="selectpicker span2">
-                            <option value="WORK" selected>Новый/В работе</option>
+                        <select class="selectpicker span2" id="order_status">
+                            <option value="WORK">Новый/В работе</option>
                             <option value="REGISTERED">Новый</option>
                             <option value="OPEN">В работе</option>
                             <option value="APPROVED">На одобрении</option>
@@ -27,13 +26,13 @@
                     </div>
                 </li>
                 <li>
-                    <div class="navbar-form">
-                        Назначение:
-                        <select class="selectpicker span2">
-                            <option value="MY_GROUP">Мне и моим группам</option>
-                            <option value="GROUP_SUBGROUP">Группам и подгруппам</option>
-                            <option value="MY">Только мне</option>
-                        </select>
+                    <div id="form_closed_status" style="display:none;">
+                        <div class="navbar-form">
+                            <span id="date-range">
+                                <b>Создано с: </b><input class="form-control date-range short" type="text" id="fromDate" value=""  />
+                                <b>по: </b><input class=" form-control date-range short" type="text" id="toDate" value=""  />
+                            </span>
+                         </div> 
                     </div>
                 </li>
             </ul>
@@ -41,7 +40,7 @@
                 <div class="form-group">
                     <input placeholder="Что будем искать?" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-primary">Поиск</button>
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Поиск</button>
             </form>
         </div><!--/.navbar-collapse -->
     </div>
@@ -50,7 +49,7 @@
     <div class="row">
         <div class="span12">
             <fieldset>
-                <div style="height: 250px;overflow-y: auto;">
+                <div style="overflow-y: auto;">
                     <table class="table table-hover">
                         <thead>
                         <tr>
