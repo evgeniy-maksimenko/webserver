@@ -1,31 +1,87 @@
 <header class="navbar navbar-default">
-  <div class="container">
+  <div class="container-fluid">
     <nav>
       <a href="#/" class="navbar-brand">Главная страница</a>
     </nav>
   </div>
 </header>
 
-<main class="container">
+<main class="container-fluid">
   <div class="row">
 
-    <div class="col-xs-9">
-      <content-placeholder/>
-    </div>
 
-    <div class="col-xs-3">
-      
-      	<div class="list-group">
-			<a href="#" class="list-group-item">
-			1
-			</a>
-			<a href="#"  <% if (model.routes.admin.active) { %>class="list-group-item active"<% } %>>Админка</a>
-			<a href="#" class="list-group-item">2</a>
-			<a href="#" class="list-group-item">3</a>
-			<a href="#" class="list-group-item">4</a>
-		</div>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-folder-close">
+                            </span> Заявки</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-pushpin text-primary"></span><a href="/admin/records"> Закрытые</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-time text-primary"></span><a href="/admin/history"> История</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
+                            </span> Настройки</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+            
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Orders</a> <span class="label label-success">$ 320</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Invoices</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Shipments</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Tex</a>
+                                    </td>
+                                </tr>
+                            </table>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-10">
+             
+                 <content-placeholder/>
+            
+        </div>
     </div>
+</div>
 
+ 
+  
   </div>
 </main>
 

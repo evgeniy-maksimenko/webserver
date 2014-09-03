@@ -5,7 +5,7 @@ define([
 	'modules/workorders/models/order',
     'modules/workorders/views/info',
 
-],function(Backbone, indexTemplate, Order, InfoView){	
+],function(Backbone, indexTemplate, Order, InfoView, Contacts){	
 	
 	var ItemPage = Backbone.View.extend({
 		tagName: 'tr',
@@ -41,6 +41,7 @@ define([
             {
                 isAppointed = true;
             }
+
             $.ajax({
                 url : '/api/get_order_info?wo-oid='+id,
                 type: "POST",

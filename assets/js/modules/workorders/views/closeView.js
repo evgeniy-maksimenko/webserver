@@ -7,11 +7,14 @@ define([
 	        'submit' : 'closeForm'
 	    },
 	    closeForm: function(e) {
+	    	alert(1);
 	        e.preventDefault();
-	        var solution = $("#wo-solution").val();
-	        var id = $("#oid").val();
+	        
+	        var solution 		 = $("#solution").val();
+	        var record_id 		 = $("#record_id").val();
+	        
 	        $.ajax({
-	            url : '/api/close_order?id='+id+'&solution='+solution,
+	            url : '/api/close_order?record_id='+record_id+'&solution='+solution,
 	            type: "POST",
 	            dataType: "json",
 	            success: function(){

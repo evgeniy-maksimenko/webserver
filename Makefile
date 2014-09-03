@@ -13,6 +13,6 @@ clean:
 	@( $(REBAR) clean )
 
 run:
-	@( erl -config mysql -pa ebin deps/*/ebin -s webserver )
+	@( erl -pa ebin deps/*/ebin -s webserver )
 
 .PHONY: all deps compile clean run

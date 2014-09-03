@@ -13,41 +13,45 @@ define([
 	var DEF_STATUS 		= 'WORK';
 	var CLOSED_STATUS   = 'CLOSED';
 	
-	var range;
-	var datepickerRangeOptions = {
-	    maxDate: "+0D",
-	    minDate: "-1M",
-	    dateFormat: "yy-mm-dd",
-	    onSelect: function(selectedDate) {
-	        var option = this.id == "fromDate" ? "minDate" : "maxDate",
-	                instance = $(this).data("datepicker"),
-	                data_datapicker = $.datepicker.parseDate(
-	                instance.settings.dateFormat ||
-	                $.datepicker._defaults.dateFormat,
-	                selectedDate, instance.settings);
-	        var edate;
-	        var otherOption;
-	        var m;
-	        if (option == "minDate") {
-	            otherOption = "maxDate";
-	            m = data_datapicker.getMonth() + 1;
-	        } else if (option == "maxDate") {
-	            otherOption = "minDate";
-	            m = data_datapicker.getMonth() - 1;
-	        }
-	        var d = data_datapicker.getDate()
-	        var y = data_datapicker.getFullYear();
-	        edate = new Date(y, m, d);
-	        range.not(this).datepicker("option", option, data_datapicker);
-	        range.not(this).datepicker("option", otherOption, edate);
-	    }
-	};
+    function prepareHistoryPage() {
+        $('.input-daterange').datepicker({
+            format: "dd.mm.yyyy",
+            language: "ru",
+            todayBtn: "linked",
+            autoclose: true,
+            todayHighlight: true,
+            startDate: '-1m',
+            endDate: '+0d'
+        }).on('hide', function(e) {
+            if (e.target.id === "date_to") {
+                var startD = new Date();
+                var endD = new Date();
+                var today = new Date();
+                if (startD.getMonth() - 1 < 0) {
+                    startD.setMonth(startD.getMonth() - 1 + 12);
+                    startD.setFullYear(startD.getFullYear() - 1);
+                } else {
+                    startD.setMonth(startD.getMonth() - 1);
+                }
+                if (endD > today) {
+                    endD = today;
+                }
+                $('.input-daterange').datepicker('setStartDate', startD);
+                $(e.currentTarget).data('datepicker').pickers[0].setEndDate(endD);
+                var curDateMinus7Days = new Date();
+                curDateMinus7Days.setDate(curDateMinus7Days.getDate() - 7);
+                if (isNaN($(e.currentTarget).data('datepicker').pickers[0].getDate().getMonth())) {
+                    $(e.currentTarget).data('datepicker').pickers[0].setDate(curDateMinus7Days);
+                }
+            }
+        });
+    }
 
 	function fun_change_order_status() {
 		var status = $("#order_status").val();
 			if(status == CLOSED_STATUS) {
 				$("#form_closed_status").show();
-				range = $(".date-range").datepicker(datepickerRangeOptions);
+				prepareHistoryPage();
 				$("#fromDate").val($.cookie('fromDate'));
 				$("#toDate").val($.cookie('toDate'));			
 				
@@ -89,6 +93,7 @@ define([
 		render: function() {
 			var attrs = router.routeArguments();
 			this.$el.html(this.template());
+			
 			this.collection.each(this.renderOrder, this);
 			if(attrs.id) {
 				$("#" + attrs.id).click();

@@ -1,0 +1,48 @@
+<h2><span class="glyphicon glyphicon-pushpin"></span> Закрытые заявки</h2>
+    
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>
+            <div class="navbar-form">
+                <small>Все (<span id="count"></span>)</small>
+            </div>
+        </li>
+        <il>
+            <form class="navbar-form" role="form">
+                <div class="input-daterange input-group" id="datepicker">
+                        <span class="input-group-addon">c</span>
+                    <input id="date_from" type="text" class="form-control" name="start" value="" />
+                        <span class="input-group-addon">по</span>
+                    <input id="date_to" type="text" class="form-control" name="end"  value="" />
+                </div>
+            </form>
+               
+        </il>
+        <li>
+            <div class="navbar-form">
+                <div class="btn btn-primary" id="btn_refresh">
+                    <span class="glyphicon glyphicon-refresh"></span> Обновить
+                </div>            
+            </div>
+        </li>
+    </ul>
+</div>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th># заявки</th>
+        <th>автор ldap</th>
+        <th>автор фио</th>
+        <th>описание</th>
+        <th>проблема</th>
+        <th>решение</th>
+        <th>дата</th>
+        <th>ответчик ldap</th>
+        <th>ответчик фио</th>
+
+    </tr>
+    </thead>
+    <tbody id="records">
+    </tbody>
+</table>

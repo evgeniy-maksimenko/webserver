@@ -1,5 +1,4 @@
 define([
-
 	'backbone',
 	'layouts/layoutBasic/layout',
 	'text!modules/workorders/templates/editTemplate.html',
@@ -22,13 +21,13 @@ define([
 	};
 
 	OrderEdit = Backbone.View.extend({
-	    template: _.template( editTemplate),
+	    template: _.template(editTemplate),
 	    events: {
 	        'submit' : 'closeForm'
 	    },
 	    render: function() {
 	    	var attrs = router.routeArguments();
-	        var data = getData(attrs);
+	        var data  = getData(attrs);
 	        
 	        this.$el.html( this.template( data.responseJSON ) );
 	        
@@ -40,14 +39,14 @@ define([
 	    },
 	   	closeForm: function(e) {
 	        e.preventDefault();
-	        var solution = $("#wo-solution").val();
-	        var id = $("#oid").val();
+
 	        $.ajax({
-	            url : '/api/close_order?id='+id+'&solution='+solution,
+	            url : '/api/close_order',
 	            type: "POST",
 	            dataType: "json",
+	            data: $("form").serialize(),
 	            success: function(){
-	                window.location = "/workorders";
+	                //window.location = "/workorders";
 	            }
 	        });
 	    }

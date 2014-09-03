@@ -1,63 +1,106 @@
 <div class="row">
-        <div class="col-xs-6">
-            <div style="height:50px">
-                <p class="lead">Детали заявки</p>
-            </div>
-
-            <fieldset>
-                <div style="height: 50px;overflow-y: auto;">
-                    <h5>Заголовок: <strong><%= description %></strong></h5>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Проблема</legend>
-                <div style="height: 125px;overflow-y: auto;">
-                    <p><%= info %></p>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Вложения</legend>
-                <div class="list-group" >
-                    <% _.each(attachments,function(item,key,list){ %>
-                    <a href="/api/get_order_file/?oid=<%= item.oid %>&fileName=<%= item.filename %>&sc_oid=<%= item.entityOid %>" class="list-group-item">
-                        <p class="list-group-item-text"><span class="glyphicon glyphicon-save"></span> <%= item.filename %></p>
-                    </a>
-                    <% }) %>
-                </div>
-            </fieldset>
-
+    <div class="col-xs-6">
+        <div style="height:50px">
+            <p class="lead">Детали заявки</p>
         </div>
-        <div class="col-xs-6">
-            <div style="height:50px">
-                <div class="btn btn-primary" style="float:left; margin-right:10px;" id="set_order_work">В работу</div>
-                <div class="btn btn-default" style="float:left; margin-right:10px;">Назначить</div>
-                <div class="btn btn-default" style="float:left; margin-right:10px;" disabled="disabled" id="temp_result">Временное решение</div>
-                <div class="btn-group">
-                    <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/workorders/edit/<%= oid %>">Закрыть</a>
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" disabled="disabled" id="close_dropdown">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Вернуть</a></li>
-                        <li><a href="#">Забраковать</a></li>
-                    </ul>
-                </div>
+
+        <fieldset>
+            <div style="height: 25px;overflow-y: auto;">
+                <h5>Заголовок: <strong><%= description %></strong></h5>
             </div>
+        </fieldset>
 
-            <fieldset>
-                <div style="height: 50px;overflow-y: auto;">
-                </div>
-            </fieldset>
+        <fieldset>
+            <legend>Проблема</legend>
+            <div style="height: 125px;overflow-y: auto;">
+                <p><%= info %></p>
+            </div>
+        </fieldset>
 
-            <fieldset>
-                <legend>Решение</legend>
-                <div style="height: 175px;overflow-y: auto;">
-                    <p><%= solution %></p>
-                </div>
-            </fieldset>
+        <fieldset>
+            <legend>Вложения</legend>
+            <div class="list-group" >
+                <% _.each(attachments,function(item,key,list){ %>
+                <a href="/api/get_order_file/?oid=<%= item.oid %>&fileName=<%= item.filename %>&sc_oid=<%= item.entityOid %>" class="list-group-item">
+                    <p class="list-group-item-text"><span class="glyphicon glyphicon-save"></span> <%= item.filename %></p>
+                </a>
+                <% }) %>
+            </div>
+        </fieldset>
 
-        </div>
     </div>
+    <div class="col-xs-6">
+        <div style="height:50px">
+            <div class="btn btn-primary" style="float:left; margin-right:10px;" id="set_order_work">В работу</div>
+            <div class="btn btn-default" style="float:left; margin-right:10px;">Назначить</div>
+            <button class="btn btn-default" style="float:left; margin-right:10px;" data-toggle="modal" data-target="#myModal" disabled="disabled" id="temp_result">
+              Временное решение
+            </button>
+            <div class="btn-group">
+                <a type="button" class="btn btn-primary" disabled="disabled" id="close_order" href="/workorders/edit/<%= oid %>">Закрыть</a>
+            </div>
+        </div>
+
+        <fieldset>
+            <div style="height: 25px;overflow-y: auto;">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Решение</legend>
+            <div style="height: 125px;overflow-y: auto;">
+                <p><%= solution %></p>
+            </div>
+        </fieldset>
+
+         <fieldset>
+            <legend>Дополнительные контакты</legend>
+            <div style="height: 50px;overflow-y: auto;">
+                <div id="user_contacts">
+                    
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Временное решение</h4>
+        </div>
+        <form id="workaround-form">
+          <div class="modal-body">
+            <p class="text-danger">Задание назначено другому специалисту. Вы можете продолжить работу с переназначением задания на себя.</p>
+            <div class="row">
+                <div class="col-xs-12">
+                    <table class="col-xs-12">
+                        <tr>
+                            <td class="name" style="width:100px">
+                                <label for="solution-back">
+                                <span class="asteriks">*</span>
+                                    Описание:
+                                </label>
+                            </td>
+                            <td>
+                                <textarea class="form-control" name="workaround" rows="5" required="required"></textarea>
+                                <input type="hidden" name="wo-oid" value="<%= oid %>"/>
+                                <input type="hidden" name="workgroup" value="281518223917264"/>  
+                                <input type="hidden" name="access_token" value="<%= access_token %>"/>  
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="kill" type="submit" class="btn btn-primary">Применить</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button> 
+          </div>
+        </form>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-<div class="navbar" role="navigation">
+<div role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -27,21 +27,20 @@
                 </li>
                 <li>
                     <div id="form_closed_status" style="display:none;">
-                        <div class="navbar-form">
-                            <span id="date-range">
-                                <b>Создано с: </b><input class="form-control date-range short" type="text" id="fromDate" value=""  />
-                                <b>по: </b><input class=" form-control date-range short" type="text" id="toDate" value=""  />
-                            </span>
-                         </div> 
+                        <div class="input-daterange input-group" id="datepicker">
+                            <input id="fromdate" type="text" class="form-control" name="start" value="" />
+                            <span class="input-group-addon">по</span>
+                            <input id="todate" type="text" class="form-control" name="end"  value="" />
+                        </div>
                     </div>
                 </li>
             </ul>
-            <form class="navbar-form navbar-right" role="form">
+<!--             <form class="navbar-form navbar-right" role="form">
                 <div class="form-group">
                     <input placeholder="Что будем искать?" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Поиск</button>
-            </form>
+            </form> -->
         </div><!--/.navbar-collapse -->
     </div>
 </div>

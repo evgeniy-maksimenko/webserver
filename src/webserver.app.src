@@ -22,7 +22,8 @@
     lager,    %% логирование ошибок +
     sync,     %% авторебар +
     jsx,       %% json(ecode | decode) +
-    gen_smtp
+    gen_smtp,
+    emongo
   ]},
   {mod, { webserver_app, []}},
   {env, []}
