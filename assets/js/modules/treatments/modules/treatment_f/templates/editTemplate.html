@@ -1,0 +1,64 @@
+<ol class="breadcrumb">
+  <li><a href="/">Главная страница</a></li>
+  <li><a href="#">Обращения</a></li>
+  <li><a href="/treatment_f">Обращения 1 уровень</a></li>
+  <li class="active"><%= sh_cli_id %></li>
+</ol>
+
+<form role="form">
+  <div class="form-group">
+    <label for="">Почта клиента</label>
+    <h4><%= email %> <a href="#"><span class="glyphicon glyphicon-envelope"></span></a></h4> 
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Телефон клиента</label>
+    <h4 class="text-danger"><%= phone %> <a href="#"><span class="glyphicon glyphicon-earphone"></span></a></h4>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Вопрос клиента</label>
+    <textarea class="form-control" rows="5"><%= vopros %></textarea>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Ответ клиенту</label>
+    <textarea class="form-control" rows="5" name="otvet"></textarea>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Установите статус</label>
+    <div class="radio">
+		<label>
+		<input type="radio" name="status" id="optionsRadios1" value="OK" checked>
+			Обработана
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+		<input type="radio" name="status" id="optionsRadios2" value="2lvl">
+			Поднять на второй уровень
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+		<input type="radio" name="status" id="optionsRadios3" value="1lvl">
+			вернуть
+		</label>
+	</div>
+  </div>
+	<input name="sh_cli_id" value="<%= sh_cli_id %>" type="hidden"/>
+  <input name="biznes" value="<%= biznes %>" type="hidden"/>
+  <input name="created_at" value="<%= created_at %>" type="hidden"/>
+  <input name="key" value="<%= key %>" type="hidden"/>
+  <input name="phone" value="<%= phone %>" type="hidden"/>
+  <input name="email" value="<%= email %>" type="hidden"/>
+  <input name="sh_ent_id" value="<%= sh_ent_id %>" type="hidden"/>
+  <input name="sh_form_id" value="<%= sh_form_id %>" type="hidden"/>
+  <input name="sh_lang" value="<%= sh_lang %>" type="hidden"/>
+  <input name="sh_token" value="<%= sh_token %>" type="hidden"/>
+  <input name="sh_lang" value="<%= sh_lang %>" type="hidden"/>
+  <input name="vopros" value="<%= vopros %>" type="hidden"/>
+  <button type="submit" class="btn btn-success">Обработано <span class="glyphicon glyphicon-chevron-right"></span></button>
+</form>
+

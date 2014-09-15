@@ -1,0 +1,32 @@
+<ol class="breadcrumb">
+  <li><a href="/admin">Панель администратора</a></li>
+  <li><a href="#">Обращения</a></li>
+  <li><a href="/admin/treatments">Обращения</a></li>
+  <li class="active"><%= sh_cli_id %></li>
+</ol>
+
+<form role="form">
+  <div class="form-group">
+    <label for="">Почта клиента</label>
+    <h4><%= email %> <a href="#"><span class="glyphicon glyphicon-envelope"></span></a></h4> 
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Телефон клиента</label>
+    <h4 class="text-danger"><%= phone %> <a href="#"><span class="glyphicon glyphicon-earphone"></span></a></h4>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Вопрос клиента</label>
+    <textarea class="form-control" rows="5"><%= vopros %></textarea>
+  </div>
+  <hr>
+  <div class="form-group">
+    <label for="">Ответ клиенту</label>
+    <textarea class="form-control" rows="5" name="otvet"><%= otvet %></textarea>
+  </div>
+  
+  
+  </div>
+</form>
+

@@ -11,9 +11,16 @@
     </div>
     <div class="navbar-collapse collapse">
        <ul class="nav navbar-nav">
-            <li <% if (model.routes.sidebar1.active || model.routes.sidebar2.active || model.routes.sidebar3.active) { %>class="bg-info"<% } %>><a href="/workorders"><small>online Консультирование</small></a></li>
-            <li><a href="#"><small>Матрица полномочий</small></a></li>
-            <li><a href="#"><small>Юридическая консультация</small></a></li>
+            <li <% if (model.routes.sidebar1.active || model.routes.sidebar2.active || model.routes.sidebar3.active) { %>class="bg-info"<% } %> ><a href="/workorders">Консультирование</a></li>
+           <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Обращения <span class="glyphicon glyphicon-chevron-down"></span></a>
+               <ul class="dropdown-menu" role="menu">
+                   <li><a href="/treatment_f">Уровень 1</a></li>
+                   <li><a href="/treatment_s">Уровень 2</a></li>
+               </ul>
+           </li>
+           <li><a href="#">Наследники</a></li>
+
         </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -38,6 +45,7 @@
 <div class="container">
    <content-placeholder/>
 </div> <!-- /container -->
+
 
 <div class="footer">
   <div class="container">

@@ -18,6 +18,7 @@
 
 start(_StartType, _StartArgs) ->
   constructor(),
+  ets:new(treatments, [named_table, public, set]),
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},
@@ -42,6 +43,14 @@ start(_StartType, _StartArgs) ->
       {"/api/post_workaround", api_post_workaround_handler, []},
 
       {"/api/close_order", api_close_order_handler, []},
+      %%================================================================================================================
+      %% conveyor
+      {"/api/conveyor/request", api_request_handler, []},
+      {"/api/conveyor/response", api_response_handler, []},
+      %%================================================================================================================
+      %% treatments
+      {"/api/treatments" , api_treatments, []},
+      {"/websocket", ws_handler, []},
       %%================================================================================================================
       {"/[...]", cowboy_static, {file, "priv/index.html"}},
       {'_', error404_handler, []}
