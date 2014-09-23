@@ -22,8 +22,7 @@ init({tcp, http}, _Req, _Opts) ->
   {upgrade, protocol, cowboy_websocket}.
 
 websocket_init(_TransportName, Req, _Opts) ->
-  ets:insert(treatments,{ws_handler,self()}),
-  ?LOG_INFO("~p~n",[ets:lookup(treatments,ws_handler)]),
+  ets:insert(treatments,{self(),self()}),
   {ok, Req, undefined_state}.
 
 websocket_handle({text, Msg}, Req, State) ->
@@ -34,10 +33,11 @@ websocket_handle(_Data, Req, State) ->
 websocket_info({timeout, _Ref, Msg}, Req, State) ->
   {reply, {text, Msg}, Req, State};
 websocket_info({json, Msg}, Req, State) ->
+  ?LOG_INFO("~p~n",[Msg]),
   {reply, {text, Msg}, Req, State};
 websocket_info(_Info, Req, State) ->
   {ok, Req, State}.
 
 websocket_terminate(_Reason, _Req, _State) ->
-  ets:delete(treatments, ws_handler),
+  ets:delete(treatments, self()),
   ok.

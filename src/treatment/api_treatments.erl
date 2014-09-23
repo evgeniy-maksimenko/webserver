@@ -75,9 +75,7 @@ httpPost(<<"all">>, IsDefined, AllBindings, _Req) ->
   find(AllBindings, IsDefined);
 httpPost(<<"made">>, _IsDefined, AllBindings, Req) ->
   {ok, PostAttrs, Req1} = cowboy_req:body_qs(Req),
-  ?LOG_INFO("~p~n",[PostAttrs,AllBindings]),
   save(PostAttrs, AllBindings, Req1).
-
 
 
 

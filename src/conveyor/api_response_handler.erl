@@ -28,15 +28,11 @@ handle(Req, State) ->
 
   BODY = proplists:delete(<<"sys">>, jsx:decode(Attrs)),
 
-  case ets:lookup(treatments, ws_handler) of
-    [{_, Pid}] ->
-      case is_pid(Pid) of
-        true ->
-          Pid ! {json, jsx:encode(BODY)};
-        false -> undefined
-      end;
-    [] -> false
-  end,
+  TreatmentList = ets:tab2list(treatments),
+  lists:foreach(fun(ListIn)->
+    {Pid, _} = ListIn,
+    Pid ! {json, jsx:encode(BODY)} end, TreatmentList),
+
 
   emongo:insert(model, "treatment",
     lists:merge(

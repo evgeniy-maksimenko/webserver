@@ -9,17 +9,15 @@ define([
 ], function($, Backbone, Layout, listTemplate, ItemView, Collection) {
 
 	var websocket;
- 
-    function connect() {
-    	wsUrl = "ws://" + window.location.host + "/websocket";
+
+	function connect() {
+		wsUrl = "ws://" + window.location.host + "/websocket";
 		websocket = new WebSocket(wsUrl);
 		websocket.onmessage = function(evt) { onMessage(evt) };		
-    };
+	};
 
     function onMessage(evt) { 
-        var obj = $.parseJSON(evt.data);
-    	
-        
+        var obj = $.parseJSON(evt.data);    
         showScreen(obj); 
     };
 
@@ -48,7 +46,6 @@ define([
 		template: _.template(listTemplate),
 		
 		initialize: function() {
-			
 			connect();
 			this.collection = new Collection();
 			this.collection.fetch({

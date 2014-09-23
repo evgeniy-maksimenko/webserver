@@ -1,11 +1,13 @@
 -module(webserver_app).
 
 -behaviour(application).
+-include("logs.hrl").
 
 %% Application callbacks
 -export([start/2, stop/1]).
 -export([connect_db_mongoDB/0]).
 -export([constructor/0]).
+-export([authorization/1]).
 
 %% ===================================================================
 %% Конфигурация БД
@@ -59,9 +61,23 @@ start(_StartType, _StartArgs) ->
   Port = 8008,
   {ok, _} = cowboy:start_http(http_listener, 100,
     [{port, Port}],
-    [{env, [{dispatch, Dispatch}]}]
+    [
+      {env, [{dispatch, Dispatch}]},
+      {onrequest, fun ?MODULE:authorization/1}
+    ]
   ),
   webserver_sup:start_link().
+
+authorization(Req) ->
+  {Path, Req2} = cowboy_req:path(Req),
+  case Path of
+    <<"/authorize">> ->
+      Req2;
+    _ ->
+%%       auth_handler:getAuthPage(Req2)
+    Req2
+  end,
+  Req2.
 
 stop(_State) ->
   ok.
@@ -83,5 +99,8 @@ constructor() ->
 %% ===================================================================
 connect_db_mongoDB() ->
   emongo:add_pool(?POOL, ?HOST, ?PORT, ?DB, ?SIZE).
+
+
+
 
 

@@ -8,6 +8,7 @@
 -module(auth_handler).
 -behaviour(cowboy_http_handler).
 -author("Evgenij.Maksimenko").
+-include("../logs.hrl").
 
 %% API
 -export([
@@ -19,12 +20,15 @@
   getToken/1
 ]).
 
+
 -define(CLIENT_ID, "onlineConsultancy").
 -define(SECRET, "lajfh7nnkdjfalf38ff91").
 
--define(POINT_AUTH, "https://promin-stage.it.loc/ProminShell/oauth/authorize").
--define(POINT_RECEIPT_TOKEN, "https://promin-stage.it.loc/ProminShell/oauth/token").
--define(REDIRECT_URI, "http://localhost:8008/authorize").
+-define(POINT_AUTH,           "https://promin-stage.it.loc/ProminShell/oauth/authorize").
+-define(POINT_RECEIPT_TOKEN,  "https://promin-stage.it.loc/ProminShell/oauth/token").
+-define(REDIRECT_URI,         "http://localhost:8008/authorize").
+
+-define(REDIRECT_HOME, "/").
 
 init({tcp, http}, Req, _Opts) ->
   {ok, Req, undefined_state}.
@@ -32,12 +36,11 @@ init({tcp, http}, Req, _Opts) ->
 %% Заметка, возможно проблема с кодировкой
 %% Решение unicode:characters_to_binary([Body])
 
-handle(Req, State) ->
-  {Echo, Req3} = cowboy_req:qs_val(<<"code">>, Req),
+handle(Req, _State) ->
+  {Echo, Req2} = cowboy_req:qs_val(<<"code">>, Req),
   AccessToken = getResponse(Echo),
-
-  Req4 = cowboy_req:set_resp_cookie(<<"access_token">>, AccessToken, [{path, <<"/">>}, {max_age, 3600}], Req3),
-  c_http_request:redirect("/auth_success", Req4).
+  Req4 = cowboy_req:set_resp_cookie(<<"access_token">>, AccessToken, [{path, <<"/">>}, {max_age, 3600}], Req2),
+  c_http_request:redirect(?REDIRECT_HOME, Req4).
 
 terminate(_Reason, _Req, _State) ->
   ok.
@@ -52,14 +55,15 @@ getAuthPage(Req) ->
     undefined ->
       c_http_request:redirect(?POINT_AUTH ++ "?client_id=" ++ ?CLIENT_ID ++ "&scope=read&response_type=code&state=enter&redirect_uri=" ++ ?REDIRECT_URI, Req);
     AccessToken ->
-      true
+      Req
   end.
+
 
 %% ----------------------------
 %% ШАГ 2
 %% Ответ сайта аутентификации браузеру
 %% ----------------------------
-getResponse(Echo) ->
+getResponse(Echo) when is_binary(Echo)->
   Auth = base64:encode_to_string(?CLIENT_ID ++ ":" ++ ?SECRET),
   Response = httpc:request(post,
     {?POINT_RECEIPT_TOKEN,
@@ -85,6 +89,9 @@ getToken(Body) ->
       end;
     false -> lager:log(error, [], [false])
   end.
+
+
+
 
 
 

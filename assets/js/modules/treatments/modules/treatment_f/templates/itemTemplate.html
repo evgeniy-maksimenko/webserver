@@ -2,5 +2,11 @@
     <td><%= phone %></td>
     <td><%= vopros %></td>
     <td><%= created_at %></td>
-    <td><a href="/treatment_f/edit/<%= sh_cli_id %>"><span class="glyphicon glyphicon-info-sign"></span></a></td>
+    <td>
+    	<div class="in_work btn btn-success" id="work<%= sh_cli_id %>">в работу</div>
+    	<input type="hidden" id="event_in_work" value="<%= sh_cli_id %>" />
+    	<!-- <a href="/treatment_f/edit/">
+    		<span class="glyphicon glyphicon-info-sign"></span>
+    	</a> -->
+    </td>
      

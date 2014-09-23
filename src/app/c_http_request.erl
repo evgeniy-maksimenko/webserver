@@ -20,9 +20,10 @@
 %% Req - request
 
 redirect(Url, Req) ->
-  {ok, _} = cowboy_req:reply(303, [
-    {<<"location">>, Url}
-  ], Req).
+  {ok, Req1} = cowboy_req:reply(303, [
+    {<<"location">>, list_to_binary(Url)}
+  ], Req),
+  Req1.
 
 post(URL, ContentType, Body) -> request(post, {URL, [], ContentType, Body}).
 get(URL)                     -> request(get,  {URL, []}).
