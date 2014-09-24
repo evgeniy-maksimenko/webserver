@@ -1,239 +1,520 @@
-2014-09-23 11:54:30.201 [error]  api_get_all_orders_handler:29(): TAG badarg
+2014-09-24 09:25:15.963 [error]  api_treatments:36(): TAG badarg
 
-2014-09-23 11:54:30.930 [error]  api_get_all_orders_handler:29(): TAG badarg
+2014-09-24 09:27:12.439 [error]  api_get_all_orders_handler:29(): TAG badarg
 
-2014-09-23 11:54:57.830 [error]  api_get_all_orders_handler:29(): TAG badarg
+2014-09-24 09:27:48.199 [error] emulator Error in process <0.830.0> with exit value: {{try_clause,{http_req,#Port<0.12949>,ranch_tcp,keepalive,<0.830.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63024},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-09-23 11:55:12.355 [error]  api_get_all_orders_handler:29(): TAG badarg
 
-2014-09-23 12:42:08.320 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/ws_handler.erl:15: Warning: function init/3 is unused
-/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl:0: Recompiled with 1 warnings
-2014-09-23 12:43:51.207 [error] <0.114.0> /Users/Admin/Sites/webserver/src/base/api_test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
-/Users/Admin/Sites/webserver/src/base/api_test_handler.erl:0: Recompiled with 1 warnings
-2014-09-23 12:44:02.087 [error] emulator Error in process <0.1522.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.11813>,ranch_tcp,keepalive,<0.1522.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55832},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
+2014-09-24 09:27:48.199 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.830.0> exit with reason: {{try_clause,{http_req,#Port<0.12949>,ranch_tcp,keepalive,<0.830.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63024},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924092747WS3inbaa&state=enter">>,[{<<"code">>,<<"140924092747WS3inbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
+2014-09-24 09:30:49.409 [error] <0.114.0> gen_server sync_scanner terminated with reason: no case clause matching {ok,ws_handler,<<70,79,82,49,0,0,9,168,66,69,65,77,65,116,111,109,0,0,0,228,0,0,0,25,10,119,115,95,104,97,110,100,108,101,114,4,105,110,105,116,14,119,101,98,115,111,99,107,101,116,95,105,110,105,116,6,101,114,108,97,110,103,4,115,101,108,102,10,116,114,101,97,116,109,101,110,116,115,3,101,116,115,6,105,110,115,101,114,116,2,111,107,15,117,110,100,101,102,105,110,101,100,95,115,116,97,116,101,16,119,101,98,115,111,99,107,101,116,95,104,97,110,100,108,101,4,116,101,120,116,9,98,121,116,101,95,...>>,...} in sync_scanner:recompile_src_file/2 line 465
+2014-09-24 09:30:49.409 [error] <0.114.0> CRASH REPORT Process sync_scanner with 0 neighbours exited with reason: no case clause matching {ok,ws_handler,<<70,79,82,49,0,0,9,168,66,69,65,77,65,116,111,109,0,0,0,228,0,0,0,25,10,119,115,95,104,97,110,100,108,101,114,4,105,110,105,116,14,119,101,98,115,111,99,107,101,116,95,105,110,105,116,6,101,114,108,97,110,103,4,115,101,108,102,10,116,114,101,97,116,109,101,110,116,115,3,101,116,115,6,105,110,115,101,114,116,2,111,107,15,117,110,100,101,102,105,110,101,100,95,115,116,97,116,101,16,119,101,98,115,111,99,107,101,116,95,104,97,110,100,108,101,4,116,101,120,116,9,98,121,116,101,95,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in gen_server:terminate/6 line 744
+2014-09-24 09:30:49.410 [error] <0.113.0> Supervisor sync had child sync_scanner started with sync_scanner:start_link() at <0.114.0> exit with reason no case clause matching {ok,ws_handler,<<70,79,82,49,0,0,9,168,66,69,65,77,65,116,111,109,0,0,0,228,0,0,0,25,10,119,115,95,104,97,110,100,108,101,114,4,105,110,105,116,14,119,101,98,115,111,99,107,101,116,95,105,110,105,116,6,101,114,108,97,110,103,4,115,101,108,102,10,116,114,101,97,116,109,101,110,116,115,3,101,116,115,6,105,110,115,101,114,116,2,111,107,15,117,110,100,101,102,105,110,101,100,95,115,116,97,116,101,16,119,101,98,115,111,99,107,101,116,95,104,97,110,100,108,101,4,116,101,120,116,9,98,121,116,101,95,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in context child_terminated
+2014-09-24 09:38:15.472 [error]  api_treatments:36(): TAG badarg
 
-2014-09-23 12:44:02.088 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1522.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.11813>,ranch_tcp,keepalive,<0.1522.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55832},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11813>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1522.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55832}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-24 09:38:35.829 [error] emulator Error in process <0.1020.0> with exit value: {{try_clause,{http_req,#Port<0.13248>,ranch_tcp,keepalive,<0.1020.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63163},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-09-23 12:44:10.467 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1542.0> exit with reason: {[{reason,undef},{mfa,{ws_handler,init,3}},{stacktrace,[{ws_handler,init,[{tcp,http},{http_req,#Port<0.12366>,ranch_tcp,keepalive,<0.1542.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55834},<<"localhost">>,undefined,8008,<<"/websocket">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"MHEcR9IbIkqJ/yfcRJ+Y+A==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}],[{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12366>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1542.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55834}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"MHEcR9IbIkqJ/yfcRJ+Y+A==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-23 12:44:10.468 [error] emulator Error in process <0.1542.0> with exit value: {[{reason,undef},{mfa,{ws_handler,init,3}},{stacktrace,[{ws_handler,init,[{tcp,http},{http_req,#Port<0.12366>,ranch_tcp,keepalive,<0.1542.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55834},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<21 bytes>>,<<2 bytes>>},{<<6 bytes>>,<<21 bytes>>},{<<17 bytes>>,<<24 bytes>>},{<<10 bytes>>,<<19 bytes>>},{<<6 bytes>>,<<8 bytes>>},{<<13 bytes>>,<<8 bytes>>},{<<7 bytes>>,... 
+2014-09-24 09:38:35.830 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1020.0> exit with reason: {{try_clause,{http_req,#Port<0.13248>,ranch_tcp,keepalive,<0.1020.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63163},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924093834WS1qqbaa&state=enter">>,[{<<"code">>,<<"140924093834WS1qqbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
+2014-09-24 09:59:59.914 [error]  api_treatments:36(): TAG badarg
 
-2014-09-23 12:44:17.006 [error] emulator Error in process <0.1557.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12518>,ranch_tcp,keepalive,<0.1557.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55835},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
+2014-09-24 10:00:10.239 [error]  api_treatments:36(): TAG badarg
 
+2014-09-24 11:24:18.165 [error] emulator Error in process <0.14762.0> with exit value: {{try_clause,{http_req,#Port<0.14299>,ranch_tcp,keepalive,<0.14762.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64826},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-09-23 12:44:17.007 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1557.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12518>,ranch_tcp,keepalive,<0.1557.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55835},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12518>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1557.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55835}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-23 12:45:27.781 [error] emulator Error in process <0.245.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.10974>,ranch_tcp,keepalive,<0.245.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55856},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
+2014-09-24 11:24:18.166 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14762.0> exit with reason: {{try_clause,{http_req,#Port<0.14299>,ranch_tcp,keepalive,<0.14762.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64826},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924112417WS3brbaa&state=enter">>,[{<<"code">>,<<"140924112417WS3brbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
+2014-09-24 11:26:48.645 [error] emulator Error in process <0.15124.0> with exit value: {{try_clause,{http_req,#Port<0.16296>,ranch_tcp,keepalive,<0.15124.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64857},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-09-23 12:45:27.783 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.10974>,ranch_tcp,keepalive,<0.245.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55856},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10974>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55856}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-23 12:46:19.797 [error] <0.114.0> /Users/Admin/Sites/webserver/src/base/api_test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
-/Users/Admin/Sites/webserver/src/base/api_test_handler.erl:0: Recompiled with 1 warnings
-2014-09-23 12:46:20.302 [error] emulator Error in process <0.743.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12445>,ranch_tcp,keepalive,<0.743.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55858},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
+2014-09-24 11:26:48.646 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.15124.0> exit with reason: {{try_clause,{http_req,#Port<0.16296>,ranch_tcp,keepalive,<0.15124.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64857},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924112646WS1stbaa&state=enter">>,[{<<"code">>,<<"140924112646WS1stbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
+2014-09-24 11:47:11.717 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:81: Error: function in/2 undefined
+2014-09-24 11:47:20.821 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:81: Error: function inWork/2 undefined
+2014-09-24 11:58:58.028 [error]  api_treatments:37(): TAG function_clause
 
-2014-09-23 12:46:20.303 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.743.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12445>,ranch_tcp,keepalive,<0.743.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55858},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12445>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.743.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55858}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-24 11:59:25.176 [error]  api_treatments:37(): TAG function_clause
 
-2014-09-23 12:46:21.824 [error] emulator Error in process <0.748.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12585>,ranch_tcp,keepalive,<0.748.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55859},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
+2014-09-24 11:59:42.034 [error]  api_treatments:37(): TAG function_clause
 
-
-2014-09-23 12:46:21.825 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.748.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12585>,ranch_tcp,keepalive,<0.748.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55859},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12585>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.748.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55859}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 12:48:45.560 [error]  api_get_all_orders_handler:29(): TAG badarg
-
-2014-09-23 12:48:50.701 [error] emulator Error in process <0.270.0> with exit value: {undef,[{cowboy_http_websocket,upgrade,[{http_req,#Port<0.11481>,ranch_tcp,keepalive,<0.270.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55941},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<7 bytes>>,<<9 bytes>>},{<<10 bytes>>,<<7 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<21 bytes>>},{<<6 bytes>>,<<8 bytes>>},{<<13 bytes>>,<<8 bytes>>},{<<17 bytes>>,<<24 bytes>>},{<<21 bytes>>,<<2 bytes>>},{<<24 bytes>>,<<22 bytes>>},{<<10 bytes>>,<<117 bytes>>}],[{<<10 bytes>>,[<<7 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,waiting... 
-
-
-2014-09-23 12:48:50.702 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.270.0> exit with reason: {undef,[{cowboy_http_websocket,upgrade,[{http_req,#Port<0.11481>,ranch_tcp,keepalive,<0.270.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55941},<<"localhost">>,undefined,8008,<<"/websocket">>,undefined,<<>>,undefined,[],[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:8008">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"HapmVYArD5Q+V8FzY1SkUA==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.6 Safari/537.78.2">>}],[{<<"connection">>,[<<"upgrade">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[{handler,ws_handler},{handler_opts,[]},{listener,http_listener},{dispatch,[{'_',[],[{[<<"assets">>,'...'],[],cowboy_static,{dir,"assets/"}},{[<<"authorize">>],[],auth_handler,[]},{[<<"auth_success">>],[],auth_success_handler,[]},{[<<"order">>],[],order_handler,[]},{[<<"order">>,<<"edit">>,id],[],order_edit_handler,[]},{[<<"order">>,<<"answer">>],[],order_answer_handler,[]},{[<<"api">>,<<"find_one_record">>],[],api_find_one_record,[]},{[<<"api">>,<<"find_all_records">>],[],api_find_all_records,[]},{[<<"api">>,<<"find_all_history">>],[],api_find_all_history,[]},{[<<"api">>,<<"test">>],[],api_test_handler,[]},{[<<"api">>,<<"get_all_orders">>],[],api_get_all_orders_handler,[]},{[<<"api">>,<<"get_order_info">>],[],api_get_order_info_handler,[]},{[<<"api">>,<<"get_order_file">>],[],api_get_order_file_handler,[]},{[<<"api">>,<<"set_order_work">>],[],api_set_order_work_handler,[]},{[<<"api">>,<<"get_user_contacts">>],[],api_get_user_contacts_handler,[]},{[<<"api">>,<<"post_workaround">>],[],api_post_workaround_handler,[]},{[<<"api">>,<<"close_order">>],[],api_close_order_handler,[]},{[<<"api">>,<<"conveyor">>,<<"request">>],[],api_request_handler,[]},{[<<"api">>,<<"conveyor">>,<<"response">>],[],api_response_handler,[]},{[<<"api">>,<<"treatments">>],[],api_treatments,[]},{[<<"websocket">>],[],ws_handler,[]},{['...'],[],cowboy_static,{file,"priv/index.html"}},{'_',[],error404_handler,[]}]}]}],ws_handler,[]],[]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 12:48:55.888 [error] emulator Error in process <0.283.0> with exit value: {[{reason,badarg},{mfa,{auth_success_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_success_handler,handle,2,[{file,"src/auth/auth_success_handler.erl"},{line,28}]},{cowboy_handler,handler_handle... 
-
-
-2014-09-23 12:48:55.889 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.283.0> exit with reason: {[{reason,badarg},{mfa,{auth_success_handler,handle,2}},{stacktrace,[{erlang,binary_to_list,[undefined],[]},{auth_success_handler,handle,2,[{file,"src/auth/auth_success_handler.erl"},{line,28}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11854>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.283.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55943}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/auth_success">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru">>},{<<"connection">>,<<"keep-alive">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.6 Safari/537.78.2">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 12:49:00.632 [error] emulator Error in process <0.295.0> with exit value: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12496>,ranch_tcp,keepalive,<0.295.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55945},<<9 bytes>>,undefined,8008,<<9 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<2 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,... 
-
-
-2014-09-23 12:49:00.634 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.295.0> exit with reason: {[{reason,undef},{mfa,{api_test_handler,terminate,3}},{stacktrace,[{api_test_handler,terminate,[undef,{http_req,#Port<0.12496>,ranch_tcp,keepalive,<0.295.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55945},<<"localhost">>,undefined,8008,<<"/api/test">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8008">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru">>},{<<"connection">>,<<"keep-alive">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.6 Safari/537.78.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,locked,[],<<>>,undefined},undefined_state],[]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,285}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,118}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12496>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.295.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55945}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru">>},{<<"connection">>,<<"keep-alive">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.6 Safari/537.78.2">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,undef}],[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,123}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 12:49:45.492 [error]  api_get_all_orders_handler:29(): TAG badarg
-
-2014-09-23 14:47:57.178 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/ws_handler.erl:1: Error: no module definition
-2014-09-23 15:33:00.472 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/ws_handler.erl:26: Error: variable '_' is unbound
-2014-09-23 15:33:37.379 [error] emulator Error in process <0.5480.0> with exit value: {[{reason,undef},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,lookup,[treatments],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket... 
-
-
-2014-09-23 15:33:37.380 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5480.0> exit with reason: {[{reason,undef},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,lookup,[treatments],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13524>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.5480.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58837}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"pg2JO6XveDhxM0O0PMDi/w==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5775.0> exit with reason: killed
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5790.0> exit with reason: killed
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5818.0> exit with reason: killed
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5828.0> exit with reason: killed
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5861.0> exit with reason: killed
-
-2014-09-23 15:37:35.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5883.0> exit with reason: killed
-
-2014-09-23 15:37:35.986 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5889.0> exit with reason: killed
-
-2014-09-23 15:38:09.328 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5946.0> exit with reason: killed
-
-2014-09-23 15:38:09.328 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5950.0> exit with reason: killed
-
-2014-09-23 15:38:09.328 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5956.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5965.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5974.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5981.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5985.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5990.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5994.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6001.0> exit with reason: killed
-
-2014-09-23 15:38:09.329 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6007.0> exit with reason: killed
-
-2014-09-23 15:38:09.330 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6013.0> exit with reason: killed
-
-2014-09-23 15:38:09.330 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6023.0> exit with reason: killed
-
-2014-09-23 15:38:11.248 [error] emulator Error in process <0.6216.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6216.0>,<0.6216.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket... 
-
-
-2014-09-23 15:38:11.249 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6216.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6216.0>,<0.6216.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14206>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.6216.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58968}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"SqGiUzZvMKlTnmV8Lrg60A==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:38:13.024 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6220.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,delete,[treatments],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,25}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14207>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.6220.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58972}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"fokMQZ3ohH9fxtll6oQssg==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:38:13.024 [error] emulator Error in process <0.6220.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,delete,[treatments],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,25}]},{cowboy_websocket... 
-
-
-2014-09-23 15:38:17.426 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6135.0> exit with reason: killed
-
-2014-09-23 15:38:17.426 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6139.0> exit with reason: killed
-
-2014-09-23 15:38:17.426 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6165.0> exit with reason: killed
-
-2014-09-23 15:38:18.379 [error] emulator Error in process <0.6245.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6245.0>,<0.6245.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket... 
-
-
-2014-09-23 15:38:18.379 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6245.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6245.0>,<0.6245.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14300>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.6245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58973}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"BzbtNUw/wxAPd5YhJlU0yg==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:38:20.322 [error] emulator Error in process <0.6252.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6252.0>,<0.6252.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket... 
-
-
-2014-09-23 15:38:20.323 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6252.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6252.0>,<0.6252.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14301>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.6252.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58974}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"kwYdJcrfPor+mRSvJOghHw==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:38:21.778 [error] emulator Error in process <0.6258.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6258.0>,<0.6258.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket... 
-
-
-2014-09-23 15:38:21.778 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6258.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments,{<0.6258.0>,<0.6258.0>}],[]},{ws_handler,websocket_init,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,26}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14302>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.6258.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58975}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"6geostZ8WdH0451+8VaNXg==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 15:39:48.196 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.246.0> exit with reason: killed
-
-2014-09-23 15:39:48.196 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.251.0> exit with reason: killed
-
-2014-09-23 15:39:48.196 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.257.0> exit with reason: killed
-
-2014-09-23 15:39:48.197 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.263.0> exit with reason: killed
-
-2014-09-23 15:39:48.197 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.276.0> exit with reason: killed
-
-2014-09-23 15:39:48.197 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.292.0> exit with reason: killed
-
-2014-09-23 15:40:09.402 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.764.0> exit with reason: killed
-
-2014-09-23 15:40:09.403 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.768.0> exit with reason: killed
-
-2014-09-23 15:40:18.502 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.808.0> exit with reason: killed
-
-2014-09-23 15:40:18.502 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.811.0> exit with reason: killed
-
-2014-09-23 15:40:18.502 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.816.0> exit with reason: killed
-
-2014-09-23 15:40:18.503 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.820.0> exit with reason: killed
-
-2014-09-23 15:40:18.503 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.825.0> exit with reason: killed
-
-2014-09-23 15:40:18.503 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.830.0> exit with reason: killed
-
-2014-09-23 16:14:40.405 [error] emulator Error in process <0.4010.0> with exit value: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.4010.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.... 
-
-
-2014-09-23 16:14:40.406 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4010.0> exit with reason: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.4010.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,42}]},{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,750}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13008>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.4010.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59304}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"vsuUfUgTksjQRiujzjdCQw==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,{remote,1001,<<>>}}],[{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,752}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:14:46.386 [error] emulator Error in process <0.5577.0> with exit value: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.5577.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.... 
-
-
-2014-09-23 16:14:46.387 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5577.0> exit with reason: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.5577.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,42}]},{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,750}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13316>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.5577.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59373}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"dyAaFfxIthhJnUqwmbEpLQ==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,{remote,1001,<<>>}}],[{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,752}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:14:48.026 [error] emulator Error in process <0.5592.0> with exit value: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.5592.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.... 
-
-
-2014-09-23 16:14:48.027 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5592.0> exit with reason: {[{reason,undef},{mfa,{ws_handler,websocket_terminate,3}},{stacktrace,[{ets,delete_all_objects,[treatments,<0.5592.0>],[]},{ws_handler,websocket_terminate,3,[{file,"/Users/Admin/Sites/webserver/src/treatment/ws_handler.erl"},{line,42}]},{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,750}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13318>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.5592.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59375}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"YXN6glxA/nd/CpamuHJj4g==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state},{terminate_reason,{remote,1001,<<>>}}],[{cowboy_websocket,handler_terminate,4,[{file,"src/cowboy_websocket.erl"},{line,752}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:15:23.530 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.908.0> exit with reason: killed
-
-2014-09-23 16:15:23.530 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.912.0> exit with reason: killed
-
-2014-09-23 16:15:23.531 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.922.0> exit with reason: killed
-
-2014-09-23 16:16:44.226 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function handle/2 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:34: Error: syntax error before: lager
-2014-09-23 16:17:15.517 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'List' is unused
+2014-09-24 12:00:49.138 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:54: Warning: variable 'Req' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-23 16:20:30.222 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'TreatmentList' is unused
+2014-09-24 12:03:48.035 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:08:13.126 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:08:47.757 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:54: Warning: variable 'Req' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-23 16:24:29.484 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'TreatmentList' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:33: Warning: variable 'Fun' is unused
+2014-09-24 12:10:00.353 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:65: Error: variable '_' is unbound
+2014-09-24 12:13:24.098 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:56: Warning: variable 'Data' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-23 16:26:21.173 [error] emulator Error in process <0.7260.0> with exit value: {[{reason,{badarity,{#Fun<api_treatments.0.31020442>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.er... 
-
-
-2014-09-23 16:26:21.174 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7260.0> exit with reason: {[{reason,{badarity,{#Fun<api_treatments.0.31020442>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14025>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7260.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59412}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:26:23.364 [error] emulator Error in process <0.7267.0> with exit value: {[{reason,{badarity,{#Fun<api_treatments.0.31020442>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.er... 
-
-
-2014-09-23 16:26:23.364 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7267.0> exit with reason: {[{reason,{badarity,{#Fun<api_treatments.0.31020442>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14027>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7267.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59414}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:26:37.587 [error] emulator Error in process <0.7313.0> with exit value: {[{reason,{badarity,{#Fun<api_treatments.0.8391208>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.er... 
-
-
-2014-09-23 16:26:37.588 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7313.0> exit with reason: {[{reason,{badarity,{#Fun<api_treatments.0.8391208>,[{<0.912.0>,<0.912.0>}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14121>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7313.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59416}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:33:10.043 [error] emulator Error in process <0.8227.0> with exit value: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{api_treatments,sendMessage,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,95}]},{api_treatments,handle,2,[{file,"/Use... 
-
-
-2014-09-23 16:33:10.043 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.8227.0> exit with reason: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{api_treatments,sendMessage,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,95}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,41}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14312>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.8227.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59496}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:43:57.346 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.768.0> exit with reason: killed
-
-2014-09-23 16:43:57.347 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.773.0> exit with reason: killed
-
-2014-09-23 16:43:57.347 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.781.0> exit with reason: killed
-
-2014-09-23 16:43:57.347 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.786.0> exit with reason: killed
-
-2014-09-23 16:47:04.247 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function handle/2 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:42: Error: syntax error before: 'end'
-2014-09-23 16:50:15.666 [error] emulator Error in process <0.2349.0> with exit value: {[{reason,{badarity,{#Fun<api_treatments.0.58661386>,[{1,1}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.er... 
-
-
-2014-09-23 16:50:15.667 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2349.0> exit with reason: {[{reason,{badarity,{#Fun<api_treatments.0.58661386>,[{1,1}]}}},{mfa,{api_treatments,handle,2}},{stacktrace,[{lists,foreach,2,[{file,"lists.erl"},{line,1323}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,40}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13840>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.2349.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59671}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-23 16:52:16.948 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: variable 'List' is unused
+2014-09-24 12:13:54.382 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:57: Warning: variable 'List' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-23 16:52:55.570 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: variable 'List' is unused
+2014-09-24 12:16:39.809 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:54: Warning: variable 'Req' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-23 16:54:32.548 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Error: function sendMessage/1 undefined
+2014-09-24 12:23:59.657 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:25:30.969 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:26:35.578 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:26:44.289 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:26:46.413 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:26:57.255 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:27:03.595 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:27:04.646 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:27:28.668 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:28:14.993 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:29:27.685 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:29:31.274 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:29:36.843 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:29:51.934 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:29:57.861 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:30:10.155 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:30:12.619 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:31:52.015 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:31:54.223 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 12:32:04.162 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:33:07.718 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:33:41.009 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:70: Error: variable 'Data' is unbound
+2014-09-24 12:33:49.110 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:33:53.517 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 12:34:40.638 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:36:06.391 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:36:47.812 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 12:36:50.746 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 13:09:12.172 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:09:59.589 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:10:04.838 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 13:10:08.740 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:10:42.068 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:10:44.760 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 13:10:53.229 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:70: Warning: variable 'Data' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:11:35.614 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:13:42.656 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:16:24.078 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:16:28.966 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 13:16:31.435 [error]  api_treatments:37(): TAG function_clause
+
+2014-09-24 13:17:11.519 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:17:50.897 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:93: Error: function save/3 undefined
+2014-09-24 13:17:55.999 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:19:06.574 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:93: Error: function save/3 undefined
+2014-09-24 13:21:50.982 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:73: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:92: Error: function save/3 undefined
+2014-09-24 13:22:26.758 [error] emulator Error in process <0.9345.0> with exit value: {{try_clause,{http_req,#Port<0.19817>,ranch_tcp,keepalive,<0.9345.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},49218},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 13:22:26.758 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9345.0> exit with reason: {{try_clause,{http_req,#Port<0.19817>,ranch_tcp,keepalive,<0.9345.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},49218},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924132225WS2bcaaa&state=enter">>,[{<<"code">>,<<"140924132225WS2bcaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 13:39:45.121 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:67: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:67: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:44:15.688 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:46:13.851 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:46:40.260 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:47:01.547 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:47:16.712 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:71: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 13:47:56.057 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:66: Error: syntax error before: '.'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:95: Error: function inWork/2 undefined
+2014-09-24 13:49:40.021 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:04:30.522 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:93: Error: function save/3 undefined
+2014-09-24 14:07:58.333 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:93: Error: function save/3 undefined
+2014-09-24 14:08:21.529 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:93: Error: function save/3 undefined
+2014-09-24 14:10:19.606 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:68: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:32:01.463 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:32:18.787 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:32:22.742 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:32:25.772 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:32:39.379 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:33:04.478 [error]  api_treatments:37(): TAG badarg
+
+2014-09-24 14:36:55.107 [error] emulator Error in process <0.1028.0> with exit value: {{try_clause,{http_req,#Port<0.12385>,ranch_tcp,keepalive,<0.1028.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50055},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 14:36:55.108 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1028.0> exit with reason: {{try_clause,{http_req,#Port<0.12385>,ranch_tcp,keepalive,<0.1028.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50055},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924143653WS1yeaaa&state=enter">>,[{<<"code">>,<<"140924143653WS1yeaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 14:45:31.534 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:46:16.984 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:46:52.450 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:47:38.923 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:48:40.488 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:49:09.788 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 14:49:28.985 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:04:18.677 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:05:10.129 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:05:53.572 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:06:03.698 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:54: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:06:34.972 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:57: Error: badly formed argument for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:94: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:96: Error: function find/3 undefined
+2014-09-24 15:08:08.464 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:57: Error: badly formed argument for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:95: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:97: Error: function find/3 undefined
+2014-09-24 15:08:44.405 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:10:31.361 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:11:41.981 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:11:54.132 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:59: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:12:44.587 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:17:38.603 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 37 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:17:51.764 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:18:41.180 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:19:07.408 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:19:19.516 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:19:45.748 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:19:57.855 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'Data' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:20:16.040 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:20:20.086 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Error: variable 'Code' unsafe in 'try' (line 33)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable 'Code' is unbound
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:40: Error: variable '_' is unbound
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:46: Error: variable 'Code' unsafe in 'try' (line 33)
+2014-09-24 15:20:33.216 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:40: Error: variable '_' is unbound
+2014-09-24 15:20:50.377 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:40: Error: variable '_' is unbound
+2014-09-24 15:21:00.483 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:21:12.611 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:21:22.706 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:21:46.929 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Error: variable '_' is unbound
+2014-09-24 15:23:28.283 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:23:32.355 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:23:39.450 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:23:46.393 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:23:54.506 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:24:25.789 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:24:27.852 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:24:34.955 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 37 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:24:49.123 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 37 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:25:41.686 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 37 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:25:52.820 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 37 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:26:05.977 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:38: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:26:31.228 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:39: Warning: this clause cannot match because a previous clause at line 36 always matches
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:31:43.217 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:61: Error: syntax error before: '<'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:102: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:104: Error: function find/3 undefined
+2014-09-24 15:31:46.301 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:59: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 15:37:32.164 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 15:37:51.177 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 15:37:59.645 [error] emulator Error in process <0.2995.0> with exit value: {{try_clause,{http_req,#Port<0.16875>,ranch_tcp,keepalive,<0.2995.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50939},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 15:37:59.645 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2995.0> exit with reason: {{try_clause,{http_req,#Port<0.16875>,ranch_tcp,keepalive,<0.2995.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50939},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924153759WS39faaa&state=enter">>,[{<<"code">>,<<"140924153759WS39faaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 16:02:19.470 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'Code' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:32: Warning: variable 'Data' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 16:10:59.014 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:11:07.015 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:11:37.026 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:11:57.379 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:12:15.986 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:17:32.427 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:17:35.654 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 16:17:52.958 [error] emulator Error in process <0.3059.0> with exit value: {{try_clause,{http_req,#Port<0.15178>,ranch_tcp,keepalive,<0.3059.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51469},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 16:17:52.959 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3059.0> exit with reason: {{try_clause,{http_req,#Port<0.15178>,ranch_tcp,keepalive,<0.3059.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51469},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924161752WS3biaaa&state=enter">>,[{<<"code">>,<<"140924161752WS3biaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 16:19:32.225 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:59: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 16:51:44.946 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:59: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:03:21.688 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:03:21.906 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:18:37.666 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:18:42.487 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:20:38.119 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:20:40.711 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:20:54.683 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:21:05.902 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:22:29.607 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:22:32.403 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:22:51.793 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:22:52.362 [error]  api_treatments:42(): TAG badarg
+
+2014-09-24 17:23:10.521 [error] emulator Error in process <0.10085.0> with exit value: {{try_clause,{http_req,#Port<0.17050>,ranch_tcp,keepalive,<0.10085.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52333},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 17:23:10.521 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10085.0> exit with reason: {{try_clause,{http_req,#Port<0.17050>,ranch_tcp,keepalive,<0.10085.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52333},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924172309WS1wkaaa&state=enter">>,[{<<"code">>,<<"140924172309WS1wkaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 17:24:28.236 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:82: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:82: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:82: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:28:51.860 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:83: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:83: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:83: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:38:25.718 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:70: Error: head mismatch
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:104: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:106: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:111: Error: function inWork/2 undefined
+2014-09-24 17:45:23.219 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:47:39.339 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Error: syntax error before: ','
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:112: Error: function save/3 undefined
+2014-09-24 17:48:58.993 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:86: Error: syntax error before: ','
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:111: Error: function save/3 undefined
+2014-09-24 17:50:44.969 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:51:11.315 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:52:51.153 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:88: Error: syntax error before: ','
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:114: Error: function save/3 undefined
+2014-09-24 17:53:38.600 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Error: function foreach/2 undefined
+2014-09-24 17:54:25.084 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Error: function foreach/2 undefined
+2014-09-24 17:55:39.686 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Error: function foreach/2 undefined
+2014-09-24 17:55:49.805 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:55:56.925 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:56:55.474 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:58:36.384 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'PostAttrs' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:59:24.912 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 17:59:50.175 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:00:17.447 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:00:36.670 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:01:04.955 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'Item' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:01:15.095 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:01:22.201 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:04:07.667 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:04:29.938 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:15:53.698 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:27:03.295 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:27:16.894 [error]  api_treatments:43(): TAG badarg
+
+2014-09-24 18:27:20.932 [error]  api_treatments:43(): TAG badarg
+
+2014-09-24 18:27:33.061 [error] emulator Error in process <0.19403.0> with exit value: {{try_clause,{http_req,#Port<0.19796>,ranch_tcp,keepalive,<0.19403.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52948},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 18:27:33.062 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.19403.0> exit with reason: {{try_clause,{http_req,#Port<0.19796>,ranch_tcp,keepalive,<0.19403.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52948},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924182732WS1rmaaa&state=enter">>,[{<<"code">>,<<"140924182732WS1rmaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-24 18:27:42.790 [error]  api_treatments:43(): TAG {case_clause,[{<<"otvet">>,<<>>},{<<"status">>,<<"OK">>},{<<"sh_cli_id">>,<<"200">>},{<<"biznes">>,<<>>},{<<"created_at">>,<<"2014-09-24 17:38:40">>},{<<"key">>,<<>>},{<<"phone">>,<<>>},{<<"email">>,<<>>},{<<"sh_ent_id">>,<<>>},{<<"sh_form_id">>,<<>>},{<<"sh_lang">>,<<>>},{<<"sh_token">>,<<>>},{<<"sh_lang">>,<<>>},{<<"vopros">>,<<>>},{<<"opened_by">>,<<"DN200288MEG">>},{<<"working">>,<<"2">>}]}
+
+2014-09-24 18:30:02.834 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:30:35.156 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:35:50.630 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:88: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:43:05.113 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:90: Error: syntax error before: 'end'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:117: Error: function save/3 undefined
+2014-09-24 18:43:11.213 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'AllBindings' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:89: Warning: variable 'NewList' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:89: Warning: a term is constructed, but never used
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 18:45:33.513 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-24 19:12:34.115 [error] emulator Error in process <0.25684.0> with exit value: {{try_clause,{http_req,#Port<0.20497>,ranch_tcp,keepalive,<0.25684.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53288},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-24 19:12:34.116 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.25684.0> exit with reason: {{try_clause,{http_req,#Port<0.20497>,ranch_tcp,keepalive,<0.25684.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53288},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140924191233WS2boaaa&state=enter">>,[{<<"code">>,<<"140924191233WS2boaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+

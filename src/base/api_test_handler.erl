@@ -24,8 +24,8 @@ init({tcp, http}, Req, _Opts) ->
 
 handle(Req, State) ->
 
-  auth_handler:getAuthPage(Req),
-
+   auth_handler:getAuthPage(Req),
+%%
 
   Body = jsx:encode([
     [

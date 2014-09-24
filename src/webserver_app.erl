@@ -21,6 +21,8 @@
 start(_StartType, _StartArgs) ->
   constructor(),
   ets:new(treatments, [named_table, public, set]),
+  ets:new(treatments_btns, [named_table, public, set]),
+  ets:new(treatments_closer, [named_table, public, set]),
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},
@@ -53,6 +55,8 @@ start(_StartType, _StartArgs) ->
       %% treatments
       {"/api/treatments" , api_treatments, []},
       {"/websocket", ws_handler, []},
+      {"/ws_btn", ws_btn_handler, []},
+      {"/ws_closer", ws_closer_handler, []},
       %%================================================================================================================
       {"/[...]", cowboy_static, {file, "priv/index.html"}},
       {'_', error404_handler, []}
