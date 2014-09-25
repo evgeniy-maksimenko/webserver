@@ -46,6 +46,7 @@ define([], function() {
 			treatment_f_edit: 	    { path: '/treatment_f/edit/:id', 	moduleId: 'modules/treatments/modules/treatment_f/views/edit'},
 			treatment_s: 		    { path: '/treatment_s', 			moduleId: 'modules/treatments/modules/treatment_s/views/list'},
 			treatment_s_edit: 	    { path: '/treatment_s/edit/:id', 	moduleId: 'modules/treatments/modules/treatment_s/views/edit'},
+			tm_view_id: 		    { path: '/tm_view/response/:id', 	moduleId: 'modules/treatments/modules/tm_view/views/edit'},
 			sidebar4: 	            { path: '/test', 				    moduleId: 'modules/workorders/views/test' },
 			notFound: 	            { path: '*',					    moduleId: 'views/notFound'},
 		

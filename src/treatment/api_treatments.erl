@@ -9,6 +9,7 @@
 -behaviour(cowboy_http_handler).
 -include("../logs.hrl").
 
+
 %% API
 -export([
   init/3,
@@ -19,7 +20,9 @@
   reading_the_req_body/1,
   httpPost/4,
   save/3,
-  inWork/2
+  inWork/2,
+  view/1,
+  rating/3
 ]).
 
 init({tcp, http}, Req, _Opts) ->
@@ -29,8 +32,6 @@ terminate(_Reason, _Req, _State) ->
   ok.
 
 handle(Req, State) ->
-
-  mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,<<"test">>),
   {Code, Data} =
     try
       FindAll = reading_the_req_body(Req),
@@ -70,6 +71,16 @@ find(Id, true, Req) ->
     end,
   Result.
 
+view(Id) ->
+  Find = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  case length(Find) of
+    0 ->
+      <<"Forbidden">>;
+    _ ->
+      Data = deletekey(Find),
+      Data
+  end.
+
 inWork(Id, Req) ->
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
   Data = deletekey(DataIn),
@@ -104,14 +115,32 @@ save(PostAttrs, AllBindings, Req) ->
         ]
       ));
     <<"OK">> ->
+%%       mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,<<"test">>)
       emongo:update(model, "treatment", [{<<"sh_cli_id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
         PostAttrs,
         [
           {<<"modified_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-          {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))}
+          {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
+          {<<"rating">>, 0},
+          {<<"rating_at">>, <<"">>}
         ]
       ))
   end,
+  <<"{\"status\":\"ok\"}">>.
+
+rating(Id, PostAttrs, _Req) ->
+  List = [<<"rating">>, <<"rating_at">>],
+  DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  Data = deletekey(DataIn),
+  ListRating = [{K, V} || {K, V} <- lists:merge(Data), not lists:member(K, List)],
+  ResultList = lists:merge(
+    ListRating,
+    [
+      {<<"rating_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
+      {<<"rating">>, proplists:get_value(<<"rating">>, PostAttrs)}
+    ]
+  ),
+  emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], ResultList),
   <<"{\"status\":\"ok\"}">>.
 
 deletekey(List) -> delete_key(List, []).
@@ -131,7 +160,12 @@ httpPost(<<"made">>, _IsDefined, AllBindings, Req) ->
   {ok, PostAttrs, Req1} = cowboy_req:body_qs(Req),
   save(PostAttrs, AllBindings, Req1);
 httpPost(<<"in_work">>, _IsDefined, AllBindings, Req) ->
-  inWork(proplists:get_value(<<"id">>, AllBindings), Req).
+  inWork(proplists:get_value(<<"id">>, AllBindings), Req);
+httpPost(<<"view">>, _IsDefined, AllBindings, _Req) ->
+  view(proplists:get_value(<<"id">>, AllBindings));
+httpPost(<<"rating">>, _IsDefined, AllBindings, Req) ->
+  {ok, PostAttrs, Req1} = cowboy_req:body_qs(Req),
+  rating(proplists:get_value(<<"id">>, AllBindings), PostAttrs, Req1).
 
 
 

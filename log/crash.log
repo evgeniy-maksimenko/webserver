@@ -99,3 +99,38 @@ Ranch listener http_listener had connection process started with cowboy_protocol
 2014-09-25 10:42:31 =ERROR REPORT====
 /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
 /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
+2014-09-25 10:51:50 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:114: Error: syntax error before: 'end'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:132: Error: function save/3 undefined
+2014-09-25 10:52:41 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 10:53:07 =ERROR REPORT====
+Error in process <0.2216.0> with exit value: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55430},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-09-25 10:53:07 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2216.0> exit with reason: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55430},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925105305WS1hcaaa&state=enter">>,[{<<"code">>,<<"140925105305WS1hcaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-25 10:54:48 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 10:55:02 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 12:40:29 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4780.0> exit with reason: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56315},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925124028WS1bbaaa&state=enter">>,[{<<"code">>,<<"140925124028WS1bbaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-25 12:40:29 =ERROR REPORT====
+Error in process <0.4780.0> with exit value: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56315},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-09-25 12:45:11 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:75: Error: argument mismatch for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
+2014-09-25 12:45:44 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: argument mismatch for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
+2014-09-25 12:49:44 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:79: Error: syntax error before: 'end'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:149: Error: function view/1 undefined

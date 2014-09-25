@@ -138,3 +138,118 @@
 2014-09-25 10:43:30.982 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
 2014-09-25 10:43:30.992 [info] <0.7.0> Application emongo started on node nonode@nohost
 2014-09-25 10:43:31.011 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-25 10:51:50.090 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-09-25 10:51:50.091 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:114: Error: syntax error before: 'end'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:132: Error: function save/3 undefined
+2014-09-25 10:52:41.590 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 10:52:41.599 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 10:52:45.068 [error]  api_treatments:45(): TAG badarg
+
+2014-09-25 10:52:45.692 [error]  api_treatments:45(): TAG badarg
+
+2014-09-25 10:53:07.224 [error] emulator Error in process <0.2216.0> with exit value: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55430},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-25 10:53:07.224 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2216.0> exit with reason: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55430},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925105305WS1hcaaa&state=enter">>,[{<<"code">>,<<"140925105305WS1hcaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-25 10:54:48.805 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 10:54:48.814 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 10:55:02.980 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-25 10:55:02.989 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 11:05:41.694 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 11:05:41.706 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 11:07:21.679 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 11:07:21.688 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 11:08:07.143 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 11:08:07.151 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 11:17:46.593 [error]  api_find_one_record:31(): TAG {badmatch,[]}
+
+2014-09-25 12:05:25.903 [error]  api_find_one_record:31(): TAG {badmatch,[]}
+
+2014-09-25 12:10:32.848 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-09-25 12:10:32.859 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-09-25 12:10:32.862 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-09-25 12:10:32.868 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-09-25 12:10:32.881 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-09-25 12:10:32.916 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-25 12:40:04.594 [error]  api_treatments:44(): TAG badarg
+
+2014-09-25 12:40:05.672 [error]  api_treatments:44(): TAG badarg
+
+2014-09-25 12:40:29.706 [warning] <0.6.0> lager_error_logger_h dropped 59 messages in the last second that exceeded the limit of 50 messages/sec
+2014-09-25 12:40:29.707 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4780.0> exit with reason: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56315},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925124028WS1bbaaa&state=enter">>,[{<<"code">>,<<"140925124028WS1bbaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-25 12:40:29.708 [error] emulator Error in process <0.4780.0> with exit value: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56315},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-25 12:45:11.465 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:75: Error: argument mismatch for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
+2014-09-25 12:45:44.768 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: argument mismatch for macro 'LOG_INFO'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
+2014-09-25 12:46:25.165 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:46:25.174 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:48:44.366 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:48:44.380 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:48:48.636 [info]  api_treatments.erl:73: <<"1001">>
+
+
+2014-09-25 12:49:04.634 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:49:04.648 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:49:06.228 [info]  api_treatments.erl:75: []
+
+
+2014-09-25 12:49:44.032 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:79: Error: syntax error before: 'end'
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:149: Error: function view/1 undefined
+2014-09-25 12:50:21.428 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:50:21.438 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:50:24.742 [info]  api_treatments.erl:75: [[{<<"_id">>,{oid,<<84,35,227,22,116,254,227,51,224,244,109,200>>}},{<<"modified_at">>,<<"2014-09-25 12:40:53">>},{<<"author_login">>,<<"DN200288MEG">>},{<<"otvet">>,<<208,149,209,129,208,187,208,184,32,208,183,208,176,208,191,209,128,208,190,209,129,32,208,188,208,184,208,187,208,184,209,134,208,184,208,184,32,208,190,209,132,208,190,209,128,208,188,208,187,208,181,208,189,32,208,178,32,209,129,208,190,208,190,209,130,208,178,208,181,209,130,209,129,209,130,208,178,208,184,208,184,32,209,129,32,208,151,208,163,32,34,208,158,32,208,145,208,176,208,189,208,186,208,176,209,133,32,208,184,32,208,177,208,176,208,189,208,186,209,128,208,178,209,129,208,186,208,190,208,185,32,208,180,208,181,209,143,209,130,208,181,208,187,209,140,208,189,208,190,209,129,209,130,208,184,34,32,208,184,32,208,178,32,209,129,208,190,208,190,209,130,208,178,208,181,209,130,209,129,209,130,208,178,208,184,208,184,32,209,129,32,208,184,208,189,209,129,209,130,209,128,209,131,208,186,209,134,208,184,208,181,32,208,157,208,145,208,163,32,226,132,150,32,50,54,55,44,32,208,176,32,209,130,208,176,208,186,208,182,208,181,44,32,209,128,208,176,208,183,209,128,208,181,209,136,208,181,208,189,208,184,208,181,32,208,186,208,187,208,184,208,181,208,189,209,130,208,176,32,208,177,209,139,208,187,208,190,32,208,191,209,128,208,181,208,180,208,190,209,129,209,130,208,176,208,178,208,187,208,181,208,189,208,190,32,208,186,208,187,208,184,208,181,208,189,209,130,208,190,208,188,32,208,187,208,184,209,135,208,189,208,190,32,40,208,186,208,187,208,184,208,181,208,189,209,130,32,208,184,208,180,208,181,208,189,209,130,208,184,209,132,208,184,209,134,208,184,209,128,208,190,208,178,208,176,208,189,41,32,208,187,208,184,208,177,208,190,32,208,189,208,190,209,130,208,176,209,128,208,184,208,176,208,187,209,140,208,189,208,190,32,208,183,208,176,208,178,208,181,209,128,208,181,208,189,208,189,208,190,208,181,32,209,128,208,176,208,183,209,128,208,181,209,136,208,181,208,189,208,184,208,181,34>>},{<<"rating">>,0},{<<"rating_at">>,<<>>},{<<"status">>,<<"OK">>},{<<"sh_cli_id">>,<<"100">>},{<<"biznes">>,<<>>},{<<"created_at">>,<<"2014-09-25 12:40:38">>},{<<"key">>,<<>>},{<<"phone">>,<<>>},{<<"email">>,<<>>},{<<"sh_ent_id">>,<<>>},{<<"sh_form_id">>,<<>>},{<<"sh_lang">>,<<>>},{<<"sh_token">>,<<>>},{<<"sh_lang">>,<<>>},{<<"vopros">>,<<>>},{<<"opened_at">>,<<"2014-09-25 12:40:41">>},{<<"opened_by">>,<<"DN200288MEG">>},{<<"working">>,<<"2">>}]]
+
+
+2014-09-25 12:53:09.961 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:53:09.975 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:53:13.235 [info]  api_treatments.erl:75: 1
+
+
+2014-09-25 12:53:19.477 [info]  api_treatments.erl:75: 0
+
+
+2014-09-25 12:54:41.873 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:54:41.884 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:56:19.844 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:56:19.852 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 12:56:59.375 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-09-25 12:56:59.381 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-09-25 12:56:59.383 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-09-25 12:56:59.386 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-09-25 12:56:59.395 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-09-25 12:56:59.416 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-25 12:57:21.714 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-09-25 12:57:21.714 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 12:57:47.498 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-09-25 12:57:47.504 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-09-25 12:57:47.506 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-09-25 12:57:47.509 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-09-25 12:57:47.519 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-09-25 12:57:47.539 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-25 13:28:09.400 [error]  api_treatments:45(): TAG function_clause
+
+2014-09-25 13:28:50.267 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-09-25 13:28:50.267 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 13:28:50.274 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 13:35:18.612 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 13:35:18.621 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 13:35:53.954 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
+2014-09-25 13:35:53.962 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
+2014-09-25 13:38:07.055 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-09-25 13:38:07.063 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-09-25 13:38:07.066 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-09-25 13:38:07.069 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-09-25 13:38:07.081 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-09-25 13:38:07.106 [info] <0.7.0> Application gproc started on node nonode@nohost
