@@ -33,7 +33,6 @@ websocket_handle(_Data, Req, State) ->
 websocket_info({timeout, _Ref, Msg}, Req, State) ->
   {reply, {text, Msg}, Req, State};
 websocket_info({json, Msg}, Req, State) ->
-  ?LOG_INFO("~p~n",[Msg]),
   {reply, {text, Msg}, Req, State};
 websocket_info(_Info, Req, State) ->
   {ok, Req, State}.

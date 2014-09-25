@@ -4,6 +4,7 @@ define([
 	'text!modules/admin/modules/treatments/templates/editTemplate.html',
 	'router',
 	'modules/admin/modules/treatments/collections/treatment'
+
 ], function(Backbone, Layout, editTemplate, router, Collection) {
 
 	function getData(attrs) {

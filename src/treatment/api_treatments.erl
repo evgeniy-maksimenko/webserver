@@ -29,6 +29,8 @@ terminate(_Reason, _Req, _State) ->
   ok.
 
 handle(Req, State) ->
+
+  mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,<<"test">>),
   {Code, Data} =
     try
       FindAll = reading_the_req_body(Req),

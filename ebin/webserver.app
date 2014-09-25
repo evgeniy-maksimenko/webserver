@@ -10,7 +10,7 @@
                         api_response_handler,api_set_order_work_handler,
                         api_test_handler,api_treatments,app,auth_handler,
                         auth_success_handler,base_handler,c_http_request,
-                        c_mail,error404_handler,order_answer_handler,
+                        error404_handler,mailer,order_answer_handler,
                         order_edit_handler,order_handler,orders_module,util,
                         webserver,webserver_app,webserver_sup,ws_btn_handler,
                         ws_closer_handler,ws_handler]},
