@@ -22,7 +22,7 @@ start(_StartType, _StartArgs) ->
   constructor(),
   ets:new(treatments, [named_table, public, set]),
   ets:new(treatments_btns, [named_table, public, set]),
-  ets:new(treatments_closer, [named_table, public, set]),
+  ets:new(treatments_clocer, [named_table, public, set]),
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},

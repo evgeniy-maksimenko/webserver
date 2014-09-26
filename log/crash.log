@@ -1,0 +1,1709 @@
+2014-09-26 10:53:40 =ERROR REPORT====
+/Users/Admin/Sites/webserver/deps/gen_smtp/src/smtp_rfc822_parse.erl:none: Error: no such file or directory
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for api_response_handler
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for api_test_handler
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for api_treatments
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for app
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for auth_handler
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for binstr
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for c_http_request
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_cookie
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_date
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_http_hd
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_http_te
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_mimetypes
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cow_qs
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_bstr
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_handler
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_http
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_http_handler
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_protocol
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_req
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_rest
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_static
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for cowboy_websocket
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for emongo_bson
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for emongo_packet
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for erlydtl_dateformat
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for gen_smtp_client
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 10:53:41 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_config
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_decoder
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_encoder
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_parser
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_to_json
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_to_term
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for jsx_verify
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for mailer
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for mimemail
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for smtp_rfc822_parse
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for smtp_util
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for socket
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 10:53:42 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for ws_btn_handler
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for ws_closer_handler
+2014-09-26 10:53:43 =ERROR REPORT====
+Error loading object code for ws_handler
+2014-09-26 10:53:58 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ranch_acceptors_sup/1
+    pid: <0.139.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.137.0>,ranch_sup,<0.71.0>]
+    messages: []
+    links: [<0.137.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 642
+  neighbours:
+2014-09-26 10:53:58 =SUPERVISOR REPORT====
+     Supervisor: {<0.137.0>,ranch_listener_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,ranch_acceptors_sup},{mfargs,{ranch_acceptors_sup,start_link,[http_listener,100,ranch_tcp,[{port,8008}]]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for api_treatments
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cow_http_hd
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cow_mimetypes
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cow_qs
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_bstr
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_handler
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_http
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_protocol
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_req
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_rest
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_static
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for cowboy_websocket
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for emongo_bson
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for emongo_packet
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 10:56:42 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for jsx
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for jsx_config
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for jsx_encoder
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for jsx_parser
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for jsx_to_json
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ws_btn_handler
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ws_closer_handler
+2014-09-26 10:56:43 =ERROR REPORT====
+Error loading object code for ws_handler
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:01:57 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 11:01:58 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:09:55 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:09:56 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:10:48 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:10:50 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:11:19 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 11:11:20 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:12:00 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:12:01 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.140.0>},{name,{acceptor,<0.139.0>,1}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.141.0>},{name,{acceptor,<0.139.0>,2}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.142.0>},{name,{acceptor,<0.139.0>,3}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.143.0>},{name,{acceptor,<0.139.0>,4}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.144.0>},{name,{acceptor,<0.139.0>,5}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.145.0>},{name,{acceptor,<0.139.0>,6}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.146.0>},{name,{acceptor,<0.139.0>,7}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.147.0>},{name,{acceptor,<0.139.0>,8}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.148.0>},{name,{acceptor,<0.139.0>,9}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.149.0>},{name,{acceptor,<0.139.0>,10}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.150.0>},{name,{acceptor,<0.139.0>,11}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.150.0>},{name,{acceptor,<0.139.0>,11}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.221.0>},{name,{acceptor,<0.139.0>,82}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.220.0>},{name,{acceptor,<0.139.0>,81}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.219.0>},{name,{acceptor,<0.139.0>,80}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.218.0>},{name,{acceptor,<0.139.0>,79}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.217.0>},{name,{acceptor,<0.139.0>,78}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.216.0>},{name,{acceptor,<0.139.0>,77}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.215.0>},{name,{acceptor,<0.139.0>,76}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.214.0>},{name,{acceptor,<0.139.0>,75}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.213.0>},{name,{acceptor,<0.139.0>,74}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.212.0>},{name,{acceptor,<0.139.0>,73}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.211.0>},{name,{acceptor,<0.139.0>,72}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.210.0>},{name,{acceptor,<0.139.0>,71}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.209.0>},{name,{acceptor,<0.139.0>,70}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.208.0>},{name,{acceptor,<0.139.0>,69}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.207.0>},{name,{acceptor,<0.139.0>,68}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.206.0>},{name,{acceptor,<0.139.0>,67}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.205.0>},{name,{acceptor,<0.139.0>,66}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.204.0>},{name,{acceptor,<0.139.0>,65}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.203.0>},{name,{acceptor,<0.139.0>,64}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.202.0>},{name,{acceptor,<0.139.0>,63}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.201.0>},{name,{acceptor,<0.139.0>,62}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.200.0>},{name,{acceptor,<0.139.0>,61}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.199.0>},{name,{acceptor,<0.139.0>,60}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.198.0>},{name,{acceptor,<0.139.0>,59}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.197.0>},{name,{acceptor,<0.139.0>,58}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.196.0>},{name,{acceptor,<0.139.0>,57}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.195.0>},{name,{acceptor,<0.139.0>,56}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.194.0>},{name,{acceptor,<0.139.0>,55}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.193.0>},{name,{acceptor,<0.139.0>,54}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.192.0>},{name,{acceptor,<0.139.0>,53}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.191.0>},{name,{acceptor,<0.139.0>,52}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.190.0>},{name,{acceptor,<0.139.0>,51}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.189.0>},{name,{acceptor,<0.139.0>,50}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.188.0>},{name,{acceptor,<0.139.0>,49}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.187.0>},{name,{acceptor,<0.139.0>,48}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.186.0>},{name,{acceptor,<0.139.0>,47}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.185.0>},{name,{acceptor,<0.139.0>,46}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.184.0>},{name,{acceptor,<0.139.0>,45}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.183.0>},{name,{acceptor,<0.139.0>,44}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.182.0>},{name,{acceptor,<0.139.0>,43}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.181.0>},{name,{acceptor,<0.139.0>,42}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.180.0>},{name,{acceptor,<0.139.0>,41}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.179.0>},{name,{acceptor,<0.139.0>,40}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.178.0>},{name,{acceptor,<0.139.0>,39}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.177.0>},{name,{acceptor,<0.139.0>,38}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.176.0>},{name,{acceptor,<0.139.0>,37}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.175.0>},{name,{acceptor,<0.139.0>,36}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.174.0>},{name,{acceptor,<0.139.0>,35}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.173.0>},{name,{acceptor,<0.139.0>,34}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.172.0>},{name,{acceptor,<0.139.0>,33}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.171.0>},{name,{acceptor,<0.139.0>,32}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.170.0>},{name,{acceptor,<0.139.0>,31}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.169.0>},{name,{acceptor,<0.139.0>,30}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.168.0>},{name,{acceptor,<0.139.0>,29}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:12:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.139.0>,ranch_acceptors_sup}
+     Context:    shutdown_error
+     Reason:     killed
+     Offender:   [{pid,<0.167.0>},{name,{acceptor,<0.139.0>,28}},{mfargs,{ranch_acceptor,start_link,[#Port<0.10882>,ranch_tcp,<0.138.0>]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:16:03 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:16:05 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:16:20 =ERROR REPORT====
+/Users/Admin/Sites/webserver/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/Users/Admin/Sites/webserver/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-09-26 11:16:21 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ranch_acceptors_sup/1
+    pid: <0.139.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.137.0>,ranch_sup,<0.71.0>]
+    messages: []
+    links: [<0.137.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 642
+  neighbours:
+2014-09-26 11:16:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.137.0>,ranch_listener_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,ranch_acceptors_sup},{mfargs,{ranch_acceptors_sup,start_link,[http_listener,100,ranch_tcp,[{port,8080}]]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for emongo_packet
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_dist
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:17:22 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 11:17:23 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 11:21:10 =ERROR REPORT====
+Error in process <0.951.0> with exit value: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.951.0>,<0.951.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket... 
+
+2014-09-26 11:21:10 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.951.0> exit with reason: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.951.0>,<0.951.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12168>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.951.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},64534}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/ws_closer">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"2FkDz3jn9b3K8QZ0Qxa/Qw==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-26 11:21:14 =ERROR REPORT====
+Error in process <0.962.0> with exit value: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.962.0>,<0.962.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket... 
+
+2014-09-26 11:21:14 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.962.0> exit with reason: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.962.0>,<0.962.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12321>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.962.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},64537}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/ws_closer">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"z3Rqh5jyEBOgsixvyH3U+Q==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for api_treatments
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cow_http_hd
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cow_mimetypes
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cow_qs
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_app
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_bstr
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_clock
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_handler
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_http
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_protocol
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_req
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_rest
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_router
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_static
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_sup
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for cowboy_websocket
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for emongo
+2014-09-26 11:26:13 =ERROR REPORT====
+Error loading object code for emongo_app
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for emongo_bson
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for emongo_conn
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for emongo_packet
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for error_logger_lager_h
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for glc
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for glc_code
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for glc_lib
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for glc_ops
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_app
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_bcast
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_lib
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_monitor
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_pool
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gproc_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_app
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_counter
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_counter_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_manager
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_manager_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_param
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_param_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for gr_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for jsx
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for jsx_config
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for jsx_encoder
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for jsx_parser
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for jsx_to_json
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_app
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_backend_throttle
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_config
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_console_backend
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_crash_log
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_default_formatter
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_file_backend
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_format
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_handler_watcher
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_msg
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_stdlib
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_trunc_io
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for lager_util
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_acceptor
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_acceptors_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_app
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_conns_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_listener_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_server
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_sup
+2014-09-26 11:26:14 =ERROR REPORT====
+Error loading object code for ranch_tcp
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for sync
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for sync_options
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for sync_scanner
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for sync_utils
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for webserver
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for webserver_app
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for webserver_sup
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for ws_btn_handler
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for ws_closer_handler
+2014-09-26 11:26:15 =ERROR REPORT====
+Error loading object code for ws_handler
+2014-09-26 11:30:19 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:ranch_acceptors_sup/1
+    pid: <0.139.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.137.0>,ranch_sup,<0.71.0>]
+    messages: []
+    links: [<0.137.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 642
+  neighbours:
+2014-09-26 11:30:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.137.0>,ranch_listener_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,ranch_acceptors_sup},{mfargs,{ranch_acceptors_sup,start_link,[http_listener,100,ranch_tcp,[{port,8008}]]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2014-09-26 11:30:19 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.132.0>
+    registered_name: []
+    exception exit: {{bad_return,{{webserver_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{shutdown,{failed_to_start_child,ranch_acceptors_sup,{{badmatch,{error,eaddrinuse}},[{ranch_acceptors_sup,init,1,[{file,"src/ranch_acceptors_sup.erl"},{line,30}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,239}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{child,undefined,{ranch_listener_sup,http_listener},{ranch_listener_sup,start_link,[http_listener,100,ranch_tcp,[{port,8008}],cowboy_protocol,[{env,[{dispatch,[{'_',[],[{[<<"assets">>,'...'],[],cowboy_static,{dir,"assets/"}},{[<<"authorize">>],[],auth_handler,[]},{[<<"auth_success">>],[],auth_success_handler,[]},{[<<"order">>],[],order_handler,[]},{[<<"order">>,<<"edit">>,id],[],order_edit_handler,[]},{[<<"order">>,<<"answer">>],[],order_answer_handler,[]},{[<<"api">>,<<"find_one_record">>],[],api_find_one_record,[]},{[<<"api">>,<<"find_all_records">>],[],api_find_all_records,[]},{[<<"api">>,<<"find_all_history">>],[],api_find_all_history,[]},{[<<"api">>,<<"test">>],[],api_test_handler,[]},{[<<"api">>,<<"get_all_orders">>],[],api_get_all_orders_handler,[]},{[<<"api">>,<<"get_order_info">>],[],api_get_order_info_handler,[]},{[<<"api">>,<<"get_order_file">>],[],api_get_order_file_handler,[]},{[<<"api">>,<<"set_order_work">>],[],api_set_order_work_handler,[]},{[<<"api">>,<<"get_user_contacts">>],[],api_get_user_contacts_handler,[]},{[<<"api">>,<<"post_workaround">>],[],api_post_workaround_handler,[]},{[<<"api">>,<<"close_order">>],[],api_close_order_handler,[]},{[<<"api">>,<<"conveyor">>,<<"request">>],[],api_request_handler,[]},{[<<"api">>,<<"conveyor">>,<<"response">>],[],api_response_handler,[]},{[<<"api">>,<<"treatments">>],[],api_treatments,[]},{[<<"websocket">>],[],ws_handler,[]},{[<<"ws_btn">>],[],ws_btn_handler,[]},{[<<"ws_closer">>],[],ws_closer_handler,[]},{['...'],[],cowboy_static,{file,"priv/index.html"}},{'_',[],error404_handler,[]}]}]}]},{onrequest,#Fun<webserver_app.authorization.1>}]]},permanent,infinity,supervisor,[ranch_listener_sup]}}}},[{webserver_app,start,2,[{file,"src/webserver_app.erl"},{line,66}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,269}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.131.0>]
+    messages: [{'EXIT',<0.133.0>,normal}]
+    links: [<0.131.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 205
+  neighbours:
