@@ -1,29 +1,34 @@
-<div id="pageRecord">
-	<div class="container">
-		<div id="recordView">
-		 
-				<legend>Вопрос</legend>
-				<div style="padding:15px; min-height:150px;">
-				  <%= vopros %>  
+<div id="pageRecord" style="max-width: 800px; margin: 0 auto 10px;"> 
+	<div id="recordView" style="margin-top: 15px;"></div>			 
+		<p class="text-success lead">Ваш вопрос</p>
+		<blockquote>
+		<em>Добрый день! прошу предоставить информацию, возможно ли по запросу милиции с разрешением клиента предоставить информацию, которая сожержит банковскую тайну?</em>
+		</blockquote>
+		
+		<p class="text-success lead">Ответ</p>
+		<div style="font-size: 17.5px;"><b>Если запрос милиции оформлен в соответствии с ЗУ "О Банках и банкрвской деятельности" и в соответствии с инструкцие НБУ № 267, а также, разрешение клиента было предоставлено клиентом лично (клиент идентифицирован) либо нотариально заверенное разрешение"</b></div>
+		<hr/>
+		<div style="max-width: 400px; margin: 0 auto 10px; text-align:center;">
+			<div id="ratingRequest">
+				<h4>Уважаемый клиент!</h4>
+
+				<p>Вы воспользовались услугой консультационного центра ПриватБанка по юридическим вопросам.
+				С целью повышения качества обслуживания наших клиентов просим Вас оценить, насколько Вы удовлетворены полученной консультацией.</p>
+
+				<div class="row">
+				  <div class="col-xs-6">
+				  <button class="rating btn btn-success btn-lg btn-block" id="1">Удовлетворен</button>
 				</div>
-
-				<br />
-				<legend>Ответ</legend>
-				<div style="padding:15px; min-height:150px;">
-				  <%= otvet %> 
+				<div class="col-xs-6">
+				  <button class="rating btn btn-danger btn-lg btn-block" id="2">Не удовлетворен</button>
 				</div>
-				<div id="ratingRequest">
-					<h2>Уважаемый клиент!</h2>
-
-					<p>Вы воспользовались услугой консультационного центра ПриватБанка по юридическим вопросам.<br />
-					С целью повышения качества обслуживания наших клиентов просим Вас оценить, насколько Вы удовлетворены полученной консультацией.</p>
-
-					<div class="row">
-					  <button class="rating btn btn-success" id="1">Удовлетворен</button>
-					  <button class="rating btn btn-danger" id="2">Не удовлетворен</button>
-					  <button class="rating btn btn-primary" id="3">Оценить позже</button>
-					</div>	
-	 			</div>	
-		</div>	
-	</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12" style="margin-top:20px;">
+				  <button class="rating btn btn-default btn-lg btn-block" id="3">Оценить позже</button>
+				</div>
+				</div>	
+			</div>		
+		</div>				
+	</div>	
 </div>

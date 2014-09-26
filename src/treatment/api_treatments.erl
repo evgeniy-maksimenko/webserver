@@ -115,12 +115,17 @@ save(PostAttrs, AllBindings, Req) ->
         ]
       ));
     <<"OK">> ->
-%%       mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,<<"test">>)
+      {Host, Req1} = cowboy_req:host(Req),
+      {Port, Req2} = cowboy_req:port(Req1),
+      ADDRESS = binary_to_list(Host) ++":"++integer_to_list(Port)++"/tm_view/response/"++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
+      ANSWER = "<h2>Уважаемый клиент!</h2><p>Консультационный центр ПриватБанка по юридическим вопросам рассмотрел Ваш вопрос и подготовил ответ.<br/>Вы можете ознакомиться с ответом по данной <a href='http://" ++ ADDRESS ++ "'>ссылке</a>.</p>" ,
+
+      mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,list_to_binary(ANSWER)),
       emongo:update(model, "treatment", [{<<"sh_cli_id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
         PostAttrs,
         [
           {<<"modified_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-          {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
+          {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req2))},
           {<<"rating">>, 0},
           {<<"rating_at">>, <<"">>}
         ]
