@@ -12,20 +12,24 @@ define([
 	var websocket_btn;
 	var ws_closer;
 
+	var whl = window.location.host;
+	//var whl = '10.56.0.190:8008';
+
 	function connect() {
-		wsUrl = "ws://" + window.location.host + "/websocket";
+		
+		wsUrl = "ws://" + whl + "/websocket";
 		websocket = new WebSocket(wsUrl);
 		websocket.onmessage = function(evt) { onMessage(evt) };		
 	};
 
 	function connect_btn() {
-		wsUrl = "ws://" + window.location.host + "/ws_btn";
+		wsUrl = "ws://" + whl + "/ws_btn";
 		websocket_btn = new WebSocket(wsUrl);
 		websocket_btn.onmessage = function(evt) { onMessage_btn(evt) };		
 	};
 
 	function connect_closer() {
-		wsUrl = "ws://" + window.location.host + "/ws_closer";
+		wsUrl = "ws://" + whl + "/ws_closer";
 		ws_closer = new WebSocket(wsUrl);
 		ws_closer.onmessage = function(evt) { onMessage_closer(evt) };		
 	};

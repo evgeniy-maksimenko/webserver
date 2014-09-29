@@ -9,7 +9,7 @@ define([
 		
 		tagName: 'tr',
 
-		render: function() {
+		render: function(model) {
 			this.$el.html(this.template(this.model.toJSON()));
 			return this;
 		},

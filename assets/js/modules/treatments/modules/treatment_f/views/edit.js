@@ -8,8 +8,11 @@ define([
 ], function(Backbone, Layout, editTemplate, router, Collection, forbiddenTemplate) {
 
 	var ws_closer;
+	var whl = window.location.host;
+	//var whl = '10.56.0.190:8008';
+
 	function connect_closer() {
-		wsUrl = "ws://" + window.location.host + "/ws_closer";
+		wsUrl = "ws://" + whl + "/ws_closer";
 		ws_closer = new WebSocket(wsUrl);		
 	};
 

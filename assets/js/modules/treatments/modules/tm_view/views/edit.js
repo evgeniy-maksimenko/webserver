@@ -10,7 +10,7 @@ define([
 	function getData(attrs) {
 	    var data = 
 	        $.ajax({
-	            url : '/api/treatments?id='+attrs.id+'&condition=view',
+	            url : '/api_tm_view/treatments?id='+attrs.id+'&condition=view',
 	            type: "POST",
 	            dataType: "json",
 	            async: false,
@@ -43,7 +43,7 @@ define([
 			var attrs = router.routeArguments();
 			var rating = $(btn.currentTarget).attr('id');
 			$.ajax({
-	            url : '/api/treatments?condition=rating&id='+attrs.id,
+	            url : '/api_tm_view/treatments?condition=rating&id='+attrs.id,
 	            type: "POST",
 	            dataType: "json",
 	            data: 'rating='+rating,

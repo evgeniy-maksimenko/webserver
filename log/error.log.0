@@ -1,269 +1,925 @@
-2014-09-25 08:53:57.638 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:11: Error: syntax error before: ')'
-2014-09-25 08:54:53.112 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:11: Error: bad record declaration
-2014-09-25 08:55:42.687 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/c_mail.erl:0: Recompiled with 1 warnings
-2014-09-25 08:56:41.188 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/c_mail.erl:0: Recompiled with 1 warnings
-2014-09-25 08:58:15.046 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:16: Error: syntax error before: '}'
-/Users/Admin/Sites/webserver/src/app/c_mail.erl:41: Error: record gmail undefined
-/Users/Admin/Sites/webserver/src/app/c_mail.erl:42: Error: record gmail undefined
-/Users/Admin/Sites/webserver/src/app/c_mail.erl:43: Error: record gmail undefined
-2014-09-25 08:58:48.332 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/c_mail.erl:17: Error: syntax error before: ')'
-2014-09-25 09:06:27.433 [error] <0.114.0> gen_server sync_scanner terminated with reason: no case clause matching {ok,c_mail,<<70,79,82,49,0,0,5,216,66,69,65,77,65,116,111,109,0,0,0,83,0,0,0,8,6,99,95,109,97,105,108,4,115,101,110,100,8,109,105,109,101,109,97,105,108,6,101,110,99,111,100,101,15,103,101,110,95,115,109,116,112,95,99,108,105,101,110,116,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,67,111,100,101,0,0,0,144,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,64,1,32,13,32,176,64,64,19,20,64,3,...>>,...} in sync_scanner:recompile_src_file/2 line 465
-2014-09-25 09:06:27.434 [error] <0.114.0> CRASH REPORT Process sync_scanner with 0 neighbours exited with reason: no case clause matching {ok,c_mail,<<70,79,82,49,0,0,5,216,66,69,65,77,65,116,111,109,0,0,0,83,0,0,0,8,6,99,95,109,97,105,108,4,115,101,110,100,8,109,105,109,101,109,97,105,108,6,101,110,99,111,100,101,15,103,101,110,95,115,109,116,112,95,99,108,105,101,110,116,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,67,111,100,101,0,0,0,144,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,64,1,32,13,32,176,64,64,19,20,64,3,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in gen_server:terminate/6 line 744
-2014-09-25 09:06:27.434 [error] <0.113.0> Supervisor sync had child sync_scanner started with sync_scanner:start_link() at <0.114.0> exit with reason no case clause matching {ok,c_mail,<<70,79,82,49,0,0,5,216,66,69,65,77,65,116,111,109,0,0,0,83,0,0,0,8,6,99,95,109,97,105,108,4,115,101,110,100,8,109,105,109,101,109,97,105,108,6,101,110,99,111,100,101,15,103,101,110,95,115,109,116,112,95,99,108,105,101,110,116,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,67,111,100,101,0,0,0,144,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,64,1,32,13,32,176,64,64,19,20,64,3,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in context child_terminated
-2014-09-25 09:08:52.157 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function handle/2 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:33: Error: syntax error before: '{'
-2014-09-25 09:10:24.701 [error] emulator Error in process <0.930.0> with exit value: {[{reason,function_clause},{mfa,{api_treatments,handle,2}},{stacktrace,[{binstr,'-all/2-lbc$^0/2-0-',["222",<<0 bytes>>],[{file,"src/binstr.erl"},{line,226}]},{binstr,all,2,[{file,"src/binstr.erl"},{line,226}]},{mimemail,guess_charset,1,[{file... 
+2014-09-26 10:53:40.784 [error] <0.114.0> /Users/Admin/Sites/webserver/deps/gen_smtp/src/smtp_rfc822_parse.erl:none: Error: no such file or directory
+2014-09-26 10:53:41.287 [error] <0.114.0> Error loading object code for api_response_handler
+2014-09-26 10:53:41.306 [error] <0.114.0> Error loading object code for api_test_handler
+2014-09-26 10:53:41.322 [error] <0.114.0> Error loading object code for api_treatments
+2014-09-26 10:53:41.339 [error] <0.114.0> Error loading object code for app
+2014-09-26 10:53:41.355 [error] <0.114.0> Error loading object code for auth_handler
+2014-09-26 10:53:41.371 [error] <0.114.0> Error loading object code for binstr
+2014-09-26 10:53:41.387 [error] <0.114.0> Error loading object code for c_http_request
+2014-09-26 10:53:41.402 [error] <0.114.0> Error loading object code for cow_cookie
+2014-09-26 10:53:41.417 [error] <0.114.0> Error loading object code for cow_date
+2014-09-26 10:53:41.433 [error] <0.114.0> Error loading object code for cow_http_hd
+2014-09-26 10:53:41.451 [error] <0.114.0> Error loading object code for cow_http_te
+2014-09-26 10:53:41.469 [error] <0.114.0> Error loading object code for cow_mimetypes
+2014-09-26 10:53:41.487 [error] <0.114.0> Error loading object code for cow_qs
+2014-09-26 10:53:41.505 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 10:53:41.524 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 10:53:41.541 [error] <0.114.0> Error loading object code for cowboy_bstr
+2014-09-26 10:53:41.559 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 10:53:41.577 [error] <0.114.0> Error loading object code for cowboy_handler
+2014-09-26 10:53:41.594 [error] <0.114.0> Error loading object code for cowboy_http
+2014-09-26 10:53:41.612 [error] <0.114.0> Error loading object code for cowboy_http_handler
+2014-09-26 10:53:41.630 [error] <0.114.0> Error loading object code for cowboy_protocol
+2014-09-26 10:53:41.649 [error] <0.114.0> Error loading object code for cowboy_req
+2014-09-26 10:53:41.668 [error] <0.114.0> Error loading object code for cowboy_rest
+2014-09-26 10:53:41.687 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 10:53:41.704 [error] <0.114.0> Error loading object code for cowboy_static
+2014-09-26 10:53:41.722 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 10:53:41.738 [error] <0.114.0> Error loading object code for cowboy_websocket
+2014-09-26 10:53:41.756 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 10:53:41.775 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 10:53:41.793 [error] <0.114.0> Error loading object code for emongo_bson
+2014-09-26 10:53:41.811 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 10:53:41.828 [error] <0.114.0> Error loading object code for emongo_packet
+2014-09-26 10:53:41.846 [error] <0.114.0> Error loading object code for erlydtl_dateformat
+2014-09-26 10:53:41.865 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 10:53:41.883 [error] <0.114.0> Error loading object code for gen_smtp_client
+2014-09-26 10:53:41.901 [error] <0.114.0> Error loading object code for glc
+2014-09-26 10:53:41.919 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 10:53:41.937 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 10:53:41.955 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 10:53:41.973 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 10:53:41.991 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 10:53:42.009 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 10:53:42.025 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 10:53:42.043 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 10:53:42.059 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 10:53:42.077 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 10:53:42.095 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 10:53:42.113 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 10:53:42.131 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 10:53:42.148 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 10:53:42.166 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 10:53:42.184 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 10:53:42.201 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 10:53:42.219 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 10:53:42.237 [error] <0.114.0> Error loading object code for jsx
+2014-09-26 10:53:42.254 [error] <0.114.0> Error loading object code for jsx_config
+2014-09-26 10:53:42.272 [error] <0.114.0> Error loading object code for jsx_decoder
+2014-09-26 10:53:42.290 [error] <0.114.0> Error loading object code for jsx_encoder
+2014-09-26 10:53:42.308 [error] <0.114.0> Error loading object code for jsx_parser
+2014-09-26 10:53:42.325 [error] <0.114.0> Error loading object code for jsx_to_json
+2014-09-26 10:53:42.343 [error] <0.114.0> Error loading object code for jsx_to_term
+2014-09-26 10:53:42.361 [error] <0.114.0> Error loading object code for jsx_verify
+2014-09-26 10:53:42.380 [error] <0.114.0> Error loading object code for lager
+2014-09-26 10:53:42.397 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 10:53:42.415 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 10:53:42.439 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 10:53:42.460 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 10:53:42.485 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 10:53:42.504 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 10:53:42.523 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 10:53:42.541 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 10:53:42.559 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 10:53:42.577 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 10:53:42.595 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 10:53:42.612 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 10:53:42.630 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 10:53:42.648 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 10:53:42.666 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 10:53:42.684 [error] <0.114.0> Error loading object code for mailer
+2014-09-26 10:53:42.702 [error] <0.114.0> Error loading object code for mimemail
+2014-09-26 10:53:42.720 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 10:53:42.738 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 10:53:42.756 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 10:53:42.773 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 10:53:42.791 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 10:53:42.810 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 10:53:42.828 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 10:53:42.851 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 10:53:42.872 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 10:53:42.895 [error] <0.114.0> Error loading object code for smtp_rfc822_parse
+2014-09-26 10:53:42.918 [error] <0.114.0> Error loading object code for smtp_util
+2014-09-26 10:53:42.940 [error] <0.114.0> Error loading object code for socket
+2014-09-26 10:53:42.962 [error] <0.114.0> Error loading object code for sync
+2014-09-26 10:53:42.987 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 10:53:43.018 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 10:53:43.046 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 10:53:43.078 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 10:53:43.107 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 10:53:43.125 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 10:53:43.147 [error] <0.114.0> Error loading object code for ws_btn_handler
+2014-09-26 10:53:43.170 [error] <0.114.0> Error loading object code for ws_closer_handler
+2014-09-26 10:53:43.187 [error] <0.114.0> Error loading object code for ws_handler
+2014-09-26 10:53:58.613 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: no match of right hand value {error,eaddrinuse} in ranch_acceptors_sup:init/1 line 30 in gen_server:init_it/6 line 328
+2014-09-26 10:56:42.277 [error] <0.114.0> Error loading object code for api_treatments
+2014-09-26 10:56:42.296 [error] <0.114.0> Error loading object code for cow_http_hd
+2014-09-26 10:56:42.313 [error] <0.114.0> Error loading object code for cow_mimetypes
+2014-09-26 10:56:42.330 [error] <0.114.0> Error loading object code for cow_qs
+2014-09-26 10:56:42.346 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 10:56:42.361 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 10:56:42.377 [error] <0.114.0> Error loading object code for cowboy_bstr
+2014-09-26 10:56:42.393 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 10:56:42.409 [error] <0.114.0> Error loading object code for cowboy_handler
+2014-09-26 10:56:42.426 [error] <0.114.0> Error loading object code for cowboy_http
+2014-09-26 10:56:42.443 [error] <0.114.0> Error loading object code for cowboy_protocol
+2014-09-26 10:56:42.461 [error] <0.114.0> Error loading object code for cowboy_req
+2014-09-26 10:56:42.479 [error] <0.114.0> Error loading object code for cowboy_rest
+2014-09-26 10:56:42.496 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 10:56:42.515 [error] <0.114.0> Error loading object code for cowboy_static
+2014-09-26 10:56:42.532 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 10:56:42.549 [error] <0.114.0> Error loading object code for cowboy_websocket
+2014-09-26 10:56:42.566 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 10:56:42.581 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 10:56:42.598 [error] <0.114.0> Error loading object code for emongo_bson
+2014-09-26 10:56:42.614 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 10:56:42.631 [error] <0.114.0> Error loading object code for emongo_packet
+2014-09-26 10:56:42.648 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 10:56:42.666 [error] <0.114.0> Error loading object code for glc
+2014-09-26 10:56:42.684 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 10:56:42.701 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 10:56:42.719 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 10:56:42.738 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 10:56:42.756 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 10:56:42.774 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 10:56:42.792 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 10:56:42.811 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 10:56:42.828 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 10:56:42.846 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 10:56:42.863 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 10:56:42.881 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 10:56:42.897 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 10:56:42.915 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 10:56:42.932 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 10:56:42.950 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 10:56:42.968 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 10:56:42.987 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 10:56:43.006 [error] <0.114.0> Error loading object code for jsx
+2014-09-26 10:56:43.024 [error] <0.114.0> Error loading object code for jsx_config
+2014-09-26 10:56:43.042 [error] <0.114.0> Error loading object code for jsx_encoder
+2014-09-26 10:56:43.060 [error] <0.114.0> Error loading object code for jsx_parser
+2014-09-26 10:56:43.080 [error] <0.114.0> Error loading object code for jsx_to_json
+2014-09-26 10:56:43.099 [error] <0.114.0> Error loading object code for lager
+2014-09-26 10:56:43.117 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 10:56:43.135 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 10:56:43.152 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 10:56:43.170 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 10:56:43.188 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 10:56:43.206 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 10:56:43.223 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 10:56:43.241 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 10:56:43.259 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 10:56:43.277 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 10:56:43.295 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 10:56:43.313 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 10:56:43.331 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 10:56:43.349 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 10:56:43.368 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 10:56:43.385 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 10:56:43.404 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 10:56:43.422 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 10:56:43.440 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 10:56:43.458 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 10:56:43.476 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 10:56:43.494 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 10:56:43.513 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 10:56:43.531 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 10:56:43.548 [error] <0.114.0> Error loading object code for sync
+2014-09-26 10:56:43.566 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 10:56:43.585 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 10:56:43.602 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 10:56:43.622 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 10:56:43.640 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 10:56:43.658 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 10:56:43.676 [error] <0.114.0> Error loading object code for ws_btn_handler
+2014-09-26 10:56:43.694 [error] <0.114.0> Error loading object code for ws_closer_handler
+2014-09-26 10:56:43.712 [error] <0.114.0> Error loading object code for ws_handler
+2014-09-26 11:01:57.803 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:01:57.820 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:01:57.838 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:01:57.856 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:01:57.874 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:01:57.891 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 11:01:57.908 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 11:01:57.926 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 11:01:57.943 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:01:57.960 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:01:57.977 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:01:57.994 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:01:58.012 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:01:58.029 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 11:01:58.046 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 11:01:58.064 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 11:01:58.082 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 11:01:58.099 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 11:01:58.116 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 11:01:58.133 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 11:01:58.151 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:01:58.168 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:01:58.185 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:01:58.203 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:01:58.220 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:01:58.236 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:01:58.254 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:01:58.271 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:01:58.288 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:01:58.306 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:01:58.323 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:01:58.340 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:01:58.357 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:01:58.376 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:01:58.393 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:01:58.410 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:01:58.428 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:01:58.447 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:01:58.464 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:01:58.481 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:01:58.499 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:01:58.516 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:01:58.533 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:01:58.550 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:01:58.568 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:01:58.585 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:01:58.602 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:01:58.619 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:01:58.636 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:01:58.654 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:01:58.671 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:01:58.688 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:01:58.703 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:01:58.720 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:01:58.737 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:01:58.755 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:01:58.773 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:01:58.790 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:01:58.809 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:01:58.827 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 11:09:55.667 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:09:55.686 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:09:55.704 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:09:55.722 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:09:55.740 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:09:55.758 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:09:55.776 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:09:55.794 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:09:55.810 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:09:55.828 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:09:55.845 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:09:55.863 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:09:55.880 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:09:55.899 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:09:55.917 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:09:55.935 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:09:55.953 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:09:55.972 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:09:55.990 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:09:56.007 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:09:56.026 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:09:56.043 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:09:56.062 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:09:56.081 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:09:56.097 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:09:56.117 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:09:56.133 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:09:56.151 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:09:56.169 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:09:56.187 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:09:56.204 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:09:56.222 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:09:56.240 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:09:56.258 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:09:56.276 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:09:56.294 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:09:56.315 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:09:56.335 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:09:56.355 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:10:48.214 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:10:48.231 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:10:48.247 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:10:48.268 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:10:48.287 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:10:48.303 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:10:48.318 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:10:48.338 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:10:48.353 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:10:50.373 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:10:50.390 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:10:50.407 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:10:50.424 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:10:50.444 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:10:50.462 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:10:50.485 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:10:50.505 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:10:50.527 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:10:50.550 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:10:50.570 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:10:50.590 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:10:50.612 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:10:50.642 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:10:50.671 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:10:50.706 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:10:50.732 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:10:50.751 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:10:50.769 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:10:50.788 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:10:50.808 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:10:50.824 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:10:50.839 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:10:50.857 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:10:50.873 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:10:50.891 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:10:50.908 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:10:50.922 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:10:50.938 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:10:50.954 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:11:19.328 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:11:19.348 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:11:19.373 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:11:19.393 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:11:19.413 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:11:19.435 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 11:11:19.456 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 11:11:19.476 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 11:11:19.496 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:11:19.516 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:11:19.534 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:11:19.555 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:11:19.574 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:11:19.594 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 11:11:19.614 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 11:11:19.635 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 11:11:19.654 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 11:11:19.672 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 11:11:19.690 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 11:11:19.710 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 11:11:19.729 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:11:19.749 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:11:19.767 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:11:19.786 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:11:19.805 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:11:19.825 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:11:19.845 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:11:19.864 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:11:19.882 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:11:19.901 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:11:19.920 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:11:19.939 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:11:19.959 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:11:19.979 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:11:19.998 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:11:20.017 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:11:20.036 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:11:20.056 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:11:20.075 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:11:20.094 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:11:20.113 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:11:20.131 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:11:20.151 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:11:20.170 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:11:20.190 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:11:20.210 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:11:20.230 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:11:20.250 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:11:20.271 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:11:20.289 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:11:20.311 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:11:20.330 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:11:20.355 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:11:20.378 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:11:20.400 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:11:20.423 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:11:20.450 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:11:20.481 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:11:20.504 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:11:20.527 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 11:12:00.875 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:12:00.892 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:12:00.910 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:12:00.927 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:12:00.945 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:12:00.963 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:12:00.980 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:12:00.998 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:12:01.015 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:12:01.033 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:12:01.052 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:12:01.070 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:12:01.088 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:12:01.105 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:12:01.123 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:12:01.139 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:12:01.158 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:12:01.175 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:12:01.195 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:12:01.213 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:12:01.228 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:12:01.246 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:12:01.263 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:12:01.281 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:12:01.299 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:12:01.316 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:12:01.333 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:12:01.350 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:12:01.368 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:12:01.386 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:12:01.412 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:12:01.431 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:12:01.457 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:12:01.487 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:12:01.509 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:12:01.530 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:12:01.567 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:12:01.590 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:12:01.625 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:12:01.644 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:12:03.683 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,1} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.140.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.684 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,2} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.141.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.684 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,3} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.142.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.684 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,4} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.143.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.685 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,5} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.144.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.685 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,6} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.145.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.685 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,7} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.146.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.685 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,8} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.147.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.685 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,9} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.148.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.686 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,10} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.149.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.686 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,11} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.150.0> exit with reason killed in context child_terminated
+2014-09-26 11:12:03.686 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,11} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.150.0> exit with reason reached_max_restart_intensity in context shutdown
+2014-09-26 11:12:03.689 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,82} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.221.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,81} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.220.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,80} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.219.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,79} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.218.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,78} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.217.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,77} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.216.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,76} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.215.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.690 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,75} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.214.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,74} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.213.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,73} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.212.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,72} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.211.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,71} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.210.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,70} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.209.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,69} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.208.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,68} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.207.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.691 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,67} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.206.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,66} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.205.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,65} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.204.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,64} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.203.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,63} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.202.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,62} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.201.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,61} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.200.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.692 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,60} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.199.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,59} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.198.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,58} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.197.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,57} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.196.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,56} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.195.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,55} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.194.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.693 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,54} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.193.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,53} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.192.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,52} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.191.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,51} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.190.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,50} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.189.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,49} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.188.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,48} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.187.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.694 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,47} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.186.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,46} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.185.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,45} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.184.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,44} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.183.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,43} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.182.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,42} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.181.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.695 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,41} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.180.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,40} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.179.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,39} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.178.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,38} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.177.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,37} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.176.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,36} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.175.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,35} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.174.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.696 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,34} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.173.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,33} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.172.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,32} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.171.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,31} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.170.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,30} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.169.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,29} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.168.0> exit with reason killed in context shutdown_error
+2014-09-26 11:12:03.697 [error] <0.139.0> Supervisor {<0.139.0>,ranch_acceptors_sup} had child {acceptor,<0.139.0>,28} started with ranch_acceptor:start_link(#Port<0.10882>, ranch_tcp, <0.138.0>) at <0.167.0> exit with reason killed in context shutdown_error
+2014-09-26 11:16:03.073 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:16:03.091 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:16:03.109 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:16:03.126 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:16:03.142 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:16:03.160 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:16:03.180 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:16:03.197 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:16:03.214 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:16:05.238 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:16:05.255 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:16:05.272 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:16:05.289 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:16:05.306 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:16:05.324 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:16:05.342 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:16:05.363 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:16:05.384 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:16:05.410 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:16:05.432 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:16:05.452 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:16:05.472 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:16:05.497 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:16:05.525 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:16:05.543 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:16:05.571 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:16:05.594 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:16:05.621 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:16:05.639 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:16:05.662 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:16:05.681 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:16:05.700 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:16:05.716 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:16:05.732 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:16:05.749 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:16:05.767 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:16:05.783 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:16:05.799 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:16:05.814 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:16:20.259 [error] <0.114.0> /Users/Admin/Sites/webserver/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/Users/Admin/Sites/webserver/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-09-26 11:17:22.614 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:17:22.632 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:17:22.651 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:17:22.669 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:17:22.687 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:17:22.702 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 11:17:22.718 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 11:17:22.734 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 11:17:22.751 [error] <0.114.0> Error loading object code for emongo_packet
+2014-09-26 11:17:22.766 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:17:22.781 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:17:22.798 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:17:22.813 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:17:22.829 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:17:22.847 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 11:17:22.866 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 11:17:22.887 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 11:17:22.902 [error] <0.114.0> Error loading object code for gproc_dist
+2014-09-26 11:17:22.917 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 11:17:22.934 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 11:17:22.950 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 11:17:22.966 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 11:17:22.981 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:17:22.996 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:17:23.011 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:17:23.029 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:17:23.046 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:17:23.064 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:17:23.084 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:17:23.100 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:17:23.116 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:17:23.134 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:17:23.150 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:17:23.167 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:17:23.185 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:17:23.202 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:17:23.219 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:17:23.237 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:17:23.254 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:17:23.271 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:17:23.289 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:17:23.305 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:17:23.323 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:17:23.340 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:17:23.358 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:17:23.375 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:17:23.390 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:17:23.408 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:17:23.425 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:17:23.442 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:17:23.459 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:17:23.477 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:17:23.494 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:17:23.511 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:17:23.528 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:17:23.545 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:17:23.562 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:17:23.579 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:17:23.597 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:17:23.614 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:17:23.631 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:17:23.649 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 11:21:10.707 [error] emulator Error in process <0.951.0> with exit value: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.951.0>,<0.951.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket... 
 
 
-2014-09-25 09:10:24.702 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.930.0> exit with reason: {[{reason,function_clause},{mfa,{api_treatments,handle,2}},{stacktrace,[{binstr,'-all/2-lbc$^0/2-0-',["222",<<>>],[{file,"src/binstr.erl"},{line,226}]},{binstr,all,2,[{file,"src/binstr.erl"},{line,226}]},{mimemail,guess_charset,1,[{file,"src/mimemail.erl"},{line,679}]},{mimemail,ensure_content_headers,7,[{file,"src/mimemail.erl"},{line,625}]},{mimemail,encode,2,[{file,"src/mimemail.erl"},{line,107}]},{mailer,send,4,[{file,"src/app/mailer.erl"},{line,19}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,32}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]}]},{req,[{socket,#Port<0.11684>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.930.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54471}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-26 11:21:10.708 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.951.0> exit with reason: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.951.0>,<0.951.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12168>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.951.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},64534}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/ws_closer">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"2FkDz3jn9b3K8QZ0Qxa/Qw==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-25 09:11:19.633 [error] emulator Error in process <0.1205.0> with exit value: {[{reason,missing_from},{mfa,{api_treatments,handle,2}},{stacktrace,[{mimemail,check_headers,2,[{file,"src/mimemail.erl"},{line,574}]},{mimemail,encode,2,[{file,"src/mimemail.erl"},{line,108}]},{mailer,send,4,[{file,"src/app/... 
-
-
-2014-09-25 09:11:19.634 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1205.0> exit with reason: {[{reason,missing_from},{mfa,{api_treatments,handle,2}},{stacktrace,[{mimemail,check_headers,2,[{file,"src/mimemail.erl"},{line,574}]},{mimemail,encode,2,[{file,"src/mimemail.erl"},{line,108}]},{mailer,send,4,[{file,"src/app/mailer.erl"},{line,19}]},{api_treatments,handle,2,[{file,"/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl"},{line,32}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13107>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1205.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54482}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-25 10:24:16.836 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:16: Error: function send/3 undefined
-/Users/Admin/Sites/webserver/src/app/mailer.erl:16: Error: function signed_body/4 undefined
-/Users/Admin/Sites/webserver/src/app/mailer.erl:22: Warning: function send/4 is unused
-2014-09-25 10:25:23.525 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:27:17.678 [error] emulator Error in process <0.267.0> with exit value: {[{reason,undef},{mfa,{api_treatments,handle,2}},{stacktrace,[{mailer,signed_body,[<<4 bytes>>,<<4 bytes>>,<<4 bytes>>,<<4 bytes>>],[]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,32}]},{cowboy_handler,handler_handle,4,[{file,"src/c... 
+2014-09-26 11:21:14.213 [error] emulator Error in process <0.962.0> with exit value: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.962.0>,<0.962.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket... 
 
 
-2014-09-25 10:27:17.679 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.267.0> exit with reason: {[{reason,undef},{mfa,{api_treatments,handle,2}},{stacktrace,[{mailer,signed_body,[<<"test">>,<<"test">>,<<"test">>,<<"test">>],[]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,32}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10974>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.267.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55041}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"condition=all&status=1lvl">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-26 11:21:14.213 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.962.0> exit with reason: {[{reason,badarg},{mfa,{ws_closer_handler,websocket_init,3}},{stacktrace,[{ets,insert,[treatments_closer,{<0.962.0>,<0.962.0>}],[]},{ws_closer_handler,websocket_init,3,[{file,"src/treatment/ws_closer_handler.erl"},{line,25}]},{cowboy_websocket,handler_init,3,[{file,"src/cowboy_websocket.erl"},{line,131}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12321>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.962.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},64537}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/ws_closer">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"z3Rqh5jyEBOgsixvyH3U+Q==">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-25 10:28:18.856 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.797.0> exit with reason: badarg
+2014-09-26 11:26:13.594 [error] <0.114.0> Error loading object code for api_treatments
+2014-09-26 11:26:13.612 [error] <0.114.0> Error loading object code for cow_http_hd
+2014-09-26 11:26:13.628 [error] <0.114.0> Error loading object code for cow_mimetypes
+2014-09-26 11:26:13.645 [error] <0.114.0> Error loading object code for cow_qs
+2014-09-26 11:26:13.663 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:26:13.681 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:26:13.700 [error] <0.114.0> Error loading object code for cowboy_bstr
+2014-09-26 11:26:13.719 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:26:13.739 [error] <0.114.0> Error loading object code for cowboy_handler
+2014-09-26 11:26:13.755 [error] <0.114.0> Error loading object code for cowboy_http
+2014-09-26 11:26:13.773 [error] <0.114.0> Error loading object code for cowboy_protocol
+2014-09-26 11:26:13.792 [error] <0.114.0> Error loading object code for cowboy_req
+2014-09-26 11:26:13.846 [error] <0.114.0> Error loading object code for cowboy_rest
+2014-09-26 11:26:13.879 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:26:13.902 [error] <0.114.0> Error loading object code for cowboy_static
+2014-09-26 11:26:13.923 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:26:13.942 [error] <0.114.0> Error loading object code for cowboy_websocket
+2014-09-26 11:26:13.961 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 11:26:13.981 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 11:26:14.000 [error] <0.114.0> Error loading object code for emongo_bson
+2014-09-26 11:26:14.019 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 11:26:14.037 [error] <0.114.0> Error loading object code for emongo_packet
+2014-09-26 11:26:14.055 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:26:14.074 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:26:14.093 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:26:14.110 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:26:14.129 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:26:14.147 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 11:26:14.182 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 11:26:14.200 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 11:26:14.218 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 11:26:14.236 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 11:26:14.254 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 11:26:14.273 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 11:26:14.291 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:26:14.311 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:26:14.332 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:26:14.351 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:26:14.369 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:26:14.388 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:26:14.406 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:26:14.425 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:26:14.445 [error] <0.114.0> Error loading object code for jsx
+2014-09-26 11:26:14.464 [error] <0.114.0> Error loading object code for jsx_config
+2014-09-26 11:26:14.482 [error] <0.114.0> Error loading object code for jsx_encoder
+2014-09-26 11:26:14.501 [error] <0.114.0> Error loading object code for jsx_parser
+2014-09-26 11:26:14.518 [error] <0.114.0> Error loading object code for jsx_to_json
+2014-09-26 11:26:14.537 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:26:14.556 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:26:14.575 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:26:14.594 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:26:14.613 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:26:14.632 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:26:14.651 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:26:14.670 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:26:14.689 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:26:14.707 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:26:14.727 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:26:14.747 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:26:14.766 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:26:14.784 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:26:14.802 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:26:14.821 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:26:14.839 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:26:14.858 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:26:14.877 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:26:14.895 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:26:14.914 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:26:14.933 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:26:14.951 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:26:14.970 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:26:14.988 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:26:15.007 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:26:15.025 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:26:15.044 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:26:15.063 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:26:15.081 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:26:15.100 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:26:15.119 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 11:26:15.136 [error] <0.114.0> Error loading object code for ws_btn_handler
+2014-09-26 11:26:15.155 [error] <0.114.0> Error loading object code for ws_closer_handler
+2014-09-26 11:26:15.173 [error] <0.114.0> Error loading object code for ws_handler
+2014-09-26 11:32:49.591 [error] <0.114.0> Error loading object code for cowboy
+2014-09-26 11:32:49.608 [error] <0.114.0> Error loading object code for cowboy_app
+2014-09-26 11:32:49.626 [error] <0.114.0> Error loading object code for cowboy_clock
+2014-09-26 11:32:49.644 [error] <0.114.0> Error loading object code for cowboy_router
+2014-09-26 11:32:49.662 [error] <0.114.0> Error loading object code for cowboy_sup
+2014-09-26 11:32:49.679 [error] <0.114.0> Error loading object code for emongo
+2014-09-26 11:32:49.695 [error] <0.114.0> Error loading object code for emongo_app
+2014-09-26 11:32:49.713 [error] <0.114.0> Error loading object code for emongo_conn
+2014-09-26 11:32:49.731 [error] <0.114.0> Error loading object code for error_logger_lager_h
+2014-09-26 11:32:49.749 [error] <0.114.0> Error loading object code for glc
+2014-09-26 11:32:49.767 [error] <0.114.0> Error loading object code for glc_code
+2014-09-26 11:32:49.784 [error] <0.114.0> Error loading object code for glc_lib
+2014-09-26 11:32:49.801 [error] <0.114.0> Error loading object code for glc_ops
+2014-09-26 11:32:49.819 [error] <0.114.0> Error loading object code for gproc
+2014-09-26 11:32:49.837 [error] <0.114.0> Error loading object code for gproc_app
+2014-09-26 11:32:49.855 [error] <0.114.0> Error loading object code for gproc_bcast
+2014-09-26 11:32:49.871 [error] <0.114.0> Error loading object code for gproc_lib
+2014-09-26 11:32:49.889 [error] <0.114.0> Error loading object code for gproc_monitor
+2014-09-26 11:32:49.906 [error] <0.114.0> Error loading object code for gproc_pool
+2014-09-26 11:32:49.924 [error] <0.114.0> Error loading object code for gproc_sup
+2014-09-26 11:32:49.941 [error] <0.114.0> Error loading object code for gr_app
+2014-09-26 11:32:49.959 [error] <0.114.0> Error loading object code for gr_counter
+2014-09-26 11:32:49.977 [error] <0.114.0> Error loading object code for gr_counter_sup
+2014-09-26 11:32:49.994 [error] <0.114.0> Error loading object code for gr_manager
+2014-09-26 11:32:50.012 [error] <0.114.0> Error loading object code for gr_manager_sup
+2014-09-26 11:32:50.029 [error] <0.114.0> Error loading object code for gr_param
+2014-09-26 11:32:50.047 [error] <0.114.0> Error loading object code for gr_param_sup
+2014-09-26 11:32:50.065 [error] <0.114.0> Error loading object code for gr_sup
+2014-09-26 11:32:50.083 [error] <0.114.0> Error loading object code for lager
+2014-09-26 11:32:50.100 [error] <0.114.0> Error loading object code for lager_app
+2014-09-26 11:32:50.118 [error] <0.114.0> Error loading object code for lager_backend_throttle
+2014-09-26 11:32:50.136 [error] <0.114.0> Error loading object code for lager_config
+2014-09-26 11:32:50.154 [error] <0.114.0> Error loading object code for lager_console_backend
+2014-09-26 11:32:50.172 [error] <0.114.0> Error loading object code for lager_crash_log
+2014-09-26 11:32:50.190 [error] <0.114.0> Error loading object code for lager_default_formatter
+2014-09-26 11:32:50.208 [error] <0.114.0> Error loading object code for lager_file_backend
+2014-09-26 11:32:50.226 [error] <0.114.0> Error loading object code for lager_format
+2014-09-26 11:32:50.248 [error] <0.114.0> Error loading object code for lager_handler_watcher
+2014-09-26 11:32:50.278 [error] <0.114.0> Error loading object code for lager_handler_watcher_sup
+2014-09-26 11:32:50.297 [error] <0.114.0> Error loading object code for lager_msg
+2014-09-26 11:32:50.314 [error] <0.114.0> Error loading object code for lager_stdlib
+2014-09-26 11:32:50.333 [error] <0.114.0> Error loading object code for lager_sup
+2014-09-26 11:32:50.351 [error] <0.114.0> Error loading object code for lager_trunc_io
+2014-09-26 11:32:50.370 [error] <0.114.0> Error loading object code for lager_util
+2014-09-26 11:32:50.388 [error] <0.114.0> Error loading object code for ranch
+2014-09-26 11:32:50.407 [error] <0.114.0> Error loading object code for ranch_acceptor
+2014-09-26 11:32:50.425 [error] <0.114.0> Error loading object code for ranch_acceptors_sup
+2014-09-26 11:32:50.444 [error] <0.114.0> Error loading object code for ranch_app
+2014-09-26 11:32:50.462 [error] <0.114.0> Error loading object code for ranch_conns_sup
+2014-09-26 11:32:50.481 [error] <0.114.0> Error loading object code for ranch_listener_sup
+2014-09-26 11:32:50.497 [error] <0.114.0> Error loading object code for ranch_server
+2014-09-26 11:32:50.515 [error] <0.114.0> Error loading object code for ranch_sup
+2014-09-26 11:32:50.533 [error] <0.114.0> Error loading object code for ranch_tcp
+2014-09-26 11:32:50.551 [error] <0.114.0> Error loading object code for sync
+2014-09-26 11:32:50.569 [error] <0.114.0> Error loading object code for sync_options
+2014-09-26 11:32:50.587 [error] <0.114.0> Error loading object code for sync_scanner
+2014-09-26 11:32:50.607 [error] <0.114.0> Error loading object code for sync_utils
+2014-09-26 11:32:50.625 [error] <0.114.0> Error loading object code for webserver
+2014-09-26 11:32:50.647 [error] <0.114.0> Error loading object code for webserver_app
+2014-09-26 11:32:50.669 [error] <0.114.0> Error loading object code for webserver_sup
+2014-09-26 12:02:24.387 [error] emulator Error in process <0.3804.0> with exit value: {{try_clause,{http_req,#Port<0.12733>,ranch_tcp,keepalive,<0.3804.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50405},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-09-25 10:28:18.865 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.802.0> exit with reason: badarg
 
-2014-09-25 10:29:17.745 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:32:27.746 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:33:14.280 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:34:46.077 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:35:09.359 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:40:18.984 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:41:03.414 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:42:09.050 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:42:31.399 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:11: Warning: record gmail is unused
-/Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled with 1 warnings
-2014-09-25 10:51:50.091 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:114: Error: syntax error before: 'end'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:132: Error: function save/3 undefined
-2014-09-25 10:52:41.590 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:87: Warning: variable 'Req' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 10:52:45.068 [error]  api_treatments:45(): TAG badarg
+2014-09-26 12:02:24.387 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3804.0> exit with reason: {{try_clause,{http_req,#Port<0.12733>,ranch_tcp,keepalive,<0.3804.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50405},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926120222WS19kcaa&state=enter">>,[{<<"code">>,<<"140926120222WS19kcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-25 10:52:45.692 [error]  api_treatments:45(): TAG badarg
-
-2014-09-25 10:53:07.224 [error] emulator Error in process <0.2216.0> with exit value: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55430},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-09-26 12:59:42.153 [error] emulator Error in process <0.272.0> with exit value: {{try_clause,{http_req,#Port<0.11428>,ranch_tcp,keepalive,<0.272.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51278},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
 
-2014-09-25 10:53:07.224 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2216.0> exit with reason: {{try_clause,{http_req,#Port<0.15215>,ranch_tcp,keepalive,<0.2216.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55430},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925105305WS1hcaaa&state=enter">>,[{<<"code">>,<<"140925105305WS1hcaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-09-26 12:59:42.154 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.272.0> exit with reason: {{try_clause,{http_req,#Port<0.11428>,ranch_tcp,keepalive,<0.272.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51278},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926125940WS1xdaaa&state=enter">>,[{<<"code">>,<<"140926125940WS1xdaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-25 10:54:48.805 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 10:55:02.980 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:85: Warning: variable 'Req' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 11:17:46.593 [error]  api_find_one_record:31(): TAG {badmatch,[]}
-
-2014-09-25 12:05:25.903 [error]  api_find_one_record:31(): TAG {badmatch,[]}
-
-2014-09-25 12:40:04.594 [error]  api_treatments:44(): TAG badarg
-
-2014-09-25 12:40:05.672 [error]  api_treatments:44(): TAG badarg
-
-2014-09-25 12:40:29.707 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4780.0> exit with reason: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56315},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925124028WS1bbaaa&state=enter">>,[{<<"code">>,<<"140925124028WS1bbaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-25 12:40:29.708 [error] emulator Error in process <0.4780.0> with exit value: {{try_clause,{http_req,#Port<0.13455>,ranch_tcp,keepalive,<0.4780.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56315},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-09-26 13:00:55.010 [error] emulator Error in process <0.840.0> with exit value: {{try_clause,{http_req,#Port<0.14585>,ranch_tcp,keepalive,<0.840.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51293},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
 
-2014-09-25 12:45:11.465 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:75: Error: argument mismatch for macro 'LOG_INFO'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
-2014-09-25 12:45:44.768 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:74: Error: argument mismatch for macro 'LOG_INFO'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:144: Error: function view/1 undefined
-2014-09-25 12:49:44.032 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:13: Error: function view/1 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:79: Error: syntax error before: 'end'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:149: Error: function view/1 undefined
-2014-09-25 13:28:09.400 [error]  api_treatments:45(): TAG function_clause
+2014-09-26 13:00:55.011 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.840.0> exit with reason: {{try_clause,{http_req,#Port<0.14585>,ranch_tcp,keepalive,<0.840.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51293},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926130053WS12daaa&state=enter">>,[{<<"code">>,<<"140926130053WS12daaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-09-25 15:04:11.671 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:04:29.878 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:04:44.062 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:05:03.293 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:05:17.537 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:06:04.034 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:06:38.394 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:09:00.897 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:09:38.422 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:09:57.675 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:11:59.803 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:118: Warning: variable 'Host' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:122: Warning: this expression will fail with a 'badarg' exception
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:13:53.864 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
+2014-09-26 13:04:19.240 [error] emulator Error in process <0.1318.0> with exit value: {{try_clause,{http_req,#Port<0.14957>,ranch_tcp,keepalive,<0.1318.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51472},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 13:04:19.241 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1318.0> exit with reason: {{try_clause,{http_req,#Port<0.14957>,ranch_tcp,keepalive,<0.1318.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51472},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926130417WS1oeaaa&state=enter">>,[{<<"code">>,<<"140926130417WS1oeaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 13:21:48.928 [error] emulator Error in process <0.3719.0> with exit value: {{try_clause,{http_req,#Port<0.15029>,ranch_tcp,keepalive,<0.3719.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51684},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 13:21:48.929 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3719.0> exit with reason: {{try_clause,{http_req,#Port<0.15029>,ranch_tcp,keepalive,<0.3719.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51684},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926132147WS18gaaa&state=enter">>,[{<<"code">>,<<"140926132147WS18gaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 13:51:28.178 [error] emulator Error in process <0.7736.0> with exit value: {{try_clause,{http_req,#Port<0.15068>,ranch_tcp,keepalive,<0.7736.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52342},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 13:51:28.178 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7736.0> exit with reason: {{try_clause,{http_req,#Port<0.15068>,ranch_tcp,keepalive,<0.7736.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52342},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926135126WS13laaa&state=enter">>,[{<<"code">>,<<"140926135126WS13laaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 15:02:29.773 [error] emulator Error in process <0.4355.0> with exit value: {{try_clause,{http_req,#Port<0.12764>,ranch_tcp,keepalive,<0.4355.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52906},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 15:02:29.774 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4355.0> exit with reason: {{try_clause,{http_req,#Port<0.12764>,ranch_tcp,keepalive,<0.4355.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52906},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926150228WS1twaaa&state=enter">>,[{<<"code">>,<<"140926150228WS1twaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"/Users/Admin/Sites/webserver/deps/cowboy/src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 15:08:15.400 [error] emulator Error in process <0.5141.0> with exit value: {{try_clause,{http_req,#Port<0.15015>,ranch_tcp,keepalive,<0.5141.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53230},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 15:08:15.400 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5141.0> exit with reason: {{try_clause,{http_req,#Port<0.15015>,ranch_tcp,keepalive,<0.5141.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53230},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926150814WS1eyaaa&state=enter">>,[{<<"code">>,<<"140926150814WS1eyaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"/Users/Admin/Sites/webserver/deps/cowboy/src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 15:43:11.191 [error] emulator Error in process <0.5564.0> with exit value: {{try_clause,{http_req,#Port<0.13578>,ranch_tcp,keepalive,<0.5564.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53885},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 15:43:11.191 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5564.0> exit with reason: {{try_clause,{http_req,#Port<0.13578>,ranch_tcp,keepalive,<0.5564.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53885},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926154309WS1s3aaa&state=enter">>,[{<<"code">>,<<"140926154309WS1s3aaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 15:44:16.123 [error]  api_treatments:46(): TAG function_clause
+
+2014-09-26 15:58:38.250 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:46: Error: variable 'FindAll' unsafe in 'try' (line 36)
+2014-09-26 16:18:14.610 [error] emulator Error in process <0.10407.0> with exit value: {{try_clause,{http_req,#Port<0.16495>,ranch_tcp,keepalive,<0.10407.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54362},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 16:18:14.610 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10407.0> exit with reason: {{try_clause,{http_req,#Port<0.16495>,ranch_tcp,keepalive,<0.10407.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54362},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926161813WS10bbaa&state=enter">>,[{<<"code">>,<<"140926161813WS10bbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 16:35:57.255 [error]  api_treatments:45(): TAG badarg
+
+2014-09-26 16:35:58.015 [error]  api_treatments:45(): TAG badarg
+
+2014-09-26 16:36:16.513 [error] emulator Error in process <0.12966.0> with exit value: {{try_clause,{http_req,#Port<0.16743>,ranch_tcp,keepalive,<0.12966.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54690},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 16:36:16.514 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12966.0> exit with reason: {{try_clause,{http_req,#Port<0.16743>,ranch_tcp,keepalive,<0.12966.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54690},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926163615WS1gebaa&state=enter">>,[{<<"code">>,<<"140926163615WS1gebaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 16:47:31.825 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:122: Warning: this expression will fail with a 'badarg' exception
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:17:09.722 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:132: Error: syntax error before: 'end'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:165: Error: function save/3 undefined
-2014-09-25 15:17:14.784 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:132: Error: syntax error before: 'end'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:165: Error: function save/3 undefined
-2014-09-25 15:17:56.302 [error] emulator Error in process <0.8797.0> with exit value: {{try_clause,{http_req,#Port<0.14339>,ranch_tcp,keepalive,<0.8797.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57765},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
-
-
-2014-09-25 15:17:56.303 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.8797.0> exit with reason: {{try_clause,{http_req,#Port<0.14339>,ranch_tcp,keepalive,<0.8797.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57765},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140925151754WS1exaaa&state=enter">>,[{<<"code">>,<<"140925151754WS1exaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-25 15:20:37.461 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:21:37.936 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:22:18.687 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:133: Error: syntax error before: 'end'
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:166: Error: function save/3 undefined
-2014-09-25 15:22:23.691 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:22:37.358 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:22:53.123 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
+2014-09-26 16:52:04.731 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:22:55.800 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:23:06.962 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:23:14.473 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:23:17.987 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:23:30.711 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:23:35.848 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:23:42.565 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:23:54.075 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:98: Warning: variable 'Req' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:24:38.552 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:25:26.124 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:25:47.196 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:25:59.623 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:26:20.835 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:26:44.180 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:118: Warning: variable 'Host' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:26:46.780 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:27:22.626 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:118: Warning: variable 'Host' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:28:18.849 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:28:28.921 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:28:41.522 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:28:44.314 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:28:58.786 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:31:38.173 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:31:43.305 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:32:18.685 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:32:58.104 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:33:03.934 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:33:06.599 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:33:35.484 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:33:37.407 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:34:02.789 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:34:27.110 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:34:48.347 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:34:49.806 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:35:55.965 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:118: Warning: variable 'Host' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:36:46.634 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:36:53.767 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:36:58.633 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:37:09.980 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:39:14.170 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:39:41.603 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:40:55.353 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:119: Warning: variable 'Port' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:41:34.535 [error]  api_treatments:46(): TAG badarg
-
-2014-09-25 15:42:26.313 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:122: Error: syntax error before: lager
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:166: Error: function save/3 undefined
-2014-09-25 15:43:57.240 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:45:43.546 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:45:50.398 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+2014-09-26 16:54:06.835 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:54: Error: variable 'ANSWER' is unbound
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+2014-09-26 16:54:16.043 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:45:52.426 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:45:55.156 [error]  api_treatments:46(): TAG function_clause
-
-2014-09-25 15:46:05.626 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+2014-09-26 16:55:23.761 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:47:40.603 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ADDRESS' is unused
+2014-09-26 16:57:02.881 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 16:57:20.093 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 16:59:15.190 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:120: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-25 15:50:14.528 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function save/3 undefined
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:124: Error: syntax error before: emongo
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:166: Error: function save/3 undefined
-2014-09-25 15:50:19.591 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:128: Error: variable 'Req2' is unbound
+2014-09-26 17:00:02.707 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 17:00:58.350 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 17:09:42.874 [error] emulator Error in process <0.731.0> with exit value: {[{reason,{badmatch,[]}},{mfa,{api_response_handler,handle,2}},{stacktrace,[{api_response_handler,handle,2,[{file,"src/conveyor/api_response_handler.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowbo... 
+
+
+2014-09-26 17:09:42.875 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.731.0> exit with reason: {[{reason,{badmatch,[]}},{mfa,{api_response_handler,handle,2}},{stacktrace,[{api_response_handler,handle,2,[{file,"src/conveyor/api_response_handler.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12373>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.731.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55045}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/conveyor/response">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 17:10:05.839 [error] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:10: Error: function authorization/1 undefined
+/Users/Admin/Sites/webserver/src/webserver_app.erl:80: Error: syntax error before: '/'
+2014-09-26 17:10:26.535 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.851.0> exit with reason: {[{reason,{badmatch,[]}},{mfa,{api_response_handler,handle,2}},{stacktrace,[{api_response_handler,handle,2,[{file,"src/conveyor/api_response_handler.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12597>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.851.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55048}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/conveyor/response">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 17:10:26.535 [error] emulator Error in process <0.851.0> with exit value: {[{reason,{badmatch,[]}},{mfa,{api_response_handler,handle,2}},{stacktrace,[{api_response_handler,handle,2,[{file,"src/conveyor/api_response_handler.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowbo... 
+
+
+2014-09-26 17:13:31.556 [error] emulator Error in process <0.1551.0> with exit value: {{try_clause,{http_req,#Port<0.13257>,ranch_tcp,keepalive,<0.1551.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55093},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 17:13:31.557 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1551.0> exit with reason: {{try_clause,{http_req,#Port<0.13257>,ranch_tcp,keepalive,<0.1551.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55093},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926171329WS14gbaa&state=enter">>,[{<<"code">>,<<"140926171329WS14gbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 17:22:03.619 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2738.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,66}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,41}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15763>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.2738.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55151}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 17:22:03.619 [error] emulator Error in process <0.2738.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,66}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-09-26 17:23:01.117 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 17:26:07.850 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 17:47:45.384 [error] emulator Error in process <0.851.0> with exit value: {{try_clause,{http_req,#Port<0.12871>,ranch_tcp,keepalive,<0.851.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55338},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-09-26 17:47:45.385 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.851.0> exit with reason: {{try_clause,{http_req,#Port<0.12871>,ranch_tcp,keepalive,<0.851.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55338},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140926174743WS1bkbaa&state=enter">>,[{<<"code">>,<<"140926174743WS1bkbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 17:50:20.872 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function httpPost/4 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:169: Error: function httpPost/4 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:183: Error: syntax error before: 
+2014-09-26 18:01:28.377 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:05:23.591 [error] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:54: Warning: variable 'Host' is unused
+/Users/Admin/Sites/webserver/src/auth/auth_handler.erl:54: Warning: variable 'Req1' is unused
+/Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-09-26 18:08:30.325 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:09:45.130 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:10:30.666 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:10:53.961 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:123: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:12:02.373 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:121: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-26 18:38:54.209 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2206.0> exit with reason: {[{reason,badarg},{mfa,{[],init,3}},{stacktrace,[{erlang,apply,[[],init,[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13250>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.2206.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55918}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/tm_view/response/">>},{path_info,undefined},{qs,<<"id=777">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-09-26 18:38:54.209 [error] emulator Error in process <0.2206.0> with exit value: {[{reason,badarg},{mfa,{[],init,3}},{stacktrace,[{erlang,apply,[[],init,[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req... 
+
+
+2014-09-26 18:52:43.920 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:0: Recompiled with 1 warnings
+2014-09-26 18:53:09.168 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:18: Error: syntax error before: ']'
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:20: Warning: function init/3 is unused
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:23: Warning: function terminate/3 is unused
+2014-09-26 18:53:11.198 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:14: Error: function handle/2 undefined
+2014-09-26 18:53:54.567 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:45: Warning: function deletekey/1 is unused
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:46: Warning: function delete_key/2 is unused
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:51: Error: function httpPost/4 undefined
+2014-09-26 18:54:31.923 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:45: Warning: function deletekey/1 is unused
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:46: Warning: function delete_key/2 is unused
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:55: Error: function find/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:57: Error: function view/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_tm_view.erl:60: Error: function rating/3 undefined
+2014-09-26 18:58:14.056 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function rating/3 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:14: Error: function view/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:112: Warning: variable 'ANSWER' is unused
+2014-09-26 18:58:19.155 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings

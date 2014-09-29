@@ -22,7 +22,7 @@ start(_StartType, _StartArgs) ->
   constructor(),
   ets:new(treatments, [named_table, public, set]),
   ets:new(treatments_btns, [named_table, public, set]),
-  ets:new(treatments_clocer, [named_table, public, set]),
+  ets:new(treatments_closer, [named_table, public, set]),
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]", cowboy_static, {dir, "assets/"}},
@@ -49,11 +49,12 @@ start(_StartType, _StartArgs) ->
       {"/api/close_order", api_close_order_handler, []},
       %%================================================================================================================
       %% conveyor
-      {"/api/conveyor/request", api_request_handler, []},
-      {"/api/conveyor/response", api_response_handler, []},
+      {"/api_conv/conveyor/request", api_request_handler, []},
+      {"/api_conv/conveyor/response", api_response_handler, []},
       %%================================================================================================================
       %% treatments
       {"/api/treatments" , api_treatments, []},
+      {"/api_tm_view/treatments" , api_tm_view, []},
       {"/websocket", ws_handler, []},
       {"/ws_btn", ws_btn_handler, []},
       {"/ws_closer", ws_closer_handler, []},
@@ -74,13 +75,43 @@ start(_StartType, _StartArgs) ->
 
 authorization(Req) ->
   {Path, Req2} = cowboy_req:path(Req),
-  case Path of
-    <<"/authorize">> ->
+  List = re:split(Path, "/", [{return, list}]),
+  Page = lists:nth(2,List),
+  case Page of %%TODO переписать весь case
+    "authorize" ->
+      Req2;
+    "api_conv" ->
+      Req2;
+    "tm_view" ->
+      Req2;
+    "assets" ->
+      Req2;
+    "api_tm_view" ->
+      Req2;
+    "websocket" ->
+      Req2;
+    "ws_btn" ->
+      Req2;
+    "ws_closer" ->
       Req2;
     _ ->
-%%       auth_handler:getAuthPage(Req2)
-    Req2
+         auth_handler:getAuthPage(Req2)
+%%       Req2
   end,
+%%   case Page of
+%%     <<"/authorize">> ->
+%%       Req2;
+%%     <<"/api/conveyor/response">> ->
+%%       Req2;
+%%     <<"/api/treatments">> ->
+%%       Req2;
+%%     <<"/api_tm_view/treatments">> ->
+%%       ?LOG_INFO("~p~n",[Req2]),
+%%       Req2;
+%%     _ ->
+%% %%         auth_handler:getAuthPage(Req2)
+%%        Req2
+%%   end,
   Req2.
 
 stop(_State) ->
