@@ -28,6 +28,7 @@ getCookie(Name, Req) ->
 getting_user(Req) ->
   AccToken = app:getCookie(<<"access_token">>, Req),
 
+
   Response = httpc:request(get,
     {?SERVER++"ProminShell/user/get?format=json",
       [
@@ -36,6 +37,7 @@ getting_user(Req) ->
         {"Content-Type", "application/x-www-form-urlencoded"}
       ]
     }, [], []),
+
   Body = c_http_request:response_body(Response),
 
   BodyList = re:split(Body, "[\"]", [{return, list}]), %TODO переписать
@@ -47,24 +49,24 @@ getting_user(Req) ->
 %% Получение данных зарегистрированного пользователя
 %%---------------------------------------------------
 personality(Req) ->
-  Data = jsx:decode(getUserContacts(Req, undefined)),
+  Data = getUserContacts(Req, undefined),
   Data.
 
 %%--------------------------------------------------
 %% Получение детальной информации о владельце сессии
 %%--------------------------------------------------
 getUserContacts(Req, _Login) ->
-
   Ldap =
     case _Login of
       undefined -> getting_user(Req);
       _ -> binary_to_list(_Login)
     end,
 
-
   AccessToken = app:getCookie(<<"access_token">>, Req),
   URL = ?DT_INFO ++ Ldap ++ ".json?access_token=" ++ binary_to_list(AccessToken),
+
   Response = c_http_request:get(URL),
+
   Body = c_http_request:response_body(Response),
   Result = list_to_binary(Body),
-  Result.
+  jsx:decode(Result).
