@@ -11,7 +11,6 @@
 
 %% API
 -export([
-  deletekey/1,
   find/3,
   view/2,
   rating/3
@@ -19,7 +18,7 @@
 
 find(AllBindings, false, _Req) ->
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
-  Data = deletekey(Find),
+  Data = tm_module:deletekey(Find),
   Data.
 
 view(Id, _Req) ->
@@ -28,14 +27,14 @@ view(Id, _Req) ->
     0 ->
       <<"Forbidden">>;
     _ ->
-      Data = deletekey(Find),
+      Data = tm_module:deletekey(Find),
       Data
   end.
 
 rating(Id, PostAttrs, _Req) ->
   List = [<<"rating">>, <<"rating_at">>],
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  Data = deletekey(DataIn),
+  Data = tm_module:deletekey(DataIn),
   ListRating = [{K, V} || {K, V} <- lists:merge(Data), not lists:member(K, List)],
   ResultList = lists:merge(
     ListRating,
@@ -46,8 +45,4 @@ rating(Id, PostAttrs, _Req) ->
   ),
   emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], ResultList),
   <<"{\"status\":\"ok\"}">>.
-
-deletekey(List) -> delete_key(List, []).
-delete_key([], Acc) -> Acc;
-delete_key([H | T], Acc) -> delete_key(T, [proplists:delete(<<"_id">>, H) | Acc]).
 

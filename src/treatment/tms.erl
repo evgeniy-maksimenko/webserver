@@ -11,7 +11,6 @@
 
 %% API
 -export([
-  deletekey/1,
   find/3,
   save/3,
   inWork/2,
@@ -44,11 +43,11 @@ save(PostAttrs, AllBindings, Req) ->
 
 find(AllBindings, false, _Req) ->
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
-  Data = deletekey(Find),
+  Data = tm_module:deletekey(Find),
   Data;
 find(Id, true, Req) ->
   Find = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  Data = deletekey(Find),
+  Data = tm_module:deletekey(Find),
 
   OpenedBy = proplists:get_value(<<"opened_by">>, lists:merge(Data)),
   Login = proplists:get_value(<<"login">>, app:personality(Req)),
@@ -65,8 +64,7 @@ find(Id, true, Req) ->
 
 inWork(Id, Req) ->
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  ?LOG_INFO("~p~n",[DataIn]),
-  Data = deletekey(DataIn),
+  Data = tm_module:deletekey(DataIn),
 
   List = lists:merge(
     lists:delete({<<"working">>, <<"0">>}, lists:merge(Data)),
@@ -76,12 +74,8 @@ inWork(Id, Req) ->
       {<<"working">>, 1}
     ]
   ),
-  %%emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], List),
+  emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], List),
   <<"{\"status\":\"ok\"}">>.
-
-deletekey(List) -> delete_key(List, []).
-delete_key([], Acc) -> Acc;
-delete_key([H | T], Acc) -> delete_key(T, [proplists:delete(<<"_id">>, H) | Acc]).
 
 send_mail(AllBindings, Req) ->
   {Host, Req1} = cowboy_req:host(Req),
