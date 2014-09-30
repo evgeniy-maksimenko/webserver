@@ -8,10 +8,7 @@
 -module(app).
 -author("Evgenij.Maksimenko").
 -include("../logs.hrl").
-
--define(SERVER, "https://promin-stage.it.loc/").
--define(URL, "https://itsmtest.it.loc").
--define(DT_INFO, ?URL ++ "/tech/rest/dt_info/").
+-include("../../include/config.hrl").
 
 %% API
 -export([

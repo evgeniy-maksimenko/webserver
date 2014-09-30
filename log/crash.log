@@ -1,43 +1,49 @@
-2014-09-29 08:40:08 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6176.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 08:40:08 =ERROR REPORT====
-Error in process <0.6176.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
+2014-09-30 09:26:25 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/webserver/src/auth/auth_handler.erl:49: Error: syntax error before: Ñ
+2014-09-30 09:28:15 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2613.0> exit with reason: {badarg,[{lists,member,["tm_view",2],[]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/webserver/src/auth/auth_handler.erl"},{line,52}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-09-30 09:28:15 =ERROR REPORT====
+Error in process <0.2613.0> with exit value: {badarg,[{lists,member,["tm_view",2],[]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/webserver/src/auth/auth_handler.erl"},{line,52}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
 
-2014-09-29 08:40:10 =ERROR REPORT====
-Error in process <0.6181.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-2014-09-29 08:40:10 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6181.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 08:40:11 =ERROR REPORT====
-Error in process <0.6184.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-2014-09-29 08:40:11 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6184.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 08:40:12 =ERROR REPORT====
-Error in process <0.6188.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-2014-09-29 08:40:12 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6188.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 08:40:12 =ERROR REPORT====
-Error in process <0.6190.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-2014-09-29 08:40:12 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6190.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 08:40:13 =ERROR REPORT====
-Error in process <0.6192.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-2014-09-29 08:40:13 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6192.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-2014-09-29 09:57:20 =ERROR REPORT====
-Error in process <0.941.0> with exit value: {{try_clause,{http_req,#Port<0.12904>,ranch_tcp,keepalive,<0.941.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58252},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
-
-2014-09-29 09:57:20 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.941.0> exit with reason: {{try_clause,{http_req,#Port<0.12904>,ranch_tcp,keepalive,<0.941.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58252},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140929095718WS1pzbaa&state=enter">>,[{<<"code">>,<<"140929095718WS1pzbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-09-29 10:15:49 =ERROR REPORT====
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: variable 'ANSWER' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+2014-09-30 09:35:51 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/app/mailer.erl:12: Error: function send/3 undefined
+/Users/Admin/Sites/webserver/src/app/mailer.erl:18: Error: undefined macro 'USERNAME'
+2014-09-30 09:37:57 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/app/app.erl:15: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:15: Error: function getting_user/1 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:33: Error: undefined macro 'SERVER'
+/Users/Admin/Sites/webserver/src/app/app.erl:51: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:67: Error: undefined macro 'DT_INFO'
+2014-09-30 09:37:59 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/app/app.erl:13: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:13: Error: function getting_user/1 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:31: Error: undefined macro 'SERVER'
+/Users/Admin/Sites/webserver/src/app/app.erl:49: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:65: Error: undefined macro 'DT_INFO'
+2014-09-30 09:39:56 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:15: Error: function handle/2 undefined
+/Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:29: Error: undefined macro 'ConvId'
+2014-09-30 09:46:11 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getAllOrders/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getOrderFile/4 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getOrderInfo/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function postWorkaroundOrder/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:50: Error: undefined macro 'ORDER_WORKAROUND'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:117: Error: undefined macro 'ORDER_FILE'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:144: Error: undefined macro 'ALL_ORDERS'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:168: Error: undefined macro 'ORDER_INFO'
+2014-09-30 09:46:38 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-09-30 09:47:53 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:109: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:109: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-29 10:24:15 =ERROR REPORT====
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: variable 'ANSWER' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
+2014-09-30 09:48:29 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings

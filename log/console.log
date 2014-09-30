@@ -1,497 +1,125 @@
-2014-09-29 08:10:26.409 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:10:26.423 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:10:37.519 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:10:37.529 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:11:02.747 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:11:02.755 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:11:05.427 [info]  webserver_app.erl:86: {http_req,#Port<0.12848>,ranch_tcp,keepalive,<0.1972.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56262},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:11:09.106 [info]  webserver_app.erl:86: {http_req,#Port<0.12848>,ranch_tcp,keepalive,<0.1972.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56262},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:11:30.010 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:11:30.020 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:12:00.379 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:12:00.386 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:14:17.537 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:14:17.544 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:14:38.823 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:14:38.832 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:14:42.877 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:14:42.887 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:14:44.439 [info]  webserver_app.erl:86: {http_req,#Port<0.13578>,ranch_tcp,keepalive,<0.2531.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56342},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:17:32.243 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:17:32.252 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:22:34.828 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:22:34.837 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:22:38.074 [info]  webserver_app.erl:86: {http_req,#Port<0.13764>,ranch_tcp,keepalive,<0.3632.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56371},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:23:19.218 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:23:19.225 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:23:38.404 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:23:38.413 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:23:41.480 [info]  webserver_app.erl:87: <<"/api_tm_view/treatments">>
-
-
-2014-09-29 08:23:47.209 [info]  webserver_app.erl:87: <<"/api_tm_view/treatments">>
-
-
-2014-09-29 08:25:05.134 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:25:05.143 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:25:16.248 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:25:16.255 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:25:17.872 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/tm_view/response/777">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 19 Aug 2014 10:57:30 GMT">>},{<<"if-none-match">>,<<"\"62226014\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.959 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/base.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Mon, 18 Aug 2014 14:49:33 GMT">>},{<<"if-none-match">>,<<"\"3798910690\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.962 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/bootstrap.min.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 29 Jul 2014 13:42:46 GMT">>},{<<"if-none-match">>,<<"\"109790267\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.966 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/bootstrap-select.min.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 29 Jul 2014 13:42:46 GMT">>},{<<"if-none-match">>,<<"\"2860264957\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.970 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/jquery.ui.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Fri, 08 Aug 2014 15:32:44 GMT">>},{<<"if-none-match">>,<<"\"1916026577\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.973 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/footer.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 05 Aug 2014 12:26:45 GMT">>},{<<"if-none-match">>,<<"\"1100316484\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.977 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/css/datepicker.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Sun, 19 Jan 2014 01:18:48 GMT">>},{<<"if-none-match">>,<<"\"358211496\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:17.980 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/js/libs/rjs/require.js">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Fri, 01 Aug 2014 04:58:16 GMT">>},{<<"if-none-match">>,<<"\"1088546899\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:18.109 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/assets/js/main.js">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Thu, 25 Sep 2014 09:05:13 GMT">>},{<<"if-none-match">>,<<"\"340418283\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:18.371 [info]  webserver_app.erl:77: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:18.371 [info]  webserver_app.erl:87: {http_req,#Port<0.14135>,ranch_tcp,keepalive,<0.4044.0>,<<"POST">>,'HTTP/1.1',{{127,0,0,1},56382},<<"localhost">>,undefined,8008,<<"/api_tm_view/treatments">>,undefined,<<"id=777&condition=view">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/tm_view/response/777">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
-
-
-2014-09-29 08:25:49.528 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:25:49.536 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:34:19.959 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:34:19.967 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:34:26.211 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:26.258 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:26.260 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:26.263 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:26.269 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:26.273 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:26.277 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:26.279 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:26.404 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:26.681 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:34:30.012 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:30.102 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:30.105 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:30.107 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:30.114 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:30.117 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:30.119 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:30.121 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:30.260 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:30.524 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:34:31.112 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:31.417 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:31.420 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:31.422 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:31.425 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:31.427 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:31.431 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:31.433 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:31.586 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:31.684 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:31.704 [info]  webserver_app.erl:79: [[],"assets","js","modules","treatments","modules","tm_view","views","edit.js"]
-
-
-2014-09-29 08:34:31.779 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:31.781 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:31.784 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:31.786 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:31.789 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:31.794 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:31.797 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:31.917 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:32.181 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:34:33.833 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:33.919 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:33.921 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:33.924 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:33.927 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:33.929 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:33.934 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:33.938 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:34.056 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:34.328 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:34:39.507 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:39.602 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:39.607 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:39.609 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:39.612 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:39.614 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:39.617 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:39.619 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:39.760 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:40.017 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:34:53.665 [info]  webserver_app.erl:79: [[],"tm_view","response","777"]
-
-
-2014-09-29 08:34:53.764 [info]  webserver_app.erl:79: [[],"assets","css","base.css"]
-
-
-2014-09-29 08:34:53.766 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap.min.css"]
-
-
-2014-09-29 08:34:53.768 [info]  webserver_app.erl:79: [[],"assets","css","bootstrap-select.min.css"]
-
-
-2014-09-29 08:34:53.771 [info]  webserver_app.erl:79: [[],"assets","css","jquery.ui.css"]
-
-
-2014-09-29 08:34:53.774 [info]  webserver_app.erl:79: [[],"assets","css","footer.css"]
-
-
-2014-09-29 08:34:53.777 [info]  webserver_app.erl:79: [[],"assets","css","datepicker.css"]
-
-
-2014-09-29 08:34:53.779 [info]  webserver_app.erl:79: [[],"assets","js","libs","rjs","require.js"]
-
-
-2014-09-29 08:34:53.922 [info]  webserver_app.erl:79: [[],"assets","js","main.js"]
-
-
-2014-09-29 08:34:54.181 [info]  webserver_app.erl:79: [[],"api_tm_view","treatments"]
-
-
-2014-09-29 08:36:32.077 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:36:32.085 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:36:42.183 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:36:42.190 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:36:57.324 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:36:57.333 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:37:54.791 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:37:54.799 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:38:13.974 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:38:13.981 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:38:16.230 [info]  webserver_app.erl:80: [<<>>,<<"tm_view">>,<<"response">>,<<"777">>]
-
-
-2014-09-29 08:38:16.280 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"base.css">>]
-
-
-2014-09-29 08:38:16.287 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"bootstrap.min.css">>]
-
-
-2014-09-29 08:38:16.291 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"bootstrap-select.min.css">>]
-
-
-2014-09-29 08:38:16.294 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"jquery.ui.css">>]
-
-
-2014-09-29 08:38:16.297 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"footer.css">>]
-
-
-2014-09-29 08:38:16.300 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"css">>,<<"datepicker.css">>]
-
-
-2014-09-29 08:38:16.302 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"js">>,<<"libs">>,<<"rjs">>,<<"require.js">>]
-
-
-2014-09-29 08:38:16.446 [info]  webserver_app.erl:80: [<<>>,<<"assets">>,<<"js">>,<<"main.js">>]
-
-
-2014-09-29 08:38:16.701 [info]  webserver_app.erl:80: [<<>>,<<"api_tm_view">>,<<"treatments">>]
-
-
-2014-09-29 08:38:26.103 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:38:26.113 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:40:06.065 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:40:06.074 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:40:08.382 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6176.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:08.382 [error] emulator Error in process <0.6176.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:10.400 [error] emulator Error in process <0.6181.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:10.401 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6181.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:11.603 [error] emulator Error in process <0.6184.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:11.603 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6184.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:12.387 [error] emulator Error in process <0.6188.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:12.387 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6188.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:12.803 [error] emulator Error in process <0.6190.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:12.804 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6190.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:13.204 [error] emulator Error in process <0.6192.0> with exit value: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protoco... 
-
-
-2014-09-29 08:40:13.204 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6192.0> exit with reason: {undef,[{iolist_size,nth,[2,[[],"tm_view","response","777"]],[]},{webserver_app,authorization,1,[{file,"/Users/Admin/Sites/webserver/src/webserver_app.erl"},{line,79}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
-
-2014-09-29 08:40:18.283 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:40:18.295 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:40:23.342 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:40:23.352 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 08:40:24.371 [info]  webserver_app.erl:80: "tm_view"
-
-
-2014-09-29 08:40:24.435 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.437 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.441 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.445 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.449 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.452 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.454 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.590 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 08:40:24.851 [info]  webserver_app.erl:80: "api_tm_view"
-
-
-2014-09-29 08:41:05.711 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 08:41:05.718 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:47:51.829 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:47:51.836 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:48:02.013 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:48:02.024 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:48:50.551 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:48:50.559 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:49:09.731 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:49:09.738 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:49:20.849 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:49:20.856 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:55:23.467 [info] <0.7.0> Application lager started on node nonode@nohost
-2014-09-29 09:55:23.473 [info] <0.7.0> Application sync started on node nonode@nohost
-2014-09-29 09:55:23.474 [info] <0.7.0> Application jsx started on node nonode@nohost
-2014-09-29 09:55:23.477 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
-2014-09-29 09:55:23.486 [info] <0.7.0> Application emongo started on node nonode@nohost
-2014-09-29 09:55:23.507 [info] <0.7.0> Application gproc started on node nonode@nohost
-2014-09-29 09:55:56.456 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
-2014-09-29 09:55:56.456 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:55:56.463 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:55:59.150 [info]  webserver_app.erl:80: "tm_view"
-
-
-2014-09-29 09:55:59.229 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.233 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.236 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.241 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.244 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.247 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:55:59.249 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.166 [info]  webserver_app.erl:80: "tm_view"
-
-
-2014-09-29 09:56:01.238 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.241 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.244 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.247 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.251 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.256 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:01.259 [info]  webserver_app.erl:80: "assets"
-
-
-2014-09-29 09:56:09.579 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:56:09.589 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:56:56.339 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 09:56:56.352 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 09:57:20.780 [error] emulator Error in process <0.941.0> with exit value: {{try_clause,{http_req,#Port<0.12904>,ranch_tcp,keepalive,<0.941.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58252},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
-
-
-2014-09-29 09:57:20.781 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.941.0> exit with reason: {{try_clause,{http_req,#Port<0.12904>,ranch_tcp,keepalive,<0.941.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58252},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=140929095718WS1pzbaa&state=enter">>,[{<<"code">>,<<"140929095718WS1pzbaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-09-29 10:04:27.361 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled.
-2014-09-29 10:04:27.369 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
-2014-09-29 10:15:09.179 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 10:15:09.188 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 10:15:49.602 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: variable 'ANSWER' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+2014-09-30 09:26:25.625 [error] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/webserver/src/auth/auth_handler.erl:49: Error: syntax error before: Ñ
+2014-09-30 09:26:26.659 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:26:26.669 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:26:31.730 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:26:31.737 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:27:44.950 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:27:44.968 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:27:44.984 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:27:44.989 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:28:13.193 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:28:13.201 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:28:15.615 [error] <0.130.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2613.0> exit with reason: {badarg,[{lists,member,["tm_view",2],[]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/webserver/src/auth/auth_handler.erl"},{line,52}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-09-30 09:28:15.616 [error] emulator Error in process <0.2613.0> with exit value: {badarg,[{lists,member,["tm_view",2],[]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/webserver/src/auth/auth_handler.erl"},{line,52}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-09-30 09:28:54.593 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:28:54.601 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:30:19.287 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:30:19.297 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:31:54.408 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:31:54.423 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:31:54.455 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:31:54.458 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:32:09.223 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:32:09.241 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:32:09.249 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:32:09.253 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:32:52.073 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:32:52.090 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:32:52.097 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:32:52.102 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:33:28.476 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:33:28.487 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:35:21.073 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:35:21.090 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:35:21.108 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:35:21.134 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:35:21.138 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:35:44.314 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:35:51.381 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:12: Error: function send/3 undefined
+/Users/Admin/Sites/webserver/src/app/mailer.erl:18: Error: undefined macro 'USERNAME'
+2014-09-30 09:36:17.937 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:36:18.069 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:36:18.096 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:36:18.107 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:36:35.230 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:36:35.236 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:36:39.365 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:36:39.377 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:37:39.900 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:37:39.906 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:37:52.006 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:37:52.015 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:37:57.062 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:15: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:15: Error: function getting_user/1 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:33: Error: undefined macro 'SERVER'
+/Users/Admin/Sites/webserver/src/app/app.erl:51: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:67: Error: undefined macro 'DT_INFO'
+2014-09-30 09:37:59.091 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:13: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:13: Error: function getting_user/1 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:31: Error: undefined macro 'SERVER'
+/Users/Admin/Sites/webserver/src/app/app.erl:49: Error: function getUserContacts/2 undefined
+/Users/Admin/Sites/webserver/src/app/app.erl:65: Error: undefined macro 'DT_INFO'
+2014-09-30 09:38:33.059 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:38:33.087 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:38:33.106 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:38:33.121 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:38:33.124 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:38:33.128 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:38:48.263 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:38:48.272 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:39:56.828 [error] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:15: Error: function handle/2 undefined
+/Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:29: Error: undefined macro 'ConvId'
+2014-09-30 09:40:25.996 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:40:26.009 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:40:26.037 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:40:26.056 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:40:26.067 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:40:26.072 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:40:26.076 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:40:26.080 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:40:45.374 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-09-30 09:42:06.013 [info] <0.114.0> /Users/Admin/Sites/webserver/src/orders/api_close_order_handler.erl:0: Recompiled.
+2014-09-30 09:46:11.772 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:46:11.786 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:46:11.813 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:46:11.835 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-09-30 09:46:11.853 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:46:11.872 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getAllOrders/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getOrderFile/4 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function getOrderInfo/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:12: Error: function postWorkaroundOrder/2 undefined
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:50: Error: undefined macro 'ORDER_WORKAROUND'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:117: Error: undefined macro 'ORDER_FILE'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:144: Error: undefined macro 'ALL_ORDERS'
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:168: Error: undefined macro 'ORDER_INFO'
+2014-09-30 09:46:11.880 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-09-30 09:46:11.884 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:46:11.888 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:46:11.891 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:46:11.895 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:46:38.263 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-09-30 09:47:53.978 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:109: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:109: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
 /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-29 10:15:49.613 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
-2014-09-29 10:23:52.114 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 10:23:52.126 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 10:24:15.456 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: variable 'ANSWER' is unused
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:110: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
-/Users/Admin/Sites/webserver/src/treatment/api_treatments.erl:0: Recompiled with 1 warnings
-2014-09-29 10:24:15.465 [info] <0.114.0> api_treatments: Reloaded! (Beam changed.)
-2014-09-29 10:24:26.582 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 10:24:26.592 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
-2014-09-29 10:24:29.628 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
-2014-09-29 10:24:29.638 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.199 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-09-30 09:48:29.212 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-09-30 09:48:29.241 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-09-30 09:48:29.264 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-09-30 09:48:29.321 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-09-30 09:48:29.341 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-09-30 09:48:29.358 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.362 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.367 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.372 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.375 [info] <0.114.0> orders_module: Reloaded! (Beam changed.)
+2014-09-30 09:48:29.380 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)

@@ -2,65 +2,50 @@
 
 -behaviour(application).
 -include("logs.hrl").
+-include("../include/config.hrl").
 
 %% Application callbacks
 -export([start/2, stop/1]).
--export([connect_db_mongoDB/0]).
--export([constructor/0]).
 -export([authorization/1]).
 
-%% ===================================================================
-%% Конфигурация БД
-%% ===================================================================
--define(POOL, model).
--define(HOST, "localhost").
--define(DB,   "consultancy").
--define(PORT, 27017).
--define(SIZE, 1).
-
 start(_StartType, _StartArgs) ->
-  constructor(),
+
+  emongo:add_pool(?POOL, ?HOST, ?PORT, ?DB, ?SIZE),
   ets:new(treatments, [named_table, public, set]),
   ets:new(treatments_btns, [named_table, public, set]),
   ets:new(treatments_closer, [named_table, public, set]),
+
   Dispatch = cowboy_router:compile([
     {'_', [
-      {"/assets/[...]", cowboy_static, {dir, "assets/"}},
-      {"/authorize/",   auth_handler, []},
-      {"/auth_success", auth_success_handler, []},
-
-      {"/order",          order_handler, []},
-      {"/order/edit/:id", order_edit_handler, []},
-      {"/order/answer",   order_answer_handler, []},
-      %%================================================================================================================
-      {"/api/find_one_record",  api_find_one_record,  []},
-      {"/api/find_all_records", api_find_all_records, []},
-      %%================================================================================================================
-      {"/api/find_all_history", api_find_all_history, []},
-      {"/api/test", api_test_handler, []},
-
-      {"/api/get_all_orders", api_get_all_orders_handler, []},
-      {"/api/get_order_info", api_get_order_info_handler, []},
-      {"/api/get_order_file", api_get_order_file_handler, []},
-      {"/api/set_order_work", api_set_order_work_handler, []},
-      {"/api/get_user_contacts", api_get_user_contacts_handler, []},
-      {"/api/post_workaround", api_post_workaround_handler, []},
-
-      {"/api/close_order", api_close_order_handler, []},
-      %%================================================================================================================
-      %% conveyor
-      {"/api_conv/conveyor/request", api_request_handler, []},
+      {"/assets/[...]",               cowboy_static, {dir, "assets/"}},
+      %% ===================================================================
+      {"/authorize/",                 auth_handler, []},
+      %% ===================================================================
+      {"/order",                      order_handler, []},
+      {"/order/edit/:id",             order_edit_handler, []},
+      {"/order/answer",               order_answer_handler, []},
+      {"/api/get_all_orders",         api_get_all_orders_handler, []},
+      {"/api/get_order_info",         api_get_order_info_handler, []},
+      {"/api/get_order_file",         api_get_order_file_handler, []},
+      {"/api/set_order_work",         api_set_order_work_handler, []},
+      {"/api/get_user_contacts",      api_get_user_contacts_handler, []},
+      {"/api/post_workaround",        api_post_workaround_handler, []},
+      {"/api/close_order",            api_close_order_handler, []},
+      %% ===================================================================
+      {"/api_conv/conveyor/request",  api_request_handler, []},
       {"/api_conv/conveyor/response", api_response_handler, []},
-      %%================================================================================================================
-      %% treatments
-      {"/api/treatments" , api_treatments, []},
-      {"/api_tm_view/treatments" , api_tm_view, []},
-      {"/websocket", ws_handler, []},
-      {"/ws_btn", ws_btn_handler, []},
-      {"/ws_closer", ws_closer_handler, []},
-      %%================================================================================================================
-      {"/[...]", cowboy_static, {file, "priv/index.html"}},
-      {'_', error404_handler, []}
+      %% ===================================================================
+      {"/api/find_all_history",       api_find_all_history, []},
+      {"/api/find_all_records",       api_find_all_records, []},
+      {"/api/find_one_record",        api_find_one_record, []},
+      %% ===================================================================
+      {"/api_tm_view/treatments",     api_tm_view, []},
+      {"/api/treatments",             api_treatments, []},
+      {"/websocket",                  ws_handler, []},
+      {"/ws_btn",                     ws_btn_handler, []},
+      {"/ws_closer",                  ws_closer_handler, []},
+      %% ===================================================================
+      {"/[...]",                      cowboy_static, {file, "priv/index.html"}}
     ]}
   ]),
   Port = 8008,
@@ -74,66 +59,12 @@ start(_StartType, _StartArgs) ->
   webserver_sup:start_link().
 
 authorization(Req) ->
-  {Path, Req2} = cowboy_req:path(Req),
-  List = re:split(Path, "/", [{return, list}]),
-  Page = lists:nth(2,List),
-  case Page of %%TODO переписать весь case
-    "authorize" ->
-      Req2;
-    "api_conv" ->
-      Req2;
-    "tm_view" ->
-      Req2;
-    "assets" ->
-      Req2;
-    "api_tm_view" ->
-      Req2;
-    "websocket" ->
-      Req2;
-    "ws_btn" ->
-      Req2;
-    "ws_closer" ->
-      Req2;
-    _ ->
-         auth_handler:getAuthPage(Req2)
-%%       Req2
-  end,
-%%   case Page of
-%%     <<"/authorize">> ->
-%%       Req2;
-%%     <<"/api/conveyor/response">> ->
-%%       Req2;
-%%     <<"/api/treatments">> ->
-%%       Req2;
-%%     <<"/api_tm_view/treatments">> ->
-%%       ?LOG_INFO("~p~n",[Req2]),
-%%       Req2;
-%%     _ ->
-%% %%         auth_handler:getAuthPage(Req2)
-%%        Req2
-%%   end,
-  Req2.
+  auth_handler:getAuthPage(Req).
 
 stop(_State) ->
   ok.
 
-constructor() ->
-  connect_db_mongoDB(),
-  ok.
 
-%% ===================================================================
-%% Подключение конфига к бд mysql
-%% ===================================================================
-% connect_to_mysql() ->
-%     {ok, [Val|_]} = application:get_env(emysql, pools),
-%     {PoolName, Params} = Val,
-%     emysql:add_pool(PoolName, Params).
-
-%% ===================================================================
-%% Добавление пула
-%% ===================================================================
-connect_db_mongoDB() ->
-  emongo:add_pool(?POOL, ?HOST, ?PORT, ?DB, ?SIZE).
 
 
 

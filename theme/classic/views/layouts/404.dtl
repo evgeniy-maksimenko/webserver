@@ -1,4 +1,0 @@
-{% extends "layout.dtl" %}
-{% block content %}
-<h1>{{ content }} </h1>
-{% endblock %}

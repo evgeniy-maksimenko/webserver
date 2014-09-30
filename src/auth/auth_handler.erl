@@ -9,6 +9,7 @@
 -behaviour(cowboy_http_handler).
 -author("Evgenij.Maksimenko").
 -include("../logs.hrl").
+-include("../../include/config.hrl").
 
 %% API
 -export([
@@ -19,14 +20,6 @@
   getAuthPage/1,
   getToken/1
 ]).
-
-
--define(CLIENT_ID, "onlineConsultancy").
--define(SECRET, "lajfh7nnkdjfalf38ff91").
-
--define(POINT_AUTH,           "https://promin-stage.it.loc/ProminShell/oauth/authorize").
--define(POINT_RECEIPT_TOKEN,  "https://promin-stage.it.loc/ProminShell/oauth/token").
--define(REDIRECT_URI,         "http://localhost:8008/authorize").
 
 -define(REDIRECT_HOME, "/").
 
@@ -45,24 +38,34 @@ handle(Req, _State) ->
 terminate(_Reason, _Req, _State) ->
   ok.
 
-%% ----------------------------
+%% ===================================================================
 %% ШАГ 1
 %% Редирект (HTTP 302) на страницу аутентификации
-%% ----------------------------
+%% ===================================================================
 getAuthPage(Req) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
-  case AccessToken of
-    undefined ->
-      c_http_request:redirect(?POINT_AUTH ++ "?client_id=" ++ ?CLIENT_ID ++ "&scope=read&response_type=code&state=enter&redirect_uri=" ++ ?REDIRECT_URI, Req);
-    AccessToken ->
-      Req
+  {Path, Req2} = cowboy_req:path(Req),
+  PageName     = re:split(Path, "/", [{return, list}]),
+
+  E = #pagesExceptions{},
+  PageException   = lists:nth(2, PageName),
+
+  case lists:member(PageException, E#pagesExceptions.list) of
+    true ->
+      Req2;
+    false ->
+      AccessToken = app:getCookie(<<"access_token">>, Req2),
+      case AccessToken of
+        undefined ->
+          c_http_request:redirect(?POINT_AUTH ++ "?client_id=" ++ ?CLIENT_ID ++ "&scope=read&response_type=code&state=enter&redirect_uri=" ++ ?REDIRECT_URI, Req2);
+        AccessToken ->
+          Req2
+      end
   end.
 
-
-%% ----------------------------
+%% ===================================================================
 %% ШАГ 2
 %% Ответ сайта аутентификации браузеру
-%% ----------------------------
+%% ===================================================================
 getResponse(Echo) when is_binary(Echo)->
   Auth = base64:encode_to_string(?CLIENT_ID ++ ":" ++ ?SECRET),
   Response = httpc:request(post,
@@ -74,10 +77,10 @@ getResponse(Echo) when is_binary(Echo)->
   Body = c_http_request:response_body(Response),
   getToken(Body).
 
-%% -----------------------------
+%% ===================================================================
 %% ШАГ 3
 %% Ответ сервера аутентификации
-%% -----------------------------
+%% ===================================================================
 getToken(Body) ->
   case jsx:is_json(list_to_binary(Body)) of
     true ->

@@ -23,8 +23,7 @@
     sync,     %% авторебар +
     jsx,       %% json(ecode | decode) +
     gen_smtp,
-    emongo,
-    gproc
+    emongo
   ]},
   {mod, { webserver_app, []}},
   {env, []}

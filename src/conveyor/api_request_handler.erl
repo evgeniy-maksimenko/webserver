@@ -8,12 +8,8 @@
 -module(api_request_handler).
 -behaviour(cowboy_http_handler).
 -include("../logs.hrl").
+-include("../../include/config.hrl").
 
--define(CONV_SERVER, <<"http://app-cp-api-dev.ceb.loc">>).
--define(API_LOGIN, <<"324">>).
--define(API_SECRET,<<"yRI1kJdGgX3866kbDc4s7fIiuCRn8KU375YXJVmvT8zPgGuOd4">>).
-
--define(ConvId, <<"725">>).
 
 %% API
 -export([

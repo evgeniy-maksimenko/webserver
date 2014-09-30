@@ -3,3 +3,6 @@ deps/*
 src/app/*
 ++
 }n
+erl_crash.dump
+ebin/*
+include/*

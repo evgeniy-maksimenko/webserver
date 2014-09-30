@@ -7,7 +7,7 @@
 %%%-------------------------------------------------------------------
 -module(orders_module).
 -include("../logs.hrl").
-
+-include("../../include/config.hrl").
 %% API
 -export([
   getAllOrders/2,
@@ -18,14 +18,7 @@
   postWorkaroundOrder/2
 ]).
 
--define(URL, "https://itsmtest.it.loc").
-%%  -define(URL,"http://10.1.193.201:4040").
--define(ALL_ORDERS, ?URL ++ "/tech/rest/dt_workorders/list.json").
--define(ORDER_INFO, ?URL ++ "/tech/rest/dt_workorders/info.json").
--define(ORDER_FILE, ?URL ++ "/tech/rest/dt_files/get/").
--define(ORDER_WORK, ?URL ++ "/tech/rest/dt_workorders/in-work.json").
--define(ORDER_CLOSE, ?URL ++ "/tech/rest/dt_workorders/close.json").
--define(ORDER_WORKAROUND, ?URL ++ "/tech/rest/dt_workorders/workaround.json").
+
 
 %%-------------------------------
 %% Cервис "Взятие в работу"

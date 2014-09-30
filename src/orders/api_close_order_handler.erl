@@ -46,26 +46,5 @@ make_out(PostAttrs, Req) ->
     {<<"content-type">>, <<"application/json">>}
   ], jsx:encode([{<<"status">>,<<"ok">>}]), Req).
 
-
-%%   {Code, Result} =
-%%     try
-%%       {RecordIdValid, SoulutionValid} =
-%%         case cowboy_req:qs_vals(Req) of
-%%           {[ {<<"record_id">> , RecordId} , {<<"solution">> , Solution}| _], _} -> {RecordId, Solution};
-%%           _ -> throw
-%%         end,
-%%       Res = orders_module:closeOrder(Req, binary_to_list(RecordIdValid), binary_to_list(SoulutionValid)),
-%%       {200, Res}
-%%     catch
-%%       _ : Reason -> ?LOG_ERROR("TAG ~p", [Reason]),
-%%         {400, <<"Missing echo parameters.">>}
-%%     end,
-%%
-%%   {ok, Req2} = cowboy_req:reply(Code, [
-%%     {<<"content-type">>, <<"application/json">>}
-%%   ], jsx:encode([{<<"status">>,Result}]), Req),
-%%
-%%   {ok, Req2, State}.
-
 terminate(_Reason, _Req, _State) ->
   ok.

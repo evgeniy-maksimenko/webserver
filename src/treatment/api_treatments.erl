@@ -8,7 +8,6 @@
 -module(api_treatments).
 -behaviour(cowboy_http_handler).
 -include("../logs.hrl").
-%%TODO переписать все на gen_server
 
 %% API
 -export([
@@ -84,7 +83,7 @@ inWork(Id, Req) ->
   emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], List),
   <<"{\"status\":\"ok\"}">>.
 
-save(PostAttrs, AllBindings, Req) ->
+save(PostAttrs, AllBindings, Req) ->  %TODO переписать метод
   List = [<<"opened_at">>, <<"opened_by">>, <<"working">>],
   case proplists:get_value(<<"status">>, PostAttrs) of
     <<"1lvl">> ->
@@ -143,8 +142,6 @@ httpPost(<<"made">>, _IsDefined, AllBindings, Req) ->
   save(PostAttrs, AllBindings, Req1);
 httpPost(<<"in_work">>, _IsDefined, AllBindings, Req) ->
   inWork(proplists:get_value(<<"id">>, AllBindings), Req).
-
-
 
 
 
