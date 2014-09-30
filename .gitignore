@@ -6,3 +6,6 @@ src/app/*
 erl_crash.dump
 ebin/*
 include/*
+Gemfile
+Gemfile.lock
+Guardfile
