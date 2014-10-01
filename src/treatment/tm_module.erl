@@ -12,7 +12,7 @@
 %% API
 -export([
   reading_the_req_body/1,
-  deletekey/1,
+  remove_id_mongo/1,
   httpPost/4,
   echo/1
 ]).
@@ -39,9 +39,9 @@ httpPost(<<"rating">>, _IsDefined, AllBindings, Req) ->
   {ok, PostAttrs, Req1} = cowboy_req:body_qs(Req),
   tm:rating(proplists:get_value(<<"id">>, AllBindings), PostAttrs, Req1).
 
-deletekey(List) -> delete_key(List, []).
-delete_key([], Acc) -> Acc;
-delete_key([H | T], Acc) -> delete_key(T, [proplists:delete(<<"_id">>, H) | Acc]).
+remove_id_mongo(List) -> remove_id_mongo(List, []).
+remove_id_mongo([], Acc) -> Acc;
+remove_id_mongo([H | T], Acc) -> remove_id_mongo(T, [proplists:delete(<<"_id">>, H) | Acc]).
 
 echo(Req) ->
   {Code, Data} =

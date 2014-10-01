@@ -772,3 +772,304 @@ Ranch listener http_listener had connection process started with cowboy_protocol
 2014-09-30 17:57:03 =ERROR REPORT====
 /Users/Admin/Sites/webserver/src/treatment/tms.erl:84: Warning: variable 'ANSWER' is unused
 /Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-09-30 18:09:01 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:69: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:84: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-09-30 18:09:20 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:35:50 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:36:18 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:36:43 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:48: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:38:05 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:54: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:38:07 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:54: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:40:28 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:48: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:74: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:40:36 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:75: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:90: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:40:59 =ERROR REPORT====
+Error in process <0.242.0> with exit value: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle... 
+
+2014-10-01 13:40:59 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.242.0> exit with reason: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10632>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.242.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},51972}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"id=76200403&condition=open">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f/edit/76200403">>},{<<"cookie">>,<<"access_token=141001PBd1i5mr8q1031">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 13:41:04 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.257.0> exit with reason: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11555>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.257.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},51974}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"id=76200403&condition=open">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f/edit/76200403">>},{<<"cookie">>,<<"access_token=141001PBd1i5mr8q1031">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 13:41:04 =ERROR REPORT====
+Error in process <0.257.0> with exit value: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle... 
+
+2014-10-01 13:41:35 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:76: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:91: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:42:37 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:75: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:90: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:43:46 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:53: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:02 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:11 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:53: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:30 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:48 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:45:38 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:80: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:95: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:48:33 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:53:10 =ERROR REPORT====
+Error in process <0.2762.0> with exit value: {{try_clause,{http_req,#Port<0.15640>,ranch_tcp,keepalive,<0.2762.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52250},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 13:53:10 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2762.0> exit with reason: {{try_clause,{http_req,#Port<0.15640>,ranch_tcp,keepalive,<0.2762.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52250},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135310WS20raaa&state=enter">>,[{<<"code">>,<<"141001135310WS20raaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 13:54:38 =ERROR REPORT====
+Error in process <0.2973.0> with exit value: {{try_clause,{http_req,#Port<0.15718>,ranch_tcp,keepalive,<0.2973.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52297},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 13:54:38 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2973.0> exit with reason: {{try_clause,{http_req,#Port<0.15718>,ranch_tcp,keepalive,<0.2973.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52297},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135435WS1osaaa&state=enter">>,[{<<"code">>,<<"141001135435WS1osaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 13:56:28 =ERROR REPORT====
+Error in process <0.3234.0> with exit value: {{try_clause,{http_req,#Port<0.15766>,ranch_tcp,keepalive,<0.3234.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52350},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 13:56:28 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3234.0> exit with reason: {{try_clause,{http_req,#Port<0.15766>,ranch_tcp,keepalive,<0.3234.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52350},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135626WS1ssaaa&state=enter">>,[{<<"code">>,<<"141001135626WS1ssaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 13:59:25 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:78: Error: undefined macro 'REDIRECT_HOME'
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+2014-10-01 14:00:01 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:00:33 =ERROR REPORT====
+Error in process <0.3827.0> with exit value: {{try_clause,{http_req,#Port<0.15957>,ranch_tcp,keepalive,<0.3827.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52504},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 14:00:33 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3827.0> exit with reason: {{try_clause,{http_req,#Port<0.15957>,ranch_tcp,keepalive,<0.3827.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52504},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001140032WS3puaaa&state=enter">>,[{<<"code">>,<<"141001140032WS3puaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 14:01:10 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:01:52 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:13 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4267.0> exit with reason: killed
+2014-10-01 14:07:31 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4279.0> exit with reason: killed
+2014-10-01 14:16:41 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/app/app.erl:60: Error: variable '_Login' is unbound
+2014-10-01 14:25:07 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/app/app.erl:60: Error: variable '_Login' is unbound
+2014-10-01 14:26:07 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:29:32 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:29:32 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6639.0> exit with reason: killed
+2014-10-01 14:29:32 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6640.0> exit with reason: killed
+2014-10-01 14:29:32 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7794.0> exit with reason: killed
+2014-10-01 14:33:40 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:33:51 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:35:52 =ERROR REPORT====
+Error in process <0.677.0> with exit value: {{try_clause,{http_req,#Port<0.11337>,ranch_tcp,keepalive,<0.677.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53448},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 14:35:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.677.0> exit with reason: {{try_clause,{http_req,#Port<0.11337>,ranch_tcp,keepalive,<0.677.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53448},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001143552WS29saaa&state=enter">>,[{<<"code">>,<<"141001143552WS29saaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 14:37:25 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:37:29 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:38:50 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:39:34 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:40:43 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:45:10 =ERROR REPORT====
+Error in process <0.2498.0> with exit value: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.2498.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53836},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 14:45:10 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2498.0> exit with reason: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.2498.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53836},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001144507WS13taaa&state=enter">>,[{<<"code">>,<<"141001144507WS13taaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 14:45:38 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:46:08 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:47:29 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:50:07 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:51:46 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:55:05 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:55:36 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:56:48 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:02 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:38 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:46 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:58:01 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:58:09 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 15:21:05 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 15:22:34 =ERROR REPORT====
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 16:45:42 =ERROR REPORT====
+Error in process <0.15210.0> with exit value: {{try_clause,{http_req,#Port<0.17316>,ranch_tcp,keepalive,<0.15210.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57404},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-01 16:45:42 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.15210.0> exit with reason: {{try_clause,{http_req,#Port<0.17316>,ranch_tcp,keepalive,<0.15210.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57404},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001164540WS18xaaa&state=enter">>,[{<<"code">>,<<"141001164540WS18xaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-01 16:46:04 =CRASH REPORT====
+  crasher:
+    initial call: emongo_conn:init/4
+    pid: <0.134.0>
+    registered_name: []
+    exception exit: {{model,etimedout},[{emongo_conn,loop,2,[{file,"src/emongo_conn.erl"},{line,123}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [emongo,emongo_app,<0.120.0>]
+    messages: [{tcp_closed,#Port<0.10448>}]
+    links: [<0.122.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 4674
+  neighbours:

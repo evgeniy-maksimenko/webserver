@@ -9,3 +9,4 @@ include/*
 Gemfile
 Gemfile.lock
 Guardfile
+log/*

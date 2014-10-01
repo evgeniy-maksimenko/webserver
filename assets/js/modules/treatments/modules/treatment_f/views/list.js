@@ -102,20 +102,22 @@ define([
 		},
 		in_work: function(event) {
 			id = $(event.currentTarget).attr('data');
+			
+			if(websocket_btn.readyState == websocket_btn.OPEN) {				
+				websocket_btn.send(id);
+			} else {
+				alert('websocket is not connected');
+			}
+
 			$.ajax({
 	            url : '/api/treatments?condition=in_work&id='+id,
 	            type: "POST",
 	            dataType: "json",
 	            success: function(){
-	            	              
+	            	window.location = '/treatment_f/edit/' + id;	              
 	            }
 	        });
-			if(websocket_btn.readyState == websocket_btn.OPEN) {				
-				websocket_btn.send(id);
-				window.location = '/treatment_f/edit/' + id;
-			} else {
-				alert('websocket is not connected');
-			}	
+				
 		}
 	});
 

@@ -18,7 +18,7 @@
 
 find(AllBindings, false, _Req) ->
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
-  Data = tm_module:deletekey(Find),
+  Data = tm_module:remove_id_mongo(Find),
   Data.
 
 view(Id, _Req) ->
@@ -27,14 +27,14 @@ view(Id, _Req) ->
     0 ->
       <<"Forbidden">>;
     _ ->
-      Data = tm_module:deletekey(Find),
+      Data = tm_module:remove_id_mongo(Find),
       Data
   end.
 
 rating(Id, PostAttrs, _Req) ->
   List = [<<"rating">>, <<"rating_at">>],
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  Data = tm_module:deletekey(DataIn),
+  Data = tm_module:remove_id_mongo(DataIn),
   ListRating = [{K, V} || {K, V} <- lists:merge(Data), not lists:member(K, List)],
   ResultList = lists:merge(
     ListRating,

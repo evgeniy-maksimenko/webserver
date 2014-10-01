@@ -1643,3 +1643,567 @@
 2014-09-30 17:58:13.116 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
 2014-09-30 17:58:13.125 [info] <0.7.0> Application emongo started on node nonode@nohost
 2014-09-30 17:58:13.147 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-30 18:09:01.327 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-09-30 18:09:01.327 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:69: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:84: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-09-30 18:09:01.335 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-09-30 18:09:20.554 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-09-30 18:09:20.563 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-09-30 18:09:56.475 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-09-30 18:09:56.481 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-09-30 18:09:56.484 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-09-30 18:09:56.486 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-09-30 18:09:56.496 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-09-30 18:09:56.519 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-09-30 18:11:13.266 [info]  tms.erl:67: [[{<<"_id">>,{oid,<<84,42,171,132,186,132,55,160,22,146,225,160>>}},{<<"created_at">>,<<"2014-09-30 16:09:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"zvolok@gmail.com">>},{<<"phone">>,<<"0676561375">>},{<<"vopros">>,<<208,154,208,176,208,186,208,190,208,181,32,208,191,209,128,208,176,208,178,208,190,32,208,184,208,188,208,181,208,181,209,130,32,209,129,208,190,209,130,209,128,209,131,208,180,208,189,208,184,208,186,32,208,178,208,176,209,136,208,181,208,179,208,190,32,208,177,208,176,208,189,208,186,208,176,32,209,128,208,176,208,183,208,179,208,187,208,176,209,136,208,176,209,130,209,140,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,209,140,208,189,209,139,208,181,32,208,180,208,176,208,189,208,189,209,139,208,181,32,208,186,208,187,208,184,208,181,208,189,209,130,208,176,32,208,177,208,176,208,189,208,186,208,176,63,208,148,208,176,208,182,208,181,32,44,208,181,209,129,208,187,208,184,32,209,141,209,130,208,190,32,209,128,208,190,208,180,208,184,209,130,208,181,208,187,208,184>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"395GFMt3WBQWOpduchcsh0u6u">>},{<<"sh_cli_id">>,<<"76174813">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-09-30 18:11:17.254 [info]  tms.erl:67: [[{<<"_id">>,{oid,<<84,42,171,132,186,132,55,160,22,146,225,160>>}},{<<"created_at">>,<<"2014-09-30 16:09:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"zvolok@gmail.com">>},{<<"phone">>,<<"0676561375">>},{<<"vopros">>,<<208,154,208,176,208,186,208,190,208,181,32,208,191,209,128,208,176,208,178,208,190,32,208,184,208,188,208,181,208,181,209,130,32,209,129,208,190,209,130,209,128,209,131,208,180,208,189,208,184,208,186,32,208,178,208,176,209,136,208,181,208,179,208,190,32,208,177,208,176,208,189,208,186,208,176,32,209,128,208,176,208,183,208,179,208,187,208,176,209,136,208,176,209,130,209,140,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,209,140,208,189,209,139,208,181,32,208,180,208,176,208,189,208,189,209,139,208,181,32,208,186,208,187,208,184,208,181,208,189,209,130,208,176,32,208,177,208,176,208,189,208,186,208,176,63,208,148,208,176,208,182,208,181,32,44,208,181,209,129,208,187,208,184,32,209,141,209,130,208,190,32,209,128,208,190,208,180,208,184,209,130,208,181,208,187,208,184>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"395GFMt3WBQWOpduchcsh0u6u">>},{<<"sh_cli_id">>,<<"76174813">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-09-30 18:11:21.153 [info]  tms.erl:67: [[{<<"_id">>,{oid,<<84,42,169,199,186,132,55,160,22,146,225,158>>}},{<<"created_at">>,<<"2014-09-30 16:01:59">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"gvk_lutsk@ukr.net">>},{<<"phone">>,<<"0507578818">>},{<<"vopros">>,<<32,208,156,208,181,209,129,209,143,209,134,32,208,189,208,176,208,183,208,176,208,180,32,208,180,208,190,208,187,208,182,208,189,209,139,32,208,177,209,139,208,187,208,184,32,209,128,208,176,209,129,209,129,208,188,208,176,209,130,209,128,208,184,208,178,208,176,209,130,209,140,32,208,189,208,176,209,136,209,131,32,208,183,208,176,209,143,208,178,208,186,209,131,32,208,189,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,185,32,208,187,208,184,208,188,208,184,209,130,46,32,208,145,209,139,208,187,32,208,183,208,178,208,190,208,189,208,190,208,186,32,208,184,208,183,32,208,148,208,189,208,181,208,191,209,128,208,190,208,191,208,181,209,130,209,128,208,190,208,178,209,129,208,186,208,176,32,209,135,209,130,208,190,32,208,187,208,184,208,188,208,184,209,130,32,208,178,209,139,208,180,208,181,208,187,208,184,208,187,208,184,46,32,208,154,209,131,208,180,208,176,32,208,189,209,131,208,182,208,189,208,190,32,208,190,208,177,209,128,208,176,209,130,208,184,209,130,209,140,209,129,209,143,32,208,180,208,187,209,143,32,208,190,209,132,208,190,209,128,208,188,208,187,208,181,208,189,208,184,209,143,32,208,180,208,190,208,179,208,190,208,178,208,190,209,128,208,176,63>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"xHvDPQooTk347XFjajtmO8omw">>},{<<"sh_cli_id">>,<<"76058611">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:30:00.612 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/api/mongo.erl:0: Recompiled.
+2014-10-01 13:30:00.664 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_connection_man.erl:0: Recompiled.
+2014-10-01 13:30:00.767 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_worker.erl:0: Recompiled.
+2014-10-01 13:30:00.822 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_worker_logic.erl:0: Recompiled.
+2014-10-01 13:30:00.853 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/core/mc_action_man.erl:0: Recompiled.
+2014-10-01 13:30:00.878 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/core/mongo_id_server.erl:0: Recompiled.
+2014-10-01 13:30:00.970 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/core/mongo_protocol.erl:0: Recompiled.
+2014-10-01 13:30:01.076 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/cursor/mc_cursor.erl:0: Recompiled.
+2014-10-01 13:30:01.092 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/cursor/mc_cursor_sup.erl:0: Recompiled.
+2014-10-01 13:30:01.104 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/main/mc_super_sup.erl:0: Recompiled.
+2014-10-01 13:30:01.115 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/main/mongo_app.erl:0: Recompiled.
+2014-10-01 13:30:01.129 [info] <0.114.0> mc_action_man: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.132 [info] <0.114.0> mc_connection_man: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.135 [info] <0.114.0> mc_cursor: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.137 [info] <0.114.0> mc_cursor_sup: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.139 [info] <0.114.0> mc_super_sup: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.142 [info] <0.114.0> mc_worker: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.145 [info] <0.114.0> mc_worker_logic: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.147 [info] <0.114.0> mongo: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.149 [info] <0.114.0> mongo_app: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.151 [info] <0.114.0> mongo_id_server: Reloaded! (Beam changed.)
+2014-10-01 13:30:01.153 [info] <0.114.0> mongo_protocol: Reloaded! (Beam changed.)
+2014-10-01 13:30:02.120 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/api/mongo.erl:0: Recompiled.
+2014-10-01 13:30:02.151 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_connection_man.erl:0: Recompiled.
+2014-10-01 13:30:02.238 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_worker.erl:0: Recompiled.
+2014-10-01 13:30:02.286 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/connection/mc_worker_logic.erl:0: Recompiled.
+2014-10-01 13:30:02.306 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/core/mc_action_man.erl:0: Recompiled.
+2014-10-01 13:30:02.354 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/core/mongo_protocol.erl:0: Recompiled.
+2014-10-01 13:30:02.410 [info] <0.114.0> /Users/Admin/Sites/webserver/deps/mongodb/src/cursor/mc_cursor.erl:0: Recompiled.
+2014-10-01 13:30:03.247 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 13:30:03.263 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-01 13:30:03.296 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-01 13:30:03.321 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-01 13:30:03.380 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03.407 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-01 13:30:03.447 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03.493 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03.513 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-01 13:30:03.523 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.527 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.530 [info] <0.114.0> mc_action_man: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.533 [info] <0.114.0> mc_connection_man: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.536 [info] <0.114.0> mc_cursor: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.539 [info] <0.114.0> mc_worker: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.542 [info] <0.114.0> mc_worker_logic: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.545 [info] <0.114.0> mongo: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.548 [info] <0.114.0> mongo_protocol: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.551 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.555 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.557 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-01 13:30:03.615 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-01 13:30:03.639 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03.666 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:30:03.676 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-01 13:34:29.090 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-01 13:34:29.096 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-01 13:34:29.098 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-01 13:34:29.101 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-01 13:34:29.110 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-01 13:34:29.131 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-01 13:34:39.988 [info]  tms.erl:67: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:35:15.752 [info]  tms.erl:67: [[{<<"_id">>,{oid,<<84,42,213,55,186,132,55,160,22,146,225,161>>}},{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:35:50.750 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-01 13:35:50.751 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:35:50.759 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:36:02.830 [info]  tms.erl:55: undefined
+
+
+2014-10-01 13:36:02.936 [info]  tms.erl:55: undefined
+
+
+2014-10-01 13:36:03.038 [info]  tms.erl:55: undefined
+
+
+2014-10-01 13:36:18.057 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:36:18.067 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:36:43.317 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:48: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:36:43.328 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:36:45.130 [info]  tms.erl:52: [[{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:36:51.178 [info]  tms.erl:52: [[{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:36:56.425 [info]  tms.erl:52: [[{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:36:58.549 [info]  tms.erl:52: [[{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 13:38:05.134 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:54: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:38:05.147 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:38:07.194 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:54: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:38:07.212 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:38:19.140 [info]  tms.erl:56: undefined
+
+
+2014-10-01 13:40:28.538 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:48: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:74: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:40:28.547 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:40:36.652 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:75: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:90: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:40:36.662 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:40:57.659 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-01 13:40:57.665 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-01 13:40:57.668 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-01 13:40:57.670 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-01 13:40:57.680 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-01 13:40:57.702 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-01 13:40:59.693 [info]  tms.erl:51: 17241
+
+
+2014-10-01 13:40:59.719 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-01 13:40:59.720 [error] emulator Error in process <0.242.0> with exit value: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle... 
+
+
+2014-10-01 13:40:59.721 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.242.0> exit with reason: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10632>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.242.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},51972}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"id=76200403&condition=open">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f/edit/76200403">>},{<<"cookie">>,<<"access_token=141001PBd1i5mr8q1031">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 13:41:04.837 [info]  tms.erl:51: 4467
+
+
+2014-10-01 13:41:04.838 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.257.0> exit with reason: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11555>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.257.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},51974}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/treatments">>},{path_info,undefined},{qs,<<"id=76200403&condition=open">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/treatment_f/edit/76200403">>},{<<"cookie">>,<<"access_token=141001PBd1i5mr8q1031">>},{<<"connection">>,<<"keep-alive">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"content-length">>,<<"0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 13:41:04.838 [error] emulator Error in process <0.257.0> with exit value: {[{reason,badarg},{mfa,{api_treatments,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_treatments,handle,2,[{file,"src/treatment/api_treatments.erl"},{line,26}]},{cowboy_handler,handler_handle... 
+
+
+2014-10-01 13:41:35.786 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:76: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:91: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:41:35.792 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:41:37.346 [info]  tms.erl:51: 4820
+
+
+2014-10-01 13:41:44.418 [info]  tms.erl:51: 5536
+
+
+2014-10-01 13:41:46.212 [info]  tms.erl:51: 4775
+
+
+2014-10-01 13:41:59.626 [info]  tms.erl:51: 2957
+
+
+2014-10-01 13:42:01.518 [info]  tms.erl:51: 3631
+
+
+2014-10-01 13:42:03.709 [info]  tms.erl:51: 8074
+
+
+2014-10-01 13:42:06.247 [info]  tms.erl:51: 4035
+
+
+2014-10-01 13:42:37.358 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:75: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:90: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:42:37.368 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:43:46.347 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:53: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:43:46.364 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:44:02.545 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:02.566 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:44:11.682 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:53: Warning: variable 'Login' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:11.694 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:44:30.907 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:30.918 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:44:48.134 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:49: Warning: variable 'Req' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:77: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:92: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:44:48.146 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:45:38.664 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:52: Warning: variable 'OpenedBy' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:80: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:95: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:45:38.673 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:45:50.991 [info]  tms.erl:55: [{<<"login">>,<<"DN200288MEG">>},{<<"filial">>,<<"DN">>},{<<"contacts">>,[[{<<"main">>,true},{<<"value">>,<<"+380923112969">>},{<<"type">>,[{<<"phone">>,true},{<<"name">>,<<208,156,208,190,208,177,208,184,208,187,209,140,208,189,209,139,208,185>>},{<<"id">>,3},{<<"enumerated">>,<<"MOBILE_PHONE">>}]},{<<"prefix">>,null},{<<"order">>,0}],[{<<"main">>,false},{<<"value">>,<<"+380662802380">>},{<<"type">>,[{<<"phone">>,true},{<<"name">>,<<208,156,208,190,208,177,208,184,208,187,209,140,208,189,209,139,208,185>>},{<<"id">>,3},{<<"enumerated">>,<<"MOBILE_PHONE">>}]},{<<"prefix">>,null},{<<"order">>,1}],[{<<"main">>,true},{<<"value">>,<<"dn200288meg">>},{<<"type">>,[{<<"phone">>,false},{<<"name">>,<<"Skype Name">>},{<<"id">>,6},{<<"enumerated">>,<<"SKYPE">>}]},{<<"prefix">>,null},{<<"order">>,0}],[{<<"main">>,true},{<<"value">>,<<"evgenij.maksimenko.01@privatbank.ua">>},{<<"type">>,[{<<"phone">>,false},{<<"name">>,<<"E-mail">>},{<<"id">>,9},{<<"enumerated">>,<<"EMAIL">>}]},{<<"prefix">>,null},{<<"order">>,0}],[{<<"main">>,true},{<<"value">>,<<"11480">>},{<<"type">>,[{<<"phone">>,false},{<<"name">>,<<"SIP">>},{<<"id">>,11},{<<"enumerated">>,<<"SIP">>}]},{<<"prefix">>,null},{<<"order">>,1}]]},{<<"state">>,<<208,160,208,176,208,177,208,190,209,130,208,176,208,181,209,130>>},{<<"fullName">>,<<208,156,208,176,208,186,209,129,208,184,208,188,208,181,208,189,208,186,208,190,32,208,149,208,178,208,179,208,181,208,189,208,184,208,185,32,208,147,208,181,208,189,208,189,208,176,208,180,209,140,208,181,208,178,208,184,209,135>>}]
+
+
+2014-10-01 13:48:33.322 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:85: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 13:48:33.330 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 13:53:10.832 [error] emulator Error in process <0.2762.0> with exit value: {{try_clause,{http_req,#Port<0.15640>,ranch_tcp,keepalive,<0.2762.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52250},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 13:53:10.833 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2762.0> exit with reason: {{try_clause,{http_req,#Port<0.15640>,ranch_tcp,keepalive,<0.2762.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52250},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135310WS20raaa&state=enter">>,[{<<"code">>,<<"141001135310WS20raaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 13:54:38.335 [error] emulator Error in process <0.2973.0> with exit value: {{try_clause,{http_req,#Port<0.15718>,ranch_tcp,keepalive,<0.2973.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52297},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 13:54:38.336 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2973.0> exit with reason: {{try_clause,{http_req,#Port<0.15718>,ranch_tcp,keepalive,<0.2973.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52297},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135435WS1osaaa&state=enter">>,[{<<"code">>,<<"141001135435WS1osaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 13:56:28.646 [error] emulator Error in process <0.3234.0> with exit value: {{try_clause,{http_req,#Port<0.15766>,ranch_tcp,keepalive,<0.3234.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52350},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 13:56:28.647 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3234.0> exit with reason: {{try_clause,{http_req,#Port<0.15766>,ranch_tcp,keepalive,<0.3234.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52350},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001135626WS1ssaaa&state=enter">>,[{<<"code">>,<<"141001135626WS1ssaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 13:59:25.305 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:78: Error: undefined macro 'REDIRECT_HOME'
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+2014-10-01 14:00:01.688 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:00:01.699 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:00:33.017 [error] emulator Error in process <0.3827.0> with exit value: {{try_clause,{http_req,#Port<0.15957>,ranch_tcp,keepalive,<0.3827.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},52504},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 14:00:33.018 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3827.0> exit with reason: {{try_clause,{http_req,#Port<0.15957>,ranch_tcp,keepalive,<0.3827.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},52504},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001140032WS3puaaa&state=enter">>,[{<<"code">>,<<"141001140032WS3puaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 14:00:56.457 [error]  tm_module:57(): TAG badarith
+
+2014-10-01 14:01:10.375 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:01:10.385 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:01:52.921 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:70: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:86: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:01:52.933 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:03:13.614 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:13.623 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:03:20.589 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,204,2,186,132,55,160,22,146,225,166>>}},{<<"created_at">>,<<"2014-10-01 12:40:18">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"artemkosolap@gmail.com">>},{<<"phone">>,<<"0632578917">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,44,32,208,191,208,190,208,180,209,129,208,186,208,176,208,182,208,184,209,130,208,181,44,32,208,191,208,190,208,182,208,176,208,187,209,131,208,185,209,129,209,130,208,176,44,32,208,188,208,190,208,179,209,131,32,208,187,208,184,32,209,143,32,209,129,208,189,208,184,208,188,208,176,209,130,209,140,32,208,180,208,181,208,189,209,140,208,179,208,184,32,208,178,32,208,180,209,128,209,131,208,179,208,190,208,185,32,209,129,209,130,209,128,208,176,208,189,208,181,32,40,208,149,208,179,208,184,208,191,208,181,209,130,41,32,208,186,208,190,208,189,208,178,208,181,209,128,209,130,208,184,209,128,209,131,209,143,32,208,178,32,208,180,208,190,208,187,208,187,208,176,209,128,209,139,32,208,189,208,176,32,209,129,209,131,208,188,208,188,209,131,32,208,177,208,190,208,187,208,181,208,181,32,51,48,48,48,32,208,179,209,128,208,189,63>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"IEXHT0SYwQQRrWMxRYY4MyOKK">>},{<<"sh_cli_id">>,<<"76264508">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:03:24.632 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,194,238,186,132,55,160,22,146,225,165>>}},{<<"created_at">>,<<"2014-10-01 12:01:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"dir19.77@ukr.net">>},{<<"phone">>,<<"0631944720">>},{<<"vopros">>,<<208,148,208,190,208,177,209,128,209,139,208,185,32,208,180,208,181,208,189,209,140,44,32,209,131,208,183,208,189,208,176,208,187,208,176,44,32,209,135,209,130,208,190,32,208,146,208,176,209,136,32,208,177,208,176,208,189,208,186,32,208,191,209,128,208,181,208,180,208,190,209,129,209,130,208,176,208,178,208,187,209,143,208,181,209,130,32,208,190,209,130,209,129,209,128,208,190,209,135,208,186,209,131,32,208,191,208,190,32,209,129,208,178,208,190,208,184,208,188,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,46,32,208,173,209,130,208,190,32,208,191,209,128,208,176,208,178,208,180,208,176,63,32,208,144,32,208,188,208,190,208,182,208,181,209,130,32,208,189,208,181,32,208,191,208,190,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,44,32,208,176,208,191,208,190,32,208,180,209,128,209,131,208,179,208,184,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,63,208,149,209,129,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,209,133,208,190,209,130,208,181,208,187,208,176,32,208,177,209,139,32,209,131,208,183,208,189,208,176,209,130,209,140,32,209,131,209,129,208,187,208,190,208,178,208,184,209,143,63,32,208,152,32,208,181,209,129,209,130,209,140,32,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,209,129,209,130,209,140,32,208,184,208,188,208,181,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,32,40,208,184,208,191,208,190,209,130,208,181,208,186,209,131,41,32,208,178,32,208,180,209,128,209,131,208,179,208,190,208,188,32,208,177,208,176,208,189,208,186,208,181,32,34,208,191,208,181,209,128,208,181,208,178,208,181,209,129,209,130,208,184,34,32,208,181,208,179,208,190,32,208,186,32,208,146,208,176,208,188,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"udnmTtkZ5w4Ix5DPC7Wr2gAyb">>},{<<"sh_cli_id">>,<<"76258878">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:03:59.645 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:03:59.665 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-01 14:03:59.698 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-01 14:03:59.725 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-01 14:03:59.789 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59.817 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-01 14:03:59.854 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59.902 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:03:59.925 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-01 14:03:59.940 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:03:59.944 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-01 14:03:59.946 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-01 14:03:59.952 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:03:59.955 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.371 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:07:31.389 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-01 14:07:31.431 [info] <0.114.0> /Users/Admin/Sites/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-01 14:07:31.464 [info] <0.114.0> /Users/Admin/Sites/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-01 14:07:31.540 [error] <0.114.0> /Users/Admin/Sites/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31.572 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-01 14:07:31.627 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31.691 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:07:31.720 [info] <0.114.0> /Users/Admin/Sites/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-01 14:07:31.747 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.754 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4267.0> exit with reason: killed
+
+2014-10-01 14:07:31.757 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4279.0> exit with reason: killed
+
+2014-10-01 14:07:31.757 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.765 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.770 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.775 [info] <0.114.0> orders_module: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.780 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.785 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.790 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:07:31.795 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-01 14:16:41.292 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:60: Error: variable '_Login' is unbound
+2014-10-01 14:16:49.251 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,42,169,199,186,132,55,160,22,146,225,158>>}},{<<"created_at">>,<<"2014-09-30 16:01:59">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"gvk_lutsk@ukr.net">>},{<<"phone">>,<<"0507578818">>},{<<"vopros">>,<<32,208,156,208,181,209,129,209,143,209,134,32,208,189,208,176,208,183,208,176,208,180,32,208,180,208,190,208,187,208,182,208,189,209,139,32,208,177,209,139,208,187,208,184,32,209,128,208,176,209,129,209,129,208,188,208,176,209,130,209,128,208,184,208,178,208,176,209,130,209,140,32,208,189,208,176,209,136,209,131,32,208,183,208,176,209,143,208,178,208,186,209,131,32,208,189,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,185,32,208,187,208,184,208,188,208,184,209,130,46,32,208,145,209,139,208,187,32,208,183,208,178,208,190,208,189,208,190,208,186,32,208,184,208,183,32,208,148,208,189,208,181,208,191,209,128,208,190,208,191,208,181,209,130,209,128,208,190,208,178,209,129,208,186,208,176,32,209,135,209,130,208,190,32,208,187,208,184,208,188,208,184,209,130,32,208,178,209,139,208,180,208,181,208,187,208,184,208,187,208,184,46,32,208,154,209,131,208,180,208,176,32,208,189,209,131,208,182,208,189,208,190,32,208,190,208,177,209,128,208,176,209,130,208,184,209,130,209,140,209,129,209,143,32,208,180,208,187,209,143,32,208,190,209,132,208,190,209,128,208,188,208,187,208,181,208,189,208,184,209,143,32,208,180,208,190,208,179,208,190,208,178,208,190,209,128,208,176,63>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"xHvDPQooTk347XFjajtmO8omw">>},{<<"sh_cli_id">>,<<"76058611">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:16:51.493 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:16:52.419 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,42,213,55,186,132,55,160,22,146,225,161>>}},{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:25:07.836 [error] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:60: Error: variable '_Login' is unbound
+2014-10-01 14:25:23.480 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,42,213,55,186,132,55,160,22,146,225,161>>}},{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:26:07.421 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:26:07.442 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:26:10.879 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:27:05.687 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:27:17.413 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:28:41.697 [info]  tms.erl:68: [[{<<"_id">>,{oid,<<84,43,179,118,186,132,55,160,22,146,225,164>>}},{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-01 14:28:47.113 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"opened_at">>,"2014-10-01 14:28:41"},{<<"opened_by">>,<<"DN200288MEG">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:29:32.381 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:29:32.393 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6639.0> exit with reason: killed
+
+2014-10-01 14:29:32.394 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6640.0> exit with reason: killed
+
+2014-10-01 14:29:32.396 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7794.0> exit with reason: killed
+
+2014-10-01 14:29:32.396 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:30:57.914 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"opened_at">>,"2014-10-01 14:26:10"},{<<"opened_by">>,<<"DN200288MEG">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:30:58.046 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"opened_at">>,"2014-10-01 14:27:05"},{<<"opened_by">>,<<"DN200288MEG">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:30:58.144 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"opened_at">>,"2014-10-01 14:27:17"},{<<"opened_by">>,<<"DN200288MEG">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:32:45.199 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:32:45.208 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:33:40.699 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:33:40.708 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:33:51.841 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:33:51.849 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:33:55.589 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 10:55:34">>},{<<"opened_at">>,"2014-10-01 14:33:55"},{<<"opened_by">>,undefined},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"oleg.danilenko@ukr.net">>},{<<"phone">>,<<"0972900363">>},{<<"vopros">>,<<208,186,208,176,208,186,208,184,208,181,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,209,139,32,208,191,208,190,208,180,208,176,209,142,209,130,209,129,209,143,32,208,178,32,208,177,208,176,208,189,208,186,32,208,180,208,187,209,143,32,208,190,209,130,208,186,209,128,209,139,209,130,208,184,209,143,32,209,129,209,135,208,181,209,130,208,176,32,209,142,209,128,46,32,208,187,208,184,209,134,209,131>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"UcZW5d8bZK4GSArp73tjh7lFa">>},{<<"sh_cli_id">>,<<"76248294">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:34:21.710 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-01 14:34:21.717 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-01 14:34:21.719 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-01 14:34:21.722 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-01 14:34:21.733 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-01 14:34:21.757 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-01 14:35:52.946 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-01 14:35:52.946 [error] emulator Error in process <0.677.0> with exit value: {{try_clause,{http_req,#Port<0.11337>,ranch_tcp,keepalive,<0.677.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53448},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 14:35:52.947 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.677.0> exit with reason: {{try_clause,{http_req,#Port<0.11337>,ranch_tcp,keepalive,<0.677.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53448},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001143552WS29saaa&state=enter">>,[{<<"code">>,<<"141001143552WS29saaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 14:35:59.282 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-09-30 19:07:19">>},{<<"opened_at">>,"2014-10-01 14:35:59"},{<<"opened_by">>,undefined},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"miv76.igor@mail.ru">>},{<<"phone">>,<<" 380508880723">>},{<<"vopros">>,<<208,159,208,190,209,135,208,181,208,188,209,131,32,208,189,208,181,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,208,178,208,190,208,185,209,130,208,184,32,208,178,32,208,159,209,128,208,184,208,178,208,176,209,130,32,50,52,46,32,208,163,208,186,208,176,208,183,208,176,208,189,208,190,44,32,209,135,209,130,208,190,32,208,178,209,133,208,190,208,180,32,208,180,208,187,209,143,32,208,188,208,190,208,181,208,179,208,190,32,208,189,208,190,208,188,208,181,209,128,208,176,32,208,189,208,181,208,178,208,190,208,183,208,188,208,190,208,182,208,181,208,189>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"Th1sXtl5lnJIll0KKl_ndiFM7">>},{<<"sh_cli_id">>,<<"76200403">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:37:16.660 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:37:16.671 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:37:25.797 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:37:25.805 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:37:29.906 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:37:29.919 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:37:34.788 [info]  app.erl:40: {ok,{{"HTTP/1.1",200,"OK"},[{"connection","keep-alive"},{"date","Wed, 01 Oct 2014 11:37:34 GMT"},{"server","nginx"},{"content-length","46"},{"content-type","application/json"},{"strict-transport-security","max-age=31536000; includeSubDomains"}],"{\"username\":\"dn200288meg\",\"authsystem\":\"LDAP\"}"}}
+
+
+2014-10-01 14:37:35.445 [info]  app.erl:40: {ok,{{"HTTP/1.1",200,"OK"},[{"connection","keep-alive"},{"date","Wed, 01 Oct 2014 11:37:35 GMT"},{"server","nginx"},{"content-length","46"},{"content-type","application/json"},{"strict-transport-security","max-age=31536000; includeSubDomains"}],"{\"username\":\"dn200288meg\",\"authsystem\":\"LDAP\"}"}}
+
+
+2014-10-01 14:37:54.143 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:37:54.151 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:37:55.516 [info]  app.erl:45: "dn200288meg"
+
+
+2014-10-01 14:38:01.228 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:38:01.239 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:38:22.432 [info] <0.114.0> /Users/Admin/Sites/webserver/src/app/app.erl:0: Recompiled.
+2014-10-01 14:38:22.442 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-01 14:38:50.890 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:38:50.899 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:39:34.299 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:39:34.308 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:40:43.960 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:40:43.992 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:45:10.274 [error] emulator Error in process <0.2498.0> with exit value: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.2498.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53836},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 14:45:10.275 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2498.0> exit with reason: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.2498.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53836},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001144507WS13taaa&state=enter">>,[{<<"code">>,<<"141001144507WS13taaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 14:45:38.651 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:45:38.662 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:46:08.096 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:46:08.105 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:46:10.481 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 09:43:05">>},{<<"opened_at">>,"2014-10-01 14:46:10"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"M.P.Shevchenko@i.ua">>},{<<"phone">>,<<" 380983206044">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,33,32,208,154,208,190,208,179,208,180,208,176,32,208,178,208,190,208,183,208,190,208,177,208,189,208,190,208,178,209,143,209,130,209,129,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,181,32,208,187,208,184,208,188,208,184,209,130,209,139,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,208,176,32,208,189,208,176,32,208,186,208,176,209,128,209,130,208,176,209,133,32,32,34,208,163,208,189,208,184,208,178,208,181,209,128,209,129,208,176,208,187,209,140,208,189,208,176,209,143,34,44,32,208,187,208,184,208,188,208,184,209,130,209,139,32,34,208,158,208,191,208,187,208,176,209,130,32,209,135,208,176,209,129,209,130,209,143,208,188,208,184,34,32,208,184,208,180,209,128,46,63,32,32,208,173,209,130,208,190,32,208,186,208,176,208,186,45,209,130,208,190,32,209,129,208,178,209,143,208,183,208,176,208,189,208,190,32,209,129,32,209,128,208,181,209,136,208,181,208,189,208,184,208,181,208,188,32,208,178,32,208,191,209,128,208,190,209,130,208,190,208,186,208,190,208,187,208,181,32,208,154,208,156,208,163,32,208,190,209,130,32,49,49,46,48,57,46,49,52,32,208,179,46,32,226,132,150,55,54,63,32,208,167,208,181,208,188,32,208,188,208,190,209,130,208,184,208,178,208,184,209,128,208,190,208,178,208,176,209,130,209,140,32,208,183,208,176,209,128,208,191,208,187,208,176,209,130,208,189,209,139,208,185,32,208,191,209,128,208,190,209,141,208,186,209,130,32,34,208,159,209,128,208,184,208,178,208,176,209,130,208,176,34,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190,46>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"NlBshXqmv6gqZL4IY4rQDuZVv">>},{<<"sh_cli_id">>,<<"76214975">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:46:39.707 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 09:43:05">>},{<<"opened_at">>,"2014-10-01 14:46:39"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"M.P.Shevchenko@i.ua">>},{<<"phone">>,<<" 380983206044">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,33,32,208,154,208,190,208,179,208,180,208,176,32,208,178,208,190,208,183,208,190,208,177,208,189,208,190,208,178,209,143,209,130,209,129,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,181,32,208,187,208,184,208,188,208,184,209,130,209,139,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,208,176,32,208,189,208,176,32,208,186,208,176,209,128,209,130,208,176,209,133,32,32,34,208,163,208,189,208,184,208,178,208,181,209,128,209,129,208,176,208,187,209,140,208,189,208,176,209,143,34,44,32,208,187,208,184,208,188,208,184,209,130,209,139,32,34,208,158,208,191,208,187,208,176,209,130,32,209,135,208,176,209,129,209,130,209,143,208,188,208,184,34,32,208,184,208,180,209,128,46,63,32,32,208,173,209,130,208,190,32,208,186,208,176,208,186,45,209,130,208,190,32,209,129,208,178,209,143,208,183,208,176,208,189,208,190,32,209,129,32,209,128,208,181,209,136,208,181,208,189,208,184,208,181,208,188,32,208,178,32,208,191,209,128,208,190,209,130,208,190,208,186,208,190,208,187,208,181,32,208,154,208,156,208,163,32,208,190,209,130,32,49,49,46,48,57,46,49,52,32,208,179,46,32,226,132,150,55,54,63,32,208,167,208,181,208,188,32,208,188,208,190,209,130,208,184,208,178,208,184,209,128,208,190,208,178,208,176,209,130,209,140,32,208,183,208,176,209,128,208,191,208,187,208,176,209,130,208,189,209,139,208,185,32,208,191,209,128,208,190,209,141,208,186,209,130,32,34,208,159,209,128,208,184,208,178,208,176,209,130,208,176,34,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190,46>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"NlBshXqmv6gqZL4IY4rQDuZVv">>},{<<"sh_cli_id">>,<<"76214975">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:46:49.845 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 09:43:05">>},{<<"opened_at">>,"2014-10-01 14:46:49"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"M.P.Shevchenko@i.ua">>},{<<"phone">>,<<" 380983206044">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,33,32,208,154,208,190,208,179,208,180,208,176,32,208,178,208,190,208,183,208,190,208,177,208,189,208,190,208,178,209,143,209,130,209,129,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,181,32,208,187,208,184,208,188,208,184,209,130,209,139,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,208,176,32,208,189,208,176,32,208,186,208,176,209,128,209,130,208,176,209,133,32,32,34,208,163,208,189,208,184,208,178,208,181,209,128,209,129,208,176,208,187,209,140,208,189,208,176,209,143,34,44,32,208,187,208,184,208,188,208,184,209,130,209,139,32,34,208,158,208,191,208,187,208,176,209,130,32,209,135,208,176,209,129,209,130,209,143,208,188,208,184,34,32,208,184,208,180,209,128,46,63,32,32,208,173,209,130,208,190,32,208,186,208,176,208,186,45,209,130,208,190,32,209,129,208,178,209,143,208,183,208,176,208,189,208,190,32,209,129,32,209,128,208,181,209,136,208,181,208,189,208,184,208,181,208,188,32,208,178,32,208,191,209,128,208,190,209,130,208,190,208,186,208,190,208,187,208,181,32,208,154,208,156,208,163,32,208,190,209,130,32,49,49,46,48,57,46,49,52,32,208,179,46,32,226,132,150,55,54,63,32,208,167,208,181,208,188,32,208,188,208,190,209,130,208,184,208,178,208,184,209,128,208,190,208,178,208,176,209,130,209,140,32,208,183,208,176,209,128,208,191,208,187,208,176,209,130,208,189,209,139,208,185,32,208,191,209,128,208,190,209,141,208,186,209,130,32,34,208,159,209,128,208,184,208,178,208,176,209,130,208,176,34,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190,46>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"NlBshXqmv6gqZL4IY4rQDuZVv">>},{<<"sh_cli_id">>,<<"76214975">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:46:55.254 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 09:43:05">>},{<<"opened_at">>,"2014-10-01 14:46:55"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"M.P.Shevchenko@i.ua">>},{<<"phone">>,<<" 380983206044">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,33,32,208,154,208,190,208,179,208,180,208,176,32,208,178,208,190,208,183,208,190,208,177,208,189,208,190,208,178,209,143,209,130,209,129,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,208,189,209,139,208,181,32,208,187,208,184,208,188,208,184,209,130,209,139,32,208,191,208,181,209,128,209,129,208,190,208,189,208,176,208,187,208,176,32,208,189,208,176,32,208,186,208,176,209,128,209,130,208,176,209,133,32,32,34,208,163,208,189,208,184,208,178,208,181,209,128,209,129,208,176,208,187,209,140,208,189,208,176,209,143,34,44,32,208,187,208,184,208,188,208,184,209,130,209,139,32,34,208,158,208,191,208,187,208,176,209,130,32,209,135,208,176,209,129,209,130,209,143,208,188,208,184,34,32,208,184,208,180,209,128,46,63,32,32,208,173,209,130,208,190,32,208,186,208,176,208,186,45,209,130,208,190,32,209,129,208,178,209,143,208,183,208,176,208,189,208,190,32,209,129,32,209,128,208,181,209,136,208,181,208,189,208,184,208,181,208,188,32,208,178,32,208,191,209,128,208,190,209,130,208,190,208,186,208,190,208,187,208,181,32,208,154,208,156,208,163,32,208,190,209,130,32,49,49,46,48,57,46,49,52,32,208,179,46,32,226,132,150,55,54,63,32,208,167,208,181,208,188,32,208,188,208,190,209,130,208,184,208,178,208,184,209,128,208,190,208,178,208,176,209,130,209,140,32,208,183,208,176,209,128,208,191,208,187,208,176,209,130,208,189,209,139,208,185,32,208,191,209,128,208,190,209,141,208,186,209,130,32,34,208,159,209,128,208,184,208,178,208,176,209,130,208,176,34,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190,46>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"NlBshXqmv6gqZL4IY4rQDuZVv">>},{<<"sh_cli_id">>,<<"76214975">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:47:29.829 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:47:29.837 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:50:07.171 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:50:07.180 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:50:10.612 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 12:01:34">>},{<<"opened_at">>,"2014-10-01 14:50:10"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"dir19.77@ukr.net">>},{<<"phone">>,<<"0631944720">>},{<<"vopros">>,<<208,148,208,190,208,177,209,128,209,139,208,185,32,208,180,208,181,208,189,209,140,44,32,209,131,208,183,208,189,208,176,208,187,208,176,44,32,209,135,209,130,208,190,32,208,146,208,176,209,136,32,208,177,208,176,208,189,208,186,32,208,191,209,128,208,181,208,180,208,190,209,129,209,130,208,176,208,178,208,187,209,143,208,181,209,130,32,208,190,209,130,209,129,209,128,208,190,209,135,208,186,209,131,32,208,191,208,190,32,209,129,208,178,208,190,208,184,208,188,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,46,32,208,173,209,130,208,190,32,208,191,209,128,208,176,208,178,208,180,208,176,63,32,208,144,32,208,188,208,190,208,182,208,181,209,130,32,208,189,208,181,32,208,191,208,190,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,44,32,208,176,208,191,208,190,32,208,180,209,128,209,131,208,179,208,184,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,63,208,149,209,129,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,209,133,208,190,209,130,208,181,208,187,208,176,32,208,177,209,139,32,209,131,208,183,208,189,208,176,209,130,209,140,32,209,131,209,129,208,187,208,190,208,178,208,184,209,143,63,32,208,152,32,208,181,209,129,209,130,209,140,32,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,209,129,209,130,209,140,32,208,184,208,188,208,181,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,32,40,208,184,208,191,208,190,209,130,208,181,208,186,209,131,41,32,208,178,32,208,180,209,128,209,131,208,179,208,190,208,188,32,208,177,208,176,208,189,208,186,208,181,32,34,208,191,208,181,209,128,208,181,208,178,208,181,209,129,209,130,208,184,34,32,208,181,208,179,208,190,32,208,186,32,208,146,208,176,208,188,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"udnmTtkZ5w4Ix5DPC7Wr2gAyb">>},{<<"sh_cli_id">>,<<"76258878">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:50:35.968 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 12:01:34">>},{<<"opened_at">>,"2014-10-01 14:50:35"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"dir19.77@ukr.net">>},{<<"phone">>,<<"0631944720">>},{<<"vopros">>,<<208,148,208,190,208,177,209,128,209,139,208,185,32,208,180,208,181,208,189,209,140,44,32,209,131,208,183,208,189,208,176,208,187,208,176,44,32,209,135,209,130,208,190,32,208,146,208,176,209,136,32,208,177,208,176,208,189,208,186,32,208,191,209,128,208,181,208,180,208,190,209,129,209,130,208,176,208,178,208,187,209,143,208,181,209,130,32,208,190,209,130,209,129,209,128,208,190,209,135,208,186,209,131,32,208,191,208,190,32,209,129,208,178,208,190,208,184,208,188,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,46,32,208,173,209,130,208,190,32,208,191,209,128,208,176,208,178,208,180,208,176,63,32,208,144,32,208,188,208,190,208,182,208,181,209,130,32,208,189,208,181,32,208,191,208,190,32,208,184,208,191,208,190,209,130,208,181,209,135,208,189,209,139,208,188,44,32,208,176,208,191,208,190,32,208,180,209,128,209,131,208,179,208,184,208,188,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,63,208,149,209,129,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,32,209,133,208,190,209,130,208,181,208,187,208,176,32,208,177,209,139,32,209,131,208,183,208,189,208,176,209,130,209,140,32,209,131,209,129,208,187,208,190,208,178,208,184,209,143,63,32,208,152,32,208,181,209,129,209,130,209,140,32,208,187,208,184,32,208,178,208,190,208,183,208,188,208,190,208,182,208,189,208,190,209,129,209,130,209,140,32,208,184,208,188,208,181,209,143,32,208,186,209,128,208,181,208,180,208,184,209,130,32,40,208,184,208,191,208,190,209,130,208,181,208,186,209,131,41,32,208,178,32,208,180,209,128,209,131,208,179,208,190,208,188,32,208,177,208,176,208,189,208,186,208,181,32,34,208,191,208,181,209,128,208,181,208,178,208,181,209,129,209,130,208,184,34,32,208,181,208,179,208,190,32,208,186,32,208,146,208,176,208,188,63,32,208,161,208,191,208,176,209,129,208,184,208,177,208,190>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"udnmTtkZ5w4Ix5DPC7Wr2gAyb">>},{<<"sh_cli_id">>,<<"76258878">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:51:46.097 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:51:46.107 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:52:08.853 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 12:40:18">>},{<<"opened_at">>,"2014-10-01 14:52:08"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"artemkosolap@gmail.com">>},{<<"phone">>,<<"0632578917">>},{<<"vopros">>,<<208,151,208,180,209,128,208,176,208,178,209,129,209,130,208,178,209,131,208,185,209,130,208,181,44,32,208,191,208,190,208,180,209,129,208,186,208,176,208,182,208,184,209,130,208,181,44,32,208,191,208,190,208,182,208,176,208,187,209,131,208,185,209,129,209,130,208,176,44,32,208,188,208,190,208,179,209,131,32,208,187,208,184,32,209,143,32,209,129,208,189,208,184,208,188,208,176,209,130,209,140,32,208,180,208,181,208,189,209,140,208,179,208,184,32,208,178,32,208,180,209,128,209,131,208,179,208,190,208,185,32,209,129,209,130,209,128,208,176,208,189,208,181,32,40,208,149,208,179,208,184,208,191,208,181,209,130,41,32,208,186,208,190,208,189,208,178,208,181,209,128,209,130,208,184,209,128,209,131,209,143,32,208,178,32,208,180,208,190,208,187,208,187,208,176,209,128,209,139,32,208,189,208,176,32,209,129,209,131,208,188,208,188,209,131,32,208,177,208,190,208,187,208,181,208,181,32,51,48,48,48,32,208,179,209,128,208,189,63>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11066">>},{<<"sh_token">>,<<"IEXHT0SYwQQRrWMxRYY4MyOKK">>},{<<"sh_cli_id">>,<<"76264508">>},{<<"sh_ent_id">>,<<"31642">>},{<<"working">>,1}]
+
+
+2014-10-01 14:55:05.868 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:55:05.876 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:55:12.714 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 14:54:53">>},{<<"opened_at">>,"2014-10-01 14:55:12"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"q">>},{<<"phone">>,<<"q">>},{<<"vopros">>,<<"q">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"iBMGgOcPNgxD2gqk7BdU8mn2y">>},{<<"sh_cli_id">>,<<"76284620">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:55:28.366 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 14:54:53">>},{<<"opened_at">>,"2014-10-01 14:55:28"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"q">>},{<<"phone">>,<<"q">>},{<<"vopros">>,<<"q">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"iBMGgOcPNgxD2gqk7BdU8mn2y">>},{<<"sh_cli_id">>,<<"76284620">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:55:36.186 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:87: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:55:36.196 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:55:39.170 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-01 14:54:53">>},{<<"opened_at">>,"2014-10-01 14:55:39"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"q">>},{<<"phone">>,<<"q">>},{<<"vopros">>,<<"q">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"iBMGgOcPNgxD2gqk7BdU8mn2y">>},{<<"sh_cli_id">>,<<"76284620">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-01 14:56:48.855 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:56:48.864 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:56:49.790 [info]  tms.erl:50: 11
+
+
+2014-10-01 14:57:02.046 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:02.056 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:57:03.612 [info]  tms.erl:53: [[{<<"created_at">>,<<"2014-10-01 14:54:53">>},{<<"opened_at">>,<<"2014-10-01 14:55:39">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"q">>},{<<"phone">>,<<"q">>},{<<"vopros">>,<<"q">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"iBMGgOcPNgxD2gqk7BdU8mn2y">>},{<<"sh_cli_id">>,<<"76284620">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]]
+
+
+2014-10-01 14:57:38.442 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:38.452 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:57:41.092 [info]  tms.erl:57: "dn200288meg"
+
+
+2014-10-01 14:57:46.565 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:57:46.576 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:57:48.246 [info]  tms.erl:57: <<"dn200288meg">>
+
+
+2014-10-01 14:58:01.801 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:89: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:58:01.809 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 14:58:09.050 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 14:58:09.063 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 15:21:05.057 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-01 15:21:05.064 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-01 15:22:34.798 [info] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-01 15:22:34.848 [error] <0.114.0> /Users/Admin/Sites/webserver/src/treatment/tms.erl:88: Warning: variable 'ANSWER' is unused
+/Users/Admin/Sites/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-01 15:22:34.861 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-01 16:45:42.331 [error] emulator Error in process <0.15210.0> with exit value: {{try_clause,{http_req,#Port<0.17316>,ranch_tcp,keepalive,<0.15210.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57404},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-01 16:45:42.332 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.15210.0> exit with reason: {{try_clause,{http_req,#Port<0.17316>,ranch_tcp,keepalive,<0.15210.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57404},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141001164540WS18xaaa&state=enter">>,[{<<"code">>,<<"141001164540WS18xaaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-01 16:46:04.714 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {model,etimedout} in emongo_conn:loop/2 line 123
+2014-10-01 16:47:00.224 [error]  tm_module:57(): TAG noproc
+
+2014-10-01 16:47:46.554 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-01 16:47:46.560 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-01 16:47:46.562 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-01 16:47:46.565 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-01 16:47:46.574 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-01 16:47:46.596 [info] <0.7.0> Application gproc started on node nonode@nohost

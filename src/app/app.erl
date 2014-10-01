@@ -42,7 +42,6 @@ getting_user(Req) ->
 
   BodyList = re:split(Body, "[\"]", [{return, list}]), %TODO переписать
   [_, _, _, Ldap|_] = BodyList,
-
   Ldap.
 
 %%---------------------------------------------------

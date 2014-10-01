@@ -15,7 +15,8 @@
   save/3,
   inWork/2,
   send_mail/2,
-  update_level/3
+  update_level/3,
+  tc/1
 ]).
 
 save(PostAttrs, AllBindings, Req) ->
@@ -33,7 +34,7 @@ save(PostAttrs, AllBindings, Req) ->
         PostAttrs,
         [
           {<<"modified_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-          {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req2))},
+          {<<"author_login">>, app:getting_user(Req2)},
           {<<"rating">>, 0},
           {<<"rating_at">>, <<"">>}
         ]
@@ -43,14 +44,15 @@ save(PostAttrs, AllBindings, Req) ->
 
 find(AllBindings, false, _Req) ->
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
-  Data = tm_module:deletekey(Find),
+  Data = tm_module:remove_id_mongo(Find),
   Data;
 find(Id, true, Req) ->
+
   Find = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  Data = tm_module:deletekey(Find),
+  Data = tm_module:remove_id_mongo(Find),
 
   OpenedBy = proplists:get_value(<<"opened_by">>, lists:merge(Data)),
-  Login = proplists:get_value(<<"login">>, app:personality(Req)),
+  Login = list_to_binary(app:getting_user(Req)),
 
   Result =
     case OpenedBy =:= Login of
@@ -64,16 +66,18 @@ find(Id, true, Req) ->
 
 inWork(Id, Req) ->
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-  Data = tm_module:deletekey(DataIn),
+
+  Data = tm_module:remove_id_mongo(DataIn),
 
   List = lists:merge(
     lists:delete({<<"working">>, <<"0">>}, lists:merge(Data)),
     [
       {<<"opened_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-      {<<"opened_by">>, proplists:get_value(<<"login">>, app:personality(Req))},
+      {<<"opened_by">>, app:getting_user(Req)},
       {<<"working">>, 1}
     ]
   ),
+
   emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], List),
   <<"{\"status\":\"ok\"}">>.
 
@@ -93,3 +97,8 @@ update_level(PostAttrs, List, AllBindings) ->
       {<<"working">>, 0}
     ]
   )).
+
+
+tc([]) ->
+  [].
+
