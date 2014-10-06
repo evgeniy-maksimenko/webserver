@@ -10,6 +10,7 @@ define([], function() {
 			'backbone' 			    : 'libs/backbone/backbone',
 			'bootstrap'			    : 'libs/bootstrap/bootstrap.min',
 			'bootstrap-select' 	    : 'libs/bootstrap/bootstrap-select.min',
+			'backgrid_paginator'	: 'libs/backgrid/backgrid-paginator.min',
 			'jquery-cookie'		    : 'libs/jquery/jquery.cookie',
 			'jquery-ui'			    : 'libs/jquery/jquery-ui',
 			'jquery-color'		    : 'libs/jquery/jquery-color',

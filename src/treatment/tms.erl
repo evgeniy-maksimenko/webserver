@@ -66,7 +66,6 @@ find(Id, true, Req) ->
 
 inWork(Id, Req) ->
   DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
-
   Data = tm_module:remove_id_mongo(DataIn),
 
   List = lists:merge(
@@ -83,11 +82,22 @@ inWork(Id, Req) ->
 
 send_mail(AllBindings, Req) ->
   {Host, Req1} = cowboy_req:host(Req),
-  {Port, Req2} = cowboy_req:port(Req1),
-  ADDRESS = binary_to_list(Host) ++":"++integer_to_list(Port)++"/tm_view/response/"++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
-  ANSWER = ?MAIL_BODY ++ ADDRESS ++ "'>ссылке</a>.</p>",
-  %%mailer:send("siemenspromaster@gmail.com",<<"Обращение в Помощь Онлайн.">>,list_to_binary(ANSWER)),
-  {ok, Req2}.
+  ADDRESS = binary_to_list(Host)++"/tm_view/response/"++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
+
+  BODY = <<?MAIL_BODY/utf8>>,
+  List = <<"'>ссылке</a>.</p>"/utf8>>,
+
+  ANSWER = binary_to_list(BODY) ++ ADDRESS ++ binary_to_list(List),
+  BILL = list_to_binary(ANSWER),
+
+
+  DataIn = emongo:find(model, "treatment", [{"sh_cli_id", proplists:get_value(<<"id">>, AllBindings)}]),
+  Data = tm_module:remove_id_mongo(DataIn),
+
+  Email = binary_to_list(proplists:get_value(<<"email">>, lists:merge(Data))),
+
+  mailer:send(Email,<<"Обращение в Помощь Онлайн."/utf8>>,BILL),
+  {ok, Req1}.
 
 update_level(PostAttrs, List, AllBindings) ->
   ListLVL = [{K, V} || {K, V} <- PostAttrs, not lists:member(K, List)],

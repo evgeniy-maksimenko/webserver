@@ -46,6 +46,7 @@ start(_StartType, _StartArgs) ->
       {"/ws_closer",                  ws_closer_handler, []},
       %% ===================================================================
       {"/[...]",                      cowboy_static, {file, "priv/index.html"}}
+
     ]}
   ]),
   Port = 8008,
