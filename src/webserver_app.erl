@@ -11,6 +11,8 @@
 start(_StartType, _StartArgs) ->
 
   emongo:add_pool(?POOL, ?HOST, ?PORT, ?DB, ?SIZE),
+
+
   ets:new(treatments, [named_table, public, set]),
   ets:new(treatments_btns, [named_table, public, set]),
   ets:new(treatments_closer, [named_table, public, set]),
@@ -60,7 +62,7 @@ start(_StartType, _StartArgs) ->
   webserver_sup:start_link().
 
 authorization(Req) ->
-  auth_handler:getAuthPage(Req).
+ auth_handler:getAuthPage(Req).
 
 stop(_State) ->
   ok.

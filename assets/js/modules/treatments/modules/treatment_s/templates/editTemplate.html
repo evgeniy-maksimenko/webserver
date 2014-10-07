@@ -2,7 +2,7 @@
   <li><a href="/">Главная страница</a></li>
   <li><a href="#">Обращения</a></li>
   <li><a href="/treatment_s">Обращения 2 уровень</a></li>
-  <li class="active"><%= sh_cli_id %></li>
+  <li class="active"><%= id %></li>
 </ol>
 
 <form role="form">
@@ -26,6 +26,7 @@
     <textarea class="form-control" rows="5" name="otvet"></textarea>
   </div>
   
+  <input name="id" value="<%= id %>" type="hidden"/>
 	<input name="sh_cli_id" value="<%= sh_cli_id %>" type="hidden"/>
   <input name="biznes" value="<%= biznes %>" type="hidden"/>
   <input name="created_at" value="<%= created_at %>" type="hidden"/>

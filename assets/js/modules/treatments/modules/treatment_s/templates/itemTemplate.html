@@ -4,16 +4,16 @@
 <td style="width:30px;"><%= created_at %></td>
 <td style="width:30px;">
     <% if(working==0) {%>
-        <div class="in_work btn btn-success" id="work<%= sh_cli_id %>" data="<%= sh_cli_id %>">в работу</div>
-        
+    <div class="in_work btn btn-success" id="work<%= id %>" data="<%= id %>">в работу</div>
+    <a class="btn btn-danger" id="in_work<%= id %>" href="/treatment_s/edit/<%= id %>" style="display:none;">закрыть</a>
     <%} else {%>
-        <a class="btn btn-danger" href="/treatment_s/edit/<%= sh_cli_id %>">закрыть</a>
+    <a class="btn btn-danger" href="/treatment_s/edit/<%= id %>">закрыть</a>
     <%}%>
 </td>
 <td style="width:30px;">
     <% if(working==1) {%>
-        <span class="status label label-danger" id="status<%= sh_cli_id %>">В работе</span>
+    <span class="status label label-danger" id="status<%= id %>">В работе</span>
     <%} else {%>
-        <span class="status label label-danger" id="status<%= sh_cli_id %>" style="display:none;">В работе</span>
+    <span class="status label label-danger" id="status<%= id %>" style="display:none;">В работе</span>
     <%}%>
 </td>

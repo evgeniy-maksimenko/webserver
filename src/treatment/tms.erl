@@ -29,8 +29,8 @@ save(PostAttrs, AllBindings, Req) ->
     <<"2lvl">> ->
       update_level(PostAttrs, List, AllBindings);
     <<"OK">> ->
-      {ok, Req2} = send_mail(AllBindings, Req),
-      emongo:update(model, "treatment", [{<<"sh_cli_id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
+       {ok, Req2} = send_mail(AllBindings, Req),
+      emongo:update(model, "treatment", [{<<"id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
         PostAttrs,
         [
           {<<"modified_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
@@ -48,7 +48,7 @@ find(AllBindings, false, _Req) ->
   Data;
 find(Id, true, Req) ->
 
-  Find = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  Find = emongo:find(model, "treatment", [{"id", Id}]),
   Data = tm_module:remove_id_mongo(Find),
 
   OpenedBy = proplists:get_value(<<"opened_by">>, lists:merge(Data)),
@@ -65,7 +65,7 @@ find(Id, true, Req) ->
 
 
 inWork(Id, Req) ->
-  DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  DataIn = emongo:find(model, "treatment", [{<<"id">>,Id}]),
   Data = tm_module:remove_id_mongo(DataIn),
 
   List = lists:merge(
@@ -77,12 +77,12 @@ inWork(Id, Req) ->
     ]
   ),
 
-  emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], List),
+   emongo:update(model, "treatment", [{<<"id">>, Id}], List),
   <<"{\"status\":\"ok\"}">>.
 
 send_mail(AllBindings, Req) ->
   {Host, Req1} = cowboy_req:host(Req),
-  ADDRESS = binary_to_list(Host)++"/tm_view/response/"++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
+  ADDRESS = binary_to_list(Host) ++ "/tm_view/response/" ++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
 
   BODY = <<?MAIL_BODY/utf8>>,
   List = <<"'>ссылке</a>.</p>"/utf8>>,
@@ -91,17 +91,17 @@ send_mail(AllBindings, Req) ->
   BILL = list_to_binary(ANSWER),
 
 
-  DataIn = emongo:find(model, "treatment", [{"sh_cli_id", proplists:get_value(<<"id">>, AllBindings)}]),
+  DataIn = emongo:find(model, "treatment", [{"id", proplists:get_value(<<"id">>, AllBindings)}]),
   Data = tm_module:remove_id_mongo(DataIn),
 
   Email = binary_to_list(proplists:get_value(<<"email">>, lists:merge(Data))),
 
-  mailer:send(Email,<<"Обращение в Помощь Онлайн."/utf8>>,BILL),
+  mailer:send(Email, <<"Обращение в Помощь Онлайн."/utf8>>, BILL),
   {ok, Req1}.
 
 update_level(PostAttrs, List, AllBindings) ->
   ListLVL = [{K, V} || {K, V} <- PostAttrs, not lists:member(K, List)],
-  emongo:update(model, "treatment", [{<<"sh_cli_id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
+  emongo:update(model, "treatment", [{<<"id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
     ListLVL,
     [
       {<<"working">>, 0}
@@ -111,4 +111,3 @@ update_level(PostAttrs, List, AllBindings) ->
 
 tc([]) ->
   [].
-

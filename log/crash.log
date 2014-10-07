@@ -1,46 +1,448 @@
-2014-10-06 09:52:39 =ERROR REPORT====
-Error in process <0.8353.1> with exit value: {{try_clause,{http_req,#Port<0.14932>,ranch_tcp,keepalive,<0.8353.1>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},62732},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 09:00:22 =ERROR REPORT====
+Error in process <0.13348.1> with exit value: {{try_clause,{http_req,#Port<0.12469>,ranch_tcp,keepalive,<0.13348.1>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56497},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-10-06 09:52:39 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.8353.1> exit with reason: {{try_clause,{http_req,#Port<0.14932>,ranch_tcp,keepalive,<0.8353.1>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},62732},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006095239WS3s9baa&state=enter">>,[{<<"code">>,<<"141006095239WS3s9baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-10-06 09:53:05 =CRASH REPORT====
+2014-10-07 09:00:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.13348.1> exit with reason: {{try_clause,{http_req,#Port<0.12469>,ranch_tcp,keepalive,<0.13348.1>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56497},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007090021WS24qcaa&state=enter">>,[{<<"code">>,<<"141007090021WS24qcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:20:56 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 09:22:47 =ERROR REPORT====
+Error in process <0.4033.0> with exit value: {{try_clause,{http_req,#Port<0.14931>,ranch_tcp,keepalive,<0.4033.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57182},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 09:22:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4033.0> exit with reason: {{try_clause,{http_req,#Port<0.14931>,ranch_tcp,keepalive,<0.4033.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57182},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007092246WS3mucaa&state=enter">>,[{<<"code">>,<<"141007092246WS3mucaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:46:35 =ERROR REPORT====
+Error in process <0.7399.0> with exit value: {{try_clause,{http_req,#Port<0.15396>,ranch_tcp,keepalive,<0.7399.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57704},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 09:46:35 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7399.0> exit with reason: {{try_clause,{http_req,#Port<0.15396>,ranch_tcp,keepalive,<0.7399.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57704},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007094635WS3fvcaa&state=enter">>,[{<<"code">>,<<"141007094635WS3fvcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 10:10:44 =ERROR REPORT====
+Error in process <0.10736.0> with exit value: {{try_clause,{http_req,#Port<0.15505>,ranch_tcp,keepalive,<0.10736.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58104},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 10:10:44 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10736.0> exit with reason: {{try_clause,{http_req,#Port<0.15505>,ranch_tcp,keepalive,<0.10736.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58104},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007101041WS10rcaa&state=enter">>,[{<<"code">>,<<"141007101041WS10rcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 10:36:39 =ERROR REPORT====
+Error in process <0.14283.0> with exit value: {{try_clause,{http_req,#Port<0.15602>,ranch_tcp,keepalive,<0.14283.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58507},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 10:36:39 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14283.0> exit with reason: {{try_clause,{http_req,#Port<0.15602>,ranch_tcp,keepalive,<0.14283.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58507},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007103635WS14scaa&state=enter">>,[{<<"code">>,<<"141007103635WS14scaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 10:52:12 =ERROR REPORT====
+Error in process <0.16409.0> with exit value: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.16409.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58781},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 10:52:12 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.16409.0> exit with reason: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.16409.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58781},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007105212WS3pxcaa&state=enter">>,[{<<"code">>,<<"141007105212WS3pxcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 11:31:05 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 11:56:53 =ERROR REPORT====
+Error in process <0.25335.0> with exit value: {{try_clause,{http_req,#Port<0.16066>,ranch_tcp,keepalive,<0.25335.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59786},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 11:56:53 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.25335.0> exit with reason: {{try_clause,{http_req,#Port<0.16066>,ranch_tcp,keepalive,<0.25335.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59786},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007115652WS2rxcaa&state=enter">>,[{<<"code">>,<<"141007115652WS2rxcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 12:11:57 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:12:02 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:15:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:36 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:55 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:45: Warning: variable 'H2' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:17:16 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:19:22 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'KEY' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'VAL' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:19:55 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'KEY' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:22:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:47: Warning: variable 'Au' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:22:57 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:27:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:28:41 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:29:32 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:30:24 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:31:42 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:36: Warning: variable 'LGH' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 12:31:42 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:76: Error: variable 'LGH' is unbound
+2014-10-07 12:33:54 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:34:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:36:34 =CRASH REPORT====
   crasher:
     initial call: emongo_conn:init/4
     pid: <0.134.0>
     registered_name: []
-    exception exit: {{model,etimedout},[{emongo_conn,loop,2,[{file,"src/emongo_conn.erl"},{line,123}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    exception exit: {{failed_to_open_socket,enetunreach},[{emongo_conn,open_socket,2,[{file,"src/emongo_conn.erl"},{line,131}]},{emongo_conn,init,4,[{file,"src/emongo_conn.erl"},{line,36}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
     ancestors: [emongo,emongo_app,<0.120.0>]
-    messages: [{tcp_closed,#Port<0.10448>}]
+    messages: []
     links: [<0.122.0>]
     dictionary: []
     trap_exit: false
     status: running
-    heap_size: 376
+    heap_size: 610
     stack_size: 27
-    reductions: 621
+    reductions: 500
   neighbours:
-2014-10-06 10:40:26 =ERROR REPORT====
-Error in process <0.6989.0> with exit value: {{try_clause,{http_req,#Port<0.12589>,ranch_tcp,keepalive,<0.6989.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64201},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 12:37:55 =CRASH REPORT====
+  crasher:
+    initial call: emongo_conn:init/4
+    pid: <0.134.0>
+    registered_name: []
+    exception exit: {{failed_to_open_socket,enetunreach},[{emongo_conn,open_socket,2,[{file,"src/emongo_conn.erl"},{line,131}]},{emongo_conn,init,4,[{file,"src/emongo_conn.erl"},{line,36}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [emongo,emongo_app,<0.120.0>]
+    messages: []
+    links: [<0.122.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 500
+  neighbours:
+2014-10-07 13:10:13 =ERROR REPORT====
+Error in process <0.948.0> with exit value: {{try_clause,{http_req,#Port<0.11281>,ranch_tcp,keepalive,<0.948.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},60999},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
-2014-10-06 10:40:26 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6989.0> exit with reason: {{try_clause,{http_req,#Port<0.12589>,ranch_tcp,keepalive,<0.6989.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64201},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006104016WS1r9baa&state=enter">>,[{<<"code">>,<<"141006104016WS1r9baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-10-06 10:47:01 =ERROR REPORT====
-Error in process <0.7940.0> with exit value: {{try_clause,{http_req,#Port<0.14577>,ranch_tcp,keepalive,<0.7940.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64365},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<27 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<10 bytes>>,<<116 bytes>>},{<<15 bytes>>,<<2 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 13:10:13 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.948.0> exit with reason: {{try_clause,{http_req,#Port<0.11281>,ranch_tcp,keepalive,<0.948.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60999},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007131008WS1gycaa&state=enter">>,[{<<"code">>,<<"141007131008WS1gycaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:10:16 =ERROR REPORT====
+** Generic server emongo terminating 
+** Last message in was {pid,model}
+** When Server state == {state,[{model,{error,{failed_to_open_socket,enetunreach}}}],1,<<"W+í">>}
+** Reason for termination == 
+** {{badrecord,pool},[{emongo,handle_call,3,[{file,"src/emongo.erl"},{line,369}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-07 13:10:16 =CRASH REPORT====
+  crasher:
+    initial call: emongo:init/1
+    pid: <0.122.0>
+    registered_name: emongo
+    exception exit: {{{badrecord,pool},[{emongo,handle_call,3,[{file,"src/emongo.erl"},{line,369}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [emongo_app,<0.120.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 511
+  neighbours:
+2014-10-07 13:10:16 =SUPERVISOR REPORT====
+     Supervisor: {local,emongo_app}
+     Context:    child_terminated
+     Reason:     {{badrecord,pool},[{emongo,handle_call,3,[{file,"src/emongo.erl"},{line,369}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.122.0>},{name,emongo},{mfargs,{emongo,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
-2014-10-06 10:47:01 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7940.0> exit with reason: {{try_clause,{http_req,#Port<0.14577>,ranch_tcp,keepalive,<0.7940.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64365},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006104700WS2jccaa&state=enter">>,[{<<"code">>,<<"141006104700WS2jccaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"origin">>,<<"https://promin-stage.it.loc">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10">>},{<<"accept-language">>,<<"ru">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-10-06 10:55:31 =ERROR REPORT====
-Error in process <0.9147.0> with exit value: {{try_clause,{http_req,#Port<0.14694>,ranch_tcp,keepalive,<0.9147.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64577},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 13:10:49 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:25:48 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:13: Error: function handle/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:41: Error: syntax error before: '{'
+2014-10-07 13:27:04 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:27:08 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: variable 'Data' is unbound
+2014-10-07 13:32:04 =ERROR REPORT====
+Error in process <0.1071.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
 
-2014-10-06 10:55:31 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9147.0> exit with reason: {{try_clause,{http_req,#Port<0.14694>,ranch_tcp,keepalive,<0.9147.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64577},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006105515WS129baa&state=enter">>,[{<<"code">>,<<"141006105515WS129baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-10-06 11:42:32 =ERROR REPORT====
-Error in process <0.5063.0> with exit value: {{try_clause,{http_req,#Port<0.14813>,ranch_tcp,keepalive,<0.5063.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50491},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 13:32:04 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1071.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11802>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1071.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61242}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:32:06 =ERROR REPORT====
+Error in process <0.1078.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
 
-2014-10-06 11:42:32 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5063.0> exit with reason: {{try_clause,{http_req,#Port<0.14813>,ranch_tcp,keepalive,<0.5063.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50491},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006114226WS1vbcaa&state=enter">>,[{<<"code">>,<<"141006114226WS1vbcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-2014-10-06 12:39:40 =ERROR REPORT====
-Error in process <0.10087.0> with exit value: {{try_clause,{http_req,#Port<0.14997>,ranch_tcp,keepalive,<0.10087.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51660},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 13:32:06 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1078.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11871>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1078.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61243}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:32:07 =ERROR REPORT====
+Error in process <0.1081.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
 
-2014-10-06 12:39:40 =ERROR REPORT====
-Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10087.0> exit with reason: {{try_clause,{http_req,#Port<0.14997>,ranch_tcp,keepalive,<0.10087.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51660},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006123932WS3cicaa&state=enter">>,[{<<"code">>,<<"141006123932WS3cicaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:32:07 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1081.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11872>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1081.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61244}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:32:07 =ERROR REPORT====
+Error in process <0.1083.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+2014-10-07 13:32:07 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1083.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11873>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1083.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61245}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:32:08 =ERROR REPORT====
+Error in process <0.1086.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+2014-10-07 13:32:08 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1086.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11874>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1086.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61246}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:40:43 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2249.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11876>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.2249.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61292}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 13:40:43 =ERROR REPORT====
+Error in process <0.2249.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+2014-10-07 13:59:02 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:08 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:59 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:03:43 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:04:31 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:21:21 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: syntax error before: DataIn
+2014-10-07 14:24:32 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ets
+2014-10-07 14:29:32 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Error: syntax error before: lager
+2014-10-07 14:35:16 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ':'
+2014-10-07 14:35:34 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:70: Error: syntax error before: ets
+2014-10-07 14:35:38 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Error: syntax error before: ets
+2014-10-07 14:36:36 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: syntax error before: lager
+2014-10-07 14:39:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ets
+2014-10-07 14:41:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:76: Error: variable 'TABLE' is unbound
+2014-10-07 14:42:32 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:77: Error: syntax error before: lager
+2014-10-07 14:49:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: function info/1 undefined
+2014-10-07 14:49:58 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Warning: variable 'TABLE' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:50:59 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Warning: variable 'TABLE' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:51:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Error: syntax error before: ','
+2014-10-07 15:08:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INCREMENT'
+2014-10-07 15:09:30 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:30 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:30 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INCREMENT'
+2014-10-07 15:09:43 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:09:49 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:49 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:49 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: 'end'
+2014-10-07 15:15:04 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:82: Error: syntax error before: 'end'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:136: Warning: function from_ets_to_file/2 is unused
+2014-10-07 15:21:53 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:09 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:10 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:10 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:141: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:29:10 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:141: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:29:29 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:77: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:21: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:21: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:142: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:36:04 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:70: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:74: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:131: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:132: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:133: Error: record aic_ets undefined
+2014-10-07 15:36:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:37:04 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:118: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:119: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:120: Error: record aic_ets undefined
+2014-10-07 15:37:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:42: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:21 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:22 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:28 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:38:39 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:35: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:39:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+2014-10-07 15:45:41 =ERROR REPORT====
+Error in process <0.265.0> with exit value: {{try_clause,{http_req,#Port<0.10853>,ranch_tcp,keepalive,<0.265.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64223},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 15:45:41 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.265.0> exit with reason: {{try_clause,{http_req,#Port<0.10853>,ranch_tcp,keepalive,<0.265.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64223},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007154541WS3f9caa&state=enter">>,[{<<"code">>,<<"141007154541WS3f9caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 16:10:08 =ERROR REPORT====
+Error in process <0.738.0> with exit value: {{try_clause,{http_req,#Port<0.11801>,ranch_tcp,keepalive,<0.738.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64938},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 16:10:08 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.738.0> exit with reason: {{try_clause,{http_req,#Port<0.11801>,ranch_tcp,keepalive,<0.738.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64938},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007161008WS2b8caa&state=enter">>,[{<<"code">>,<<"141007161008WS2b8caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 16:18:58 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:19:19 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:19:44 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:01 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:13 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:34 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:42 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:32:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:91: Warning: variable 'BILL' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:97: Warning: variable 'Email' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 17:01:06 =ERROR REPORT====
+Error in process <0.1187.0> with exit value: {{try_clause,{http_req,#Port<0.11116>,ranch_tcp,keepalive,<0.1187.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50399},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-07 17:01:06 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1187.0> exit with reason: {{try_clause,{http_req,#Port<0.11116>,ranch_tcp,keepalive,<0.1187.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50399},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007170102WS1l7caa&state=enter">>,[{<<"code">>,<<"141007170102WS1l7caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 17:09:59 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:10:51 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:11:06 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:11:20 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings

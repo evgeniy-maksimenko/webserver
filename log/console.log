@@ -1,55 +1,1189 @@
-2014-10-06 09:52:39.904 [error] emulator Error in process <0.8353.1> with exit value: {{try_clause,{http_req,#Port<0.14932>,ranch_tcp,keepalive,<0.8353.1>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},62732},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 09:00:22.241 [warning] <0.6.0> lager_error_logger_h dropped 65 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 09:00:22.242 [error] emulator Error in process <0.13348.1> with exit value: {{try_clause,{http_req,#Port<0.12469>,ranch_tcp,keepalive,<0.13348.1>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56497},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
 
-2014-10-06 09:52:39.905 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.8353.1> exit with reason: {{try_clause,{http_req,#Port<0.14932>,ranch_tcp,keepalive,<0.8353.1>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},62732},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006095239WS3s9baa&state=enter">>,[{<<"code">>,<<"141006095239WS3s9baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:00:22.242 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.13348.1> exit with reason: {{try_clause,{http_req,#Port<0.12469>,ranch_tcp,keepalive,<0.13348.1>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56497},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007090021WS24qcaa&state=enter">>,[{<<"code">>,<<"141007090021WS24qcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-10-06 09:53:05.637 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {model,etimedout} in emongo_conn:loop/2 line 123
-2014-10-06 09:53:18.854 [error]  tm_module:57(): TAG noproc
+2014-10-07 09:00:34.768 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 09:00:34.776 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 09:00:34.778 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 09:00:34.781 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 09:00:34.791 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 09:00:34.816 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 09:20:56.364 [warning] <0.6.0> lager_error_logger_h dropped 55 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 09:20:56.364 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 09:20:56.375 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 09:21:40.623 [error]  c_http_request:44(): TAG {case_clause,"Not Found"}
 
-2014-10-06 09:53:21.411 [error]  tm_module:57(): TAG noproc
+2014-10-07 09:21:40.623 [error]  api_get_all_orders_handler:29(): TAG badarg
 
-2014-10-06 09:53:49.325 [info] <0.7.0> Application lager started on node nonode@nohost
-2014-10-06 09:53:49.332 [info] <0.7.0> Application sync started on node nonode@nohost
-2014-10-06 09:53:49.334 [info] <0.7.0> Application jsx started on node nonode@nohost
-2014-10-06 09:53:49.337 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
-2014-10-06 09:53:49.347 [info] <0.7.0> Application emongo started on node nonode@nohost
-2014-10-06 09:53:49.368 [info] <0.7.0> Application gproc started on node nonode@nohost
-2014-10-06 10:40:26.851 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
-2014-10-06 10:40:26.852 [error] emulator Error in process <0.6989.0> with exit value: {{try_clause,{http_req,#Port<0.12589>,ranch_tcp,keepalive,<0.6989.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64201},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
-
-
-2014-10-06 10:40:26.852 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6989.0> exit with reason: {{try_clause,{http_req,#Port<0.12589>,ranch_tcp,keepalive,<0.6989.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64201},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006104016WS1r9baa&state=enter">>,[{<<"code">>,<<"141006104016WS1r9baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-10-06 10:47:01.574 [error] emulator Error in process <0.7940.0> with exit value: {{try_clause,{http_req,#Port<0.14577>,ranch_tcp,keepalive,<0.7940.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64365},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<27 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<10 bytes>>,<<116 bytes>>},{<<15 bytes>>,<<2 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 09:22:47.463 [error] emulator Error in process <0.4033.0> with exit value: {{try_clause,{http_req,#Port<0.14931>,ranch_tcp,keepalive,<0.4033.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57182},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
 
-2014-10-06 10:47:01.575 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7940.0> exit with reason: {{try_clause,{http_req,#Port<0.14577>,ranch_tcp,keepalive,<0.7940.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64365},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006104700WS2jccaa&state=enter">>,[{<<"code">>,<<"141006104700WS2jccaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"origin">>,<<"https://promin-stage.it.loc">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10">>},{<<"accept-language">>,<<"ru">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:22:47.463 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.4033.0> exit with reason: {{try_clause,{http_req,#Port<0.14931>,ranch_tcp,keepalive,<0.4033.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57182},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007092246WS3mucaa&state=enter">>,[{<<"code">>,<<"141007092246WS3mucaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-10-06 10:55:31.842 [error] emulator Error in process <0.9147.0> with exit value: {{try_clause,{http_req,#Port<0.14694>,ranch_tcp,keepalive,<0.9147.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64577},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
-
-
-2014-10-06 10:55:31.842 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9147.0> exit with reason: {{try_clause,{http_req,#Port<0.14694>,ranch_tcp,keepalive,<0.9147.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64577},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006105515WS129baa&state=enter">>,[{<<"code">>,<<"141006105515WS129baa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
-
-2014-10-06 11:11:54.376 [info] <0.7.0> Application lager started on node nonode@nohost
-2014-10-06 11:11:54.384 [info] <0.7.0> Application sync started on node nonode@nohost
-2014-10-06 11:11:54.386 [info] <0.7.0> Application jsx started on node nonode@nohost
-2014-10-06 11:11:54.389 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
-2014-10-06 11:11:54.398 [info] <0.7.0> Application emongo started on node nonode@nohost
-2014-10-06 11:11:54.423 [info] <0.7.0> Application gproc started on node nonode@nohost
-2014-10-06 11:42:32.244 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
-2014-10-06 11:42:32.245 [error] emulator Error in process <0.5063.0> with exit value: {{try_clause,{http_req,#Port<0.14813>,ranch_tcp,keepalive,<0.5063.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50491},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 09:32:42.552 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 09:32:42.566 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 09:32:46.961 [info]  tms.erl:79: [{<<"created_at">>,<<"2014-10-07 09:28:36">>},{<<"opened_at">>,"2014-10-07 09:32:46"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<209,129>>},{<<"phone">>,<<209,129>>},{<<"vopros">>,<<209,129>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"U0Taz7A1nCqoidHlStjqKBEtd">>},{<<"sh_cli_id">>,<<"76771204">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
 
 
-2014-10-06 11:42:32.246 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.5063.0> exit with reason: {{try_clause,{http_req,#Port<0.14813>,ranch_tcp,keepalive,<0.5063.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50491},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006114226WS1vbcaa&state=enter">>,[{<<"code">>,<<"141006114226WS1vbcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:36:49.636 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 09:36:49.644 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 09:37:48.801 [error]  c_http_request:44(): TAG {case_clause,"Gateway Time-out"}
 
-2014-10-06 12:39:40.122 [error] emulator Error in process <0.10087.0> with exit value: {{try_clause,{http_req,#Port<0.14997>,ranch_tcp,keepalive,<0.10087.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51660},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+2014-10-07 09:37:48.801 [error]  api_get_all_orders_handler:29(): TAG badarg
+
+2014-10-07 09:46:00.731 [error]  c_http_request:44(): TAG {case_clause,"Not Found"}
+
+2014-10-07 09:46:00.731 [error]  api_get_all_orders_handler:29(): TAG badarg
+
+2014-10-07 09:46:35.741 [error] emulator Error in process <0.7399.0> with exit value: {{try_clause,{http_req,#Port<0.15396>,ranch_tcp,keepalive,<0.7399.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57704},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
 
 
-2014-10-06 12:39:40.123 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10087.0> exit with reason: {{try_clause,{http_req,#Port<0.14997>,ranch_tcp,keepalive,<0.10087.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51660},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141006123932WS3cicaa&state=enter">>,[{<<"code">>,<<"141006123932WS3cicaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-07 09:46:35.742 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7399.0> exit with reason: {{try_clause,{http_req,#Port<0.15396>,ranch_tcp,keepalive,<0.7399.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57704},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007094635WS3fvcaa&state=enter">>,[{<<"code">>,<<"141007094635WS3fvcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
-2014-10-06 12:40:03.620 [info] <0.7.0> Application lager started on node nonode@nohost
-2014-10-06 12:40:03.626 [info] <0.7.0> Application sync started on node nonode@nohost
-2014-10-06 12:40:03.628 [info] <0.7.0> Application jsx started on node nonode@nohost
-2014-10-06 12:40:03.631 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
-2014-10-06 12:40:03.640 [info] <0.7.0> Application emongo started on node nonode@nohost
-2014-10-06 12:40:03.661 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 10:10:44.913 [error] emulator Error in process <0.10736.0> with exit value: {{try_clause,{http_req,#Port<0.15505>,ranch_tcp,keepalive,<0.10736.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58104},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 10:10:44.913 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10736.0> exit with reason: {{try_clause,{http_req,#Port<0.15505>,ranch_tcp,keepalive,<0.10736.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58104},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007101041WS10rcaa&state=enter">>,[{<<"code">>,<<"141007101041WS10rcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 10:36:39.433 [error] emulator Error in process <0.14283.0> with exit value: {{try_clause,{http_req,#Port<0.15602>,ranch_tcp,keepalive,<0.14283.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58507},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 10:36:39.433 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14283.0> exit with reason: {{try_clause,{http_req,#Port<0.15602>,ranch_tcp,keepalive,<0.14283.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58507},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007103635WS14scaa&state=enter">>,[{<<"code">>,<<"141007103635WS14scaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 10:52:12.657 [error] emulator Error in process <0.16409.0> with exit value: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.16409.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58781},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 10:52:12.657 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.16409.0> exit with reason: {{try_clause,{http_req,#Port<0.15650>,ranch_tcp,keepalive,<0.16409.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58781},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007105212WS3pxcaa&state=enter">>,[{<<"code">>,<<"141007105212WS3pxcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 11:21:04.471 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 11:21:04.480 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 11:21:27.279 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:21:52.113 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:21:58.322 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:00.484 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:02.399 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:05.385 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:12.707 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:14.840 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:19.765 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:23.476 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:22:26.809 [info]  tms.erl:81: ok
+
+
+2014-10-07 11:27:35.836 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 11:27:35.844 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 11:31:05.830 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 11:31:05.839 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 11:31:12.136 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,147,252,186,132,55,160,22,146,226,177>>}},{<<"created_at">>,<<"2014-10-07 10:19:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"ff">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"hnik3efcFXYmK1ESpHFVEs9A1">>},{<<"sh_cli_id">>,<<"76774431">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}],[{<<"_id">>,{oid,<<84,51,147,252,186,132,55,160,22,146,226,181>>}},{<<"created_at">>,<<"2014-10-07 10:19:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"ff">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"hnik3efcFXYmK1ESpHFVEs9A1">>},{<<"sh_cli_id">>,<<"76774431">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 11:56:53.696 [error] emulator Error in process <0.25335.0> with exit value: {{try_clause,{http_req,#Port<0.16066>,ranch_tcp,keepalive,<0.25335.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59786},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 11:56:53.696 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.25335.0> exit with reason: {{try_clause,{http_req,#Port<0.16066>,ranch_tcp,keepalive,<0.25335.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59786},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007115652WS2rxcaa&state=enter">>,[{<<"code">>,<<"141007115652WS2rxcaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 12:11:57.056 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:11:57.068 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:12:02.191 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:12:02.200 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:12:25.708 [info]  tms.erl:71: [[{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:15:37.016 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:15:37.025 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:15:41.422 [info]  tms.erl:71: [[{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:16:36.532 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:36.541 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:16:39.478 [error]  tm_module:60(): TAG function_clause
+
+2014-10-07 12:16:39.986 [error]  tm_module:60(): TAG function_clause
+
+2014-10-07 12:16:46.654 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:46.663 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:16:47.260 [error]  tm_module:60(): TAG function_clause
+
+2014-10-07 12:16:49.190 [error]  tm_module:60(): TAG function_clause
+
+2014-10-07 12:16:50.725 [error]  tm_module:60(): TAG function_clause
+
+2014-10-07 12:16:55.781 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:45: Warning: variable 'H2' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:16:55.793 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:17:16.028 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:17:16.038 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:17:18.142 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:19.325 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:19.325 [info]  tms.erl:71: [[{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:17:21.892 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:23.589 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:24.815 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:26.897 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:28.105 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:29.191 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:45.576 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:46.793 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:46.793 [info]  tms.erl:71: [[{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:17:50.349 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:52.165 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:17:54.192 [info]  tm_module.erl:46: {<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}}
+
+
+2014-10-07 12:19:22.174 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'KEY' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'VAL' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:19:22.185 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:19:55.538 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:19:55.549 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:19:57.617 [info]  tm_module.erl:47: {<<"_id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>}
+
+
+2014-10-07 12:20:23.819 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:23.830 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:20:24.608 [info]  tm_module.erl:47: [{<<"_id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>}]
+
+
+2014-10-07 12:20:31.743 [info]  tm_module.erl:47: [{<<"_id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>}]
+
+
+2014-10-07 12:20:33.778 [info]  tm_module.erl:47: [{<<"_id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>}]
+
+
+2014-10-07 12:20:46.048 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:46: Warning: variable 'KEY' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:46.062 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:20:52.147 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:20:52.159 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:20:54.640 [info]  tm_module.erl:47: [{<<"id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>}]
+
+
+2014-10-07 12:22:23.954 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:47: Warning: variable 'Au' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:22:23.964 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:22:57.281 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:22:57.294 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:23:10.946 [info]  tms.erl:71: [[{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"id">>,<<84,51,174,118,186,132,55,160,22,146,226,220>>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:27:23.651 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 12:27:23.660 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 12:28:41.480 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:28:41.493 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:28:51.645 [info]  tms.erl:71: [[{<<"_id">>,{oid,<<84,51,174,118,186,132,55,160,22,146,226,220>>}},{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 12:29:32.958 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:29:32.967 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:29:42.604 [info]  tms.erl:71: 1
+
+
+2014-10-07 12:30:24.425 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:30:24.436 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:30:51.774 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 12:30:51.783 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:30:56.191 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 12:12:22">>},{<<"id">>,2},{<<"opened_at">>,"2014-10-07 12:30:56"},{<<"opened_by">>,"dn200288meg"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"f">>},{<<"phone">>,<<"f">>},{<<"vopros">>,<<"f">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"CiraJaefHjHIzcWrSVldP_mci">>},{<<"sh_cli_id">>,<<"76793132">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 12:31:42.234 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:36: Warning: variable 'LGH' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 12:31:42.253 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:76: Error: variable 'LGH' is unbound
+2014-10-07 12:31:48.346 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 12:31:48.355 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:31:52.416 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 12:33:54.522 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:33:54.533 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:33:58.339 [info]  tms.erl:83: 1
+
+
+2014-10-07 12:34:15.748 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 12:34:15.757 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 12:34:50.718 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 12:34:50.725 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 12:34:50.727 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 12:34:50.730 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 12:34:50.741 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 12:34:50.765 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 12:35:49.220 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 12:35:49.220 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 12:36:10.443 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 12:36:10.452 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 12:36:34.345 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 12:36:34.355 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 12:36:34.357 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 12:36:34.360 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 12:36:34.369 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 12:36:34.394 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 12:36:34.420 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {failed_to_open_socket,enetunreach} in emongo_conn:open_socket/2 line 131
+2014-10-07 12:37:55.776 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 12:37:55.783 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 12:37:55.785 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 12:37:55.788 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 12:37:55.797 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 12:37:55.820 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 12:37:55.852 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {failed_to_open_socket,enetunreach} in emongo_conn:open_socket/2 line 131
+2014-10-07 13:08:52.991 [warning] <0.6.0> lager_error_logger_h dropped 58 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 13:08:52.991 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 13:10:13.055 [error] emulator Error in process <0.948.0> with exit value: {{try_clause,{http_req,#Port<0.11281>,ranch_tcp,keepalive,<0.948.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},60999},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 13:10:13.056 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.948.0> exit with reason: {{try_clause,{http_req,#Port<0.11281>,ranch_tcp,keepalive,<0.948.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60999},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007131008WS1gycaa&state=enter">>,[{<<"code">>,<<"141007131008WS1gycaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:10:16.664 [error] <0.122.0> gen_server emongo terminated with reason: bad record pool in emongo:handle_call/3 line 369
+2014-10-07 13:10:16.664 [error]  tm_module:59(): TAG {{{badrecord,pool},[{emongo,handle_call,3,[{file,"src/emongo.erl"},{line,369}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[emongo,{pid,model},infinity]}}
+
+2014-10-07 13:10:16.664 [error] <0.122.0> CRASH REPORT Process emongo with 0 neighbours exited with reason: bad record pool in emongo:handle_call/3 line 369 in gen_server:terminate/6 line 744
+2014-10-07 13:10:16.665 [error] <0.121.0> Supervisor emongo_app had child emongo started with emongo:start_link() at <0.122.0> exit with reason bad record pool in emongo:handle_call/3 line 369 in context child_terminated
+2014-10-07 13:10:24.145 [error]  tm_module:59(): TAG {badrecord,pool}
+
+2014-10-07 13:10:49.787 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:10:49.797 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 13:11:10.438 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 13:11:10.444 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 13:11:10.446 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 13:11:10.449 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 13:11:10.458 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 13:11:10.487 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 13:25:48.059 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 13:25:48.060 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:13: Error: function handle/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:41: Error: syntax error before: '{'
+2014-10-07 13:26:06.257 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 13:27:04.797 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:27:04.805 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 13:27:08.847 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: variable 'Data' is unbound
+2014-10-07 13:28:40.800 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 13:28:40.807 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 13:28:40.809 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 13:28:40.811 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 13:28:40.820 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 13:28:40.844 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 13:32:04.278 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 13:32:04.278 [error] emulator Error in process <0.1071.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:32:04.279 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1071.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11802>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1071.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61242}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:32:06.531 [error] emulator Error in process <0.1078.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:32:06.532 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1078.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11871>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1078.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61243}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:32:07.705 [error] emulator Error in process <0.1081.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:32:07.706 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1081.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11872>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1081.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61244}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:32:07.984 [error] emulator Error in process <0.1083.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:32:07.985 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1083.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11873>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1083.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61245}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:32:08.561 [error] emulator Error in process <0.1086.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:32:08.562 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1086.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11874>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1086.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61246}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:40:43.014 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2249.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11876>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.2249.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},61292}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 13:40:43.014 [error] emulator Error in process <0.2249.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-07 13:43:13.830 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 13:43:13.836 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 13:43:37.503 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 13:43:37.509 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 13:43:37.511 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 13:43:37.514 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 13:43:37.523 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 13:43:37.547 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 13:44:32.796 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,191,148,186,132,55,160,22,146,226,223>>}},{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 13:44:32.803 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 13:59:02.248 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 13:59:02.248 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:02.259 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 13:59:08.354 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:08.362 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 13:59:22.941 [info]  tms.erl:83: [[{<<"_id">>,{oid,<<84,51,191,148,186,132,55,160,22,146,226,223>>}},{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 13:59:37.719 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:37.733 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 13:59:41.155 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"opened_at">>,"2014-10-07 13:59:41"},{<<"_id">>,<<"getNextSequenceValue(\"productid\")">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 13:59:59.030 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 13:59:59.040 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:00:13.234 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"opened_at">>,"2014-10-07 14:00:13"},{<<"_id">>,<<"getNextSequenceValue(\"productid\")">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 14:01:36.748 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"opened_at">>,"2014-10-07 14:01:36"},{<<"_id">>,<<"getNextSequenceValue(\"productid\")">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 14:01:54.210 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 13:56:48">>},{<<"opened_at">>,"2014-10-07 14:01:54"},{<<"_id">>,<<"getNextSequenceValue(\"productid\")">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"vshptov@gmail.com">>},{<<"phone">>,<<"0504755971">>},{<<"vopros">>,<<208,144,209,128,208,181,208,189,208,180,208,176,209,130,208,190,209,128,45,208,177,209,142,208,180,208,182,208,181,209,130,208,189,208,184,208,186,32,208,190,209,130,208,186,208,176,208,183,209,139,208,178,208,176,208,181,209,130,209,129,209,143,32,208,191,208,187,208,176,209,130,208,184,209,130,209,140,44,209,130,46,208,186,46,32,208,191,209,128,208,184,32,208,178,208,178,208,181,208,180,208,181,208,189,208,184,208,184,32,208,156,208,164,208,158,32,208,178,32,208,191,208,187,208,176,209,130,208,181,208,182,208,189,208,190,208,188,32,208,191,208,190,209,128,209,131,209,135,208,181,208,189,208,184,208,184,32,208,178,32,208,189,208,176,208,184,208,188,208,181,208,189,208,190,208,178,208,176,208,189,208,184,208,184,32,208,177,208,176,208,189,208,186,208,176,32,208,191,208,184,209,136,208,181,209,130,58,32,208,155,209,131,208,179,208,176,208,189,209,129,209,140,208,186,208,176,32,209,132,209,150,208,187,209,150,209,143,32,208,159,208,144,208,162,32,208,154,208,145,32,208,159,209,128,208,184,208,178,208,176,209,130,208,177,208,176,208,189,208,186,32,208,188,46,32,208,155,209,131,208,179,208,176,208,189,209,129,209,140,208,186,32,208,184,32,208,184,208,183,45,208,183,208,176,32,209,141,209,130,208,190,208,179,208,190,32,208,186,208,176,208,183,208,189,208,176,209,135,208,181,208,185,209,129,209,130,208,178,208,190,32,208,189,208,181,32,208,191,208,181,209,128,208,181,209,135,208,184,209,129,208,187,209,143,208,181,209,130,32,208,180,208,181,208,189,209,140,208,179,208,184,32,208,178,32,208,183,208,190,208,189,209,131,32,208,144,208,162,208,158>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<>>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11109">>},{<<"sh_token">>,<<"4HOegRn3Y1bBTnZKW5Uwlx1N7">>},{<<"sh_cli_id">>,<<"76801943">>},{<<"sh_ent_id">>,<<"674250">>},{<<"working">>,1}]
+
+
+2014-10-07 14:03:00.163 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 14:03:00.170 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 14:03:00.173 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 14:03:00.176 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 14:03:00.186 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 14:03:00.208 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 14:03:05.332 [info]  tms.erl:83: [{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"opened_at">>,"2014-10-07 14:03:05"},{<<"_id">>,<<"getNextSequenceValue(\"productid\")">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 14:03:43.143 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 14:03:43.144 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:03:43.151 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:03:46.520 [info]  tms.erl:82: [{<<"created_at">>,<<"2014-10-07 13:25:24">>},{<<"opened_at">>,"2014-10-07 14:03:46"},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"rityalka@mail.ru">>},{<<"phone">>,<<"0665731881">>},{<<"vopros">>,<<208,161,209,128,208,190,208,186,32,208,180,208,181,208,185,209,129,209,130,208,178,208,184,209,143,32,209,129,208,191,209,128,208,176,208,178,208,186,208,184,32,34,208,159,209,128,208,190,32,208,178,209,150,208,180,209,129,209,131,209,130,208,189,209,150,209,129,209,130,209,140,32,208,183,208,176,208,177,208,190,209,128,208,179,208,190,208,178,208,176,208,189,208,190,209,129,209,130,209,150,32,208,183,208,176,32,208,186,209,128,208,181,208,180,208,184,209,130,208,176,208,188,208,184,34>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"VuFBMUC8EG9_1PJ38jaDPsyzz">>},{<<"sh_cli_id">>,<<"76803037">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,1}]
+
+
+2014-10-07 14:04:31.622 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:04:31.634 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:04:34.693 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:04:34.702 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:17:39.724 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:17:39.732 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:21:21.835 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: syntax error before: DataIn
+2014-10-07 14:21:36.032 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:21:36.043 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:21:45.464 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:22:15.587 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:22:34.608 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:22:34.615 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:22:38.996 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:23:18.452 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:24:32.795 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ets
+2014-10-07 14:25:06.113 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:25:06.121 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:25:21.283 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:25:21.291 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:25:25.430 [info]  tms.erl:70: {<<"id">>,10000000}
+
+
+2014-10-07 14:25:25.477 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:25:34.005 [info]  tms.erl:70: {<<"id">>,10000000}
+
+
+2014-10-07 14:25:34.031 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:25:57.759 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:25:57.769 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:26:19.042 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:26:19.052 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:26:25.907 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:26:25.935 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:27:01.772 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:27:01.781 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:28:22.923 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 14:28:22.929 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 14:28:22.932 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 14:28:22.934 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 14:28:22.944 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 14:28:22.968 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 14:28:28.204 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 14:28:28.217 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:28:28.231 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:28:46.299 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:28:55.891 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:28:55.895 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:29:32.446 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Error: syntax error before: lager
+2014-10-07 14:30:34.053 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:30:34.060 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:30:40.026 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:30:40.038 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:30:54.321 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:30:54.333 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:31:06.445 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 14:31:06.455 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 14:31:34.210 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 14:31:34.216 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 14:31:34.219 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 14:31:34.222 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 14:31:34.231 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 14:31:34.257 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 14:31:38.656 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 14:31:38.665 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,71|{error,cannot_create_table}]
+2014-10-07 14:31:38.679 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:31:55.428 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,71|{error,cannot_create_table}]
+2014-10-07 14:31:55.434 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:33:56.659 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:33:56.667 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:34:02.925 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,72|{error,cannot_create_table}]
+2014-10-07 14:34:02.933 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:35:16.534 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Req' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ':'
+2014-10-07 14:35:34.895 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:70: Error: syntax error before: ets
+2014-10-07 14:35:38.951 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Error: syntax error before: ets
+2014-10-07 14:36:02.322 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:36:02.333 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:36:11.460 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:36:11.472 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:36:36.712 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: syntax error before: lager
+2014-10-07 14:36:39.783 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:36:39.790 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:36:46.526 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,73|{ok,foo}]
+2014-10-07 14:36:46.533 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:37:50.683 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:37:50.693 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:39:15.610 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: ets
+2014-10-07 14:39:16.660 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:39:16.667 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:39:22.408 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,75|{ok,foo}]
+2014-10-07 14:39:22.515 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:41:47.974 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:76: Error: variable 'TABLE' is unbound
+2014-10-07 14:42:32.389 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:77: Error: syntax error before: lager
+2014-10-07 14:43:02.692 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:43:02.700 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:43:08.674 [info]  tms.erl:77: {<<"id">>,100}
+
+
+2014-10-07 14:43:08.684 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:43:28.984 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:43:28.995 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:43:34.645 [info]  tms.erl:77: {<<"id">>,100}
+
+
+2014-10-07 14:43:34.674 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:45:27.103 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:45:27.114 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:47:57.359 [error]  tm_module:59(): TAG {badmatch,{error,{read_error,{file_error,"foo.ets",enoent}}}}
+
+2014-10-07 14:48:36.826 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:48:36.997 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:49:23.261 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: function info/1 undefined
+2014-10-07 14:49:27.338 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:49:27.345 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:49:36.599 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,78|undefined]
+2014-10-07 14:49:36.602 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:49:58.705 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Warning: variable 'TABLE' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:49:58.716 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:50:01.915 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,77,{compressed,false},{memory,315},{owner,<0.3687.0>},{heir,none},{name,foo},{size,1},{node,nonode@nohost},{named_table,true},{type,set},{keypos,1},{protection,protected}]
+2014-10-07 14:50:01.920 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:50:59.352 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Warning: variable 'TABLE' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 14:50:59.364 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:51:02.881 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,77|{error,{read_error,{file_error,foo,enoent}}}]
+2014-10-07 14:51:02.883 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:51:52.862 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Error: syntax error before: ','
+2014-10-07 14:53:27.722 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:53:27.731 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:53:42.448 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,83|true]
+2014-10-07 14:53:42.454 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:54:11.028 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,83|true]
+2014-10-07 14:54:11.030 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:54:45.456 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:54:45.468 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:54:58.170 [info]  tms.erl:77: [{<<"id">>,100}]
+
+
+2014-10-07 14:54:58.174 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:55:13.775 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:55:13.783 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:55:17.896 [info]  tms.erl:77: [{<<"id">>,100}]
+
+
+2014-10-07 14:55:17.898 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:57:35.060 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:57:35.074 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:57:43.225 [error]  tm_module:59(): TAG {badmatch,[{<<"id">>,100}]}
+
+2014-10-07 14:57:45.756 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 14:57:50.778 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 14:58:06.374 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:58:06.382 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:58:11.247 [error]  tm_module:59(): TAG {badmatch,[{<<"id">>,100}]}
+
+2014-10-07 14:58:14.165 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:58:18.841 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 14:58:33.660 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:58:33.668 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:58:37.952 [error]  tm_module:59(): TAG {badmatch,[{<<"id">>,100}]}
+
+2014-10-07 14:58:52.873 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:58:52.880 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:58:59.075 [info]  tms.erl:78: 100
+
+
+2014-10-07 14:58:59.078 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:59:14.106 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 14:59:14.114 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 14:59:21.279 [info]  tms.erl:80: 100
+
+
+2014-10-07 14:59:21.284 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:59:28.716 [info]  tms.erl:80: 101
+
+
+2014-10-07 14:59:28.719 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 14:59:31.858 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 14:59:35.449 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 14:59:39.030 [error]  tm_module:59(): TAG {badmatch,{error,cannot_create_table}}
+
+2014-10-07 15:00:15.691 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:00:15.699 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:00:18.249 [info]  tms.erl:80: 102
+
+
+2014-10-07 15:00:18.254 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:00:22.809 [info]  tms.erl:80: 103
+
+
+2014-10-07 15:00:22.814 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:00:25.239 [info]  tms.erl:80: 104
+
+
+2014-10-07 15:00:25.244 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:00:27.374 [info]  tms.erl:80: 105
+
+
+2014-10-07 15:00:27.379 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:00:29.105 [info]  tms.erl:80: 106
+
+
+2014-10-07 15:00:29.107 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:00:31.402 [info]  tms.erl:80: 107
+
+
+2014-10-07 15:00:31.404 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:01:16.032 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:01:16.041 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:01:16.044 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:01:16.046 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:01:16.056 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:01:16.080 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:01:22.344 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:01:22.352 [info]  tms.erl:80: 108
+
+
+2014-10-07 15:01:22.363 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:07:48.698 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:07:48.707 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:07:53.239 [info]  tms.erl:80: true
+
+
+2014-10-07 15:07:53.241 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:08:46.234 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INCREMENT'
+2014-10-07 15:09:30.411 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-07 15:09:30.494 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-07 15:09:30.548 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-07 15:09:30.583 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-07 15:09:30.678 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:30.712 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 15:09:30.761 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:30.778 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INCREMENT'
+2014-10-07 15:09:30.800 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:09:30.856 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-07 15:09:30.860 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 15:09:30.864 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:09:43.962 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:09:49.713 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-07 15:09:49.730 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-07 15:09:49.761 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-07 15:09:49.792 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-07 15:09:49.860 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:49.885 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 15:09:49.932 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:09:49.953 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: syntax error before: 'end'
+2014-10-07 15:09:49.974 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:09:49.983 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-10-07 15:09:49.988 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-07 15:09:49.991 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-07 15:09:49.993 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-10-07 15:09:49.997 [info] <0.114.0> orders_module: Reloaded! (Beam changed.)
+2014-10-07 15:09:50.000 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 15:09:50.008 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 15:09:50.019 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:15:04.010 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:82: Error: syntax error before: 'end'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:136: Warning: function from_ets_to_file/2 is unused
+2014-10-07 15:17:15.218 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:17:15.226 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:18:36.505 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:18:36.511 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:18:36.513 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:18:36.516 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:18:36.525 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:18:36.546 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:18:42.479 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:18:42.486 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,84]
+2014-10-07 15:18:42.499 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:18:50.507 [info]  tms.erl:75: 0
+
+
+2014-10-07 15:18:50.507 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,84]
+2014-10-07 15:18:50.509 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:18:54.637 [info]  tms.erl:75: 1
+
+
+2014-10-07 15:18:54.637 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,84]
+2014-10-07 15:18:54.640 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:18:57.348 [info]  tms.erl:75: 2
+
+
+2014-10-07 15:18:57.348 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,84]
+2014-10-07 15:18:57.352 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:19:00.088 [info]  tms.erl:75: 3
+
+
+2014-10-07 15:19:00.088 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,84]
+2014-10-07 15:19:00.093 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:21:53.165 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 15:21:53.172 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:25:50.377 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:25:50.386 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:26:20.024 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:26:20.032 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:26:20.034 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:26:20.037 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:26:20.046 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:26:20.069 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:26:26.850 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:26:26.857 [info]  tms.erl:89: 0
+
+
+2014-10-07 15:26:26.875 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:26:33.591 [info]  tms.erl:89: 1
+
+
+2014-10-07 15:26:33.594 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:26:35.151 [info]  tms.erl:89: 2
+
+
+2014-10-07 15:26:35.155 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:26:37.086 [info]  tms.erl:89: 3
+
+
+2014-10-07 15:26:37.092 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:27:05.710 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:27:05.720 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:27:05.723 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:27:05.726 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:27:05.738 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:27:05.771 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:27:51.820 [warning] <0.6.0> lager_error_logger_h dropped 66 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:27:51.820 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:28:05.689 [info]  tms.erl:89: 4
+
+
+2014-10-07 15:28:05.697 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:28:07.474 [info]  tms.erl:89: 5
+
+
+2014-10-07 15:28:07.480 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:28:09.019 [info]  tms.erl:89: 6
+
+
+2014-10-07 15:28:09.022 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 15:29:09.792 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-07 15:29:09.808 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-07 15:29:09.842 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-07 15:29:09.867 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-07 15:29:09.932 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:09.967 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 15:29:10.012 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:10.037 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:141: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:29:10.069 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:29:10.080 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-07 15:29:10.085 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 15:29:10.088 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:29:10.121 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:20: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:141: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:29:29.387 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:77: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 15:29:29.397 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:30:36.077 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:30:36.086 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.090 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-07 15:30:37.106 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-07 15:30:37.136 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-07 15:30:37.157 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-07 15:30:37.230 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:37.259 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 15:30:37.308 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:37.365 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:30:37.384 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:30:37.500 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.507 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.512 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.515 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.519 [info] <0.114.0> orders_module: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.526 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.539 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.553 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:30:37.565 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:30:38.558 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:30:38.568 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.494 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-07 15:30:46.508 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-07 15:30:46.542 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-07 15:30:46.572 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled.
+2014-10-07 15:30:46.647 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:46.669 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 15:30:46.710 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-07 15:30:46.730 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:21: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:21: Error: function inWork/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: undefined macro 'FILE_AUTO_INC_ETS'
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:142: Error: undefined macro 'FILE_AUTO_INC_ETS'
+2014-10-07 15:30:46.755 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:30:46.775 [info] <0.114.0> api_request_handler: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.781 [info] <0.114.0> app: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.786 [info] <0.114.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.791 [info] <0.114.0> mailer: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.796 [info] <0.114.0> orders_module: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.804 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.810 [info] <0.114.0> tm_module: Reloaded! (Beam changed.)
+2014-10-07 15:30:46.814 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:31:11.054 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:31:11.064 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:31:45.393 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:31:45.401 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:36:04.659 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:69: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:70: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:71: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:73: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:74: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:75: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:78: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:79: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:131: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:132: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:133: Error: record aic_ets undefined
+2014-10-07 15:36:18.826 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:12: Warning: record aic_ets is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:37:04.290 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:118: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:119: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:120: Error: record aic_ets undefined
+2014-10-07 15:37:15.453 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:42: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:21.529 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:22.556 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+2014-10-07 15:37:28.643 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:37:28.653 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 15:38:39.283 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:35: Warning: variable 'ID' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 15:38:39.291 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 15:39:24.696 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 15:39:24.704 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 15:39:34.825 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 15:39:34.836 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 15:39:46.973 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+2014-10-07 15:40:46.225 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:40:46.231 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:40:46.233 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:40:46.236 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:40:46.246 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:40:46.274 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:45:06.103 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:45:06.103 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-07 15:45:06.113 [info] <0.114.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-07 15:45:29.473 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 15:45:29.479 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 15:45:29.482 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 15:45:29.485 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 15:45:29.493 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 15:45:29.519 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 15:45:41.744 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 15:45:41.744 [error] emulator Error in process <0.265.0> with exit value: {{try_clause,{http_req,#Port<0.10853>,ranch_tcp,keepalive,<0.265.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64223},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 15:45:41.745 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.265.0> exit with reason: {{try_clause,{http_req,#Port<0.10853>,ranch_tcp,keepalive,<0.265.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64223},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007154541WS3f9caa&state=enter">>,[{<<"code">>,<<"141007154541WS3f9caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 15:47:16.874 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:47:16.882 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:51:20.052 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:51:20.063 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 15:52:02.460 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 15:52:02.469 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:06:53.151 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:06:53.159 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:07:31.496 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 16:09:12.710 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 16:09:12.717 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 16:09:12.719 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 16:09:12.722 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 16:09:12.732 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 16:09:12.756 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 16:10:08.746 [warning] <0.6.0> lager_error_logger_h dropped 51 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 16:10:08.746 [error] emulator Error in process <0.738.0> with exit value: {{try_clause,{http_req,#Port<0.11801>,ranch_tcp,keepalive,<0.738.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},64938},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 16:10:08.747 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.738.0> exit with reason: {{try_clause,{http_req,#Port<0.11801>,ranch_tcp,keepalive,<0.738.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},64938},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007161008WS2b8caa&state=enter">>,[{<<"code">>,<<"141007161008WS2b8caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 16:13:59.978 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:13:59.988 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:14:23.332 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:14:23.346 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:14:27.019 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,78,[{<<"opened_at">>,"2014-10-07 16:14:26"},{<<"opened_by">>,"dn200288meg"},{<<"working">>,1}],<<"0">>]
+2014-10-07 16:14:51.289 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [tms,78,[{<<"opened_at">>,"2014-10-07 16:14:51"},{<<"opened_by">>,"dn200288meg"},{<<"working">>,1}],<<"1">>]
+2014-10-07 16:15:44.324 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:15:44.334 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:15:48.013 [info]  tms.erl:70: []
+
+
+2014-10-07 16:16:06.615 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:16:06.636 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:16:11.445 [info]  tms.erl:68: <<"0">>
+
+
+2014-10-07 16:16:38.103 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:16:38.115 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:16:49.249 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:16:49.260 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:16:53.940 [info]  tms.erl:69: []
+
+
+2014-10-07 16:17:00.044 [info]  tms.erl:69: []
+
+
+2014-10-07 16:18:23.104 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:18:23.113 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:18:27.424 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 16:18:40.301 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 16:18:51.437 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:18:51.449 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:18:58.549 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:18:58.558 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:19:03.140 [info]  tms.erl:69: []
+
+
+2014-10-07 16:19:19.798 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:19:19.806 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:19:23.098 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,225,17,186,132,55,160,22,146,226,230>>}},{<<"id">>,0},{<<"created_at">>,<<"2014-10-07 15:48:17">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"3">>},{<<"phone">>,<<"2">>},{<<"vopros">>,<<"1">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"K61zLneeG4ZOcajIZiUA3UtQX">>},{<<"sh_cli_id">>,<<"76823326">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}],[{<<"_id">>,{oid,<<84,51,225,43,186,132,55,160,22,146,226,231>>}},{<<"id">>,1},{<<"created_at">>,<<"2014-10-07 15:48:43">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"d">>},{<<"phone">>,<<"d">>},{<<"vopros">>,<<"d">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"wVUvy3CsrcTeTJc5HmINDF07J">>},{<<"sh_cli_id">>,<<"76823383">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}],[{<<"_id">>,{oid,<<84,51,228,252,186,132,55,160,22,146,226,232>>}},{<<"id">>,2},{<<"created_at">>,<<"2014-10-07 16:05:00">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"linnikl@yandex.ru">>},{<<"phone">>,<<"0501440875">>},{<<"vopros">>,<<208,157,208,176,32,208,186,208,176,208,186,208,190,208,185,32,101,45,109,97,105,108,32,208,190,209,130,208,191,209,128,208,176,208,184,209,130,209,140,32,209,129,208,186,208,176,208,189,208,191,208,190,208,191,208,184,209,142,32,208,180,208,190,208,186,209,131,208,188,208,181,208,189,209,130,208,176,32,208,190,208,177,32,208,190,208,191,208,187,208,176,209,130,208,181,32,208,157,208,148,208,164,208,155,63>>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"f3aVa0LUBm3cqVsyXFmtwEbER">>},{<<"sh_cli_id">>,<<"76825488">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 16:19:44.064 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:19:44.073 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:19:49.132 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,225,17,186,132,55,160,22,146,226,230>>}},{<<"id">>,0},{<<"created_at">>,<<"2014-10-07 15:48:17">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"3">>},{<<"phone">>,<<"2">>},{<<"vopros">>,<<"1">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"K61zLneeG4ZOcajIZiUA3UtQX">>},{<<"sh_cli_id">>,<<"76823326">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 16:20:01.260 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:67: Warning: variable 'Id' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:01.270 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:20:04.649 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,225,17,186,132,55,160,22,146,226,230>>}},{<<"id">>,0},{<<"created_at">>,<<"2014-10-07 15:48:17">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"3">>},{<<"phone">>,<<"2">>},{<<"vopros">>,<<"1">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"K61zLneeG4ZOcajIZiUA3UtQX">>},{<<"sh_cli_id">>,<<"76823326">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 16:20:13.417 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:13.426 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:20:16.507 [info]  tms.erl:69: <<"2">>
+
+
+2014-10-07 16:20:34.850 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:34.866 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:20:42.977 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:72: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:20:42.987 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:20:47.396 [info]  tms.erl:69: [[{<<"_id">>,{oid,<<84,51,225,17,186,132,55,160,22,146,226,230>>}},{<<"id">>,0},{<<"created_at">>,<<"2014-10-07 15:48:17">>},{<<"status">>,<<"1lvl">>},{<<"email">>,<<"3">>},{<<"phone">>,<<"2">>},{<<"vopros">>,<<"1">>},{<<"key">>,<<"urist">>},{<<"biznes">>,<<"MSB">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_token">>,<<"K61zLneeG4ZOcajIZiUA3UtQX">>},{<<"sh_cli_id">>,<<"76823326">>},{<<"sh_ent_id">>,<<"674432">>},{<<"working">>,<<"0">>}]]
+
+
+2014-10-07 16:21:50.620 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:21:50.742 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:22:08.820 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 16:22:47.713 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 16:22:47.722 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 16:22:47.724 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 16:22:47.727 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 16:22:47.738 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 16:22:47.763 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 16:30:03.629 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 16:30:03.636 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 16:30:03.638 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 16:30:03.641 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 16:30:03.651 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 16:30:03.678 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 16:31:58.398 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 16:32:47.958 [warning] <0.6.0> lager_error_logger_h dropped 53 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 16:32:47.959 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:91: Warning: variable 'BILL' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:97: Warning: variable 'Email' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-07 16:32:47.968 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:32:55.747 [error]  tm_module:59(): TAG badarg
+
+2014-10-07 16:33:01.132 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:33:01.141 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:33:35.509 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:33:35.517 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:34:13.026 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:34:13.041 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:35:47.887 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:35:47.899 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:37:40.895 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:37:40.903 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:39:23.812 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 16:39:23.820 [info] <0.114.0> tms: Reloaded! (Beam changed.)
+2014-10-07 16:41:02.610 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 16:41:02.618 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 16:41:02.620 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 16:41:02.623 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 16:41:02.635 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 16:41:02.663 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 16:55:44.347 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 16:55:44.353 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 16:55:44.356 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 16:55:44.359 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 16:55:44.368 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 16:55:44.392 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 17:01:06.856 [warning] <0.6.0> lager_error_logger_h dropped 69 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 17:01:06.856 [error] emulator Error in process <0.1187.0> with exit value: {{try_clause,{http_req,#Port<0.11116>,ranch_tcp,keepalive,<0.1187.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},50399},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-07 17:01:06.857 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1187.0> exit with reason: {{try_clause,{http_req,#Port<0.11116>,ranch_tcp,keepalive,<0.1187.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},50399},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141007170102WS1l7caa&state=enter">>,[{<<"code">>,<<"141007170102WS1l7caa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-07 17:02:37.844 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 17:02:37.855 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:09:59.840 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:09:59.848 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:10:15.139 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 17:10:15.155 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:10:18.510 [info]  tm.erl:46: [{<<"rating_at">>,"2014-10-07 17:10:18"},{<<"rating">>,<<"1">>}]
+
+
+2014-10-07 17:10:51.527 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:10:51.535 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:10:54.620 [info]  tm.erl:46: []
+
+
+2014-10-07 17:11:06.693 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:11:06.702 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:11:09.674 [info]  tm.erl:46: []
+
+
+2014-10-07 17:11:20.873 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 17:11:20.882 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:11:27.424 [info]  tm.erl:46: [[{<<"modified_at">>,<<"2014-10-07 17:05:59">>},{<<"author_login">>,<<"dn200288meg">>},{<<"otvet">>,<<"adadada">>},{<<"status">>,<<"OK">>},{<<"id">>,<<"7">>},{<<"sh_cli_id">>,<<"76832622">>},{<<"biznes">>,<<"MSB">>},{<<"created_at">>,<<"2014-10-07 16:57:26">>},{<<"key">>,<<"urist">>},{<<"phone">>,<<"siemenspromaster@gmail.com">>},{<<"email">>,<<"siemenspromaster@gmail.com">>},{<<"sh_ent_id">>,<<"674432">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_token">>,<<"uAgGu4vi0pR8xGmEJmBMkcTre">>},{<<"sh_lang">>,<<"ru">>},{<<"vopros">>,<<"siemenspromaster@gmail.com">>},{<<"opened_at">>,<<"2014-10-07 17:05:51">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"working">>,<<"2">>}]]
+
+
+2014-10-07 17:11:52.173 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 17:11:52.185 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:11:58.781 [info]  tm.erl:46: [[{<<"modified_at">>,<<"2014-10-07 17:05:59">>},{<<"author_login">>,<<"dn200288meg">>},{<<"otvet">>,<<"adadada">>},{<<"status">>,<<"OK">>},{<<"id">>,<<"7">>},{<<"sh_cli_id">>,<<"76832622">>},{<<"biznes">>,<<"MSB">>},{<<"created_at">>,<<"2014-10-07 16:57:26">>},{<<"key">>,<<"urist">>},{<<"phone">>,<<"siemenspromaster@gmail.com">>},{<<"email">>,<<"siemenspromaster@gmail.com">>},{<<"sh_ent_id">>,<<"674432">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_token">>,<<"uAgGu4vi0pR8xGmEJmBMkcTre">>},{<<"sh_lang">>,<<"ru">>},{<<"vopros">>,<<"siemenspromaster@gmail.com">>},{<<"opened_at">>,<<"2014-10-07 17:05:51">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"working">>,<<"2">>}]]
+
+
+2014-10-07 17:12:26.498 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-07 17:12:26.507 [info] <0.114.0> tm: Reloaded! (Beam changed.)
+2014-10-07 17:12:33.610 [info]  tm.erl:46: [[{<<"modified_at">>,<<"2014-10-07 17:05:59">>},{<<"author_login">>,<<"dn200288meg">>},{<<"otvet">>,<<"adadada">>},{<<"status">>,<<"OK">>},{<<"id">>,<<"7">>},{<<"sh_cli_id">>,<<"76832622">>},{<<"biznes">>,<<"MSB">>},{<<"created_at">>,<<"2014-10-07 16:57:26">>},{<<"key">>,<<"urist">>},{<<"phone">>,<<"siemenspromaster@gmail.com">>},{<<"email">>,<<"siemenspromaster@gmail.com">>},{<<"sh_ent_id">>,<<"674432">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_token">>,<<"uAgGu4vi0pR8xGmEJmBMkcTre">>},{<<"sh_lang">>,<<"ru">>},{<<"vopros">>,<<"siemenspromaster@gmail.com">>},{<<"opened_at">>,<<"2014-10-07 17:05:51">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"working">>,<<"2">>}]]
+
+
+2014-10-07 17:12:49.876 [info]  tm.erl:46: [[{<<"modified_at">>,<<"2014-10-07 17:05:59">>},{<<"author_login">>,<<"dn200288meg">>},{<<"otvet">>,<<"adadada">>},{<<"rating_at">>,<<"2014-10-07 17:12:33">>},{<<"rating">>,<<"1">>},{<<"status">>,<<"OK">>},{<<"id">>,<<"7">>},{<<"sh_cli_id">>,<<"76832622">>},{<<"biznes">>,<<"MSB">>},{<<"created_at">>,<<"2014-10-07 16:57:26">>},{<<"key">>,<<"urist">>},{<<"phone">>,<<"siemenspromaster@gmail.com">>},{<<"email">>,<<"siemenspromaster@gmail.com">>},{<<"sh_ent_id">>,<<"674432">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_token">>,<<"uAgGu4vi0pR8xGmEJmBMkcTre">>},{<<"sh_lang">>,<<"ru">>},{<<"vopros">>,<<"siemenspromaster@gmail.com">>},{<<"opened_at">>,<<"2014-10-07 17:05:51">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"working">>,<<"2">>}]]
+
+
+2014-10-07 17:12:59.067 [info]  tm.erl:46: [[{<<"modified_at">>,<<"2014-10-07 17:05:59">>},{<<"author_login">>,<<"dn200288meg">>},{<<"otvet">>,<<"adadada">>},{<<"rating_at">>,<<"2014-10-07 17:12:49">>},{<<"rating">>,<<"2">>},{<<"status">>,<<"OK">>},{<<"id">>,<<"7">>},{<<"sh_cli_id">>,<<"76832622">>},{<<"biznes">>,<<"MSB">>},{<<"created_at">>,<<"2014-10-07 16:57:26">>},{<<"key">>,<<"urist">>},{<<"phone">>,<<"siemenspromaster@gmail.com">>},{<<"email">>,<<"siemenspromaster@gmail.com">>},{<<"sh_ent_id">>,<<"674432">>},{<<"sh_form_id">>,<<"11084">>},{<<"sh_lang">>,<<"ru">>},{<<"sh_token">>,<<"uAgGu4vi0pR8xGmEJmBMkcTre">>},{<<"sh_lang">>,<<"ru">>},{<<"vopros">>,<<"siemenspromaster@gmail.com">>},{<<"opened_at">>,<<"2014-10-07 17:05:51">>},{<<"opened_by">>,<<"dn200288meg">>},{<<"working">>,<<"2">>}]]
+
+
+2014-10-07 17:15:40.284 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 17:17:35.398 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-07 17:18:29.723 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 17:18:29.738 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 17:18:29.740 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 17:18:29.744 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 17:18:29.756 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 17:18:29.780 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-07 17:29:27.290 [warning] <0.6.0> lager_error_logger_h dropped 69 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-07 17:29:27.290 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 17:35:03.303 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 17:35:03.313 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 17:37:13.514 [info] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-07 17:37:13.522 [info] <0.114.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-07 17:54:11.120 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-07 17:54:11.128 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-07 17:54:11.130 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-07 17:54:11.133 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-07 17:54:11.144 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-07 17:54:11.174 [info] <0.7.0> Application gproc started on node nonode@nohost

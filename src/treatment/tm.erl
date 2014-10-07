@@ -22,7 +22,7 @@ find(AllBindings, false, _Req) ->
   Data.
 
 view(Id, _Req) ->
-  Find = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  Find = emongo:find(model, "treatment", [{"id", Id}]),
   case length(Find) of
     0 ->
       <<"Forbidden">>;
@@ -33,7 +33,7 @@ view(Id, _Req) ->
 
 rating(Id, PostAttrs, _Req) ->
   List = [<<"rating">>, <<"rating_at">>],
-  DataIn = emongo:find(model, "treatment", [{"sh_cli_id", Id}]),
+  DataIn = emongo:find(model, "treatment", [{"id", Id}]),
   Data = tm_module:remove_id_mongo(DataIn),
   ListRating = [{K, V} || {K, V} <- lists:merge(Data), not lists:member(K, List)],
   ResultList = lists:merge(
@@ -43,6 +43,7 @@ rating(Id, PostAttrs, _Req) ->
       {<<"rating">>, proplists:get_value(<<"rating">>, PostAttrs)}
     ]
   ),
-  emongo:update(model, "treatment", [{<<"sh_cli_id">>, Id}], ResultList),
+  ?LOG_INFO("~p~n",[Data]),
+  emongo:update(model, "treatment", [{<<"id">>, Id}], ResultList),
   <<"{\"status\":\"ok\"}">>.
 

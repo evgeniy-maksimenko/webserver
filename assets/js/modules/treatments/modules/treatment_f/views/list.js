@@ -40,7 +40,8 @@ define([
     };
 
 	function onMessage_btn(evt) { 
-        $("#work"+evt.data).removeClass('btn btn-success').addClass('btn btn-danger').text('закрыть');
+        $("#work"+evt.data).remove();
+        $("#in_work"+evt.data).show();
         $("#status"+evt.data).show();
     };
 
@@ -67,8 +68,9 @@ define([
     	
 
     	var datetime = d.getFullYear() + '-' + mm + '-' +dd+ ' '+ hh+':'+m+':'+s;
-    	$('#list').prepend('<tr class="'+data.sh_cli_id+'"><td>'+data.email+'</td><td>'+data.phone+'</td><td>'+data.vopros+'</td><td style="width:30px;">'+datetime+'</td><td style="width:30px;"><div class="in_work btn btn-success" id="work'+data.sh_cli_id+'" data="'+data.sh_cli_id+'">в работу</div></td><td style="width:30px;"><span class="status label label-danger" id="status'+data.sh_cli_id+'" style="display:none;">В работе</span></td></tr>');
-    	$("."+data.sh_cli_id).css('backgroundColor', 'yellow').animate({ backgroundColor: "white"}, 3000);
+    	
+    	$('#list').prepend('<tr class="'+data.id+'"><td>'+data.email+'</td><td>'+data.phone+'</td><td>'+data.vopros+'</td><td style="width:30px;">'+datetime+'</td><td style="width:30px;"><div class="in_work btn btn-success" id="work'+data.id+'" data="'+data.id+'">в работу</div><a class="btn btn-danger" id="in_work'+data.id+'" href="/treatment_f/edit/'+data.id+'" style="display:none;">закрыть</a></td><td style="width:30px;"><span class="status label label-danger" id="status'+data.id+'" style="display:none;">В работе</span></td></tr>');
+    	$("."+data.id).css('backgroundColor', 'yellow').animate({ backgroundColor: "white"}, 3000);
 
 	}    	
 	var List = Backbone.View.extend({
@@ -114,7 +116,6 @@ define([
 	            type: "POST",
 	            dataType: "json",
 	            success: function(){
-	            	window.location = '/treatment_f/edit/' + id;	              
 	            }
 	        });
 				

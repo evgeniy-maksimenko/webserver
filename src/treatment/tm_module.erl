@@ -41,7 +41,9 @@ httpPost(<<"rating">>, _IsDefined, AllBindings, Req) ->
 
 remove_id_mongo(List) -> remove_id_mongo(List, []).
 remove_id_mongo([], Acc) -> Acc;
-remove_id_mongo([H | T], Acc) -> remove_id_mongo(T, [proplists:delete(<<"_id">>, H) | Acc]).
+remove_id_mongo([H | T], Acc) ->
+  [_|T2] = H,
+  remove_id_mongo(T, [T2 | Acc]).
 
 echo(Req) ->
   {Code, Data} =
