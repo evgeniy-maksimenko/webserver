@@ -10,3 +10,5 @@ Gemfile
 Gemfile.lock
 Guardfile
 log/*
+.gitidnore
+sasl.log

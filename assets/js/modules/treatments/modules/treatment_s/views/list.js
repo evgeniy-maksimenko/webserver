@@ -46,7 +46,7 @@ define([
 
     function onMessage_closer(id) { 
     	
-        $("#work"+id.data).parent().parent().remove();
+        $("#in_work"+id.data).parent().parent().remove();
 
     };
 

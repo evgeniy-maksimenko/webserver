@@ -13,6 +13,6 @@ clean:
 	@( $(REBAR) clean )
 
 run:
-	@( erl -pa ebin deps/*/ebin -s webserver )
+	@( erl -boot start_sasl -config app.config -pa ebin deps/*/ebin -s webserver )
 
 .PHONY: all deps compile clean run

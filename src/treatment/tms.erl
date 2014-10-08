@@ -43,10 +43,16 @@ save(PostAttrs, AllBindings, Req) ->
   <<"{\"status\":\"ok\"}">>.
 
 find(AllBindings, false, _Req) ->
+
+  socks_client:socks_to_ets(self(), <<"add_record">>, ?MODULE, treatments),
+  socks_client:send_msg(<<"[{\"ok\":\"test\"}]">>, <<"add_record">>, ?MODULE, treatments),
+
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
   Data = tm_module:remove_id_mongo(Find),
   Data;
 find(Id, true, Req) ->
+
+
 
   Find = emongo:find(model, "treatment", [{"id", Id}]),
   Data = tm_module:remove_id_mongo(Find),
@@ -81,6 +87,7 @@ inWork(Id, Req) ->
   <<"{\"status\":\"ok\"}">>.
 
 send_mail(AllBindings, Req) ->
+
   {Host, Req1} = cowboy_req:host(Req),
   ADDRESS = binary_to_list(Host) ++ "/tm_view/response/" ++ binary_to_list(proplists:get_value(<<"id">>, AllBindings)),
 

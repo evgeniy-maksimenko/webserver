@@ -456,3 +456,522 @@
 /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
 2014-10-07 17:11:20.873 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
 /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 18:10:15.897 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 18:10:18.010 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 08:34:03.380 [error] emulator Error in process <0.245.0> with exit value: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.245.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51708},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 08:34:03.381 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.245.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51708},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008083402WS3jfdaa&state=enter">>,[{<<"code">>,<<"141008083402WS3jfdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 08:34:19.304 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.291.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. ug7sm7334934lac.48 - gsmtp\r\n">>}}
+
+2014-10-08 08:37:53.976 [error] emulator Error in process <0.1539.0> with exit value: {{try_clause,{http_req,#Port<0.15225>,ranch_tcp,keepalive,<0.1539.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51799},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 08:37:53.976 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1539.0> exit with reason: {{try_clause,{http_req,#Port<0.15225>,ranch_tcp,keepalive,<0.1539.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51799},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008083749WS15adaa&state=enter">>,[{<<"code">>,<<"141008083749WS15adaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 08:38:11.430 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1582.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. h9sm7338604lae.44 - gsmtp\r\n">>}}
+
+2014-10-08 08:39:33.470 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1753.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. k7sm7348977lak.22 - gsmtp\r\n">>}}
+
+2014-10-08 09:22:48.636 [error] emulator Error in process <0.242.0> with exit value: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.242.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53068},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 09:22:48.637 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.242.0> exit with reason: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.242.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53068},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008092244WS1jcdaa&state=enter">>,[{<<"code">>,<<"141008092244WS1jcdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 10:47:42.207 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 10:48:47.615 [error] emulator Error in process <0.6709.0> with exit value: {{try_clause,{http_req,#Port<0.15031>,ranch_tcp,keepalive,<0.6709.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53785},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 10:48:47.616 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6709.0> exit with reason: {{try_clause,{http_req,#Port<0.15031>,ranch_tcp,keepalive,<0.6709.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53785},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008104846WS22hdaa&state=enter">>,[{<<"code">>,<<"141008104846WS22hdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 10:49:17.178 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:10: Error: can't find include file "../logs.hrl"
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:11: Error: can't find include file "../../include/config.hrl"
+2014-10-08 11:04:18.379 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:26: Warning: variable 'TreatmentList' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:37: Warning: function tc/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:05:45.137 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:37: Warning: function tc_tab2list/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:40: Warning: function tc_foreach/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:07:00.949 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:29:19.521 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:41: Error: syntax error before: 
+2014-10-08 11:32:37.664 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:32:52.846 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:33:00.950 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:33:45.352 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:17.084 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:44.360 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:50.452 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:42:41.922 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:45:57.564 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:46:12.717 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:46:55.094 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:44: Error: syntax error before: 
+2014-10-08 11:48:56.295 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:49:03.818 [error] emulator Error in process <0.6428.0> with exit value: {{try_clause,{http_req,#Port<0.12979>,ranch_tcp,keepalive,<0.6428.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54228},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 11:49:03.818 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6428.0> exit with reason: {{try_clause,{http_req,#Port<0.12979>,ranch_tcp,keepalive,<0.6428.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54228},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008114902WS24jdaa&state=enter">>,[{<<"code">>,<<"141008114902WS24jdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 11:51:05.516 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:51:35.877 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:52:04.230 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:52:31.533 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:17.021 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:25.209 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:53.507 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:26: Error: function tc_foreach/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:42: Error: syntax error before: ')'
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+2014-10-08 11:53:56.572 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:10.752 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:15.839 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:34.071 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:01:48.396 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:01:50.451 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:07:18.395 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:10:13.889 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:11:09.516 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:11:11.944 [error] emulator Error in process <0.9674.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+
+2014-10-08 12:11:11.945 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9674.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16565>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9674.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54336}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 12:11:12.878 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9678.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16566>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9678.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54337}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 12:11:12.878 [error] emulator Error in process <0.9678.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+
+2014-10-08 12:11:13.350 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9679.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16567>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9679.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54338}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 12:11:13.351 [error] emulator Error in process <0.9679.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+
+2014-10-08 12:11:14.278 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9682.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16568>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9682.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54339}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 12:11:14.278 [error] emulator Error in process <0.9682.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+
+2014-10-08 12:12:34.429 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:17:05.732 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:62: Error: function tc_recursion_next/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:66: Error: syntax error before: 
+2014-10-08 12:18:36.623 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:62: Error: function tc_recursion_next/3 undefined
+2014-10-08 12:22:08.570 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:22:23.750 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:23:26.394 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:23:37.528 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:25:56.798 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:66: Error: syntax error before: ')'
+2014-10-08 12:26:56.412 [error] <0.114.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 13:55:33.177 [error] emulator Error in process <0.17293.0> with exit value: {{try_clause,{http_req,#Port<0.17257>,ranch_tcp,keepalive,<0.17293.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54932},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 13:55:33.177 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.17293.0> exit with reason: {{try_clause,{http_req,#Port<0.17257>,ranch_tcp,keepalive,<0.17293.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54932},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008135528WS1vldaa&state=enter">>,[{<<"code">>,<<"141008135528WS1vldaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 13:58:53.500 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {model,etimedout} in emongo_conn:loop/2 line 123
+2014-10-08 14:04:26.933 [error]  tm_module:59(): TAG noproc
+
+2014-10-08 14:13:21.951 [error]  tm_module:59(): TAG noproc
+
+2014-10-08 14:20:00.446 [error]  tm_module:59(): TAG noproc
+
+2014-10-08 14:20:01.992 [error]  tm_module:59(): TAG noproc
+
+2014-10-08 15:56:31.062 [error] emulator Error in process <0.12128.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+
+2014-10-08 15:56:31.062 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12128.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12472>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.12128.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55928}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"image/png,image/*;q=0.8,*/*;q=0.5">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 15:56:36.726 [error] emulator Error in process <0.12131.0> with exit value: {{try_clause,{http_req,#Port<0.12513>,ranch_tcp,keepalive,<0.12131.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55931},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 15:56:36.726 [error] <0.138.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12131.0> exit with reason: {{try_clause,{http_req,#Port<0.12513>,ranch_tcp,keepalive,<0.12131.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55931},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008155636WS3sqdaa&state=enter">>,[{<<"code">>,<<"141008155636WS3sqdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 16:49:02.642 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:9: Warning: undefined callback function init/1 (behaviour 'supervisor')
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:14: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:18: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:0: Recompiled with 1 warnings
+2014-10-08 16:51:47.264 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl:27: Warning: variable 'WebserverSupChi' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl:0: Recompiled with 1 warnings
+2014-10-08 16:53:52.470 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:53:52.489 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:17: Warning: variable 'WebserverSupChi' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:0: Recompiled with 1 warnings
+2014-10-08 16:54:28.864 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:58:08.820 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:21: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:24: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:30: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:34: Warning: function code_change/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:59:17.483 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:16: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:19: Warning: function stop/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:25: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:29: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:32: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:35: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:38: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:42: Warning: function code_change/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:00:27.124 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:13: Error: bad function arity
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:20: Warning: function stop/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:26: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:30: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:33: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:36: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:39: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:43: Warning: function code_change/3 is unused
+2014-10-08 17:06:46.391 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Error: bad record declaration
+2014-10-08 17:07:31.829 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:08:12.167 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:11:13.683 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Error: function init/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:34: Error: syntax error before: '{'
+2014-10-08 17:33:39.289 [error] emulator Error in process <0.2444.0> with exit value: {{try_clause,{http_req,#Port<0.11638>,ranch_tcp,keepalive,<0.2444.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56513},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 17:33:39.290 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2444.0> exit with reason: {{try_clause,{http_req,#Port<0.11638>,ranch_tcp,keepalive,<0.2444.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56513},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008173335WS1ytdaa&state=enter">>,[{<<"code">>,<<"141008173335WS1ytdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 17:34:01.926 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {model,etimedout} in emongo_conn:loop/2 line 123
+2014-10-08 17:40:20.265 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Error: function init/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:32: Error: syntax error before: init
+2014-10-08 17:42:39.682 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:40: Warning: this clause cannot match because a previous clause at line 38 always matches
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:42:58.967 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:38: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:44:48.164 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:46:57.429 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:15: Error: syntax error before: 
+2014-10-08 17:46:57.443 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:39: Error: variable 'S' is unbound
+2014-10-08 17:47:05.544 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:51:42.165 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:53:08.975 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:none: Error: no such file or directory
+2014-10-08 17:53:12.028 [error] <0.115.0> gen_server sync_scanner terminated with reason: no case clause matching {ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,...>>,...} in sync_scanner:recompile_src_file/2 line 465
+2014-10-08 17:53:12.028 [error] <0.115.0> CRASH REPORT Process sync_scanner with 0 neighbours exited with reason: no case clause matching {ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in gen_server:terminate/6 line 744
+2014-10-08 17:53:12.029 [error] <0.114.0> Supervisor sync had child sync_scanner started with sync_scanner:start_link() at <0.115.0> exit with reason no case clause matching {ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in context child_terminated
+2014-10-08 17:54:50.999 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.252.0>}]}}
+
+2014-10-08 17:54:52.912 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.252.0>}]}}
+
+2014-10-08 18:02:06.817 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.248.0>}]}}
+
+2014-10-08 18:02:08.439 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.248.0>}]}}
+
+2014-10-08 18:02:49.614 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Error: can't find include file "../logs.hrl"
+2014-10-08 18:03:27.293 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.879.0>}]}}
+
+2014-10-08 18:03:29.235 [error]  tm_module:59(): TAG {{nodedown,webserver_socks},{gen_server,call,[{local,webserver_socks},{to_ets,<0.879.0>}]}}
+
+2014-10-08 18:11:40.736 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/ss.erl:none: Error: no such file or directory
+2014-10-08 18:17:47.638 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:34: Warning: variable 'Tab' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:35: Error: field tab undefined in record state
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:38: Error: field tab undefined in record state
+2014-10-08 18:20:59.953 [error] <0.243.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15
+2014-10-08 18:20:59.954 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.248.0>}]}}
+
+2014-10-08 18:20:59.954 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:20:59.954 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.243.0> exit with reason bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:21:01.429 [error] <0.249.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15
+2014-10-08 18:21:01.429 [error] <0.249.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:21:01.429 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.248.0>}]}}
+
+2014-10-08 18:21:01.430 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.249.0> exit with reason bad argument in call to ets:insert(socks, <0.248.0>) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:22:40.580 [error] <0.243.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, {<0.244.0>,<0.244.0>}) in socks_logic:to_ets/2 line 15
+2014-10-08 18:22:40.580 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,{<0.244.0>,<0.244.0>}],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.244.0>}]}}
+
+2014-10-08 18:22:40.580 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, {<0.244.0>,<0.244.0>}) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:22:40.580 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.243.0> exit with reason bad argument in call to ets:insert(socks, {<0.244.0>,<0.244.0>}) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:25:41.711 [error] <0.246.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, {<0.1106.0>,<0.1106.0>}) in socks_logic:to_ets/2 line 15
+2014-10-08 18:25:41.712 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,{<0.1106.0>,<0.1106.0>}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.1106.0>}]}}
+
+2014-10-08 18:25:41.712 [error] <0.246.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, {<0.1106.0>,<0.1106.0>}) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:25:41.712 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.246.0> exit with reason bad argument in call to ets:insert(socks, {<0.1106.0>,<0.1106.0>}) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:27:58.956 [error] <0.1108.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15
+2014-10-08 18:27:58.957 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.1442.0>}]}}
+
+2014-10-08 18:27:58.957 [error] <0.1108.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:27:58.957 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.1108.0> exit with reason bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:28:02.772 [error] <0.1445.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15
+2014-10-08 18:28:02.772 [error] <0.1445.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15 in gen_server:terminate/6 line 744
+2014-10-08 18:28:02.773 [error]  tm_module:59(): TAG {{badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.1442.0>}]}}
+
+2014-10-08 18:28:02.773 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link(socks) at <0.1445.0> exit with reason bad argument in call to ets:insert(socks, {<0.1442.0>,1}) in socks_logic:to_ets/2 line 15 in context child_terminated
+2014-10-08 18:36:04.785 [error] emulator Error in process <0.257.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.257.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57022},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 18:36:04.785 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.257.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.257.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57022},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008183600WS1evdaa&state=enter">>,[{<<"code">>,<<"141008183600WS1evdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 19:16:23.067 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:47: Error: undefined macro 'MODULE_NAME'
+2014-10-08 19:16:41.262 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function socks_to_ets/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:30: Error: syntax error before: ')'
+2014-10-08 19:18:39.302 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function socks_to_ets/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:30: Warning: function socks_to_ets/4 is unused
+2014-10-08 19:30:08.711 [error] <0.243.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:08.712 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(socks) in gen_server:terminate/6 line 744
+2014-10-08 19:30:08.712 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2332.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:08.712 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason call to undefined function ets:lookup(socks) in context child_terminated
+2014-10-08 19:30:10.106 [error] <0.2334.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:10.106 [error] <0.2334.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(socks) in gen_server:terminate/6 line 744
+2014-10-08 19:30:10.106 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2332.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:10.106 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2334.0> exit with reason call to undefined function ets:lookup(socks) in context child_terminated
+2014-10-08 19:30:35.075 [error] <0.2341.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:35.075 [error] <0.2341.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(<<"add_record">>) in gen_server:terminate/6 line 744
+2014-10-08 19:30:35.075 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:35.075 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2341.0> exit with reason call to undefined function ets:lookup(<<"add_record">>) in context child_terminated
+2014-10-08 19:30:36.508 [error] <0.2415.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:36.509 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:36.508 [error] <0.2415.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(<<"add_record">>) in gen_server:terminate/6 line 744
+2014-10-08 19:30:36.509 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2415.0> exit with reason call to undefined function ets:lookup(<<"add_record">>) in context child_terminated
+2014-10-08 19:30:39.165 [error] <0.2422.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:39.165 [error] <0.2422.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(<<"add_record">>) in gen_server:terminate/6 line 744
+2014-10-08 19:30:39.166 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2422.0> exit with reason call to undefined function ets:lookup(<<"add_record">>) in context child_terminated
+2014-10-08 19:30:39.166 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:44.602 [error] <0.2432.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:44.602 [error] <0.2432.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(socks) in gen_server:terminate/6 line 744
+2014-10-08 19:30:44.602 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2432.0> exit with reason call to undefined function ets:lookup(socks) in context child_terminated
+2014-10-08 19:30:44.602 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:30:45.849 [error] <0.2461.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:30:45.849 [error] <0.2461.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(socks) in gen_server:terminate/6 line 744
+2014-10-08 19:30:45.849 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2461.0> exit with reason call to undefined function ets:lookup(socks) in context child_terminated
+2014-10-08 19:30:45.849 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:32:44.349 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:33:14.638 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:33:17.016 [error] <0.2466.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:33:17.016 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[<0.2466.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2920.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:33:17.016 [error] <0.2466.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(<0.2466.0>) in gen_server:terminate/6 line 744
+2014-10-08 19:33:17.016 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2466.0> exit with reason call to undefined function ets:lookup(<0.2466.0>) in context child_terminated
+2014-10-08 19:33:18.276 [error] <0.2924.0> gen_server webserver_socks terminated with reason: call to undefined function ets:lookup/1 from socks_logic:to_ets/5 line 16
+2014-10-08 19:33:18.276 [error]  tm_module:59(): TAG {{undef,[{ets,lookup,[<0.2924.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{to_ets,<0.2920.0>,<<"add_record">>,tms,treatments}]}}
+
+2014-10-08 19:33:18.276 [error] <0.2924.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: call to undefined function ets:lookup(<0.2924.0>) in gen_server:terminate/6 line 744
+2014-10-08 19:33:18.276 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2924.0> exit with reason call to undefined function ets:lookup(<0.2924.0>) in context child_terminated
+2014-10-08 19:33:26.784 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:35:22.250 [error] emulator Error in process <0.3297.0> with exit value: {{try_clause,{http_req,#Port<0.16492>,ranch_tcp,keepalive,<0.3297.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57472},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 19:35:22.251 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3297.0> exit with reason: {{try_clause,{http_req,#Port<0.16492>,ranch_tcp,keepalive,<0.3297.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57472},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008193518WS1hvdaa&state=enter">>,[{<<"code">>,<<"141008193518WS1hvdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 19:38:33.546 [error] emulator Error in process <0.3744.0> with exit value: {{try_clause,{http_req,#Port<0.16664>,ranch_tcp,keepalive,<0.3744.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57507},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-08 19:38:33.547 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3744.0> exit with reason: {{try_clause,{http_req,#Port<0.16664>,ranch_tcp,keepalive,<0.3744.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57507},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008193830WS1kvdaa&state=enter">>,[{<<"code">>,<<"141008193830WS1kvdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-08 19:38:52.939 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:15: Error: illegal expression
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:15: Warning: invalid function call
+2014-10-08 19:48:36.228 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:49:03.475 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:49: Error: function handle_cast/2 already defined
+2014-10-08 19:50:15.106 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:51:18.670 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Error: syntax error before: 
+2014-10-08 19:51:18.704 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:57:41.068 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Warning: function send_msg/4 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:20: Warning: function bang/5 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:59:34.217 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:24: Warning: wrong number of arguments in format call
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 20:04:55.935 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:25: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 20:06:21.793 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:12: Error: function send_msg/4 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Warning: function send_msg/5 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:21: Warning: function bang/6 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:29: Error: function bang/5 undefined
+2014-10-08 20:06:26.854 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:29: Error: function bang/5 undefined
+2014-10-08 20:11:03.904 [error] <0.243.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26
+2014-10-08 20:11:03.904 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in gen_server:terminate/6 line 744
+2014-10-08 20:11:03.904 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in context child_terminated
+2014-10-08 20:11:05.363 [error] <0.1199.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26
+2014-10-08 20:11:05.363 [error] <0.1199.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in gen_server:terminate/6 line 744
+2014-10-08 20:11:05.363 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.1199.0> exit with reason bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in context child_terminated
+2014-10-08 20:11:35.821 [error] <0.1208.0> gen_server webserver_socks terminated with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26
+2014-10-08 20:11:35.821 [error] <0.1208.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in gen_server:terminate/6 line 744
+2014-10-08 20:11:35.822 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.1208.0> exit with reason bad argument in call to ets:lookup(<0.1162.0>, <<"[{\"ok\":\"test\"}]">>) in socks_logic:bang/6 line 26 in context child_terminated
+2014-10-08 20:13:26.017 [error] <0.1281.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.1162.0>,<<"add_record">>,tms,treatments}] in socks_logic:bang/6 line 23
+2014-10-08 20:13:26.017 [error] <0.1281.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.1162.0>,<<"add_record">>,tms,treatments}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-08 20:13:26.017 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.1281.0> exit with reason no match of right hand value [{<0.1162.0>,<<"add_record">>,tms,treatments}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-08 20:21:47.849 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:16: Error: syntax error before: 

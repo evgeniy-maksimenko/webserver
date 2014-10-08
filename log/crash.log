@@ -446,3 +446,1089 @@ Ranch listener http_listener had connection process started with cowboy_protocol
 2014-10-07 17:11:20 =ERROR REPORT====
 /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:39: Warning: variable 'ResultList' is unused
 /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled with 1 warnings
+2014-10-07 18:10:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-07 18:10:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 08:34:03 =ERROR REPORT====
+Error in process <0.245.0> with exit value: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.245.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51708},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 08:34:03 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.245.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51708},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008083402WS3jfdaa&state=enter">>,[{<<"code">>,<<"141008083402WS3jfdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 08:34:19 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.291.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. ug7sm7334934lac.48 - gsmtp\r\n">>}}
+2014-10-08 08:37:53 =ERROR REPORT====
+Error in process <0.1539.0> with exit value: {{try_clause,{http_req,#Port<0.15225>,ranch_tcp,keepalive,<0.1539.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},51799},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 08:37:53 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1539.0> exit with reason: {{try_clause,{http_req,#Port<0.15225>,ranch_tcp,keepalive,<0.1539.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},51799},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008083749WS15adaa&state=enter">>,[{<<"code">>,<<"141008083749WS15adaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 08:38:11 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1582.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. h9sm7338604lae.44 - gsmtp\r\n">>}}
+2014-10-08 08:39:33 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1753.0> exit with reason: {error,no_more_hosts,{permanent_failure,"64.233.165.109",<<"553-5.1.2 We weren't able to find the recipient domain. Please check for any\r\n553-5.1.2 spelling errors, and make sure you didn't enter any spaces, periods,\r\n553 5.1.2 or other punctuation after the recipient's email address. k7sm7348977lak.22 - gsmtp\r\n">>}}
+2014-10-08 09:22:48 =ERROR REPORT====
+Error in process <0.242.0> with exit value: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.242.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53068},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 09:22:48 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.242.0> exit with reason: {{try_clause,{http_req,#Port<0.10632>,ranch_tcp,keepalive,<0.242.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53068},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008092244WS1jcdaa&state=enter">>,[{<<"code">>,<<"141008092244WS1jcdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 10:47:42 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 10:48:47 =ERROR REPORT====
+Error in process <0.6709.0> with exit value: {{try_clause,{http_req,#Port<0.15031>,ranch_tcp,keepalive,<0.6709.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},53785},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 10:48:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6709.0> exit with reason: {{try_clause,{http_req,#Port<0.15031>,ranch_tcp,keepalive,<0.6709.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},53785},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008104846WS22hdaa&state=enter">>,[{<<"code">>,<<"141008104846WS22hdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 10:49:17 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:10: Error: can't find include file "../logs.hrl"
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:11: Error: can't find include file "../../include/config.hrl"
+2014-10-08 11:04:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:26: Warning: variable 'TreatmentList' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:37: Warning: function tc/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:05:45 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:37: Warning: function tc_tab2list/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:40: Warning: function tc_foreach/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:07:00 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:29:19 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:41: Error: syntax error before: 
+2014-10-08 11:32:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:32:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:33:00 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:33:45 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:17 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:44 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:39:50 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:42:41 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:45:57 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:46:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:46:55 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:44: Error: syntax error before: 
+2014-10-08 11:48:56 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:49:03 =ERROR REPORT====
+Error in process <0.6428.0> with exit value: {{try_clause,{http_req,#Port<0.12979>,ranch_tcp,keepalive,<0.6428.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54228},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 11:49:03 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.6428.0> exit with reason: {{try_clause,{http_req,#Port<0.12979>,ranch_tcp,keepalive,<0.6428.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54228},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008114902WS24jdaa&state=enter">>,[{<<"code">>,<<"141008114902WS24jdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 11:51:05 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:51:35 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:52:04 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:52:31 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:17 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:25 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:53:53 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:26: Error: function tc_foreach/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:42: Error: syntax error before: ')'
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+2014-10-08 11:53:56 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:10 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 11:54:34 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:01:48 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:51: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:01:50 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:07:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:10:13 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:11:09 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:11:11 =ERROR REPORT====
+Error in process <0.9674.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+2014-10-08 12:11:11 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9674.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16565>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9674.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54336}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 12:11:12 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9678.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16566>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9678.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54337}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 12:11:12 =ERROR REPORT====
+Error in process <0.9678.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+2014-10-08 12:11:13 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9679.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16567>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9679.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54338}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 12:11:13 =ERROR REPORT====
+Error in process <0.9679.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+2014-10-08 12:11:14 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9682.0> exit with reason: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.16568>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.9682.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},54339}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141008PBe1bg4ev811xm">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 12:11:14 =ERROR REPORT====
+Error in process <0.9682.0> with exit value: {[{reason,{badmatch,<0.4052.0>}},{mfa,{test_handler,handle,2}},{stacktrace,[{test_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file... 
+
+2014-10-08 12:12:34 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:17:05 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:62: Error: function tc_recursion_next/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:66: Error: syntax error before: 
+2014-10-08 12:18:36 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:62: Error: function tc_recursion_next/3 undefined
+2014-10-08 12:22:08 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:22:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:23:26 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:23:37 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 12:25:56 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:66: Error: syntax error before: ')'
+2014-10-08 12:26:56 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-08 13:55:33 =ERROR REPORT====
+Error in process <0.17293.0> with exit value: {{try_clause,{http_req,#Port<0.17257>,ranch_tcp,keepalive,<0.17293.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54932},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 13:55:33 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.17293.0> exit with reason: {{try_clause,{http_req,#Port<0.17257>,ranch_tcp,keepalive,<0.17293.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54932},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008135528WS1vldaa&state=enter">>,[{<<"code">>,<<"141008135528WS1vldaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 13:58:53 =CRASH REPORT====
+  crasher:
+    initial call: emongo_conn:init/4
+    pid: <0.134.0>
+    registered_name: []
+    exception exit: {{model,etimedout},[{emongo_conn,loop,2,[{file,"src/emongo_conn.erl"},{line,123}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [emongo,emongo_app,<0.120.0>]
+    messages: [{tcp_closed,#Port<0.10448>}]
+    links: [<0.122.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 478
+  neighbours:
+2014-10-08 15:56:31 =ERROR REPORT====
+Error in process <0.12128.0> with exit value: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line... 
+
+2014-10-08 15:56:31 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12128.0> exit with reason: {[{reason,function_clause},{mfa,{auth_handler,handle,2}},{stacktrace,[{auth_handler,getResponse,[undefined],[{file,"src/auth/auth_handler.erl"},{line,69}]},{auth_handler,handle,2,[{file,"src/auth/auth_handler.erl"},{line,34}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.12472>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.12128.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55928}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/authorize">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"image/png,image/*;q=0.8,*/*;q=0.5">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 15:56:36 =ERROR REPORT====
+Error in process <0.12131.0> with exit value: {{try_clause,{http_req,#Port<0.12513>,ranch_tcp,keepalive,<0.12131.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55931},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 15:56:36 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12131.0> exit with reason: {{try_clause,{http_req,#Port<0.12513>,ranch_tcp,keepalive,<0.12131.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55931},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008155636WS3sqdaa&state=enter">>,[{<<"code">>,<<"141008155636WS3sqdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 16:49:02 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:9: Warning: undefined callback function init/1 (behaviour 'supervisor')
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:14: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:18: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:0: Recompiled with 1 warnings
+2014-10-08 16:51:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl:27: Warning: variable 'WebserverSupChi' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl:0: Recompiled with 1 warnings
+2014-10-08 16:53:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:53:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:17: Warning: variable 'WebserverSupChi' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl:0: Recompiled with 1 warnings
+2014-10-08 16:54:28 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:58:08 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:21: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:24: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:30: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:34: Warning: function code_change/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 16:59:17 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:16: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:19: Warning: function stop/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:25: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:29: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:32: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:35: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:38: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:42: Warning: function code_change/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:00:27 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function init/1 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:9: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:13: Error: bad function arity
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Warning: function start_link/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:20: Warning: function stop/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:26: Warning: function init/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:30: Warning: function handle_call/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:33: Warning: function handle_cast/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:36: Warning: function handle_info/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:39: Warning: function terminate/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:43: Warning: function code_change/3 is unused
+2014-10-08 17:06:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Error: bad record declaration
+2014-10-08 17:07:31 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:08:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:11:13 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Error: function init/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:34: Error: syntax error before: '{'
+2014-10-08 17:33:39 =ERROR REPORT====
+Error in process <0.2444.0> with exit value: {{try_clause,{http_req,#Port<0.11638>,ranch_tcp,keepalive,<0.2444.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56513},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 17:33:39 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2444.0> exit with reason: {{try_clause,{http_req,#Port<0.11638>,ranch_tcp,keepalive,<0.2444.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56513},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008173335WS1ytdaa&state=enter">>,[{<<"code">>,<<"141008173335WS1ytdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 17:34:01 =CRASH REPORT====
+  crasher:
+    initial call: emongo_conn:init/4
+    pid: <0.135.0>
+    registered_name: []
+    exception exit: {{model,etimedout},[{emongo_conn,loop,2,[{file,"src/emongo_conn.erl"},{line,123}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [emongo,emongo_app,<0.121.0>]
+    messages: [{tcp_closed,#Port<0.10455>}]
+    links: [<0.123.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 509
+  neighbours:
+2014-10-08 17:40:20 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Warning: record state is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:17: Error: function init/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:32: Error: syntax error before: init
+2014-10-08 17:42:39 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:40: Warning: this clause cannot match because a previous clause at line 38 always matches
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:42:58 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:38: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:44:48 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:46:57 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:15: Error: syntax error before: 
+2014-10-08 17:46:57 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:39: Error: variable 'S' is unbound
+2014-10-08 17:47:05 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:51:42 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:27: Warning: function socks_to_ets/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 17:53:08 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:none: Error: no such file or directory
+2014-10-08 17:53:12 =ERROR REPORT====
+** Generic server sync_scanner terminating 
+** Last message in was {'$gen_cast',compare_src_files}
+** When Server state == {state,[d,ddd,socks_client,jsx_parser,jsx_encoder,jsx_to_json,ws_closer_handler,emongo_bson,emongo_packet,ws_btn_handler,tms,cowboy_websocket,tm_module,ws_handler,api_treatments,cowboy_bstr,cowboy_http,cow_mimetypes,cowboy_rest,cowboy_static,cow_date,cow_cookie,jsx_to_term,jsx_decoder,jsx_config,jsx_verify,jsx,pubkey_cert,'OTP-PUB-KEY',pubkey_cert_records,public_key,cowboy_handler,cow_qs,c_http_request,app,auth_handler,cow_http_hd,cowboy_req,cowboy_protocol,webserver_socks,webserver_sup_chi,webserver_sup,ranch_acceptor,ranch_acceptors_sup,ranch_conns_sup,ranch_listener_sup,ranch_tcp,ranch,cowboy,cowboy_router,emongo_conn,webserver_app,gproc_pool,gproc_bcast,gproc_monitor,gproc_lib,gproc,gproc_sup,gproc_app,emongo,emongo_app,sync_options,sync_utils,sync_scanner,lager_default_formatter,sync,lager_msg,lager_stdlib,lager_format,lager_default_tracer,glc_code,glc_lib,gr_manager,gr_counter,lager_trunc_io,gr_param,glc_ops,glc,error_logger_lager_h,lager_file_backend,lager_console_backend,lager,lager_backend_throttle,lager_handler_watcher,lager_crash_log,lager_handler_watcher_sup,lager_util,lager_config,lager_sup,lager_app,gr_manager_sup,gr_param_sup,gr_counter_sup,gr_sup,gr_app,cowboy_clock,cowboy_sup,cowboy_app,ranch_server,ranch_sup,ranch_app,webserver,erts_internal,erlang,erl_prim_loader,prim_zip,zlib,prim_file,prim_inet,prim_eval,init,otp_ring0],["/Users/Admin/Sites/consultations/webserver/deps/cowboy/src","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src","/Users/Admin/Sites/consultations/webserver/deps/emongo/src","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src","/Users/Admin/Sites/consultations/webserver/deps/gproc/src","/Users/Admin/Sites/consultations/webserver/deps/jsx/src","/Users/Admin/Sites/consultations/webserver/deps/lager/src","/Users/Admin/Sites/consultations/webserver/deps/ranch/src","/Users/Admin/Sites/consultations/webserver/deps/sync/src","/Users/Admin/Sites/consultations/webserver/src","/Users/Admin/Sites/consultations/webserver/src/app","/Users/Admin/Sites/consultations/webserver/src/auth","/Users/Admin/Sites/consultations/webserver/src/socks","/Users/Admin/Sites/consultations/webserver/src/treatment"],["/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_app.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_bstr.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_clock.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_handler.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_http.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_http_handler.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_loop_handler.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_middleware.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_protocol.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_req.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_rest.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_router.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_spdy.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_static.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_sub_protocol.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_websocket.erl","/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_websocket_handler.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_cookie.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_date.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http_hd.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http_te.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_mimetypes.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_multipart.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_qs.erl","/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_spdy.erl","/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo.erl","/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_app.erl","/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_bson.erl","/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_conn.erl","/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_packet.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_code.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_lib.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_ops.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_app.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_context.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_counter.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_counter_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_manager.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_manager_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_param.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_param_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gre.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_app.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_bcast.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_dist.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_info.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_init.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_lib.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_monitor.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_pool.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_ps.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_pt.erl","/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_config.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_decoder.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_encoder.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_parser.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_to_json.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_to_term.erl","/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_verify.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/error_logger_lager_h.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_app.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_backend_throttle.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_common_test_backend.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_config.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_console_backend.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_crash_log.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_default_formatter.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_file_backend.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_format.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_handler_watcher.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_handler_watcher_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_msg.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_stdlib.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_transform.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_trunc_io.erl","/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_util.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_acceptor.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_acceptors_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_app.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_conns_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_listener_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_protocol.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_server.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_ssl.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_sup.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_tcp.erl","/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_transport.erl","/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync.erl","/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_options.erl","/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_scanner.erl","/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_utils.erl","/Users/Admin/Sites/consultations/webserver/src/app/app.erl","/Users/Admin/Sites/consultations/webserver/src/app/c_http_request.erl","/Users/Admin/Sites/consultations/webserver/src/app/mailer.erl","/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl","/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl","/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl","/Users/Admin/Sites/consultations/webserver/src/conveyor/util.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_close_order_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_get_all_orders_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_get_order_file_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_get_order_info_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_get_user_contacts_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_post_workaround_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/api_set_order_work_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/order_answer_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/order_edit_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/order_handler.erl","/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl","/Users/Admin/Sites/consultations/webserver/src/records/api_find_all_history.erl","/Users/Admin/Sites/consultations/webserver/src/records/api_find_all_records.erl","/Users/Admin/Sites/consultations/webserver/src/records/api_find_one_record.erl","/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl","/Users/Admin/Sites/consultations/webserver/src/test_handler.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/api_tm_view.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/api_treatments.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl","/Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl","/Users/Admin/Sites/consultations/webserver/src/webserver.erl","/Users/Admin/Sites/consultations/webserver/src/webserver_app.erl","/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl","/Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl","/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl"],["/Users/Admin/Sites/consultations/webserver/deps/cowlib/include","/Users/Admin/Sites/consultations/webserver/deps/emongo/include","/Users/Admin/Sites/consultations/webserver/deps/gproc/include","/Users/Admin/Sites/consultations/webserver/deps/lager/include","/Users/Admin/Sites/consultations/webserver/include"],["/Users/Admin/Sites/consultations/webserver/deps/cowlib/include/cow_inline.hrl","/Users/Admin/Sites/consultations/webserver/deps/emongo/include/emongo.hrl","/Users/Admin/Sites/consultations/webserver/deps/gproc/include/gproc.hrl","/Users/Admin/Sites/consultations/webserver/deps/lager/include/lager.hrl","/Users/Admin/Sites/consultations/webserver/include/config.hrl"],[{'OTP-PUB-KEY',{{2014,1,24},{18,52,39}}},{api_treatments,{{2014,10,8},{17,2,31}}},{app,{{2014,10,8},{17,2,31}}},{auth_handler,{{2014,10,8},{17,2,31}}},{c_http_request,{{2014,10,8},{17,2,31}}},{cow_cookie,{{2014,10,8},{17,2,18}}},{cow_date,{{2014,10,8},{17,2,18}}},{cow_http_hd,{{2014,10,8},{17,2,18}}},{cow_mimetypes,{{2014,10,8},{17,2,18}}},{cow_qs,{{2014,10,8},{17,2,18}}},{cowboy,{{2014,10,8},{17,2,19}}},{cowboy_app,{{2014,10,8},{17,2,19}}},{cowboy_bstr,{{2014,10,8},{17,2,19}}},{cowboy_clock,{{2014,10,8},{17,2,19}}},{cowboy_handler,{{2014,10,8},{17,2,19}}},{cowboy_http,{{2014,10,8},{17,2,19}}},{cowboy_protocol,{{2014,10,8},{17,2,19}}},{cowboy_req,{{2014,10,8},{17,2,20}}},{cowboy_rest,{{2014,10,8},{17,2,19}}},{cowboy_router,{{2014,10,8},{17,2,19}}},{cowboy_static,{{2014,10,8},{17,2,20}}},{cowboy_sup,{{2014,10,8},{17,2,19}}},{cowboy_websocket,{{2014,10,8},{17,2,20}}},{d,{{2014,10,8},{17,50,45}}},{ddd,{{2014,10,8},{17,48,50}}},{emongo,{{2014,10,8},{17,2,30}}},{emongo_app,{{2014,10,8},{17,2,29}}},{emongo_bson,{{2014,10,8},{17,2,29}}},{emongo_conn,{{2014,10,8},{17,2,29}}},{emongo_packet,{{2014,10,8},{17,2,29}}},{erl_prim_loader,0},{erlang,0},{error_logger_lager_h,{{2014,10,8},{17,2,26}}},{erts_internal,0},{glc,{{2014,10,8},{17,2,25}}},{glc_code,{{2014,10,8},{17,2,25}}},{glc_lib,{{2014,10,8},{17,2,25}}},{glc_ops,{{2014,10,8},{17,2,25}}},{gproc,{{2014,10,8},{17,2,30}}},{gproc_app,{{2014,10,8},{17,2,30}}},{gproc_bcast,{{2014,10,8},{17,2,30}}},{gproc_lib,{{2014,10,8},{17,2,30}}},{gproc_monitor,{{2014,10,8},{17,2,30}}},{gproc_pool,{{2014,10,8},{17,2,30}}},{gproc_sup,{{2014,10,8},{17,2,30}}},{gr_app,{{2014,10,8},{17,2,25}}},{gr_counter,{{2014,10,8},{17,2,25}}},{gr_counter_sup,{{2014,10,8},{17,2,25}}},{gr_manager,{{2014,10,8},{17,2,25}}},{gr_manager_sup,{{2014,10,8},{17,2,25}}},{gr_param,{{2014,10,8},{17,2,25}}},{gr_param_sup,{{2014,10,8},{17,2,25}}},{gr_sup,{{2014,10,8},{17,2,25}}},{init,0},{jsx,{{2014,10,8},{17,2,27}}},{jsx_config,{{2014,10,8},{17,2,27}}},{jsx_decoder,{{2014,10,8},{17,2,27}}},{jsx_encoder,{{2014,10,8},{17,2,27}}},{jsx_parser,{{2014,10,8},{17,2,27}}},{jsx_to_json,{{2014,10,8},{17,2,27}}},{jsx_to_term,{{2014,10,8},{17,2,27}}},{jsx_verify,{{2014,10,8},{17,2,27}}},{lager,{{2014,10,8},{17,2,26}}},{lager_app,{{2014,10,8},{17,2,26}}},{lager_backend_throttle,{{2014,10,8},{17,2,26}}},{lager_config,{{2014,10,8},{17,2,26}}},{lager_console_backend,{{2014,10,8},{17,2,26}}},{lager_crash_log,{{2014,10,8},{17,2,26}}},{lager_default_formatter,{{2014,10,8},{17,2,26}}},{lager_default_tracer,0},{lager_file_backend,{{2014,10,8},{17,2,26}}},{lager_format,{{2014,10,8},{17,2,26}}},{lager_handler_watcher,{{2014,10,8},{17,2,26}}},{lager_handler_watcher_sup,{{2014,10,8},{17,2,26}}},{lager_msg,{{2014,10,8},{17,2,26}}},{lager_stdlib,{{2014,10,8},{17,2,26}}},{lager_sup,{{2014,10,8},{17,2,26}}},{lager_trunc_io,{{2014,10,8},{17,2,26}}},{lager_util,{{2014,10,8},{17,2,26}}},{otp_ring0,0},{prim_eval,0},{prim_file,0},{prim_inet,0},{prim_zip,0},{pubkey_cert,{{2014,1,24},{18,52,41}}},{pubkey_cert_records,{{2014,1,24},{18,52,41}}},{public_key,{{2014,1,24},{18,52,40}}},{ranch,{{2014,10,8},{17,2,18}}},{ranch_acceptor,{{2014,10,8},{17,2,18}}},{ranch_acceptors_sup,{{2014,10,8},{17,2,18}}},{ranch_app,{{2014,10,8},{17,2,18}}},{ranch_conns_sup,{{2014,10,8},{17,2,18}}},{ranch_listener_sup,{{2014,10,8},{17,2,18}}},{ranch_server,{{2014,10,8},{17,2,18}}},{ranch_sup,{{2014,10,8},{17,2,18}}},{ranch_tcp,{{2014,10,8},{17,2,18}}},{socks_client,{{2014,10,8},{17,52,38}}},{sync,{{2014,10,8},{17,2,20}}},{sync_options,{{2014,10,8},{17,2,20}}},{sync_scanner,{{2014,10,8},{17,2,20}}},{sync_utils,{{2014,10,8},{17,2,20}}},{tm_module,{{2014,10,8},{17,2,31}}},{tms,{{2014,10,8},{17,2,31}}},{webserver,{{2014,10,8},{17,2,31}}},{webserver_app,{{2014,10,8},{17,2,31}}},{webserver_socks,{{2014,10,8},{17,51,42}}},{webserver_sup,{{2014,10,8},{17,2,31}}},{webserver_sup_chi,{{2014,10,8},{17,2,31}}},{ws_btn_handler,{{2014,10,8},{17,2,31}}},{ws_closer_handler,{{2014,10,8},{17,2,31}}},{ws_handler,{{2014,10,8},{17,2,31}}},{zlib,0}],[{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_app.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_bstr.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_clock.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_handler.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_http.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_http_handler.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_loop_handler.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_middleware.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_protocol.erl",{{2014,9,26},{14,23,37}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_req.erl",{{2014,9,26},{14,23,37}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_rest.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_router.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_spdy.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_static.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_sub_protocol.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_sup.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_websocket.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowboy/src/cowboy_websocket_handler.erl",{{2014,7,29},{16,43,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_cookie.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_date.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http_hd.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_http_te.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_mimetypes.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_multipart.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_qs.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/src/cow_spdy.erl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo.erl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_app.erl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_bson.erl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_conn.erl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/src/emongo_packet.erl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_code.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_lib.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/glc_ops.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_app.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_context.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_counter.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_counter_sup.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_manager.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_manager_sup.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_param.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_param_sup.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gr_sup.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/goldrush/src/gre.erl",{{2014,7,29},{16,44,26}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_app.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_bcast.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_dist.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_info.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_init.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_lib.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_monitor.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_pool.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_ps.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_pt.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/src/gproc_sup.erl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_config.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_decoder.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_encoder.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_parser.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_to_json.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_to_term.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/jsx/src/jsx_verify.erl",{{2014,7,29},{16,44,24}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/error_logger_lager_h.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_app.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_backend_throttle.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_common_test_backend.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_config.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_console_backend.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_crash_log.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_default_formatter.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_file_backend.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_format.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_handler_watcher.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_handler_watcher_sup.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_msg.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_stdlib.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_sup.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_transform.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_trunc_io.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/src/lager_util.erl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_acceptor.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_acceptors_sup.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_app.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_conns_sup.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_listener_sup.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_protocol.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_server.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_ssl.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_sup.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_tcp.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/ranch/src/ranch_transport.erl",{{2014,7,29},{16,44,29}}},{"/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync.erl",{{2014,7,29},{16,44,1}}},{"/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_options.erl",{{2014,7,29},{16,44,1}}},{"/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_scanner.erl",{{2014,7,29},{16,44,1}}},{"/Users/Admin/Sites/consultations/webserver/deps/sync/src/sync_utils.erl",{{2014,7,29},{16,44,1}}},{"/Users/Admin/Sites/consultations/webserver/src/app/app.erl",{{2014,10,1},{14,38,21}}},{"/Users/Admin/Sites/consultations/webserver/src/app/c_http_request.erl",{{2014,9,22},{13,14,44}}},{"/Users/Admin/Sites/consultations/webserver/src/app/mailer.erl",{{2014,10,3},{12,29,47}}},{"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl",{{2014,9,30},{11,56,56}}},{"/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl",{{2014,10,7},{18,10,17}}},{"/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl",{{2014,10,7},{18,10,15}}},{"/Users/Admin/Sites/consultations/webserver/src/conveyor/util.erl",{{2014,9,8},{13,39,27}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_close_order_handler.erl",{{2014,9,30},{9,42,5}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_get_all_orders_handler.erl",{{2014,8,11},{11,55,35}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_get_order_file_handler.erl",{{2014,7,29},{16,42,46}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_get_order_info_handler.erl",{{2014,9,3},{11,29,26}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_get_user_contacts_handler.erl",{{2014,9,3},{12,0,22}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_post_workaround_handler.erl",{{2014,9,3},{9,52,0}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/api_set_order_work_handler.erl",{{2014,7,29},{16,42,46}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/order_answer_handler.erl",{{2014,7,31},{20,51,59}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/order_edit_handler.erl",{{2014,7,29},{16,47,24}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/order_handler.erl",{{2014,7,29},{16,47,21}}},{"/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl",{{2014,9,30},{9,46,37}}},{"/Users/Admin/Sites/consultations/webserver/src/records/api_find_all_history.erl",{{2014,9,3},{13,2,9}}},{"/Users/Admin/Sites/consultations/webserver/src/records/api_find_all_records.erl",{{2014,9,2},{13,37,1}}},{"/Users/Admin/Sites/consultations/webserver/src/records/api_find_one_record.erl",{{2014,9,1},{12,24,55}}},{"/Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl",0},{"/Users/Admin/Sites/consultations/webserver/src/test_handler.erl",{{2014,10,8},{12,26,56}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/api_tm_view.erl",{{2014,9,30},{17,53,58}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/api_treatments.erl",{{2014,9,30},{17,53,51}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl",{{2014,10,7},{17,12,25}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl",{{2014,10,7},{12,27,23}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl",{{2014,10,7},{17,17,34}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl",{{2014,9,23},{19,18,39}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl",{{2014,9,24},{10,2,48}}},{"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl",{{2014,9,24},{19,23,19}}},{"/Users/Admin/Sites/consultations/webserver/src/webserver.erl",{{2014,7,30},{12,41,49}}},{"/Users/Admin/Sites/consultations/webserver/src/webserver_app.erl",{{2014,10,8},{10,46,49}}},{"/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl",{{2014,10,8},{17,51,42}}},{"/Users/Admin/Sites/consultations/webserver/src/webserver_sup.erl",{{2014,10,8},{16,52,0}}},{"/Users/Admin/Sites/consultations/webserver/src/webserver_sup_chi.erl",{{2014,10,8},{16,54,19}}}],[{"/Users/Admin/Sites/consultations/webserver/deps/cowlib/include/cow_inline.hrl",{{2014,7,29},{16,44,27}}},{"/Users/Admin/Sites/consultations/webserver/deps/emongo/include/emongo.hrl",{{2014,9,30},{12,50,59}}},{"/Users/Admin/Sites/consultations/webserver/deps/gproc/include/gproc.hrl",{{2014,9,23},{12,36,8}}},{"/Users/Admin/Sites/consultations/webserver/deps/lager/include/lager.hrl",{{2014,7,29},{16,44,13}}},{"/Users/Admin/Sites/consultations/webserver/include/config.hrl",{{2014,10,7},{15,30,43}}}],[{discover_modules,{1412780012355885,#Ref<0.0.2.70227>}},{discover_src_dirs,{1412780015919467,#Ref<0.0.2.71885>}},{discover_src_files,{1412779996471680,#Ref<0.0.2.73956>}},{compare_beams,{1412779992836053,#Ref<0.0.2.73396>}},{compare_src_files,{1412779991994586,#Ref<0.0.2.73537>}},{compare_hrl_files,{1412779992480806,#Ref<0.0.2.73281>}}],false}
+** Reason for termination == 
+** {{case_clause,{ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,64,2,19,64,71,0,35,64,50,3,153,32,78,64,0,1,48,153,0,2,18,98,0,1,64,64,18,3,153,0,78,16,16,1,80,153,0,2,18,98,16,1,96,64,3,19,64,18,3,153,0,78,32,32,3,83,116,114,84,0,0,0,0,73,109,112,84,0,0,0,40,0,0,0,3,0,0,0,4,0,0,0,5,0,0,0,4,0,0,0,7,0,0,0,8,0,0,0,1,0,0,0,7,0,0,0,8,0,0,0,2,69,120,112,84,0,0,0,40,0,0,0,3,0,0,0,6,0,0,0,1,0,0,0,6,0,0,0,6,0,0,0,0,0,0,0,4,0,0,0,2,0,0,0,2,0,0,0,2,76,105,116,84,0,0,0,40,0,0,0,31,120,156,99,96,96,96,100,96,96,16,111,206,102,16,174,43,208,75,45,202,177,170,43,176,82,168,43,168,203,3,65,0,97,216,8,173,76,111,99,84,0,0,0,4,0,0,0,0,65,116,116,114,0,0,0,59,131,108,0,0,0,2,104,2,100,0,3,118,115,110,108,0,0,0,1,110,16,0,196,243,111,110,173,82,70,69,242,108,73,111,237,154,113,118,106,104,2,100,0,6,97,117,116,104,111,114,107,0,5,65,100,109,105,110,106,0,67,73,110,102,0,0,1,46,131,108,0,0,0,4,104,2,100,0,7,111,112,116,105,111,110,115,108,0,0,0,4,100,0,10,100,101,98,117,103,95,105,110,102,111,104,2,100,0,3,100,116,108,100,0,5,102,97,108,115,101,104,2,100,0,1,105,107,0,50,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,105,110,99,108,117,100,101,104,2,100,0,6,111,117,116,100,105,114,107,0,47,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,101,98,105,110,106,104,2,100,0,7,118,101,114,115,105,111,110,107,0,5,52,46,57,46,52,104,2,100,0,4,116,105,109,101,104,6,98,0,0,7,222,97,10,97,8,97,14,97,53,97,12,104,2,100,0,6,115,111,117,114,99,101,107,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,106,0,0,65,98,115,116,0,0,1,117,131,80,0,0,3,106,120,156,173,146,177,110,195,32,16,134,137,237,184,105,26,197,125,132,238,145,140,186,102,106,165,62,64,165,182,179,117,1,28,99,99,176,0,39,157,252,236,5,187,82,98,71,201,80,117,65,112,247,223,241,221,15,69,64,81,162,225,152,193,206,88,13,196,102,135,103,129,16,90,20,17,69,247,96,173,230,187,214,50,152,81,20,229,92,176,34,168,208,27,254,50,76,27,252,74,107,46,241,7,183,204,96,162,164,105,133,5,203,221,6,31,217,206,41,14,76,99,163,9,54,138,84,102,88,51,161,246,156,164,76,11,152,77,110,88,80,20,215,138,182,130,81,180,26,196,68,112,38,237,13,146,151,63,145,164,41,118,24,38,45,174,80,64,107,11,165,43,52,239,219,78,4,203,127,55,98,57,185,97,229,16,216,119,163,180,245,15,49,43,220,11,197,86,101,204,26,8,202,98,78,209,34,111,37,241,253,97,125,150,26,196,46,29,19,1,173,97,176,246,145,160,8,41,10,15,160,189,54,124,231,116,116,254,132,93,89,14,133,142,33,34,32,4,36,126,27,107,86,43,199,146,120,121,4,86,213,144,80,52,23,176,103,122,20,10,221,28,190,65,52,138,70,92,230,202,131,135,146,251,142,142,42,80,141,207,4,155,141,87,198,238,179,113,185,135,164,66,15,93,227,109,216,118,205,246,233,166,48,234,154,78,94,196,164,139,141,171,250,73,156,249,19,248,139,63,117,38,186,227,210,50,55,26,36,238,124,194,30,139,122,215,146,95,23,175,164,156,161,167,250,178,44,251,3,83,57,60,150,63,60,253,8,101,0,0,0,76,105,110,101,0,0,0,93,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,2,0,0,0,1,18,225,241,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,0,0,0>>,[]}},[{sync_scanner,recompile_src_file,2,[{file,"src/sync_scanner.erl"},{line,465}]},{sync_scanner,process_src_file_lastmod,3,[{file,"src/sync_scanner.erl"},{line,414}]},{sync_scanner,handle_cast,2,[{file,"src/sync_scanner.erl"},{line,218}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 17:53:12 =CRASH REPORT====
+  crasher:
+    initial call: sync_scanner:init/1
+    pid: <0.115.0>
+    registered_name: sync_scanner
+    exception exit: {{{case_clause,{ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,64,2,19,64,71,0,35,64,50,3,153,32,78,64,0,1,48,153,0,2,18,98,0,1,64,64,18,3,153,0,78,16,16,1,80,153,0,2,18,98,16,1,96,64,3,19,64,18,3,153,0,78,32,32,3,83,116,114,84,0,0,0,0,73,109,112,84,0,0,0,40,0,0,0,3,0,0,0,4,0,0,0,5,0,0,0,4,0,0,0,7,0,0,0,8,0,0,0,1,0,0,0,7,0,0,0,8,0,0,0,2,69,120,112,84,0,0,0,40,0,0,0,3,0,0,0,6,0,0,0,1,0,0,0,6,0,0,0,6,0,0,0,0,0,0,0,4,0,0,0,2,0,0,0,2,0,0,0,2,76,105,116,84,0,0,0,40,0,0,0,31,120,156,99,96,96,96,100,96,96,16,111,206,102,16,174,43,208,75,45,202,177,170,43,176,82,168,43,168,203,3,65,0,97,216,8,173,76,111,99,84,0,0,0,4,0,0,0,0,65,116,116,114,0,0,0,59,131,108,0,0,0,2,104,2,100,0,3,118,115,110,108,0,0,0,1,110,16,0,196,243,111,110,173,82,70,69,242,108,73,111,237,154,113,118,106,104,2,100,0,6,97,117,116,104,111,114,107,0,5,65,100,109,105,110,106,0,67,73,110,102,0,0,1,46,131,108,0,0,0,4,104,2,100,0,7,111,112,116,105,111,110,115,108,0,0,0,4,100,0,10,100,101,98,117,103,95,105,110,102,111,104,2,100,0,3,100,116,108,100,0,5,102,97,108,115,101,104,2,100,0,1,105,107,0,50,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,105,110,99,108,117,100,101,104,2,100,0,6,111,117,116,100,105,114,107,0,47,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,101,98,105,110,106,104,2,100,0,7,118,101,114,115,105,111,110,107,0,5,52,46,57,46,52,104,2,100,0,4,116,105,109,101,104,6,98,0,0,7,222,97,10,97,8,97,14,97,53,97,12,104,2,100,0,6,115,111,117,114,99,101,107,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,106,0,0,65,98,115,116,0,0,1,117,131,80,0,0,3,106,120,156,173,146,177,110,195,32,16,134,137,237,184,105,26,197,125,132,238,145,140,186,102,106,165,62,64,165,182,179,117,1,28,99,99,176,0,39,157,252,236,5,187,82,98,71,201,80,117,65,112,247,223,241,221,15,69,64,81,162,225,152,193,206,88,13,196,102,135,103,129,16,90,20,17,69,247,96,173,230,187,214,50,152,81,20,229,92,176,34,168,208,27,254,50,76,27,252,74,107,46,241,7,183,204,96,162,164,105,133,5,203,221,6,31,217,206,41,14,76,99,163,9,54,138,84,102,88,51,161,246,156,164,76,11,152,77,110,88,80,20,215,138,182,130,81,180,26,196,68,112,38,237,13,146,151,63,145,164,41,118,24,38,45,174,80,64,107,11,165,43,52,239,219,78,4,203,127,55,98,57,185,97,229,16,216,119,163,180,245,15,49,43,220,11,197,86,101,204,26,8,202,98,78,209,34,111,37,241,253,97,125,150,26,196,46,29,19,1,173,97,176,246,145,160,8,41,10,15,160,189,54,124,231,116,116,254,132,93,89,14,133,142,33,34,32,4,36,126,27,107,86,43,199,146,120,121,4,86,213,144,80,52,23,176,103,122,20,10,221,28,190,65,52,138,70,92,230,202,131,135,146,251,142,142,42,80,141,207,4,155,141,87,198,238,179,113,185,135,164,66,15,93,227,109,216,118,205,246,233,166,48,234,154,78,94,196,164,139,141,171,250,73,156,249,19,248,139,63,117,38,186,227,210,50,55,26,36,238,124,194,30,139,122,215,146,95,23,175,164,156,161,167,250,178,44,251,3,83,57,60,150,63,60,253,8,101,0,0,0,76,105,110,101,0,0,0,93,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,2,0,0,0,1,18,225,241,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,0,0,0>>,[]}},[{sync_scanner,recompile_src_file,2,[{file,"src/sync_scanner.erl"},{line,465}]},{sync_scanner,process_src_file_lastmod,3,[{file,"src/sync_scanner.erl"},{line,414}]},{sync_scanner,handle_cast,2,[{file,"src/sync_scanner.erl"},{line,218}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [sync,<0.113.0>]
+    messages: []
+    links: [<0.114.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 28690
+    stack_size: 27
+    reductions: 114043483
+  neighbours:
+2014-10-08 17:53:12 =SUPERVISOR REPORT====
+     Supervisor: {local,sync}
+     Context:    child_terminated
+     Reason:     {{case_clause,{ok,socks_client,<<70,79,82,49,0,0,4,208,66,69,65,77,65,116,111,109,0,0,0,74,0,0,0,8,12,115,111,99,107,115,95,99,108,105,101,110,116,6,116,111,95,101,116,115,4,105,110,102,111,5,108,97,103,101,114,3,108,111,103,11,109,111,100,117,108,101,95,105,110,102,111,6,101,114,108,97,110,103,15,103,101,116,95,109,111,100,117,108,101,95,105,110,102,111,0,0,67,111,100,101,0,0,0,104,0,0,0,16,0,0,0,0,0,0,0,153,0,0,0,7,0,0,0,3,1,16,153,16,2,18,34,32,1,32,16,128,32,69,19,2,67,69,3,67,3,69,241,3,3,69,18,3,51,64,2,19,64,71,0,35,64,50,3,153,32,78,64,0,1,48,153,0,2,18,98,0,1,64,64,18,3,153,0,78,16,16,1,80,153,0,2,18,98,16,1,96,64,3,19,64,18,3,153,0,78,32,32,3,83,116,114,84,0,0,0,0,73,109,112,84,0,0,0,40,0,0,0,3,0,0,0,4,0,0,0,5,0,0,0,4,0,0,0,7,0,0,0,8,0,0,0,1,0,0,0,7,0,0,0,8,0,0,0,2,69,120,112,84,0,0,0,40,0,0,0,3,0,0,0,6,0,0,0,1,0,0,0,6,0,0,0,6,0,0,0,0,0,0,0,4,0,0,0,2,0,0,0,2,0,0,0,2,76,105,116,84,0,0,0,40,0,0,0,31,120,156,99,96,96,96,100,96,96,16,111,206,102,16,174,43,208,75,45,202,177,170,43,176,82,168,43,168,203,3,65,0,97,216,8,173,76,111,99,84,0,0,0,4,0,0,0,0,65,116,116,114,0,0,0,59,131,108,0,0,0,2,104,2,100,0,3,118,115,110,108,0,0,0,1,110,16,0,196,243,111,110,173,82,70,69,242,108,73,111,237,154,113,118,106,104,2,100,0,6,97,117,116,104,111,114,107,0,5,65,100,109,105,110,106,0,67,73,110,102,0,0,1,46,131,108,0,0,0,4,104,2,100,0,7,111,112,116,105,111,110,115,108,0,0,0,4,100,0,10,100,101,98,117,103,95,105,110,102,111,104,2,100,0,3,100,116,108,100,0,5,102,97,108,115,101,104,2,100,0,1,105,107,0,50,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,105,110,99,108,117,100,101,104,2,100,0,6,111,117,116,100,105,114,107,0,47,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,101,98,105,110,106,104,2,100,0,7,118,101,114,115,105,111,110,107,0,5,52,46,57,46,52,104,2,100,0,4,116,105,109,101,104,6,98,0,0,7,222,97,10,97,8,97,14,97,53,97,12,104,2,100,0,6,115,111,117,114,99,101,107,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,106,0,0,65,98,115,116,0,0,1,117,131,80,0,0,3,106,120,156,173,146,177,110,195,32,16,134,137,237,184,105,26,197,125,132,238,145,140,186,102,106,165,62,64,165,182,179,117,1,28,99,99,176,0,39,157,252,236,5,187,82,98,71,201,80,117,65,112,247,223,241,221,15,69,64,81,162,225,152,193,206,88,13,196,102,135,103,129,16,90,20,17,69,247,96,173,230,187,214,50,152,81,20,229,92,176,34,168,208,27,254,50,76,27,252,74,107,46,241,7,183,204,96,162,164,105,133,5,203,221,6,31,217,206,41,14,76,99,163,9,54,138,84,102,88,51,161,246,156,164,76,11,152,77,110,88,80,20,215,138,182,130,81,180,26,196,68,112,38,237,13,146,151,63,145,164,41,118,24,38,45,174,80,64,107,11,165,43,52,239,219,78,4,203,127,55,98,57,185,97,229,16,216,119,163,180,245,15,49,43,220,11,197,86,101,204,26,8,202,98,78,209,34,111,37,241,253,97,125,150,26,196,46,29,19,1,173,97,176,246,145,160,8,41,10,15,160,189,54,124,231,116,116,254,132,93,89,14,133,142,33,34,32,4,36,126,27,107,86,43,199,146,120,121,4,86,213,144,80,52,23,176,103,122,20,10,221,28,190,65,52,138,70,92,230,202,131,135,146,251,142,142,42,80,141,207,4,155,141,87,198,238,179,113,185,135,164,66,15,93,227,109,216,118,205,246,233,166,48,234,154,78,94,196,164,139,141,171,250,73,156,249,19,248,139,63,117,38,186,227,210,50,55,26,36,238,124,194,30,139,122,215,146,95,23,175,164,156,161,167,250,178,44,251,3,83,57,60,150,63,60,253,8,101,0,0,0,76,105,110,101,0,0,0,93,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,2,0,0,0,1,18,225,241,0,68,47,85,115,101,114,115,47,65,100,109,105,110,47,83,105,116,101,115,47,99,111,110,115,117,108,116,97,116,105,111,110,115,47,119,101,98,115,101,114,118,101,114,47,115,114,99,47,115,111,99,107,115,47,115,111,99,107,115,95,108,111,103,105,99,46,101,114,108,0,0,0>>,[]}},[{sync_scanner,recompile_src_file,2,[{file,"src/sync_scanner.erl"},{line,465}]},{sync_scanner,process_src_file_lastmod,3,[{file,"src/sync_scanner.erl"},{line,414}]},{sync_scanner,handle_cast,2,[{file,"src/sync_scanner.erl"},{line,218}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.115.0>},{name,sync_scanner},{mfargs,{sync_scanner,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-10-08 18:02:49 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/webserver_socks.erl:11: Error: can't find include file "../logs.hrl"
+2014-10-08 18:11:40 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/ss.erl:none: Error: no such file or directory
+2014-10-08 18:17:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:34: Warning: variable 'Tab' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:35: Error: field tab undefined in record state
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:38: Error: field tab undefined in record state
+2014-10-08 18:20:59 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.248.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:20:59 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.243.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 165
+  neighbours:
+2014-10-08 18:20:59 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.243.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:21:01 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.248.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:21:01 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.249.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 157
+  neighbours:
+2014-10-08 18:21:01 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,<0.248.0>],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.249.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:22:40 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.244.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,{<0.244.0>,<0.244.0>}],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:22:40 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.243.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,{<0.244.0>,<0.244.0>}],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 165
+  neighbours:
+2014-10-08 18:22:40 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,{<0.244.0>,<0.244.0>}],[]},{socks_logic,to_ets,2,[{file,"src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.243.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:25:41 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.1106.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,{<0.1106.0>,<0.1106.0>}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:25:41 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.246.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,{<0.1106.0>,<0.1106.0>}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 736
+  neighbours:
+2014-10-08 18:25:41 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,{<0.1106.0>,<0.1106.0>}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.246.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:27:58 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.1442.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:27:58 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.1108.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 179
+  neighbours:
+2014-10-08 18:27:58 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1108.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:28:02 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.1442.0>}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 18:28:02 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.1445.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 179
+  neighbours:
+2014-10-08 18:28:02 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,insert,[socks,{<0.1442.0>,1}],[]},{socks_logic,to_ets,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,15}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1445.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[socks]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 18:36:04 =ERROR REPORT====
+Error in process <0.257.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.257.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57022},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 18:36:04 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.257.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.257.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57022},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008183600WS1evdaa&state=enter">>,[{<<"code">>,<<"141008183600WS1evdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 19:16:23 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:13: Error: function find/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:47: Error: undefined macro 'MODULE_NAME'
+2014-10-08 19:16:41 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function socks_to_ets/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:30: Error: syntax error before: ')'
+2014-10-08 19:18:39 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function socks_to_ets/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:30: Warning: function socks_to_ets/4 is unused
+2014-10-08 19:30:08 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2332.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:08 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.243.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 17557
+  neighbours:
+2014-10-08 19:30:08 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.243.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:10 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2332.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:10 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2334.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:10 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2334.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:35 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:35 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2341.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:35 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2341.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:36 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:36 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2415.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:36 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2415.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:39 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:39 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2422.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:39 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[<<"add_record">>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2422.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:44 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:44 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2432.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:44 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2432.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:30:45 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2413.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:30:45 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2461.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:30:45 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[socks],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2461.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:32:44 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Pid' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:33:14 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:33:17 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2920.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[<0.2466.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:33:17 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2466.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[<0.2466.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 8708
+  neighbours:
+2014-10-08 19:33:17 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[<0.2466.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2466.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:33:18 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {to_ets,<0.2920.0>,<<"add_record">>,tms,treatments}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {'function not exported',[{ets,lookup,[<0.2924.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 19:33:18 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.2924.0>
+    registered_name: webserver_socks
+    exception exit: {{undef,[{ets,lookup,[<0.2924.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 203
+  neighbours:
+2014-10-08 19:33:18 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {undef,[{ets,lookup,[<0.2924.0>],[]},{socks_logic,to_ets,5,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,16}]},{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.2924.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 19:33:26 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Model' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:14: Warning: variable 'Module' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:35:22 =ERROR REPORT====
+Error in process <0.3297.0> with exit value: {{try_clause,{http_req,#Port<0.16492>,ranch_tcp,keepalive,<0.3297.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57472},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<17 bytes>>},{<<15 bytes>>,<<44 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 19:35:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3297.0> exit with reason: {{try_clause,{http_req,#Port<0.16492>,ranch_tcp,keepalive,<0.3297.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57472},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008193518WS1hvdaa&state=enter">>,[{<<"code">>,<<"141008193518WS1hvdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 19:38:33 =ERROR REPORT====
+Error in process <0.3744.0> with exit value: {{try_clause,{http_req,#Port<0.16664>,ranch_tcp,keepalive,<0.3744.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57507},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-08 19:38:33 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.3744.0> exit with reason: {{try_clause,{http_req,#Port<0.16664>,ranch_tcp,keepalive,<0.3744.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57507},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141008193830WS1kvdaa&state=enter">>,[{<<"code">>,<<"141008193830WS1kvdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-08 19:38:52 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:15: Error: illegal expression
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:15: Warning: invalid function call
+2014-10-08 19:48:36 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:49:03 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:49: Error: function handle_cast/2 already defined
+2014-10-08 19:50:15 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:51:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Error: syntax error before: 
+2014-10-08 19:51:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:33: Warning: function send_msg/3 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-08 19:57:41 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Warning: function send_msg/4 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:20: Warning: function bang/5 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 19:59:34 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:24: Warning: wrong number of arguments in format call
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 20:04:55 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:25: Warning: variable 'Action' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-08 20:06:21 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:12: Error: function send_msg/4 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:17: Warning: function send_msg/5 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:21: Warning: function bang/6 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:29: Error: function bang/5 undefined
+2014-10-08 20:06:26 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:29: Error: function bang/5 undefined
+2014-10-08 20:11:03 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {'$gen_cast',{send_msg,<<"[{\"ok\":\"test\"}]">>,<<"add_record">>,tms,treatments}}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 20:11:03 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.243.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 10603
+  neighbours:
+2014-10-08 20:11:03 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.243.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 20:11:05 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {'$gen_cast',{send_msg,<<"[{\"ok\":\"test\"}]">>,<<"add_record">>,tms,treatments}}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 20:11:05 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.1199.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 191
+  neighbours:
+2014-10-08 20:11:05 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1199.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 20:11:35 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {'$gen_cast',{send_msg,<<"[{\"ok\":\"test\"}]">>,<<"add_record">>,tms,treatments}}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 20:11:35 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.1208.0>
+    registered_name: webserver_socks
+    exception exit: {{badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 191
+  neighbours:
+2014-10-08 20:11:35 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {badarg,[{ets,lookup,[<0.1162.0>,<<"[{\"ok\":\"test\"}]">>],[]},{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,26}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1208.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 20:13:26 =ERROR REPORT====
+** Generic server webserver_socks terminating 
+** Last message in was {'$gen_cast',{send_msg,<<"[{\"ok\":\"test\"}]">>,<<"add_record">>,tms,treatments}}
+** When Server state == {state,socks}
+** Reason for termination == 
+** {{badmatch,[{<0.1162.0>,<<"add_record">>,tms,treatments}]},[{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,23}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-10-08 20:13:26 =CRASH REPORT====
+  crasher:
+    initial call: webserver_socks:init/1
+    pid: <0.1281.0>
+    registered_name: webserver_socks
+    exception exit: {{{badmatch,[{<0.1162.0>,<<"add_record">>,tms,treatments}]},[{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,23}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [webserver_sup_chi,webserver_sup,<0.134.0>]
+    messages: []
+    links: [<0.242.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 14114
+  neighbours:
+2014-10-08 20:13:26 =SUPERVISOR REPORT====
+     Supervisor: {local,webserver_sup_chi}
+     Context:    child_terminated
+     Reason:     {{badmatch,[{<0.1162.0>,<<"add_record">>,tms,treatments}]},[{socks_logic,bang,6,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl"},{line,23}]},{webserver_socks,handle_cast,2,[{file,"src/socks/webserver_socks.erl"},{line,48}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1281.0>},{name,webserver_socks},{mfargs,{webserver_socks,start_link,[{ets_tab,socks}]}},{restart_type,permanent},{shutdown,10500},{child_type,worker}]
+
+2014-10-08 20:21:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:16: Error: syntax error before: 

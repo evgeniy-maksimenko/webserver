@@ -47,6 +47,7 @@ start(_StartType, _StartArgs) ->
       {"/ws_btn",                     ws_btn_handler, []},
       {"/ws_closer",                  ws_closer_handler, []},
       %% ===================================================================
+      {"/test",                       test_handler, []},
       {"/[...]",                      cowboy_static, {file, "priv/index.html"}}
 
     ]}

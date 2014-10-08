@@ -40,7 +40,7 @@ handle(Req, State) ->
       "application/x-www-form-urlencoded",
       Json%параметры
     }, [], []),
-  ?LOG_INFO("~p~n",[Request]),
+
   {ok, Req2} = cowboy_req:reply(200, [], [], Req),
   {ok, Req2, State}.
 

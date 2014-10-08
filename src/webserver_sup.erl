@@ -16,12 +16,14 @@
 %% ===================================================================
 
 start_link() ->
-    supervisor:start_link({local, ?MODULE}, ?MODULE, []).
+  supervisor:start_link({local, ?MODULE}, ?MODULE, []).
 
 %% ===================================================================
 %% Supervisor callbacks
 %% ===================================================================
 
 init([]) ->
-    {ok, { {one_for_one, 5, 10}, []} }.
+  Flags = {one_for_one, 5, 10},
+  WebserverSupChi = {webserver_sup_chi, {webserver_sup_chi, start_link, []}, permanent, 10500, supervisor, [webserver_sup_chi]},
+  {ok, {Flags, [WebserverSupChi]}}.
 
