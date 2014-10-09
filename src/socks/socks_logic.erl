@@ -9,21 +9,23 @@
 -include("../logs.hrl").
 
 %% API
--export([to_ets/5, send_msg/5]).
+-export([to_ets/4, send_msg/4, ets_delete/2]).
 
-to_ets(Pid, Action, Model, Module, Tab) ->
-  ets:insert(Tab, {Pid, Action, Model, Module}).
+to_ets(Pid, Action, Model, Tab) ->
+  ets:insert(Tab, {Pid, Action, Model}).
 
-send_msg(Message, Action, Model, Module, Tab) ->
-  bang(ets:first(Tab), Action, Message, Model, Module, Tab).
+send_msg(Message, Action, Model, Tab) ->
+  bang(ets:first(Tab), Action, Message, Model, Tab).
 
-bang('$end_of_table', _Action, _Message, _Model, _Module, _Tab) -> ok;
-bang(Firts, Action, Message, Model, Module, Tab) ->
+bang('$end_of_table', _Action, _Message, _Model, _Tab) -> ok;
+bang(Firts, Action, Message, Model, Tab) ->
   case ets:lookup(Tab, Firts) of
-    [{Pid, Action, Model, Module}] ->
-      ?LOG_INFO("~p~n", [Pid, Message]);
+    [{Pid, _, Model}] ->
+      Pid ! {json, jsx:encode(Message)};
     _ ->
       ok
   end,
-  bang(ets:next(Tab, Firts), Action, Message, Model, Module, Tab).
+  bang(ets:next(Tab, Firts), Action, Message, Model, Tab).
 
+ets_delete(Tab, Pid) ->
+  ets:delete(Tab, Pid).

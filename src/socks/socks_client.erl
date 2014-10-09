@@ -7,13 +7,18 @@
 %%%-------------------------------------------------------------------
 -module(socks_client).
 
--export([socks_to_ets/4, send_msg/4]).
+-export([socks_to_ets/3, send_msg/3, ets_delete/1]).
 
 %% ===================================================================
 %% socks functions
 %% ===================================================================
-socks_to_ets(Pid, Action, Model, Module) ->
-  webserver_socks:socks_to_ets(Pid, Action, Model, Module).
+socks_to_ets(Pid, Action, Model) ->
+  webserver_socks:socks_to_ets(Pid, Action, Model).
 
-send_msg(Message, Action, Model, Module) ->
-  webserver_socks:send_msg(Message, Action, Model, Module).
+send_msg(Message, Action, Model) ->
+  webserver_socks:send_msg(Message, Action, Model).
+
+ets_delete(Pid) ->
+  webserver_socks:ets_delete(Pid).
+
+

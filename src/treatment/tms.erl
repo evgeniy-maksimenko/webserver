@@ -29,12 +29,12 @@ save(PostAttrs, AllBindings, Req) ->
     <<"2lvl">> ->
       update_level(PostAttrs, List, AllBindings);
     <<"OK">> ->
-       {ok, Req2} = send_mail(AllBindings, Req),
+%%        {ok, Req2} = send_mail(AllBindings, Req),
       emongo:update(model, "treatment", [{<<"id">>, proplists:get_value(<<"id">>, AllBindings)}], lists:merge(
         PostAttrs,
         [
           {<<"modified_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-          {<<"author_login">>, app:getting_user(Req2)},
+          {<<"author_login">>, app_logic:getting_user(Req)},
           {<<"rating">>, 0},
           {<<"rating_at">>, <<"">>}
         ]
@@ -43,9 +43,6 @@ save(PostAttrs, AllBindings, Req) ->
   <<"{\"status\":\"ok\"}">>.
 
 find(AllBindings, false, _Req) ->
-
-  socks_client:socks_to_ets(self(), <<"add_record">>, ?MODULE, treatments),
-  socks_client:send_msg(<<"[{\"ok\":\"test\"}]">>, <<"add_record">>, ?MODULE, treatments),
 
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
   Data = tm_module:remove_id_mongo(Find),
@@ -58,7 +55,7 @@ find(Id, true, Req) ->
   Data = tm_module:remove_id_mongo(Find),
 
   OpenedBy = proplists:get_value(<<"opened_by">>, lists:merge(Data)),
-  Login = list_to_binary(app:getting_user(Req)),
+  Login = list_to_binary(app_logic:getting_user(Req)),
 
   Result =
     case OpenedBy =:= Login of
@@ -78,12 +75,12 @@ inWork(Id, Req) ->
     lists:delete({<<"working">>, <<"0">>}, lists:merge(Data)),
     [
       {<<"opened_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d H:i:s")},
-      {<<"opened_by">>, app:getting_user(Req)},
+      {<<"opened_by">>, app_logic:getting_user(Req)},
       {<<"working">>, 1}
     ]
   ),
 
-   emongo:update(model, "treatment", [{<<"id">>, Id}], List),
+    emongo:update(model, "treatment", [{<<"id">>, Id}], List),
   <<"{\"status\":\"ok\"}">>.
 
 send_mail(AllBindings, Req) ->

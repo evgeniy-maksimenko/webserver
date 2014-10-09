@@ -7,14 +7,15 @@ define([
 	'text!templates/forbiddenTemplate.html',
 ], function(Backbone, Layout, editTemplate, router, Collection, forbiddenTemplate) {
 
-	var ws_closer;
+	var websocket;
 	var whl = window.location.host;
 	//var whl = '10.56.0.190:8008';
 
-	function connect_closer() {
-		wsUrl = "ws://" + whl + "/ws_closer";
-		ws_closer = new WebSocket(wsUrl);		
+	function connect() {		
+		wsUrl = "ws://" + whl + "/websocket";
+		websocket = new WebSocket(wsUrl);
 	};
+
 
 	function getData(attrs) {
 	    var data = 
@@ -32,7 +33,7 @@ define([
 		template: _.template(editTemplate),
 		forbiddenTpl: _.template(forbiddenTemplate),
 		initialize : function(){
-			connect_closer();
+			connect();
 		},
 		events: {
 			'submit' : 'recordIsMade' 
@@ -62,8 +63,10 @@ define([
 	            dataType: "json",
 	            data: $("form").serialize(),
 	            success: function(){
-	            	if(ws_closer.readyState == ws_closer.OPEN) {				
-						ws_closer.send(attrs.id);
+	            	if(websocket.readyState == websocket.OPEN) {				
+						var data = {action : "close_tm", id: attrs.id};
+						websocket.send(JSON.stringify(data));
+						
 						window.location = '/treatment_s';
 					} else {
 						alert('websocket is not connected');

@@ -53,7 +53,7 @@ getAuthPage(Req) ->
     true ->
       Req2;
     false ->
-      AccessToken = app:getCookie(<<"access_token">>, Req2),
+      AccessToken = app_logic:getCookie(<<"access_token">>, Req2),
       case AccessToken of
         undefined ->
           c_http_request:redirect(?POINT_AUTH ++ "?client_id=" ++ ?CLIENT_ID ++ "&scope=read&response_type=code&state=enter&redirect_uri=" ++ ?REDIRECT_URI, Req2);

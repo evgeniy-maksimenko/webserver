@@ -22,11 +22,17 @@ init({tcp, http}, _Req, _Opts) ->
   {upgrade, protocol, cowboy_websocket}.
 
 websocket_init(_TransportName, Req, _Opts) ->
-  ets:insert(treatments,{self(),self()}),
+
+  socks_client:socks_to_ets(self(), <<"init">>, ?MODULE),
+
   {ok, Req, undefined_state}.
 
 websocket_handle({text, Msg}, Req, State) ->
-  {reply, {text, << "That's what she said! ", Msg/binary >>}, Req, State};
+  Message = jsx:decode(Msg),
+  [{_, Action}|_] = Message,
+    socks_client:socks_to_ets(self(), Action, ?MODULE),
+    socks_client:send_msg(Message, Action, ?MODULE),
+  {ok, Req, State};
 websocket_handle(_Data, Req, State) ->
   {ok, Req, State}.
 
@@ -38,5 +44,5 @@ websocket_info(_Info, Req, State) ->
   {ok, Req, State}.
 
 websocket_terminate(_Reason, _Req, _State) ->
-  ets:delete(treatments, self()),
+  socks_client:ets_delete(self()),
   ok.

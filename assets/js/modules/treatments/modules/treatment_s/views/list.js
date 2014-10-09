@@ -9,47 +9,45 @@ define([
 ], function($, Backbone, Layout, listTemplate, ItemView, Collection) {
 
 	var websocket;
-	var websocket_btn;
-	var ws_closer;
 
 	var whl = window.location.host;
 	//var whl = '10.56.0.190:8008';
 
 	function connect() {
+		
 		wsUrl = "ws://" + whl + "/websocket";
 		websocket = new WebSocket(wsUrl);
 		websocket.onmessage = function(evt) { onMessage(evt) };		
 	};
 
-	function connect_btn() {
-		wsUrl = "ws://" + whl + "/ws_btn";
-		websocket_btn = new WebSocket(wsUrl);
-		websocket_btn.onmessage = function(evt) { onMessage_btn(evt) };		
-	};
-
-	function connect_closer() {
-		wsUrl = "ws://" + whl + "/ws_closer";
-		ws_closer = new WebSocket(wsUrl);
-		ws_closer.onmessage = function(evt) { onMessage_closer(evt) };		
-	};
-
 	function onMessage(evt) { 
-        var obj = $.parseJSON(evt.data);    
-        showScreen(obj); 
+		
+        var data = $.parseJSON(evt.data);    
+        switch (data.action) {
+        	case "new_tm":
+        		showScreen(data); 	
+        		break
+        	case "work_tm":
+        		Message_btn(data);
+        		break
+        	case "close_tm":
+        		Message_closer(data);
+        		break
+        };
+        
     };
 
-	function onMessage_btn(evt) { 
-        $("#work"+evt.data).remove();
-        $("#in_work"+evt.data).show();
-        $("#status"+evt.data).show();
+	function Message_btn(data) { 
+        $("#work"+data.id).remove();
+        $("#in_work"+data.id).show();
+        $("#status"+data.id).show();
     };
 
-    function onMessage_closer(id) { 
-    	
-        $("#in_work"+id.data).parent().parent().remove();
+    function Message_closer(data) { 
+
+        $("#in_work"+data.id).parent().parent().remove();
 
     };
-
     function showScreen(data) { 
     	var d = new Date();
     	
@@ -79,8 +77,7 @@ define([
 		},
 		initialize: function() {
 			connect();
-			connect_btn();
-			connect_closer();
+			
 			this.collection = new Collection();
 			this.collection.fetch({
 				reset: true
@@ -101,15 +98,15 @@ define([
 			$("#list").append(itemView.render().el);
 		},
 		in_work: function(event) {
-			id = $(event.currentTarget).attr('data');
-			if(websocket_btn.readyState == websocket_btn.OPEN) {				
-				websocket_btn.send(id);
-				
+			var record_id = $(event.currentTarget).attr('data');
+			if(websocket.readyState == websocket.OPEN) {				
+				var data = {action : "work_tm", id: record_id};
+				websocket.send(JSON.stringify(data));
 			} else {
 				alert('websocket is not connected');
 			}	
 			$.ajax({
-	            url : '/api/treatments?condition=in_work&id='+id,
+	            url : '/api/treatments?condition=in_work&id='+record_id,
 	            type: "POST",
 	            dataType: "json",
 	            success: function(){

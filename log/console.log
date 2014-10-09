@@ -9071,3 +9071,1664 @@
 2014-10-08 20:24:58.576 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,24,<0.248.0>,<<"[{\"ok\":\"test\"}]">>]
 2014-10-08 20:25:01.248 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,24,<0.248.0>,<<"[{\"ok\":\"test\"}]">>]
 2014-10-08 20:25:02.684 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,24,<0.248.0>,<<"[{\"ok\":\"test\"}]">>]
+2014-10-09 08:48:39.986 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 08:48:39.992 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 08:48:39.994 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 08:48:39.997 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 08:48:40.006 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 08:48:40.028 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 08:48:50.844 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 08:48:50.844 [error] emulator Error in process <0.258.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.258.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58243},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 08:48:50.845 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.258.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.258.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58243},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009084846WS1hwdaa&state=enter">>,[{<<"code">>,<<"141009084846WS1hwdaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 08:48:54.494 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,24,<0.271.0>,<<"[{\"ok\":\"test\"}]">>]
+2014-10-09 08:55:26.664 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:0: Recompiled.
+2014-10-09 08:55:26.674 [info] <0.115.0> socks_client: Reloaded! (Beam changed.)
+2014-10-09 08:59:12.053 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:36: Warning: function ets_delete/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 08:59:12.064 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 08:59:24.196 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:36: Warning: function ets_delete/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 08:59:24.208 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 08:59:54.508 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:30: Warning: function ets_delete/1 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:31: Error: variable 'Action' is unbound
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:31: Error: variable 'Model' is unbound
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:31: Error: variable 'Module' is unbound
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:31: Error: variable 'Pid' is unbound
+2014-10-09 09:01:09.294 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:30: Warning: function ets_delete/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled with 1 warnings
+2014-10-09 09:01:09.306 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 09:01:13.343 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 09:01:13.353 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 09:01:25.487 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 09:01:25.500 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 09:02:02.810 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:0: Recompiled.
+2014-10-09 09:02:02.819 [info] <0.115.0> socks_client: Reloaded! (Beam changed.)
+2014-10-09 09:02:56.312 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:02:56.318 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:02:56.321 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:02:56.323 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:02:56.332 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:02:56.354 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:03:09.014 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,24,<0.267.0>,<<"[{\"ok\":\"test\"}]">>]
+2014-10-09 09:03:52.479 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:03:52.479 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-09 09:03:52.490 [info] <0.115.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-09 09:05:07.210 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 09:05:07.218 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 09:07:22.503 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 09:07:22.511 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 09:08:24.082 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:10:11.006 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:10:11.013 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:10:33.215 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:10:33.225 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:10:40.311 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:10:40.320 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:10:47.409 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:10:47.416 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 09:11:26.852 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl:0: Recompiled.
+2014-10-09 09:11:26.859 [info] <0.115.0> ws_closer_handler: Reloaded! (Beam changed.)
+2014-10-09 09:11:48.063 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl:0: Recompiled.
+2014-10-09 09:11:48.072 [info] <0.115.0> ws_closer_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:02.213 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl:0: Recompiled.
+2014-10-09 09:12:02.221 [info] <0.115.0> ws_closer_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:08.280 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl:0: Recompiled.
+2014-10-09 09:12:08.292 [info] <0.115.0> ws_closer_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:33.605 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:12:33.613 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:39.678 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:12:39.689 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:48.773 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 09:12:48.781 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:53.837 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 09:12:53.845 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 09:12:56.884 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 09:12:56.894 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 09:13:09.028 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:13:09.036 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 09:14:10.128 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:14:10.134 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:14:10.136 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:14:10.139 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:14:10.147 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:14:10.169 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:16:16.124 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:17:14.459 [error]  tm_module:59(): TAG {badmatch,[]}
+
+2014-10-09 09:17:15.986 [error]  tm_module:59(): TAG {badmatch,[]}
+
+2014-10-09 09:17:48.291 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 09:17:48.299 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 09:17:54.397 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 09:17:54.409 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 09:23:22.933 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:22.956 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:22.976 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:22.990 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:34: Error: redefining macro 'HOST'
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+2014-10-09 09:23:23.008 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:34: Error: redefining macro 'HOST'
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+2014-10-09 09:23:23.025 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:23.040 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:23.054 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:23.072 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:23.088 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:8: Error: function start/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:13: Error: undefined macro 'POOL'
+/Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:34: Error: redefining macro 'HOST'
+2014-10-09 09:23:30.257 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:0: Recompiled.
+2014-10-09 09:23:30.271 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-09 09:23:30.301 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-09 09:23:30.333 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 09:23:30.397 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-09 09:23:30.437 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 09:23:30.463 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-09 09:23:30.503 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:34: Warning: this clause cannot match because a previous clause at line 27 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-09 09:23:30.544 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 09:23:30.562 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-09 09:23:30.576 [info] <0.115.0> app: Reloaded! (Beam changed.)
+2014-10-09 09:23:30.579 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-09 09:23:30.581 [info] <0.115.0> mailer: Reloaded! (Beam changed.)
+2014-10-09 09:23:30.584 [info] <0.115.0> tm_module: Reloaded! (Beam changed.)
+2014-10-09 09:23:30.589 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 09:23:30.592 [info] <0.115.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-09 09:23:58.068 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:23:58.074 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:23:58.076 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:23:58.079 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:23:58.088 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:23:58.109 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:23:58.137 [error] <0.135.0> CRASH REPORT Process <0.135.0> with 0 neighbours exited with reason: {failed_to_open_socket,econnrefused} in emongo_conn:open_socket/2 line 131
+2014-10-09 09:25:44.290 [warning] <0.6.0> lager_error_logger_h dropped 23 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:25:44.290 [error] <0.123.0> gen_server emongo terminated with reason: bad record pool in emongo:handle_call/3 line 369
+2014-10-09 09:25:44.290 [error]  tm_module:59(): TAG {{{badrecord,pool},[{emongo,handle_call,3,[{file,"src/emongo.erl"},{line,369}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[emongo,{pid,model},infinity]}}
+
+2014-10-09 09:25:44.290 [error] <0.123.0> CRASH REPORT Process emongo with 0 neighbours exited with reason: bad record pool in emongo:handle_call/3 line 369 in gen_server:terminate/6 line 744
+2014-10-09 09:25:44.290 [error] <0.122.0> Supervisor emongo_app had child emongo started with emongo:start_link() at <0.123.0> exit with reason bad record pool in emongo:handle_call/3 line 369 in context child_terminated
+2014-10-09 09:25:56.670 [error]  tm_module:59(): TAG {badrecord,pool}
+
+2014-10-09 09:26:20.570 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:26:20.576 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:26:20.578 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:26:20.581 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:26:20.590 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:26:20.611 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:26:40.104 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:27:22.013 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:27:22.020 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:27:22.022 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:27:22.025 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:27:22.035 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:27:22.055 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:27:40.044 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:27:40.044 [error] emulator Error in process <0.281.0> with exit value: {{try_clause,{http_req,#Port<0.10938>,ranch_tcp,keepalive,<0.281.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58482},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 09:27:40.045 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.281.0> exit with reason: {{try_clause,{http_req,#Port<0.10938>,ranch_tcp,keepalive,<0.281.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58482},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009092735WS1sydaa&state=enter">>,[{<<"code">>,<<"141009092735WS1sydaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 09:30:49.766 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:30:49.772 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:30:49.774 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:30:49.777 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:30:49.786 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:30:49.807 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:30:56.377 [warning] <0.6.0> lager_error_logger_h dropped 67 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:33:12.417 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:33:12.423 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:33:12.425 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:33:12.428 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:33:12.437 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:33:12.457 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:33:23.037 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:38:38.484 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:74: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-09 09:38:38.492 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 09:39:02.567 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:39:02.573 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:39:02.575 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:39:02.578 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:39:02.586 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:39:02.608 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:39:13.205 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:40:03.692 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:0: Recompiled.
+2014-10-09 09:40:03.699 [info] <0.115.0> ws_btn_handler: Reloaded! (Beam changed.)
+2014-10-09 09:40:11.961 [info]  ws_btn_handler.erl:31: <<"6">>
+
+
+2014-10-09 09:50:33.229 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 09:50:33.238 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 09:50:33.241 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 09:50:33.245 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 09:50:33.256 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 09:50:33.279 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 09:50:37.778 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 09:50:37.778 [error] emulator Error in process <0.249.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.249.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58875},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 09:50:37.778 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.249.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.249.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58875},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009095036WS3cydaa&state=enter">>,[{<<"code">>,<<"141009095036WS3cydaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 09:53:28.133 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:53:28.141 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 09:53:33.676 [error] emulator Error in process <0.1374.0> with exit value: {[{reason,badarg},{mfa,{api_response_handler,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_response_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/sr... 
+
+
+2014-10-09 09:53:33.677 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1374.0> exit with reason: {[{reason,badarg},{mfa,{api_response_handler,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_response_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl"},{line,63}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15322>},{transport,ranch_tcp},{connection,close},{pid,<0.1374.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{10,58,12,25},42575}},{host,<<"10.1.37.37">>},{host_info,undefined},{port,8008},{path,<<"/api_conv/conveyor/response">>},{path_info,undefined},{qs,<<"conv_signature=0b040ca22f18e5939d93849ae6ae074fc433b154&conv_time=1412837613">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"content-type">>,<<"application/json;charset=UTF-8">>},{<<"content-length">>,<<"278">>},{<<"user-agent">>,<<"Conveyor 1.0">>},{<<"te">>,<<>>},{<<"host">>,<<"10.1.37.37:8008">>},{<<"accept-charset">>,<<"utf-8">>},{<<"connection">>,<<"close">>}]},{p_headers,[{<<"connection">>,[<<"close">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<"{\"status\":\"1lvl\",\"email\":\"\",\"phone\":\"\",\"vopros\":\"\",\"key\":\"\",\"biznes\":\"\",\"sh_lang\":\"\",\"sh_form_id\":\"\",\"sh_token\":\"\",\"sh_cli_id\":\"\",\"sh_ent_id\":\"\",\"working\":\"0\",\"sys\":{\"ref\":\"141283761297666\",\"obj_id\":\"543630ed836446377f22d7bb\",\"conv_id\":733,\"node_id\":\"540ec758facce747b4174c23\"}}">>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 09:53:46.118 [error] emulator Error in process <0.1411.0> with exit value: {[{reason,badarg},{mfa,{api_response_handler,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_response_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/sr... 
+
+
+2014-10-09 09:53:46.119 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1411.0> exit with reason: {[{reason,badarg},{mfa,{api_response_handler,handle,2}},{stacktrace,[{jsx_parser,value,4,[{file,"src/jsx_parser.erl"},{line,125}]},{api_response_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl"},{line,63}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15330>},{transport,ranch_tcp},{connection,close},{pid,<0.1411.0>},{method,<<"POST">>},{version,'HTTP/1.1'},{peer,{{10,58,12,25},47591}},{host,<<"10.1.37.37">>},{host_info,undefined},{port,8008},{path,<<"/api_conv/conveyor/response">>},{path_info,undefined},{qs,<<"conv_signature=9f58ca0454de5f033b25996efd769d8544e47d5b&conv_time=1412837626">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"content-type">>,<<"application/json;charset=UTF-8">>},{<<"content-length">>,<<"278">>},{<<"user-agent">>,<<"Conveyor 1.0">>},{<<"te">>,<<>>},{<<"host">>,<<"10.1.37.37:8008">>},{<<"accept-charset">>,<<"utf-8">>},{<<"connection">>,<<"close">>}]},{p_headers,[{<<"connection">>,[<<"close">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<"{\"status\":\"1lvl\",\"email\":\"\",\"phone\":\"\",\"vopros\":\"\",\"key\":\"\",\"biznes\":\"\",\"sh_lang\":\"\",\"sh_form_id\":\"\",\"sh_token\":\"\",\"sh_cli_id\":\"\",\"sh_ent_id\":\"\",\"working\":\"0\",\"sys\":{\"ref\":\"141283762595149\",\"obj_id\":\"543630f9836446377f22d7be\",\"conv_id\":733,\"node_id\":\"540ec758facce747b4174c23\"}}">>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 09:54:06.619 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:54:06.628 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 09:55:22.403 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:21: Error: function handle/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:71: Error: syntax error before: '.'
+2014-10-09 09:56:19.080 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 09:56:19.090 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 10:06:46.278 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 10:06:46.289 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 10:08:30.212 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:08:30.219 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:08:54.107 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 10:08:54.113 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 10:08:54.116 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 10:08:54.119 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 10:08:54.128 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 10:08:54.149 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 10:09:00.040 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 10:09:13.409 [info]  ws_handler.erl:31: <<"[object Object]">>
+
+
+2014-10-09 10:09:37.492 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:09:37.501 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:09:41.849 [error] emulator Error in process <0.1065.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/... 
+
+
+2014-10-09 10:09:41.850 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1065.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl"},{line,31}]},{cowboy_websocket,handler_call,7,[{file,"src/cowboy_websocket.erl"},{line,588}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{msg,{text,<<"[object Object]">>}},{req,[{socket,#Port<0.13295>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1065.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59073}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"rR149NWtrXmmQ8PUyreF3Q==">>},{<<"cookie">>,<<"access_token=141009PBe1czfgdf13zo">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 10:09:53.341 [error] emulator Error in process <0.1080.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/... 
+
+
+2014-10-09 10:09:53.342 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1080.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl"},{line,31}]},{cowboy_websocket,handler_call,7,[{file,"src/cowboy_websocket.erl"},{line,588}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{msg,{text,<<"[object Object]">>}},{req,[{socket,#Port<0.13297>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1080.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59075}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"WMCh9o4jU9ibkmlZ4sEKbw==">>},{<<"cookie">>,<<"access_token=141009PBe1czfgdf13zo">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 10:10:33.341 [error] emulator Error in process <0.1185.0> with exit value: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/... 
+
+
+2014-10-09 10:10:33.343 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1185.0> exit with reason: {[{reason,badarg},{mfa,{ws_handler,websocket_handle,3}},{stacktrace,[{jsx_decoder,value,4,[{file,"src/jsx_decoder.erl"},{line,225}]},{ws_handler,websocket_handle,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl"},{line,31}]},{cowboy_websocket,handler_call,7,[{file,"src/cowboy_websocket.erl"},{line,588}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{msg,{text,<<"[object Object]">>}},{req,[{socket,#Port<0.13304>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1185.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},59077}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/websocket">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"sec-websocket-version">>,<<"13">>},{<<"origin">>,<<"http://localhost:8008">>},{<<"sec-websocket-key">>,<<"qkfu/1MVQ1MWqLgPJR/wEg==">>},{<<"cookie">>,<<"access_token=141009PBe1czfgdf13zo">>},{<<"connection">>,<<"keep-alive, Upgrade">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"upgrade">>,<<"websocket">>}]},{p_headers,[{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"keep-alive">>,<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_version,13},{websocket_compress,false}]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,done},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 10:13:59.783 [info]  ws_handler.erl:31: [{<<"action">>,<<"work_tm">>},{<<"id">>,<<"18">>}]
+
+
+2014-10-09 10:17:43.186 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:17:43.198 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:18:06.399 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:18:06.408 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:18:58.860 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:18:58.869 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:20:04.446 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:20:04.456 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:21:07.012 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:21:07.021 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:23:05.052 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 10:23:05.060 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 10:26:54.203 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_btn_handler.erl:none: Error: no such file or directory
+2014-10-09 10:27:05.321 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-09 10:27:05.331 [info] <0.115.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-09 10:31:57.928 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_closer_handler.erl:none: Error: no such file or directory
+2014-10-09 10:32:08.048 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-09 10:32:08.059 [info] <0.115.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-09 10:33:20.744 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 10:33:20.752 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 10:33:45.399 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 10:33:45.405 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 10:33:45.407 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 10:33:45.411 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 10:33:45.421 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 10:33:45.446 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 10:34:37.900 [warning] <0.6.0> lager_error_logger_h dropped 69 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 10:37:04.894 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:37:04.901 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:37:16.038 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:74: Warning: variable 'List' is unused
+/Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled with 1 warnings
+2014-10-09 10:37:16.113 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 10:37:40.167 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 10:37:40.173 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 10:37:40.175 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 10:37:40.178 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 10:37:40.186 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 10:37:40.207 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 10:37:42.060 [info]  socks_logic.erl:15: to ets {socks,<0.246.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:37:46.536 [info]  socks_logic.erl:15: to ets {socks,<0.260.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:37:49.606 [info]  socks_logic.erl:15: to ets {socks,<0.266.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:37:59.009 [info]  socks_logic.erl:15: to ets {socks,<0.266.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:37:59.009 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:02.160 [warning] <0.6.0> lager_error_logger_h dropped 22 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 10:39:02.160 [error] emulator Error in process <0.1121.0> with exit value: {{try_clause,{http_req,#Port<0.14665>,ranch_tcp,keepalive,<0.1121.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59359},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 10:39:02.161 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1121.0> exit with reason: {{try_clause,{http_req,#Port<0.14665>,ranch_tcp,keepalive,<0.1121.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59359},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009103901WS2h1daa&state=enter">>,[{<<"code">>,<<"141009103901WS2h1daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 10:39:05.477 [info]  socks_logic.erl:15: to ets {socks,<0.1131.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:24.580 [info]  socks_logic.erl:15: to ets {socks,<0.1176.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:31.564 [info]  socks_logic.erl:15: to ets {socks,<0.1194.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:33.769 [info]  socks_logic.erl:15: to ets {socks,<0.1200.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:40.047 [info]  socks_logic.erl:15: to ets {socks,<0.1194.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:40.047 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:50.754 [info]  socks_logic.erl:15: to ets {socks,<0.1194.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:39:50.755 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:10.787 [info]  socks_logic.erl:15: to ets {socks,<0.1288.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:12.926 [info]  socks_logic.erl:15: to ets {socks,<0.1294.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:15.205 [info]  socks_logic.erl:15: to ets {socks,<0.1294.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:15.205 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:48.626 [info]  socks_logic.erl:15: to ets {socks,<0.1377.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:50.213 [info]  socks_logic.erl:15: to ets {socks,<0.1381.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:51.456 [info]  socks_logic.erl:15: to ets {socks,<0.1377.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:51.456 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:54.713 [info]  socks_logic.erl:15: to ets {socks,<0.1392.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:40:56.914 [info]  socks_logic.erl:15: to ets {socks,<0.1397.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:41:25.240 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 10:41:25.247 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 10:41:25.249 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 10:41:25.252 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 10:41:25.260 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 10:41:25.281 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 10:41:30.112 [info]  socks_logic.erl:15: to ets {socks,<0.253.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:41:32.109 [info]  socks_logic.erl:15: to ets {socks,<0.260.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:41:33.673 [info]  socks_logic.erl:15: to ets {socks,<0.260.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:41:33.674 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:47:05.823 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 10:47:05.823 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:47:05.831 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:47:08.890 [info]  socks_logic.erl:15: to ets {socks,<0.1724.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:47:11.574 [info]  socks_logic.erl:15: to ets {socks,<0.1724.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:47:11.574 [info]  socks_logic.erl:19: send msg {socks,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment}
+
+
+2014-10-09 10:47:42.156 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:47:42.164 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:47:47.220 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:47:47.231 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:50:02.416 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:50:02.424 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:50:06.160 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,22,<0.253.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:50:06.160 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,22,<0.2160.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:51:02.985 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:51:02.993 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:51:05.441 [info]  socks_logic.erl:15: to ets {socks,<0.2319.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:51:09.199 [info]  socks_logic.erl:15: to ets {socks,<0.2329.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:51:14.138 [info]  socks_logic.erl:15: to ets {socks,<0.2329.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:51:14.138 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,23,<0.2319.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:51:14.138 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,23,<0.2329.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:52:46.884 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:52:46.894 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:52:48.908 [info]  socks_logic.erl:15: to ets {socks,<0.2568.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:52:50.458 [info]  socks_logic.erl:15: to ets {socks,<0.2572.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:52:54.744 [info]  socks_logic.erl:15: to ets {socks,<0.2572.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:52:54.745 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,26,<0.2572.0>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>]
+2014-10-09 10:53:24.322 [info]  socks_logic.erl:15: to ets {socks,<0.2652.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:53:26.975 [info]  socks_logic.erl:15: to ets {socks,<0.2659.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:53:30.054 [info]  socks_logic.erl:15: to ets {socks,<0.2652.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:53:30.054 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,26,<0.2652.0>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>]
+2014-10-09 10:53:55.014 [info]  socks_logic.erl:15: to ets {socks,<0.2724.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:53:59.191 [info]  socks_logic.erl:15: to ets {socks,<0.2735.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:54:05.024 [info]  socks_logic.erl:15: to ets {socks,<0.2724.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:54:05.024 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,26,<0.2724.0>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>]
+2014-10-09 10:54:39.931 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:54:39.939 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:54:45.114 [info]  socks_logic.erl:15: to ets {socks,<0.2854.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:54:52.457 [info]  socks_logic.erl:15: to ets {socks,<0.2872.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:54:54.066 [info]  socks_logic.erl:15: to ets {socks,<0.2872.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:54:54.066 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,23,<0.2872.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:54:54.066 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [socks_logic,23,<0.2854.0>,<<"work_tm">>,<<"{\"action\":\"work_tm\",\"id\":\"17\"}">>,ws_handler,treatment,socks]
+2014-10-09 10:57:18.310 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:57:18.318 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:57:19.617 [info]  socks_logic.erl:15: to ets {socks,<0.3216.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:21.824 [info]  socks_logic.erl:15: to ets {socks,<0.3216.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:21.824 [info]  socks_logic.erl:23: <0.2872.0>
+
+
+2014-10-09 10:57:21.824 [info]  socks_logic.erl:23: <0.3216.0>
+
+
+2014-10-09 10:57:28.403 [info]  socks_logic.erl:15: to ets {socks,<0.3243.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:29.870 [info]  socks_logic.erl:15: to ets {socks,<0.3243.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:29.870 [info]  socks_logic.erl:23: <0.2872.0>
+
+
+2014-10-09 10:57:29.870 [info]  socks_logic.erl:23: <0.3243.0>
+
+
+2014-10-09 10:57:52.634 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 10:57:52.643 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 10:57:54.448 [info]  socks_logic.erl:15: to ets {socks,<0.3312.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:55.891 [info]  socks_logic.erl:15: to ets {socks,<0.3312.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:57:55.891 [info]  socks_logic.erl:23: [{<0.2872.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 10:57:55.891 [info]  socks_logic.erl:23: [{<0.3312.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 10:57:59.382 [info]  socks_logic.erl:15: to ets {socks,<0.3326.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:58:04.063 [info]  socks_logic.erl:15: to ets {socks,<0.3326.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 10:58:04.063 [info]  socks_logic.erl:23: [{<0.2872.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 10:58:04.063 [info]  socks_logic.erl:23: [{<0.3326.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:00:01.762 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:00:01.770 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:01:12.381 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:01:12.389 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:01:16.536 [error] <0.243.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.2872.0>,<<"work_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24
+2014-10-09 11:01:16.536 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.2872.0>,<<"work_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in gen_server:terminate/6 line 744
+2014-10-09 11:01:16.536 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason no match of right hand value [{<0.2872.0>,<<"work_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in context child_terminated
+2014-10-09 11:01:23.512 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:01:23.522 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:01:27.253 [info]  socks_logic.erl:25: to ets {<0.2872.0>}
+
+
+2014-10-09 11:01:27.253 [info]  socks_logic.erl:25: to ets {<0.3833.0>}
+
+
+2014-10-09 11:01:43.825 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:01:43.835 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:01:46.869 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:01:46.877 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:01:49.203 [info]  FORMAT ERROR: "~p.erl:~p: to ets ~p~n~n~n" [socks_logic,25|<0.2872.0>]
+2014-10-09 11:01:49.203 [info]  FORMAT ERROR: "~p.erl:~p: to ets ~p~n~n~n" [socks_logic,25|<0.3908.0>]
+2014-10-09 11:02:18.226 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:02:18.233 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:02:35.473 [error] <0.3797.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.4026.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24
+2014-10-09 11:02:35.474 [error] <0.3797.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.4026.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in gen_server:terminate/6 line 744
+2014-10-09 11:02:35.474 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.3797.0> exit with reason no match of right hand value [{<0.4026.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in context child_terminated
+2014-10-09 11:02:49.019 [error] <0.4032.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.4046.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24
+2014-10-09 11:02:49.019 [error] <0.4032.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.4046.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in gen_server:terminate/6 line 744
+2014-10-09 11:02:49.019 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.4032.0> exit with reason no match of right hand value [{<0.4046.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 24 in context child_terminated
+2014-10-09 11:03:38.972 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:03:38.980 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:03:44.435 [info]  socks_logic.erl:15: to ets {socks,<0.4204.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:03:49.357 [info]  socks_logic.erl:15: to ets {socks,<0.4217.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:03:54.528 [info]  socks_logic.erl:15: to ets {socks,<0.4204.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:03:54.528 [error] <0.4066.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.4217.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:03:54.529 [error] <0.4066.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.4217.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:03:54.529 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.4066.0> exit with reason no match of right hand value [{<0.4217.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:04:51.627 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 11:04:51.637 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 11:05:16.472 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:05:16.478 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:05:16.481 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:05:16.484 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:05:16.493 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:05:16.515 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:05:18.957 [info]  socks_logic.erl:15: to ets {socks,<0.249.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:23.268 [info]  socks_logic.erl:15: to ets {socks,<0.260.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:25.351 [info]  socks_logic.erl:15: to ets {socks,<0.260.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:25.351 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:05:25.352 [error] <0.243.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.249.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:05:25.352 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.249.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:05:25.352 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason no match of right hand value [{<0.249.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:05:32.319 [info]  socks_logic.erl:15: to ets {socks,<0.285.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:33.732 [info]  socks_logic.erl:15: to ets {socks,<0.289.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:35.720 [info]  socks_logic.erl:15: to ets {socks,<0.285.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:35.720 [error] <0.265.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.289.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:05:35.721 [error] <0.265.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.289.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:05:35.721 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.265.0> exit with reason no match of right hand value [{<0.289.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:05:40.202 [info]  socks_logic.erl:15: to ets {socks,<0.305.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:41.917 [info]  socks_logic.erl:15: to ets {socks,<0.311.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:55.300 [info]  socks_logic.erl:15: to ets {socks,<0.1029.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:55.835 [info]  socks_logic.erl:15: to ets {socks,<0.1029.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:05:55.836 [error] <0.294.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:05:55.836 [error] <0.294.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:05:55.837 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.294.0> exit with reason no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:07:17.896 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 11:07:17.904 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 11:07:33.749 [info]  socks_logic.erl:15: to ets {socks,<0.1264.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:07:37.461 [info]  socks_logic.erl:15: to ets {socks,<0.1274.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:07:38.909 [info]  socks_logic.erl:15: to ets {socks,<0.1278.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:07:40.511 [error] <0.1030.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:07:40.512 [error] <0.1030.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:07:40.512 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.1030.0> exit with reason no match of right hand value [{<0.311.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:08:04.771 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:08:04.777 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:08:04.779 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:08:04.782 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:08:04.791 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:08:04.814 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:08:08.401 [info]  socks_logic.erl:15: to ets {socks,<0.250.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:08:09.317 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:08:09.317 [error] <0.243.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.250.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:08:09.318 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.250.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:08:09.318 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason no match of right hand value [{<0.250.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:08:40.184 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 11:08:40.193 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 11:10:03.538 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:10:03.544 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:10:03.546 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:10:03.549 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:10:03.559 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:10:03.580 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:10:06.096 [info]  socks_logic.erl:15: to ets {socks,<0.249.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:08.017 [info]  socks_logic.erl:15: to ets {socks,<0.249.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:08.017 [info]  socks_logic.erl:25: <0.249.0>
+
+
+2014-10-09 11:10:11.349 [info]  socks_logic.erl:15: to ets {socks,<0.264.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:15.291 [info]  socks_logic.erl:15: to ets {socks,<0.274.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:19.164 [info]  socks_logic.erl:15: to ets {socks,<0.274.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:19.164 [info]  socks_logic.erl:25: <0.274.0>
+
+
+2014-10-09 11:10:19.165 [warning] <0.6.0> lager_error_logger_h dropped 61 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:10:19.165 [error] <0.243.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.264.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:10:19.165 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.264.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:10:19.165 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason no match of right hand value [{<0.264.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:10:25.569 [info]  socks_logic.erl:15: to ets {socks,<0.299.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:27.691 [info]  socks_logic.erl:15: to ets {socks,<0.304.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:31.658 [info]  socks_logic.erl:15: to ets {socks,<0.304.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:10:31.658 [error] <0.284.0> gen_server webserver_socks terminated with reason: no match of right hand value [{<0.299.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23
+2014-10-09 11:10:31.658 [error] <0.284.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value [{<0.299.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in gen_server:terminate/6 line 744
+2014-10-09 11:10:31.658 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.284.0> exit with reason no match of right hand value [{<0.299.0>,<<"new_tm">>,ws_handler,treatment}] in socks_logic:bang/6 line 23 in context child_terminated
+2014-10-09 11:17:42.067 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:67: Warning: wrong number of arguments in format call
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 11:17:42.074 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 11:17:45.303 [info]  socks_logic.erl:15: to ets {socks,<0.1997.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:17:47.677 [info]  socks_logic.erl:15: to ets {socks,<0.2002.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:17:48.773 [info]  socks_logic.erl:15: to ets {socks,<0.2002.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:17:48.773 [error] <0.314.0> gen_server webserver_socks terminated with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67
+2014-10-09 11:17:48.774 [error] <0.314.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in gen_server:terminate/6 line 722
+2014-10-09 11:17:48.774 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.314.0> exit with reason bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in context child_terminated
+2014-10-09 11:17:50.861 [info]  socks_logic.erl:15: to ets {socks,<0.2002.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:17:50.861 [error] <0.2006.0> gen_server webserver_socks terminated with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67
+2014-10-09 11:17:50.861 [error] <0.2006.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in gen_server:terminate/6 line 722
+2014-10-09 11:17:50.862 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2006.0> exit with reason bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in context child_terminated
+2014-10-09 11:17:54.418 [info]  socks_logic.erl:15: to ets {socks,<0.2023.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:17:57.168 [info]  socks_logic.erl:15: to ets {socks,<0.2029.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:18:00.342 [info]  socks_logic.erl:15: to ets {socks,<0.2023.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:18:00.342 [error] <0.2014.0> gen_server webserver_socks terminated with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67
+2014-10-09 11:18:00.343 [error] <0.2014.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in gen_server:terminate/6 line 722
+2014-10-09 11:18:00.343 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.2014.0> exit with reason bad argument in call to io:format(<0.133.0>, "terminating ~p~n", [{local,webserver_socks},{{badmatch,[{<0.299.0>,<<"new_tm">>,ws_handler,treatment}]},[{socks_logic,...},...]}]) in webserver_socks:terminate/2 line 67 in context child_terminated
+2014-10-09 11:20:00.437 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:20:00.444 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:20:03.480 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:20:03.487 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:20:05.928 [info]  socks_logic.erl:15: to ets {socks,<0.2347.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:08.001 [info]  socks_logic.erl:15: to ets {socks,<0.2352.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:10.987 [info]  socks_logic.erl:15: to ets {socks,<0.2347.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.2347.0>
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.274.0>
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.2002.0>
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.2023.0>
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.304.0>
+
+
+2014-10-09 11:20:10.988 [info]  socks_logic.erl:25: <0.249.0>
+
+
+2014-10-09 11:20:46.870 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:20:46.878 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:20:49.788 [info]  socks_logic.erl:15: to ets {socks,<0.2461.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:53.965 [info]  socks_logic.erl:15: to ets {socks,<0.2471.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:15: to ets {socks,<0.2471.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.2347.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.2471.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.274.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.2002.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.2023.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.304.0>
+
+
+2014-10-09 11:20:57.805 [info]  socks_logic.erl:25: <0.249.0>
+
+
+2014-10-09 11:23:44.422 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:23:44.431 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:23:46.691 [info]  socks_logic.erl:15: to ets {socks,<0.2875.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:23:50.723 [info]  socks_logic.erl:15: to ets {socks,<0.2885.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:23:53.661 [info]  socks_logic.erl:15: to ets {socks,<0.2875.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.2029.0>,<<"new_tm">>,ws_handler,treatment},{<0.264.0>,<<"new_tm">>,ws_handler,treatment},{<0.304.0>,<<"work_tm">>,ws_handler,treatment},{<0.1997.0>,<<"new_tm">>,ws_handler,treatment},{<0.2885.0>,<<"new_tm">>,ws_handler,treatment},{<0.2352.0>,<<"new_tm">>,ws_handler,treatment},{<0.2023.0>,<<"work_tm">>,ws_handler,treatment},{<0.2002.0>,<<"work_tm">>,ws_handler,treatment},{<0.274.0>,<<"work_tm">>,ws_handler,treatment},{<0.2471.0>,<<"work_tm">>,ws_handler,treatment},{<0.2347.0>,<<"work_tm">>,ws_handler,treatment},{<0.2461.0>,<<"new_tm">>,ws_handler,treatment},{<0.299.0>,<<"new_tm">>,ws_handler,treatment},{<0.2875.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.2875.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.2347.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.2471.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.274.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.2002.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.2023.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.304.0>
+
+
+2014-10-09 11:23:53.662 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:24:28.610 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:24:28.617 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:24:28.619 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:24:28.622 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:24:28.631 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:24:28.656 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:24:31.034 [info]  socks_logic.erl:15: to ets {socks,<0.249.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:24:34.110 [info]  socks_logic.erl:15: to ets {socks,<0.257.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:24:37.751 [info]  socks_logic.erl:15: to ets {socks,<0.249.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:24:37.751 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.257.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:24:37.751 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:27:03.131 [warning] <0.6.0> lager_error_logger_h dropped 70 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:27:03.131 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:27:03.138 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:27:07.327 [info]  socks_logic.erl:15: to ets {socks,<0.1308.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:08.764 [info]  socks_logic.erl:15: to ets {socks,<0.1310.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:15: to ets {socks,<0.1310.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.1310.0>,<<"work_tm">>,ws_handler,treatment},{<0.1308.0>,<<"new_tm">>,ws_handler,treatment},{<0.257.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:26: <0.257.0>
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:26: <0.1308.0>
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:26: <0.1310.0>
+
+
+2014-10-09 11:27:11.772 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:27:29.446 [info]  socks_logic.erl:15: to ets {socks,<0.1363.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:49.595 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 11:27:49.602 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-09 11:27:52.266 [info]  socks_logic.erl:15: to ets {socks,<0.1428.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:53.963 [info]  socks_logic.erl:15: to ets {socks,<0.1433.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:56.511 [info]  socks_logic.erl:15: to ets {socks,<0.1439.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:15: to ets {socks,<0.1433.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.1310.0>,<<"work_tm">>,ws_handler,treatment},{<0.1308.0>,<<"new_tm">>,ws_handler,treatment},{<0.257.0>,<<"new_tm">>,ws_handler,treatment},{<0.1439.0>,<<"new_tm">>,ws_handler,treatment},{<0.1428.0>,<<"new_tm">>,ws_handler,treatment},{<0.1363.0>,<<"new_tm">>,ws_handler,treatment},{<0.1433.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:26: <0.1433.0>
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:26: <0.1363.0>
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:26: <0.1428.0>
+
+
+2014-10-09 11:27:59.100 [info]  socks_logic.erl:26: <0.1439.0>
+
+
+2014-10-09 11:27:59.101 [info]  socks_logic.erl:26: <0.257.0>
+
+
+2014-10-09 11:27:59.101 [info]  socks_logic.erl:26: <0.1308.0>
+
+
+2014-10-09 11:27:59.101 [info]  socks_logic.erl:26: <0.1310.0>
+
+
+2014-10-09 11:27:59.101 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:28:01.282 [info]  socks_logic.erl:15: to ets {socks,<0.1452.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:15: to ets {socks,<0.1452.0>,<<"close_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.1310.0>,<<"work_tm">>,ws_handler,treatment},{<0.1308.0>,<<"new_tm">>,ws_handler,treatment},{<0.257.0>,<<"new_tm">>,ws_handler,treatment},{<0.1439.0>,<<"new_tm">>,ws_handler,treatment},{<0.1428.0>,<<"new_tm">>,ws_handler,treatment},{<0.1363.0>,<<"new_tm">>,ws_handler,treatment},{<0.1433.0>,<<"work_tm">>,ws_handler,treatment},{<0.1452.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1452.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1433.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1363.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1428.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1439.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.257.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1308.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.1310.0>
+
+
+2014-10-09 11:28:06.632 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:28:07.472 [info]  socks_logic.erl:15: to ets {socks,<0.1468.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:28:50.272 [info]  socks_logic.erl:15: to ets {socks,<0.1566.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:28:54.672 [info]  socks_logic.erl:15: to ets {socks,<0.1576.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:29:02.152 [info]  socks_logic.erl:15: to ets {socks,<0.1576.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:29:02.153 [info]  socks_logic.erl:19: to ets [{<0.249.0>,<<"work_tm">>,ws_handler,treatment},{<0.1310.0>,<<"work_tm">>,ws_handler,treatment},{<0.1308.0>,<<"new_tm">>,ws_handler,treatment},{<0.257.0>,<<"new_tm">>,ws_handler,treatment},{<0.1566.0>,<<"new_tm">>,ws_handler,treatment},{<0.1468.0>,<<"new_tm">>,ws_handler,treatment},{<0.1439.0>,<<"new_tm">>,ws_handler,treatment},{<0.1576.0>,<<"work_tm">>,ws_handler,treatment},{<0.1428.0>,<<"new_tm">>,ws_handler,treatment},{<0.1363.0>,<<"new_tm">>,ws_handler,treatment},{<0.1433.0>,<<"work_tm">>,ws_handler,treatment},{<0.1452.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:29:02.153 [info]  socks_logic.erl:26: <0.1452.0>
+
+
+2014-10-09 11:29:02.153 [info]  socks_logic.erl:26: <0.1433.0>
+
+
+2014-10-09 11:29:02.153 [info]  socks_logic.erl:26: <0.1363.0>
+
+
+2014-10-09 11:29:02.153 [info]  socks_logic.erl:26: <0.1428.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1576.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1439.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1468.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1566.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.257.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1308.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.1310.0>
+
+
+2014-10-09 11:29:02.154 [info]  socks_logic.erl:26: <0.249.0>
+
+
+2014-10-09 11:29:44.690 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 11:29:44.697 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 11:30:26.083 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:30:26.089 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:30:26.091 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:30:26.093 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:30:26.101 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:30:26.130 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:30:32.188 [info]  socks_logic.erl:15: to ets {socks,<0.255.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:30:35.520 [info]  socks_logic.erl:15: to ets {socks,<0.265.0>,<<"new_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:30:42.410 [info]  socks_logic.erl:15: to ets {socks,<0.265.0>,<<"work_tm">>,ws_handler,treatment}
+
+
+2014-10-09 11:30:42.411 [info]  socks_logic.erl:19: to ets [{<0.255.0>,<<"new_tm">>,ws_handler,treatment},{<0.265.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:30:42.411 [info]  socks_logic.erl:26: <0.265.0>
+
+
+2014-10-09 11:30:42.411 [info]  socks_logic.erl:26: <0.255.0>
+
+
+2014-10-09 11:35:33.390 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:35:33.390 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:35:33.397 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:37:06.464 [info]  socks_logic.erl:18: all =  [{<0.1842.0>,<<"work_tm">>,ws_handler,treatment},{<0.1848.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:37:06.464 [info]  socks_logic.erl:25: <0.1848.0>
+
+
+2014-10-09 11:37:06.464 [info]  socks_logic.erl:25: <0.1842.0>
+
+
+2014-10-09 11:37:22.722 [info]  socks_logic.erl:18: all =  [{<0.1889.0>,<<"close_tm">>,ws_handler,treatment},{<0.1870.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:37:22.722 [info]  socks_logic.erl:25: <0.1870.0>
+
+
+2014-10-09 11:37:22.722 [info]  socks_logic.erl:25: <0.1889.0>
+
+
+2014-10-09 11:38:37.125 [info]  socks_logic.erl:18: all =  [{<0.2055.0>,<<"new_tm">>,ws_handler,treatment},{<0.2065.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:38:37.125 [info]  socks_logic.erl:25: <0.2065.0>
+
+
+2014-10-09 11:38:37.125 [info]  socks_logic.erl:25: <0.2055.0>
+
+
+2014-10-09 11:40:40.373 [info]  socks_logic.erl:18: all =  [{<0.2055.0>,<<"new_tm">>,ws_handler,treatment},{<0.2074.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:40:40.373 [info]  socks_logic.erl:25: <0.2074.0>
+
+
+2014-10-09 11:40:40.373 [info]  socks_logic.erl:25: <0.2055.0>
+
+
+2014-10-09 11:40:45.874 [info]  socks_logic.erl:18: all =  [{<0.2055.0>,<<"new_tm">>,ws_handler,treatment},{<0.2074.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:40:45.874 [info]  socks_logic.erl:25: <0.2074.0>
+
+
+2014-10-09 11:40:45.874 [info]  socks_logic.erl:25: <0.2055.0>
+
+
+2014-10-09 11:41:17.396 [error] emulator Error in process <0.2436.0> with exit value: {{try_clause,{http_req,#Port<0.15069>,ranch_tcp,keepalive,<0.2436.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59752},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 11:41:17.397 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.2436.0> exit with reason: {{try_clause,{http_req,#Port<0.15069>,ranch_tcp,keepalive,<0.2436.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59752},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009114113WS181daa&state=enter">>,[{<<"code">>,<<"141009114113WS181daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 11:41:38.077 [info]  socks_logic.erl:18: all =  [{<0.2483.0>,<<"new_tm">>,ws_handler,treatment},{<0.2456.0>,<<"work_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:41:38.078 [info]  socks_logic.erl:25: <0.2456.0>
+
+
+2014-10-09 11:41:38.078 [info]  socks_logic.erl:25: <0.2483.0>
+
+
+2014-10-09 11:41:57.502 [info]  socks_logic.erl:18: all =  [{<0.2534.0>,<<"close_tm">>,ws_handler,treatment},{<0.2483.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:41:57.502 [info]  socks_logic.erl:25: <0.2483.0>
+
+
+2014-10-09 11:41:57.502 [info]  socks_logic.erl:25: <0.2534.0>
+
+
+2014-10-09 11:51:28.017 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:51:28.029 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:51:45.079 [info]  socks_logic.erl:22: all =  [{<0.3865.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:51:45.079 [info]  socks_logic.erl:25: <0.3865.0>
+
+
+2014-10-09 11:51:45.079 [info]  socks_logic.erl:22: all =  [{<0.3875.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:51:45.079 [info]  socks_logic.erl:25: <0.3875.0>
+
+
+2014-10-09 11:52:25.052 [info]  socks_logic.erl:22: all =  [{<0.3975.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:52:25.052 [info]  socks_logic.erl:25: <0.3975.0>
+
+
+2014-10-09 11:52:25.052 [info]  socks_logic.erl:22: all =  [{<0.3965.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:52:25.052 [info]  socks_logic.erl:25: <0.3965.0>
+
+
+2014-10-09 11:53:38.277 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 11:53:38.284 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 11:53:38.287 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 11:53:38.290 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 11:53:38.299 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 11:53:38.323 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 11:53:39.440 [warning] <0.6.0> lager_error_logger_h dropped 63 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 11:53:39.440 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:53:59.207 [error] emulator Error in process <0.299.0> with exit value: {{try_clause,{http_req,#Port<0.11025>,ranch_tcp,keepalive,<0.299.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59819},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 11:53:59.208 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.299.0> exit with reason: {{try_clause,{http_req,#Port<0.11025>,ranch_tcp,keepalive,<0.299.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59819},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009115358WS3t1daa&state=enter">>,[{<<"code">>,<<"141009115358WS3t1daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 11:54:20.872 [info]  socks_logic.erl:22: lookup =  [{<0.753.0>,<<"close_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:54:20.872 [info]  socks_logic.erl:25: <0.753.0>
+
+
+2014-10-09 11:54:20.872 [info]  socks_logic.erl:22: lookup =  [{<0.313.0>,<<"new_tm">>,ws_handler,treatment}]
+
+
+2014-10-09 11:54:20.872 [info]  socks_logic.erl:25: <0.313.0>
+
+
+2014-10-09 11:55:21.258 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:55:21.269 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:55:26.312 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:55:26.323 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 11:58:03.665 [info]  socks_logic.erl:24: <0.1222.0>
+
+
+2014-10-09 11:58:03.665 [info]  socks_logic.erl:24: <0.1237.0>
+
+
+2014-10-09 11:58:09.263 [info]  socks_logic.erl:24: <0.1222.0>
+
+
+2014-10-09 11:58:09.263 [info]  socks_logic.erl:24: <0.1237.0>
+
+
+2014-10-09 11:58:17.564 [info]  socks_logic.erl:24: <0.1602.0>
+
+
+2014-10-09 11:58:17.564 [info]  socks_logic.erl:24: <0.1237.0>
+
+
+2014-10-09 11:58:51.362 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 11:58:51.370 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 12:04:59.635 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/app.erl:none: Error: no such file or directory
+2014-10-09 12:05:02.838 [error] <0.115.0> gen_server sync_scanner terminated with reason: no case clause matching {ok,app,<<70,79,82,49,0,0,12,32,66,69,65,77,65,116,111,109,0,0,0,222,0,0,0,23,3,97,112,112,9,103,101,116,67,111,111,107,105,101,10,99,111,119,98,111,121,95,114,101,113,6,99,111,111,107,105,101,12,103,101,116,116,105,110,103,95,117,115,101,114,6,101,114,108,97,110,103,14,98,105,110,97,114,121,95,116,111,95,108,105,115,116,2,43,43,3,103,101,116,5,104,116,116,112,99,7,114,101,113,117,101,115,116,14,99,95,104,116,116,112,95,114,101,113,117,101,115,116,13,114,101,115,112,111,110,115,101,95,98,111,...>>,...} in sync_scanner:recompile_src_file/2 line 465
+2014-10-09 12:05:02.838 [error] <0.115.0> CRASH REPORT Process sync_scanner with 0 neighbours exited with reason: no case clause matching {ok,app,<<70,79,82,49,0,0,12,32,66,69,65,77,65,116,111,109,0,0,0,222,0,0,0,23,3,97,112,112,9,103,101,116,67,111,111,107,105,101,10,99,111,119,98,111,121,95,114,101,113,6,99,111,111,107,105,101,12,103,101,116,116,105,110,103,95,117,115,101,114,6,101,114,108,97,110,103,14,98,105,110,97,114,121,95,116,111,95,108,105,115,116,2,43,43,3,103,101,116,5,104,116,116,112,99,7,114,101,113,117,101,115,116,14,99,95,104,116,116,112,95,114,101,113,117,101,115,116,13,114,101,115,112,111,110,115,101,95,98,111,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in gen_server:terminate/6 line 744
+2014-10-09 12:05:02.839 [error] <0.114.0> Supervisor sync had child sync_scanner started with sync_scanner:start_link() at <0.115.0> exit with reason no case clause matching {ok,app,<<70,79,82,49,0,0,12,32,66,69,65,77,65,116,111,109,0,0,0,222,0,0,0,23,3,97,112,112,9,103,101,116,67,111,111,107,105,101,10,99,111,119,98,111,121,95,114,101,113,6,99,111,111,107,105,101,12,103,101,116,116,105,110,103,95,117,115,101,114,6,101,114,108,97,110,103,14,98,105,110,97,114,121,95,116,111,95,108,105,115,116,2,43,43,3,103,101,116,5,104,116,116,112,99,7,114,101,113,117,101,115,116,14,99,95,104,116,116,112,95,114,101,113,117,101,115,116,13,114,101,115,112,111,110,115,101,95,98,111,...>>,...} in sync_scanner:recompile_src_file/2 line 465 in context child_terminated
+2014-10-09 12:05:06.024 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-09 12:05:06.058 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-09 12:05:06.078 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/orders/api_get_order_info_handler.erl:0: Recompiled.
+2014-10-09 12:05:06.100 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/orders/api_get_user_contacts_handler.erl:0: Recompiled.
+2014-10-09 12:05:06.160 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-09 12:05:06.201 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-09 12:05:06.210 [info] <0.2552.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-09 12:05:06.213 [info] <0.2552.0> tms: Reloaded! (Beam changed.)
+2014-10-09 12:05:51.666 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:27: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:40: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:44: Error: function from_ets_to_file/2 undefined
+2014-10-09 12:05:56.727 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:74: Warning: function from_ets_to_file/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:75: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:76: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:77: Error: record aic_ets undefined
+2014-10-09 12:06:16.940 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:21: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:28: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:30: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:32: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:34: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:34: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:37: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: record aic_ets undefined
+2014-10-09 12:06:21.011 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:82: Warning: function from_ets_to_file/2 is unused
+/Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled with 1 warnings
+2014-10-09 12:06:21.021 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:06:27.084 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:28: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:30: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:32: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:33: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:34: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:34: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:37: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: function from_ets_to_file/2 undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: record aic_ets undefined
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:38: Error: record aic_ets undefined
+2014-10-09 12:06:33.159 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-09 12:06:33.168 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:06:43.256 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:40: Error: variable 'ID' is unbound
+2014-10-09 12:07:40.782 [error] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:83: Warning: function mongo_db_autoinc/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled with 1 warnings
+2014-10-09 12:07:40.791 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:08:16.122 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-09 12:08:16.131 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:08:28.255 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 12:08:28.267 [info] <0.2552.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 12:09:01.580 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 12:09:01.589 [info] <0.2552.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 12:09:54.203 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-09 12:09:54.212 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:10:06.432 [info] <0.2552.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-09 12:10:06.442 [info] <0.2552.0> app_logic: Reloaded! (Beam changed.)
+2014-10-09 12:12:15.937 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 12:12:15.943 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 12:12:15.946 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 12:12:15.948 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 12:12:15.958 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 12:12:15.981 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 12:12:34.468 [warning] <0.6.0> lager_error_logger_h dropped 22 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 12:18:46.595 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 12:18:46.602 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 12:19:33.029 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 12:19:33.037 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 12:20:03.323 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 12:20:03.331 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 12:20:33.588 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:0: Recompiled.
+2014-10-09 12:20:33.595 [info] <0.115.0> socks_client: Reloaded! (Beam changed.)
+2014-10-09 12:21:11.933 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 12:21:11.942 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 12:22:07.459 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 12:22:07.470 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 12:22:31.358 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 12:22:31.365 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 12:22:31.367 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 12:22:31.370 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 12:22:31.379 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 12:22:31.402 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 12:23:32.223 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 12:23:32.223 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 12:23:56.446 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 12:23:56.453 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 12:24:06.565 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_logic.erl:0: Recompiled.
+2014-10-09 12:24:06.573 [info] <0.115.0> socks_logic: Reloaded! (Beam changed.)
+2014-10-09 12:24:39.887 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/ws_handler.erl:0: Recompiled.
+2014-10-09 12:24:39.896 [info] <0.115.0> ws_handler: Reloaded! (Beam changed.)
+2014-10-09 12:24:52.032 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_response_handler.erl:0: Recompiled.
+2014-10-09 12:24:52.040 [info] <0.115.0> api_response_handler: Reloaded! (Beam changed.)
+2014-10-09 12:25:30.735 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 12:25:30.744 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 12:25:30.747 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 12:25:30.749 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 12:25:30.758 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 12:25:30.781 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 12:25:42.913 [warning] <0.6.0> lager_error_logger_h dropped 69 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:10:40.129 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:27: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+2014-10-09 13:10:47.196 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:27: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+/Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:31: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+2014-10-09 13:11:30.580 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:26: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+2014-10-09 13:11:51.770 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:27: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+2014-10-09 13:12:25.066 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:27: Error: undefined macro 'WS_RESPONSE_HELPER/1'
+2014-10-09 13:17:55.904 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/socks_client.erl:0: Recompiled.
+2014-10-09 13:17:55.914 [info] <0.115.0> socks_client: Reloaded! (Beam changed.)
+2014-10-09 13:24:22.453 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:24:22.463 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:25:34.118 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:47: Warning: variable 'Value' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:49: Warning: variable 'NewState' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:25:34.129 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:26:09.421 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function handle_call/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:49: Error: syntax error before: ','
+2014-10-09 13:26:40.703 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:20: Error: function handle_call/3 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:49: Error: syntax error before: ','
+2014-10-09 13:27:17.035 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:27:17.043 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:27:34.830 [error] <0.243.0> gen_server webserver_socks terminated with reason: bad record state in webserver_socks:handle_cast/2 line 59
+2014-10-09 13:27:34.830 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad record state in webserver_socks:handle_cast/2 line 59 in gen_server:terminate/6 line 744
+2014-10-09 13:27:34.830 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason bad record state in webserver_socks:handle_cast/2 line 59 in context child_terminated
+2014-10-09 13:27:36.979 [error] emulator Error in process <0.7208.0> with exit value: {{try_clause,{http_req,#Port<0.13763>,ranch_tcp,keepalive,<0.7208.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},60762},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-09 13:27:36.979 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7208.0> exit with reason: {{try_clause,{http_req,#Port<0.13763>,ranch_tcp,keepalive,<0.7208.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60762},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141009132737WS216daa&state=enter">>,[{<<"code">>,<<"141009132737WS216daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:27:49.026 [error] emulator Error in process <0.7247.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7247.0>,<0.7247.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:27:49.026 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7247.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7247.0>,<0.7247.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15645>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7247.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60773}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:28:06.908 [error] emulator Error in process <0.7288.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7288.0>,<0.7288.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:28:06.910 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7288.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7288.0>,<0.7288.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15685>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7288.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60783}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:28:11.855 [error] emulator Error in process <0.7302.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7302.0>,<0.7302.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:28:11.856 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.7302.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.7302.0>,<0.7302.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.15686>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.7302.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60787}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:28:58.428 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:28:58.435 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:28:58.437 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:28:58.440 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:28:58.450 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:28:58.473 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:28:59.692 [warning] <0.6.0> lager_error_logger_h dropped 69 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:28:59.693 [error] emulator Error in process <0.245.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.245.0>,<0.245.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:28:59.693 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.245.0>,<0.245.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60795}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:29:00.758 [error] emulator Error in process <0.249.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.249.0>,<0.249.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:29:00.759 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.249.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.249.0>,<0.249.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11039>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.249.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60796}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:29:01.125 [error] emulator Error in process <0.250.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.250.0>,<0.250.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:29:01.126 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.250.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.250.0>,<0.250.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11040>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.250.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60797}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:29:01.847 [error] emulator Error in process <0.252.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.252.0>,<0.252.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:29:01.848 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.252.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.252.0>,<0.252.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11041>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.252.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60798}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:29:16.737 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-09 13:29:40.084 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:29:40.090 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:29:40.092 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:29:40.095 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:29:40.105 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:29:40.127 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:29:41.211 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:29:41.211 [error] emulator Error in process <0.244.0> with exit value: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.244.0>,<0.244.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler... 
+
+
+2014-10-09 13:29:41.212 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.244.0> exit with reason: {[{reason,badarg},{mfa,{test_handler,handle,2}},{stacktrace,[{ets,insert,[treatments,{<0.244.0>,<0.244.0>}],[]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,21}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.244.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60800}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-09 13:30:48.200 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 13:30:48.207 [info] <0.115.0> test_handler: Reloaded! (Beam changed.)
+2014-10-09 13:31:18.246 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:31:18.252 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:31:18.255 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:31:18.257 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:31:18.266 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:31:18.287 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:31:54.206 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:31:54.206 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:31:54.213 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:32:44.653 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 13:33:07.970 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:33:07.977 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:33:07.979 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:33:07.982 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:33:07.991 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:33:08.013 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:33:09.208 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:33:09.208 [error] <0.243.0> gen_server webserver_socks terminated with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53
+2014-10-09 13:33:09.208 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in gen_server:terminate/6 line 744
+2014-10-09 13:33:09.209 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: [{reason,{{{badmatch,{state,undefined,0}},[{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,53}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{acc,10}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60823}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:33:09.210 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in context child_terminated
+2014-10-09 13:34:29.260 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:52: Warning: variable 'Value' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:34:29.267 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:34:33.286 [error] <0.246.0> gen_server webserver_socks terminated with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53
+2014-10-09 13:34:33.286 [error] <0.246.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in gen_server:terminate/6 line 744
+2014-10-09 13:34:33.287 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.246.0> exit with reason no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in context child_terminated
+2014-10-09 13:34:33.288 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.830.0> exit with reason: [{reason,{{{badmatch,{state,undefined,0}},[{webserver_socks,handle_call,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl"},{line,53}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{acc,10}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11943>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.830.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60835}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:34:33.959 [error] <0.832.0> gen_server webserver_socks terminated with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53
+2014-10-09 13:34:33.959 [error] <0.832.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in gen_server:terminate/6 line 744
+2014-10-09 13:34:33.960 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.832.0> exit with reason no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in context child_terminated
+2014-10-09 13:34:33.960 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.835.0> exit with reason: [{reason,{{{badmatch,{state,undefined,0}},[{webserver_socks,handle_call,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl"},{line,53}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{acc,10}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11944>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.835.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60837}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:34:34.264 [error] <0.836.0> gen_server webserver_socks terminated with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53
+2014-10-09 13:34:34.265 [error] <0.836.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in gen_server:terminate/6 line 744
+2014-10-09 13:34:34.266 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.836.0> exit with reason no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in context child_terminated
+2014-10-09 13:34:34.267 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.837.0> exit with reason: [{reason,{{{badmatch,{state,undefined,0}},[{webserver_socks,handle_call,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl"},{line,53}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{acc,10}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11945>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.837.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60838}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:34:34.583 [error] <0.838.0> gen_server webserver_socks terminated with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53
+2014-10-09 13:34:34.584 [error] <0.838.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in gen_server:terminate/6 line 744
+2014-10-09 13:34:34.584 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.838.0> exit with reason no match of right hand value {state,undefined,0} in webserver_socks:handle_call/3 line 53 in context child_terminated
+2014-10-09 13:34:34.585 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.840.0> exit with reason: [{reason,{{{badmatch,{state,undefined,0}},[{webserver_socks,handle_call,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl"},{line,53}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{acc,10}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11946>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.840.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60840}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:34:55.546 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:34:55.556 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:37:55.119 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:46: Warning: function get/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:37:55.126 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:38:40.837 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:46: Warning: function get/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:38:40.857 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:39:35.820 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:46: Warning: function get/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:55: Warning: variable 'State' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:39:35.837 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:40:47.067 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:46: Warning: function get/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:40:47.084 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:41:21.717 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:46: Warning: function get/0 is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled with 1 warnings
+2014-10-09 13:41:21.735 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:42:53.478 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:42:53.485 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:42:53.487 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:42:53.490 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:42:53.500 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:42:53.521 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:42:59.841 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:00.987 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:01.632 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:05.106 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:08.764 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:43:08.765 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 13:43:11.861 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:12.595 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:12.933 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:13.282 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:18.028 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:18.517 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:18.761 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:23.838 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:43:24.306 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:51:50.475 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:55: Warning: variable 'Value' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:56: Warning: variable 'Base' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:58: Error: variable 'NewState' is unbound
+2014-10-09 13:52:04.609 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:52:04.615 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:52:09.938 [info]  test_handler.erl:23: {state,socks,20}
+
+
+2014-10-09 13:52:10.973 [info]  test_handler.erl:23: {state,socks,30}
+
+
+2014-10-09 13:52:11.618 [info]  test_handler.erl:23: {state,socks,40}
+
+
+2014-10-09 13:52:12.031 [info]  test_handler.erl:23: {state,socks,50}
+
+
+2014-10-09 13:52:12.325 [info]  test_handler.erl:23: {state,socks,60}
+
+
+2014-10-09 13:52:12.590 [info]  test_handler.erl:23: {state,socks,70}
+
+
+2014-10-09 13:52:12.853 [info]  test_handler.erl:23: {state,socks,80}
+
+
+2014-10-09 13:52:13.109 [info]  test_handler.erl:23: {state,socks,90}
+
+
+2014-10-09 13:52:14.316 [info]  test_handler.erl:23: {state,socks,100}
+
+
+2014-10-09 13:52:15.220 [info]  test_handler.erl:23: {state,socks,110}
+
+
+2014-10-09 13:52:16.765 [info]  test_handler.erl:23: {state,socks,120}
+
+
+2014-10-09 13:53:57.584 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:15: Error: syntax error before: '}'
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:55: Warning: variable 'Name' is unused
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:56: Error: record state undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:67: Error: record state undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:73: Error: record state undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:77: Error: record state undefined
+2014-10-09 13:55:12.508 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:55:12.514 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:55:12.517 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:55:12.520 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:55:12.529 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:55:12.550 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:55:16.011 [warning] <0.6.0> lager_error_logger_h dropped 70 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 13:55:16.012 [error] <0.243.0> gen_server webserver_socks terminated with reason: bad record acc in webserver_socks:handle_call/3 line 59
+2014-10-09 13:55:16.012 [error] <0.243.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad record acc in webserver_socks:handle_call/3 line 59 in gen_server:terminate/6 line 744
+2014-10-09 13:55:16.012 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.243.0> exit with reason bad record acc in webserver_socks:handle_call/3 line 59 in context child_terminated
+2014-10-09 13:55:16.013 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.249.0> exit with reason: [{reason,{{{badrecord,acc},[{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,59}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{set,1}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.249.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60894}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:55:17.660 [error] <0.250.0> gen_server webserver_socks terminated with reason: bad record acc in webserver_socks:handle_call/3 line 59
+2014-10-09 13:55:17.660 [error] <0.250.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad record acc in webserver_socks:handle_call/3 line 59 in gen_server:terminate/6 line 744
+2014-10-09 13:55:17.661 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.250.0> exit with reason bad record acc in webserver_socks:handle_call/3 line 59 in context child_terminated
+2014-10-09 13:55:17.661 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.255.0> exit with reason: [{reason,{{{badrecord,acc},[{webserver_socks,handle_call,3,[{file,"src/socks/webserver_socks.erl"},{line,59}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{set,1}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10928>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.255.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60895}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:56:20.379 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 13:56:20.387 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 13:56:26.510 [error] <0.256.0> gen_server webserver_socks terminated with reason: bad record state in webserver_socks:handle_call/3 line 56
+2014-10-09 13:56:26.511 [error] <0.256.0> CRASH REPORT Process webserver_socks with 0 neighbours exited with reason: bad record state in webserver_socks:handle_call/3 line 56 in gen_server:terminate/6 line 744
+2014-10-09 13:56:26.511 [error] <0.242.0> Supervisor webserver_sup_chi had child webserver_socks started with webserver_socks:start_link({ets_tab,socks}) at <0.256.0> exit with reason bad record state in webserver_socks:handle_call/3 line 56 in context child_terminated
+2014-10-09 13:56:26.512 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.808.0> exit with reason: [{reason,{{{badrecord,state},[{webserver_socks,handle_call,3,[{file,"/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl"},{line,56}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[webserver_socks,{set,1}]}}},{mfa,{test_handler,handle,2}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{test_handler,handle,2,[{file,"src/test_handler.erl"},{line,22}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.11943>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.808.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60898}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/test">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141009PBe188kht414og">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined_state}]
+
+2014-10-09 13:56:51.060 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 13:56:51.066 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 13:56:51.068 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 13:56:51.071 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 13:56:51.079 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 13:56:51.100 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-09 13:56:53.182 [info]  test_handler.erl:23: {state,socks,1}
+
+
+2014-10-09 13:56:54.328 [info]  test_handler.erl:23: {state,socks,2}
+
+
+2014-10-09 13:56:55.271 [info]  test_handler.erl:23: {state,socks,3}
+
+
+2014-10-09 13:56:56.263 [info]  test_handler.erl:23: {state,socks,4}
+
+
+2014-10-09 13:56:57.326 [info]  test_handler.erl:23: {state,socks,5}
+
+
+2014-10-09 13:56:57.856 [info]  test_handler.erl:23: {state,socks,6}
+
+
+2014-10-09 13:56:58.183 [info]  test_handler.erl:23: {state,socks,7}
+
+
+2014-10-09 13:56:58.526 [info]  test_handler.erl:23: {state,socks,8}
+
+
+2014-10-09 13:56:58.898 [info]  test_handler.erl:23: {state,socks,9}
+
+
+2014-10-09 13:56:59.231 [info]  test_handler.erl:23: {state,socks,10}
+
+
+2014-10-09 13:56:59.722 [info]  test_handler.erl:23: {state,socks,11}
+
+
+2014-10-09 13:57:00.696 [info]  test_handler.erl:23: {state,socks,12}
+
+
+2014-10-09 13:57:01.007 [info]  test_handler.erl:23: {state,socks,13}
+
+
+2014-10-09 13:57:01.246 [info]  test_handler.erl:23: {state,socks,14}
+
+
+2014-10-09 13:57:01.535 [info]  test_handler.erl:23: {state,socks,15}
+
+
+2014-10-09 13:57:01.775 [info]  test_handler.erl:23: {state,socks,16}
+
+
+2014-10-09 13:57:02.167 [info]  test_handler.erl:23: {state,socks,17}
+
+
+2014-10-09 13:57:02.455 [info]  test_handler.erl:23: {state,socks,18}
+
+
+2014-10-09 13:57:02.809 [info]  test_handler.erl:23: {state,socks,19}
+
+
+2014-10-09 13:57:03.609 [info]  test_handler.erl:23: {state,socks,20}
+
+
+2014-10-09 13:57:03.894 [info]  test_handler.erl:23: {state,socks,21}
+
+
+2014-10-09 13:57:04.159 [info]  test_handler.erl:23: {state,socks,22}
+
+
+2014-10-09 13:57:04.918 [info]  test_handler.erl:23: {state,socks,23}
+
+
+2014-10-09 13:57:05.797 [info]  test_handler.erl:23: {state,socks,24}
+
+
+2014-10-09 13:57:06.135 [info]  test_handler.erl:23: {state,socks,25}
+
+
+2014-10-09 13:57:06.728 [info]  test_handler.erl:23: {state,socks,26}
+
+
+2014-10-09 13:57:07.192 [info]  test_handler.erl:23: {state,socks,27}
+
+
+2014-10-09 13:57:07.511 [info]  test_handler.erl:23: {state,socks,28}
+
+
+2014-10-09 13:57:07.863 [info]  test_handler.erl:23: {state,socks,29}
+
+
+2014-10-09 13:57:08.231 [info]  test_handler.erl:23: {state,socks,30}
+
+
+2014-10-09 14:08:50.996 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-09 14:08:50.996 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:22: Error: function get/0 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:22: Error: function set/1 undefined
+2014-10-09 14:08:52.025 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:22: Error: function get/0 undefined
+/Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:22: Error: function set/1 undefined
+2014-10-09 14:10:01.667 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-09 14:10:01.674 [info] <0.115.0> test_handler: Reloaded! (Beam changed.)
+2014-10-09 14:10:25.923 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 14:10:25.931 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 14:10:30.986 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/socks/webserver_socks.erl:0: Recompiled.
+2014-10-09 14:10:30.994 [info] <0.115.0> webserver_socks: Reloaded! (Beam changed.)
+2014-10-09 14:13:11.513 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-09 14:13:11.519 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-09 14:13:11.522 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-09 14:13:11.524 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-09 14:13:11.533 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-09 14:13:11.555 [info] <0.7.0> Application gproc started on node nonode@nohost

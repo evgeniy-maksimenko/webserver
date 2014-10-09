@@ -25,8 +25,8 @@ handle(Req, State) ->
     try
       Res =
         case AllBindings = readingTheReqBody(Req) of
-          false -> app:getUserContacts(Req, undefined);
-          _ -> app:getUserContacts(Req, proplists:get_value(<<"login">>, AllBindings))
+          false -> app_logic:getUserContacts(Req, undefined);
+          _ -> app_logic:getUserContacts(Req, proplists:get_value(<<"login">>, AllBindings))
         end,
       {200, Res}
     catch

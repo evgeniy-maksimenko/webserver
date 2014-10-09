@@ -9,14 +9,6 @@
 -behaviour(cowboy_http_handler).
 -include("../logs.hrl").
 
--record(aic_ets, {
-  name  = aic_ets,
-  id    = <<"id">>,
-  start = 0,
-  count = 1,
-  filename = "aic.ets"
-}).
-
 %% API
 -export([
   init/3,
@@ -24,26 +16,12 @@
   terminate/3
 ]).
 
--export([from_ets_to_file/2]).
-
 init({tcp, http}, Req, _Opts) ->
   {ok, Req, undefined_state}.
 
 handle(Req, State) ->
 
-  AI = #aic_ets{},
-  ID =
-    case filelib:is_file(AI#aic_ets.filename) of
-      true ->
-        {ok, Tab} = ets:file2tab(AI#aic_ets.filename),
-        [{_ID, AUTO_INC}] = ets:lookup(Tab, AI#aic_ets.id),
-        CT = from_ets_to_file(Tab, AUTO_INC + AI#aic_ets.count),
-        CT;
-      false ->
-        ets:new(AI#aic_ets.name, [named_table]),
-        CF = from_ets_to_file(AI#aic_ets.name, AI#aic_ets.start),
-        CF
-    end,
+  ID = app_logic:generate_autoinc(),
 
   %Получаем тело запроса
   {ok, PostAttrs, Req2} = cowboy_req:body_qs(Req),
@@ -60,10 +38,7 @@ handle(Req, State) ->
     ]
   ),
 
-  TreatmentList = ets:tab2list(treatments),
-  lists:foreach(fun(ListIn)->
-    {Pid, _} = ListIn,
-    Pid ! {json, jsx:encode(BodyDateTime)} end, TreatmentList),
+  socks_client:send_msg(lists:merge(BodyDateTime,[{<<"action">>,<<"new_tm">>}]), <<"init">>, ws_handler),
 
   emongo:insert(model, "treatment",
     BodyDateTime
@@ -76,10 +51,5 @@ handle(Req, State) ->
 terminate(_Reason, _Req, _State) ->
   ok.
 
-from_ets_to_file(Tab, Count) ->
-  AI = #aic_ets{},
-  ets:insert(Tab, {AI#aic_ets.id, Count}),
-  ets:tab2file(Tab, AI#aic_ets.filename),
-  ets:delete(Tab),
-  Count.
+
 

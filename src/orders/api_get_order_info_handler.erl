@@ -22,7 +22,7 @@ init({tcp, http}, Req, _Opts) ->
 handle(Req, State) ->
   {Code, Result} =
     try
-      AccessToken = app:getCookie(<<"access_token">>,Req),
+      AccessToken = app_logic:getCookie(<<"access_token">>,Req),
       Validate = case cowboy_req:qs_val(<<"wo-oid">>, Req) of
         {Echo, _} -> Echo
        end,

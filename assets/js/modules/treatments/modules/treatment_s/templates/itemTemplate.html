@@ -7,7 +7,7 @@
     <div class="in_work btn btn-success" id="work<%= id %>" data="<%= id %>">в работу</div>
     <a class="btn btn-danger" id="in_work<%= id %>" href="/treatment_s/edit/<%= id %>" style="display:none;">закрыть</a>
     <%} else {%>
-    <a class="btn btn-danger" href="/treatment_s/edit/<%= id %>">закрыть</a>
+    <a class="btn btn-danger" id="in_work<%= id %>" href="/treatment_s/edit/<%= id %>">закрыть</a>
     <%}%>
 </td>
 <td style="width:30px;">

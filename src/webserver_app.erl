@@ -12,11 +12,6 @@ start(_StartType, _StartArgs) ->
 
   emongo:add_pool(?POOL, ?HOST, ?PORT, ?DB, ?SIZE),
 
-
-  ets:new(treatments, [named_table, public, set]),
-  ets:new(treatments_btns, [named_table, public, set]),
-  ets:new(treatments_closer, [named_table, public, set]),
-
   Dispatch = cowboy_router:compile([
     {'_', [
       {"/assets/[...]",               cowboy_static, {dir, "assets/"}},
@@ -44,8 +39,6 @@ start(_StartType, _StartArgs) ->
       {"/api_tm_view/treatments",     api_tm_view, []},
       {"/api/treatments",             api_treatments, []},
       {"/websocket",                  ws_handler, []},
-      {"/ws_btn",                     ws_btn_handler, []},
-      {"/ws_closer",                  ws_closer_handler, []},
       %% ===================================================================
       {"/test",                       test_handler, []},
       {"/[...]",                      cowboy_static, {file, "priv/index.html"}}
@@ -63,7 +56,8 @@ start(_StartType, _StartArgs) ->
   webserver_sup:start_link().
 
 authorization(Req) ->
- auth_handler:getAuthPage(Req).
+%%  auth_handler:getAuthPage(Req).,
+  Req.
 
 stop(_State) ->
   ok.

@@ -24,15 +24,15 @@
 %% Cервис "Взятие в работу"
 %%-------------------------------
 setOrderWork(Req, Oid, Workgroup) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
   % URL = ?ORDER_WORK++"?wo-oid="++Oid++"&workgroup="++Workgroup++"&access_token="++binary_to_list(AccessToken),
   % Response = c_http_request:get(URL),
   % lager:log(info, [], Response),
   emongo:insert(model, "history",
     [
       {<<"created_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d")},
-      {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
-      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app:personality(Req))},
+      {<<"author_login">>, proplists:get_value(<<"login">>, app_logic:personality(Req))},
+      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app_logic:personality(Req))},
       {<<"status">>,<<"inwork">>},
 
       {<<"wo-oid">>, Oid},
@@ -45,7 +45,7 @@ setOrderWork(Req, Oid, Workgroup) ->
 %% Cервис "Временное решение"
 %%-------------------------------
 postWorkaroundOrder(Req, PostAttrs) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
   httpc:request(post,
     {?ORDER_WORKAROUND,
       [],
@@ -57,8 +57,8 @@ postWorkaroundOrder(Req, PostAttrs) ->
     PostAttrs,
     [
       {<<"created_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d")},
-      {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
-      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app:personality(Req))},
+      {<<"author_login">>, proplists:get_value(<<"login">>, app_logic:personality(Req))},
+      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app_logic:personality(Req))},
      {<<"status">>,"workaround"}
     ]
   )),
@@ -70,14 +70,14 @@ postWorkaroundOrder(Req, PostAttrs) ->
 closeOrder(Req, PostAttrs) ->
 
   RequestorList = proplists:get_value(<<"requestor">>, PostAttrs),
-  Requestor = jsx:decode(app:getUserContacts(Req, RequestorList)),
+  Requestor = jsx:decode(app_logic:getUserContacts(Req, RequestorList)),
 
   emongo:insert(model, "records", lists:merge(
     PostAttrs,
     [
       {<<"created_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d")},
-      {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
-      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app:personality(Req))},
+      {<<"author_login">>, proplists:get_value(<<"login">>, app_logic:personality(Req))},
+      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app_logic:personality(Req))},
       {<<"requestor_login">>, proplists:get_value(<<"login">>, Requestor)},
       {<<"requestor_fullName">>, proplists:get_value(<<"fullName">>, Requestor)}
     ]
@@ -87,8 +87,8 @@ closeOrder(Req, PostAttrs) ->
     PostAttrs,
     [
       {<<"created_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d")},
-      {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
-      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app:personality(Req))},
+      {<<"author_login">>, proplists:get_value(<<"login">>, app_logic:personality(Req))},
+      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app_logic:personality(Req))},
       {<<"status">>,<<"closed">>}
     ]
   )),
@@ -100,7 +100,7 @@ closeOrder(Req, PostAttrs) ->
 %%   SignedBody = c_mail:signed_body(<<"test">>,<<"test">>,<<"test">>, list_to_binary(Solution++binary_to_list(Answer))),
 %%   c_mail:send(SignedBody, "siemenspromaster@gmail.com","siemenspromaster@gmail.com"),
 
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
 %%   Response = httpc:request(post,
 %%     {?ORDER_CLOSE,
 %%       [],
@@ -113,15 +113,15 @@ closeOrder(Req, PostAttrs) ->
 %% Cервис "Скачать файл"
 %%-------------------------------
 getOrderFile(Req, Oid, FileName, ScOid) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
   URL = ?ORDER_FILE ++ binary_to_list(Oid) ++ "?fileName=" ++ FileName ++ "&sc_oid=" ++ binary_to_list(ScOid) ++ "&access_token=" ++ binary_to_list(AccessToken),
   Response = c_http_request:get(URL),
 
   emongo:insert(model, "history",
     [
       {<<"created_at">>, erlydtl_dateformat:format(erlang:localtime(), "Y-m-d")},
-      {<<"author_login">>, proplists:get_value(<<"login">>, app:personality(Req))},
-      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app:personality(Req))},
+      {<<"author_login">>, proplists:get_value(<<"login">>, app_logic:personality(Req))},
+      {<<"author_fullName">>, proplists:get_value(<<"fullName">>, app_logic:personality(Req))},
       {<<"status">>,<<"download">>},
 
       {<<"wo-oid">>, Oid},
@@ -135,7 +135,7 @@ getOrderFile(Req, Oid, FileName, ScOid) ->
 %% Cервис "Получение списка ордеров"
 %%-------------------------------
 getAllOrders(Req, List) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
 
   Response =
     case proplists:is_defined(<<"fromDate">>, List) of
@@ -164,7 +164,7 @@ getAllOrders(Req, List) ->
 %% Cервис "Получение детальное информации об ордере"
 %%-------------------------------
 getOrderInfo(Req, OrderId) ->
-  AccessToken = app:getCookie(<<"access_token">>, Req),
+  AccessToken = app_logic:getCookie(<<"access_token">>, Req),
   Response = c_http_request:get(?ORDER_INFO ++ "?wo-oid=" ++ OrderId ++ "&access_token=" ++ binary_to_list(AccessToken)),
   Body = c_http_request:response_body(Response),
   Result = list_to_binary(Body),
