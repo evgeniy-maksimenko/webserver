@@ -56,8 +56,7 @@ start(_StartType, _StartArgs) ->
   webserver_sup:start_link().
 
 authorization(Req) ->
-%%  auth_handler:getAuthPage(Req).,
-  Req.
+  auth_handler:getAuthPage(Req).
 
 stop(_State) ->
   ok.

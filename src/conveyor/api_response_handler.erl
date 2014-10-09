@@ -38,7 +38,7 @@ handle(Req, State) ->
     ]
   ),
 
-  socks_client:send_msg(lists:merge(BodyDateTime,[{<<"action">>,<<"new_tm">>}]), <<"init">>, ws_handler),
+  socks_client:add_socks(lists:merge(BodyDateTime,[{<<"action">>,<<"new_tm">>}]), <<"init">>, ws_handler),
 
   emongo:insert(model, "treatment",
     BodyDateTime

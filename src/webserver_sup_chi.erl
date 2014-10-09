@@ -21,8 +21,8 @@ init([])->
   ets:new(S#state.tab, [named_table, public, set]),
 
   Flags = {one_for_one, 5, 10},
-  WebserverSocks = {webserver_socks, {webserver_socks, start_link, [{ets_tab, S#state.tab}]}, permanent, 10500, worker, [webserver_socks]},
-  {ok, { Flags, [WebserverSocks]}}.
+  SocksManager = {socks_manager, {socks_manager, start_link, [{ets_tab, S#state.tab}]}, permanent, 10500, worker, [socks_manager]},
+  {ok, { Flags, [SocksManager]}}.
 
 start_link() ->
   supervisor:start_link({local, ?MODULE}, ?MODULE, []).

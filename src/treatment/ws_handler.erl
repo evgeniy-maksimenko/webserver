@@ -23,15 +23,15 @@ init({tcp, http}, _Req, _Opts) ->
 
 websocket_init(_TransportName, Req, _Opts) ->
 
-  socks_client:socks_to_ets(self(), <<"init">>, ?MODULE),
+  socks_client:add_socks(self(), <<"init">>, ?MODULE),
 
   {ok, Req, undefined_state}.
 
 websocket_handle({text, Msg}, Req, State) ->
   Message = jsx:decode(Msg),
   [{_, Action}|_] = Message,
-    socks_client:socks_to_ets(self(), Action, ?MODULE),
-    socks_client:send_msg(Message, Action, ?MODULE),
+    socks_client:add_socks(self(), Action, ?MODULE),
+    socks_client:broadcast(Message, Action, ?MODULE),
   {ok, Req, State};
 websocket_handle(_Data, Req, State) ->
   {ok, Req, State}.
@@ -44,5 +44,5 @@ websocket_info(_Info, Req, State) ->
   {ok, Req, State}.
 
 websocket_terminate(_Reason, _Req, _State) ->
-  socks_client:ets_delete(self()),
+  socks_client:remove_socks(self()),
   ok.

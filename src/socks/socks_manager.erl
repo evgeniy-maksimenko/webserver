@@ -5,7 +5,7 @@
 %%%
 %%% Created : 08. окт 2014 15:53
 %%%-------------------------------------------------------------------
--module(webserver_socks).
+-module(socks_manager).
 -behaviour(gen_server).
 
 -include("../logs.hrl").
@@ -17,7 +17,7 @@
 %% API
 -export([start_link/1, stop/0]).
 -export([init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]).
--export([socks_to_ets/3, send_msg/3, ets_delete/1]).
+-export([add_socks/3, broadcast/3, remove_socks/1]).
 
 
 %% ===================================================================
@@ -30,33 +30,42 @@ start_link({ets_tab, Name}) ->
 stop() ->
   gen_server:cast(?MODULE, stop).
 
-socks_to_ets(Pid, Action, Model)->
-  gen_server:call(?MODULE, {to_ets, Pid, Action, Model}).
+add_socks(Pid, Action, Model)->
+  gen_server:call(?MODULE, {add_socks, Pid, Action, Model}).
 
-send_msg(Message, Action, Model)->
-  gen_server:cast(?MODULE, {send_msg, Message, Action, Model}).
+broadcast(Message, Action, Model)->
+  gen_server:cast(?MODULE, {broadcast, Message, Action, Model}).
 
-ets_delete(Pid) ->
-  gen_server:cast(?MODULE, {ets_delete, Pid}).
+remove_socks(Pid) ->
+  gen_server:cast(?MODULE, {remove_socks, Pid}).
 
+bang('$end_of_table', _Action, _Message, _Model, _Tab) -> ok;
+bang(Firts, Action, Message, Model, Tab) ->
+  case ets:lookup(Tab, Firts) of
+    [{Pid, _, Model}] ->
+      Pid ! {json, jsx:encode(Message)};
+    _ ->
+      ok
+  end,
+  bang(ets:next(Tab, Firts), Action, Message, Model, Tab).
 %% ===================================================================
 %% callback functions
 %% ===================================================================
 init([{ets_tab, Name}]) ->
   {ok, #state{tab = Name}}.
 
-handle_call({to_ets, Pid, Action, Model}, _From, State) ->
-  {reply, socks_logic:to_ets(Pid, Action, Model, State#state.tab), State};
+handle_call({add_socks, Pid, Action, Model}, _From, State) ->
+  {reply, ets:insert(State#state.tab, {Pid, Action, Model}), State};
 
 handle_call(_Request, _From, State) ->
   {reply, ok, State}.
 
-handle_cast({ets_delete, Pid}, State) ->
-  socks_logic:ets_delete(State#state.tab, Pid),
+handle_cast({remove_socks, Pid}, State) ->
+  ets:delete(State#state.tab, Pid),
   {noreply, State};
 
-handle_cast({send_msg, Message, Action, Model}, State) ->
-  socks_logic:send_msg(Message, Action, Model, State#state.tab),
+handle_cast({broadcast, Message, Action, Model}, State) ->
+  bang(ets:first(State#state.tab), Action, Message, Model, State#state.tab),
   {noreply, State};
 
 handle_cast(_request, State) ->
