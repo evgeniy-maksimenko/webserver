@@ -2,12 +2,11 @@ define([
 
 	'backbone',
 	'layouts/layoutAdmin/layout',
-	'text!modules/admin/modules/treatments/templates/listTemplate.html',
+	'text!modules/admin/modules/treatments/templates/resTemplate.html',
 	'modules/admin/modules/treatments/views/item',
-	'modules/admin/modules/treatments/collections/treatment'
+	'modules/admin/modules/treatments/collections/res'
 
 ], function(Backbone, Layout, listTemplate, ItemView, Collection) {
-	
 	
 	var List = Backbone.View.extend({
 		

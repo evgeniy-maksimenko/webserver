@@ -24,6 +24,8 @@ reading_the_req_body(Req) ->
 
 httpPost(<<"open">>, IsDefined, AllBindings, Req) ->
   tms:find(proplists:get_value(<<"id">>, AllBindings), IsDefined, Req);
+httpPost(<<"open_admin">>, IsDefined, AllBindings, Req) ->
+  tms:find_admin(proplists:get_value(<<"id">>, AllBindings), IsDefined, Req);
 httpPost(<<"all">>, IsDefined, AllBindings, Req) ->
   tms:find(AllBindings, IsDefined, Req);
 httpPost(<<"made">>, _IsDefined, AllBindings, Req) ->
@@ -31,6 +33,12 @@ httpPost(<<"made">>, _IsDefined, AllBindings, Req) ->
   tms:save(PostAttrs, AllBindings, Req1);
 httpPost(<<"in_work">>, _IsDefined, AllBindings, Req) ->
   tms:inWork(proplists:get_value(<<"id">>, AllBindings), Req);
+httpPost(<<"static">>, _IsDefined, _AllBindings, _Req) ->
+  tms:static();
+httpPost(<<"rtg">>, _IsDefined, AllBindings, _Req) ->
+  tms:rating_static(AllBindings);
+httpPost(<<"delete">>, _IsDefined, AllBindings, Req) ->
+  tms:delete(AllBindings, Req);
 httpPost(<<"all">>, IsDefined, AllBindings, Req) ->
   tm:find(AllBindings, IsDefined, Req);
 httpPost(<<"view">>, _IsDefined, AllBindings, Req) ->

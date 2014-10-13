@@ -1,0 +1,35 @@
+<h2><span class="glyphicon glyphicon-dashboard"></span> Статистика обращений</h2>
+
+<ol class="breadcrumb">
+    <li><a href="/admin">Панель администратора</a></li>
+    <li><a href="/admin/treatments/static">Статистика обращений</a></li>
+    <li class="active">Статистика</li>
+  
+</ol>
+
+<table class="table table-striped  table-hover" style="width:300px;">
+	<thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Всего:</td>
+            <td><strong><%= count %></strong></td>
+        </tr>
+        <tr>
+            <td>Отработано:</td>
+            <td><strong><%= made %></strong></td>
+        </tr>
+        <tr>
+            <td>Удовлетворены:</td>
+            <td><strong><%= rating_gd %></strong></td>
+        </tr>
+        <tr>
+            <td>Не удовлетрворены:</td>
+            <td><strong><%= rating_bd %></strong></td>
+        </tr>
+        <tr>
+            <td>Оценят позже:</td>
+            <td><strong><%= rating_es %></strong></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,7 +1,7 @@
 <header class="navbar navbar-default">
   <div class="container-fluid">
     <nav>
-      <a href="#/" class="navbar-brand">Главная страница</a>
+      <a href="#/" class="navbar-brand"><span class=" glyphicon glyphicon-inbox"></span> Панель администратора</a>
     </nav>
   </div>
 </header>
@@ -14,23 +14,39 @@
     <div class="row">
         <div class="col-sm-2 col-md-2">
             <div class="panel-group" id="accordion">
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-folder-close">
-                            </span> Заявки</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-thumbs-up">
+                            </span> Оценка качества</a>
                         </h4>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
+                    <div id="collapseTwo" class="panel-collapse collapse in">
                         <table class="table">
                             <tr>
                                 <td>
-                                    <span class="glyphicon glyphicon-pushpin text-primary"></span><a href="/admin/records"> Закрытые</a>
+                                    <span class="glyphicon glyphicon-pushpin text-primary"></span><a href="/admin/treatments"> Обращения<span class="badge pull-right"><%= count %></span></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <span class="glyphicon glyphicon-time text-primary"></span><a href="/admin/history"> История</a>
+                                    <span class="glyphicon glyphicon-thumbs-up text-primary"></span><a href="/admin/treatments/static/rgd"> Удовлетворены<span class="badge pull-right"><%= rating_gd %></span></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-thumbs-down text-primary"></span><a href="/admin/treatments/static/rbd"> Не удовлетворены<span class="badge pull-right"><%= rating_bd %></span></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-hand-left text-primary"></span><a href="/admin/treatments/static/res"> Оценят позже<span class="badge pull-right"><%= rating_es %></span></a>
+                                </td>
+                            </tr>
+                            <tr>                                
+                                <td>
+                                    <span class="glyphicon glyphicon-dashboard text-primary"></span><a href="/admin/treatments/static"> Статистика</a>
                                 </td>
                             </tr>
                         </table>
@@ -39,24 +55,28 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-folder-close">
-                            </span> Обращения</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="glyphicon glyphicon-user">
+                            </span> Пользователи</a>
                         </h4>
                     </div>
-                    <div id="collapseTwo" class="panel-collapse collapse">
+                    <div id="collapse3" class="panel-collapse collapse">
                         <table class="table">
                             <tr>
                                 <td>
-                                    <span class="glyphicon glyphicon-pushpin text-primary"></span><a href="/admin/treatments"> Закрытые</a>
+                                    <span class="glyphicon glyphicon-plus text-primary"></span><a href="/admin/users/add"> Добавить пользователя</a>
                                 </td>
                             </tr>
-                            
+                            <tr>                                
+                                <td>
+                                    <span class="glyphicon glyphicon-th-list text-primary"></span><a href="/admin/users/index"> Список</a>
+                                </td>
+                            </tr>
                         </table>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-10">
+        <div class="col-sm-10 col-md-10">
              
                  <content-placeholder/>
             

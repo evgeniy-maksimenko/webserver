@@ -22,9 +22,7 @@ init({tcp, http}, _Req, _Opts) ->
   {upgrade, protocol, cowboy_websocket}.
 
 websocket_init(_TransportName, Req, _Opts) ->
-
   socks_client:add_socks(self(), <<"init">>, ?MODULE),
-
   {ok, Req, undefined_state}.
 
 websocket_handle({text, Msg}, Req, State) ->

@@ -5,6 +5,18 @@ define(function(require) {
         layoutTemplate  = require('text!layouts/layoutAdmin/layoutTemplate.html'),
         router        	= require('router');
 
+    function getData() {
+            var data = 
+                $.ajax({
+                    url : '/api/treatments?condition=static',
+                    type: "POST",
+                    dataType: "json",
+                    async: false,
+                    success: function(data){}
+                });
+            return data;
+        };
+
     return Backbone.View.extend({
     	template: _.template(layoutTemplate),
 
@@ -13,7 +25,10 @@ define(function(require) {
     	},
 
     	render: function() {
-    		this.$el.html(this.template(this));
+            var data  = getData();
+            var arrayData =data.responseJSON;
+            
+    		this.$el.html(this.template(arrayData));
 
     		this.$el.find('content-placeholder').append(new this.content().render().el);
     		return this;

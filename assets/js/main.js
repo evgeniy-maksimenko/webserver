@@ -4,6 +4,7 @@ define([], function() {
   	'use strict';
 	
 	requirejs.config({
+		urlArgs: "bust=" + (new Date()).getTime(),
 		paths: {
 			'jquery' 			    : 'libs/jquery/jquery-1.11.1.min',
 			'underscore' 		    : 'libs/underscore/underscore',
@@ -38,6 +39,12 @@ define([], function() {
 			records:	            { path: '/admin/records', 			moduleId: 'modules/admin/views/records'},
 			history:	            { path: '/admin/history', 			moduleId: 'modules/admin/views/history'},
 			adm_treatments: 		{ path: '/admin/treatments', 	    moduleId: 'modules/admin/modules/treatments/views/list'},
+			adm_static: 		{ path: '/admin/treatments/static', 	    moduleId: 'modules/admin/modules/treatments/views/static'},
+
+			adm_static_rgd: 		{ path: '/admin/treatments/static/rgd', 	    moduleId: 'modules/admin/modules/treatments/views/rgd'},
+			adm_static_rbd: 		{ path: '/admin/treatments/static/rbd', 	    moduleId: 'modules/admin/modules/treatments/views/rbd'},
+			adm_static_res: 		{ path: '/admin/treatments/static/res', 	    moduleId: 'modules/admin/modules/treatments/views/res'},
+
 			adm_treatments_view: 	{ path: '/treatments/edit/:id', 	moduleId: 'modules/admin/modules/treatments/views/edit'},
 			recordview:	            { path: '/record/view/:id',			moduleId: 'modules/workorders/modules/record/views/views'},
 			sidebar1: 	            { path: '/workorders', 				moduleId: 'modules/workorders/views/list' },

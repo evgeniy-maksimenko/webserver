@@ -10,7 +10,7 @@ define([
 	function getData(attrs) {
 	    var data = 
 	        $.ajax({
-	            url : '/api/treatments?id='+attrs.id+'&condition=open',
+	            url : '/api/treatments?id='+attrs.id+'&condition=open_admin',
 	            type: "POST",
 	            dataType: "json",
 	            async: false,

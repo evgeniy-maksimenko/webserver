@@ -12,12 +12,22 @@
 %% API
 -export([
   find/3,
+  find_admin/3,
   save/3,
   inWork/2,
   send_mail/2,
   update_level/3,
-  tc/1
+  tc/1,
+  static/0,
+  mongo_find/1,
+  rating_static/1,
+  delete/2
 ]).
+
+-record(mongo_db,{
+  table = model,
+  collection = "treatment"
+}).
 
 save(PostAttrs, AllBindings, Req) ->
 
@@ -47,9 +57,8 @@ find(AllBindings, false, _Req) ->
   Find = emongo:find(model, "treatment", [{<<"status">>, proplists:get_value(<<"status">>, AllBindings)}]),
   Data = tm_module:remove_id_mongo(Find),
   Data;
+
 find(Id, true, Req) ->
-
-
 
   Find = emongo:find(model, "treatment", [{"id", Id}]),
   Data = tm_module:remove_id_mongo(Find),
@@ -65,6 +74,20 @@ find(Id, true, Req) ->
         <<"Forbidden">>
     end,
   Result.
+
+find_admin(Id, true, _Req) ->
+  Find = emongo:find(model, "treatment", [{"id", Id}]),
+  Data = tm_module:remove_id_mongo(Find),
+  Data.
+
+rating_static(AllBindings) ->
+  Find = emongo:find(model, "treatment", [{"rating", proplists:get_value(<<"rating">>, AllBindings)}]),
+  Data = tm_module:remove_id_mongo(Find),
+  Data.
+
+delete(AllBindings, _Req) ->
+  emongo:delete(model, "treatment", [{"id", proplists:get_value(<<"id">>, AllBindings)}]),
+  <<"{\"status\":\"ok\"}">>.
 
 
 inWork(Id, Req) ->
@@ -112,6 +135,17 @@ update_level(PostAttrs, List, AllBindings) ->
     ]
   )).
 
+static() ->
+  Count = length(mongo_find([])),
+  Made  = length(mongo_find([{<<"status">>, <<"OK">>}])),
+  RtgGd = length(mongo_find([{<<"rating">>, <<"1">>}])),
+  RtgBd = length(mongo_find([{<<"rating">>, <<"2">>}])),
+  RtgEs = length(mongo_find([{<<"rating">>, <<"3">>}])),
+  [{<<"count">>, Count}, {<<"made">>, Made}, {<<"rating_gd">>, RtgGd},{<<"rating_bd">>, RtgBd},{<<"rating_es">>, RtgEs}].
 
 tc([]) ->
   [].
+
+mongo_find(Condition) ->
+  M = #mongo_db{},
+  tm_module:remove_id_mongo(emongo:find(M#mongo_db.table, M#mongo_db.collection, Condition)).

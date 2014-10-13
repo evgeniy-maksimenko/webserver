@@ -1,9 +1,29 @@
-    <td><%= email %></td>
-    <td><%= phone %></td>
-    <td><%= vopros %></td>
-    <td><%= otvet %></td>
-    <td><%= author_login %></td>
-    <td><%= modified_at %></td>
+    <td><%= id %></td>
     <td><%= created_at %></td>
-    <td><a href="/treatments/edit/<%= sh_cli_id %>"><span class="glyphicon glyphicon-info-sign"></span></a></td>
-     
+    
+    <td><%= opened_at %></td>
+    <td><%= opened_by %></td>
+    
+    <td><%= modified_at %></td>
+    <td><%= author_login %></td>
+
+    <td><%= rating_at %></td>
+    <td>
+      <% switch(rating) { 
+        case "0": %>
+        нет оценки
+      <% break;  case "1": %>
+        <strong class="text-success">удовлетворен</strong>
+
+      <% break;  case "2": %>
+        <strong class="text-danger">не удовлетворен</strong>
+        
+      <% break;  case "3": %>
+        <strong class="text-primary">оценить позже</strong>
+        
+      <% break;  } %>
+    </td>
+
+    
+    <td class="info" style="cursor: pointer;width:25px;"><a style="color:#fff; " href="/treatments/edit/<%= id %>">просмотр</a></td>
+    <td class="danger" style="color:#fff;cursor: pointer;width:25px;"><div style="color:#fff;" class="delete" id="<%= id %>">удалить</div></td> 

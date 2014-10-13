@@ -1,11 +1,35 @@
+<h3><span class=" glyphicon glyphicon-eye-open"></span> Просмотр #<%= id %></h3>
+
 <ol class="breadcrumb">
   <li><a href="/admin">Панель администратора</a></li>
-  <li><a href="#">Обращения</a></li>
-  <li><a href="/admin/treatments">Обращения</a></li>
-  <li class="active"><%= sh_cli_id %></li>
+  <li><a href="/admin/treatments">Оценка качества консультаций</a></li>
+  <li class="active">Закрытые обращения</li>
+  <li class="active"><%= id %></li>
 </ol>
 
 <form role="form">
+  <div class="form-group">
+    <label for="">Оценка качества</label>
+    <p>
+      Дата оценки: <b><%= rating_at %></b>
+      <br>
+      Статус:
+      <% switch(rating) { 
+        case "0": %>
+        нет оценки
+      <% break;  case "1": %>
+        <strong class="text-success">удовлетворен</strong>
+
+      <% break;  case "2": %>
+        <strong class="text-danger">не удовлетворен</strong>
+        
+      <% break;  case "3": %>
+        <strong class="text-primary">оценить позже</strong>
+        
+      <% break;  } %>
+    </p>
+  </div>
+  <hr>
   <div class="form-group">
     <label for="">Почта клиента</label>
     <h4><%= email %> <a href="#"><span class="glyphicon glyphicon-envelope"></span></a></h4> 
@@ -19,14 +43,15 @@
   <div class="form-group">
     <label for="">Вопрос клиента</label>
     <textarea class="form-control" rows="5"><%= vopros %></textarea>
+    <p>Дата создания: <b><%= created_at %></b></p>
   </div>
   <hr>
   <div class="form-group">
     <label for="">Ответ клиенту</label>
     <textarea class="form-control" rows="5" name="otvet"><%= otvet %></textarea>
+    <p>Взято в работу: <b><%= opened_at %></b> Автор <b><%= opened_by %></b></p>
+    <p>Дата ответа: <b><%= modified_at %></b> Автор <b><%= author_login %></b></p>
   </div>
   
-  
-  </div>
 </form>
 
