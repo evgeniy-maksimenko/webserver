@@ -1,11 +1,11 @@
 define([
 	
-	'jquery',
 	'backbone',
-	'text!modules/admin/modules/treatments/templates/itemTemplate.html',
+	'text!modules/admin/modules/users/templates/itemTemplate.html',
+	'alertify',
 	'sweetalert'	
 
-], function($, Backbone, itemTemplate) {
+], function(Backbone, itemTemplate, alertify) {
 
 	function confirm_delete_alert(id, page) {
 		swal({
@@ -22,16 +22,18 @@ define([
 	}
 
 	function getData(id, page) {
+
 	    var data = 
 	        $.ajax({
-	            url : '/api/treatments?id='+id+'&condition=delete&page='+page,
+	            url : '/api/users?condition=delete&id='+id,
 	            type: "POST",
 	            dataType: "json",
 	            async: false,
-	            success: function(){	            	
+	            success: function(data){	            	
 	            	setTimeout(
-	            		swal("Удалено!", "Запись успешно удалена.", "success"), 1000)
-	            	window.location = page;
+	            		swal("Удалено!", data.status, "success"), 1000)
+	            		$("#row"+id).parent().remove();
+	            		alertify.success(data.status);
 	            }
 	        });
 	    return data;
@@ -39,11 +41,12 @@ define([
 
 	var ItemPage = Backbone.View.extend({
 		template : _.template(itemTemplate),
+		
 		tagName: 'tr',
 		events: {
 			'click .delete' : 'delete'
 		},
-		render: function() {
+		render: function(model) {
 			this.$el.html(this.template(this.model.toJSON()));
 			return this;
 		},

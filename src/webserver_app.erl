@@ -32,6 +32,8 @@ start(_StartType, _StartArgs) ->
       {"/api_conv/conveyor/request",  api_request_handler, []},
       {"/api_conv/conveyor/response", api_response_handler, []},
       %% ===================================================================
+      {"/api/users", api_users_handler, []},
+      %% ===================================================================
       {"/api/find_all_history",       api_find_all_history, []},
       {"/api/find_all_records",       api_find_all_records, []},
       {"/api/find_one_record",        api_find_one_record, []},

@@ -4,9 +4,10 @@ define([
 	'layouts/layoutBasic/layout',
 	'text!modules/treatments/modules/treatment_f/templates/listTemplate.html',
 	'modules/treatments/modules/treatment_f/views/item',
-	'modules/treatments/modules/treatment_f/collections/treatment'
+	'modules/treatments/modules/treatment_f/collections/treatment',
+	'alertify'
 
-], function($, Backbone, Layout, listTemplate, ItemView, Collection) {
+], function($, Backbone, Layout, listTemplate, ItemView, Collection, alertify) {
 
 	var websocket;
 
@@ -38,6 +39,8 @@ define([
     };
 
 	function Message_btn(data) { 
+		alertify.success("Сообщение #"+data.id+ " взято в работу");
+
         $("#work"+data.id).remove();
         $("#in_work"+data.id).show();
         $("#status"+data.id).show();
@@ -46,7 +49,7 @@ define([
     function Message_closer(data) { 
 
         $("#in_work"+data.id).parent().parent().remove();
-
+        alertify.success("Сообщение #"+data.id+ " закрыто");
     };
 
     function showScreen(data) { 
@@ -69,7 +72,7 @@ define([
     	
     	$('#list').prepend('<tr class="'+data.id+'"><td>'+data.email+'</td><td>'+data.phone+'</td><td>'+data.vopros+'</td><td style="width:30px;">'+datetime+'</td><td style="width:30px;"><div class="in_work btn btn-success" id="work'+data.id+'" data="'+data.id+'">в работу</div><a class="btn btn-danger" id="in_work'+data.id+'" href="/treatment_f/edit/'+data.id+'" style="display:none;">закрыть</a></td><td style="width:30px;"><span class="status label label-danger" id="status'+data.id+'" style="display:none;">В работе</span></td></tr>');
     	$("."+data.id).css('backgroundColor', 'yellow').animate({ backgroundColor: "white"}, 3000);
-
+    	alertify.success("Новое сообщение");
 	}    	
 	var List = Backbone.View.extend({
 		
