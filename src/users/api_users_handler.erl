@@ -16,6 +16,8 @@
   collection = "users"
 }).
 
+
+
 -define(SUCCESS_SAVE,   <<"Данные успешно сохранены">>).
 -define(SUCCESS_UPDATE, <<"Данные успешно сохранены">>).
 -define(SUCCESS_DELETE, <<"Данные успешно удалены">>).
@@ -67,6 +69,7 @@ mongo_find_one(Condition) ->
   remove_id_mongo(emongo:find(M#mongo_db.table, M#mongo_db.collection, Condition)).
 
 mongo_find_all() ->
+
   M = #mongo_db{},
   remove_id_mongo(emongo:find(M#mongo_db.table, M#mongo_db.collection, [])).
 
@@ -104,3 +107,4 @@ mongo_get_answer(Status, Alert) ->
     _ ->
       [{<<"status">>, list_to_binary(atom_to_list(Status))}]
   end.
+

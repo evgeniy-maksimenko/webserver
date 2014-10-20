@@ -21,6 +21,12 @@
   getToken/1
 ]).
 
+-export([mongo_find/1]).
+
+-record(mongo_db,{
+  table = model,
+  collection = "users"
+}).
 -define(REDIRECT_HOME, "/").
 
 init({tcp, http}, Req, _Opts) ->
@@ -58,7 +64,19 @@ getAuthPage(Req) ->
         undefined ->
           c_http_request:redirect(?POINT_AUTH ++ "?client_id=" ++ ?CLIENT_ID ++ "&scope=read&response_type=code&state=enter&redirect_uri=" ++ ?REDIRECT_URI, Req2);
         AccessToken ->
-          Req2
+
+          BinPage = list_to_binary(PageException),
+          case BinPage of
+            <<"admin">> ->
+              LDAP    = app_logic:getting_user(Req2),
+              IsFind  = mongo_find([{<<"name">>,list_to_binary(LDAP)}]),
+              case length(IsFind) of
+                0 ->
+                  c_http_request:redirect("/access_denied", Req2);
+                _ -> Req2
+              end;
+            _ -> Req2
+          end
       end
   end.
 
@@ -92,6 +110,10 @@ getToken(Body) ->
       end;
     false -> lager:log(error, [], [false])
   end.
+
+mongo_find(Condition) ->
+  M = #mongo_db{},
+  tm_module:remove_id_mongo(emongo:find(M#mongo_db.table, M#mongo_db.collection, Condition)).
 
 
 

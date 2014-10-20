@@ -10,3 +10,2281 @@
 
 2014-10-17 09:01:56.012 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.271.0> exit with reason: {{try_clause,{http_req,#Port<0.10938>,ranch_tcp,keepalive,<0.271.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},65278},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017090153WS3i0daa&state=enter">>,[{<<"code">>,<<"141017090153WS3i0daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
 
+2014-10-17 14:20:09.678 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-17 14:20:09.686 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-17 14:20:09.689 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-17 14:20:09.693 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-17 14:20:09.703 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-17 14:20:09.737 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-17 14:21:33.354 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-17 14:21:33.354 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.668.0> exit with reason: {{try_clause,{http_req,#Port<0.11431>,ranch_tcp,keepalive,<0.668.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54403},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017142132WS3ubeaa&state=enter">>,[{<<"code">>,<<"141017142132WS3ubeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-17 14:21:33.355 [error] emulator Error in process <0.668.0> with exit value: {{try_clause,{http_req,#Port<0.11431>,ranch_tcp,keepalive,<0.668.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54403},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-17 17:19:23.468 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-17 17:19:23.474 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-17 17:19:23.476 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-17 17:19:23.478 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-17 17:19:23.488 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-17 17:19:23.509 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-17 17:19:49.693 [warning] <0.6.0> lager_error_logger_h dropped 68 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-17 17:19:49.694 [error] emulator Error in process <0.286.0> with exit value: {{try_clause,{http_req,#Port<0.11208>,ranch_tcp,keepalive,<0.286.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56087},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-17 17:19:49.694 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.286.0> exit with reason: {{try_clause,{http_req,#Port<0.11208>,ranch_tcp,keepalive,<0.286.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56087},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017171949WS25jeaa&state=enter">>,[{<<"code">>,<<"141017171949WS25jeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 09:37:14.375 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 09:37:14.383 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 09:37:14.385 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 09:37:14.388 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 09:37:14.398 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 09:37:14.423 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 09:37:17.342 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 09:37:17.342 [error] emulator Error in process <0.245.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.245.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57780},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-20 09:37:17.343 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.245.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57780},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020093716WS3iqeaa&state=enter">>,[{<<"code">>,<<"141020093716WS3iqeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 09:59:12.375 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/app_logic.erl:0: Recompiled.
+2014-10-20 09:59:12.395 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/app/mailer.erl:0: Recompiled.
+2014-10-20 09:59:12.430 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 09:59:12.484 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12.572 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12.601 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12.636 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm.erl:0: Recompiled.
+2014-10-20 09:59:12.710 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:42: Warning: this clause cannot match because a previous clause at line 29 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12.772 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/treatment/tms.erl:0: Recompiled.
+2014-10-20 09:59:12.795 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/webserver_app.erl:0: Recompiled.
+2014-10-20 09:59:12.813 [info] <0.115.0> app_logic: Reloaded! (Beam changed.)
+2014-10-20 09:59:12.817 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 09:59:12.820 [info] <0.115.0> tm_module: Reloaded! (Beam changed.)
+2014-10-20 09:59:12.824 [info] <0.115.0> tms: Reloaded! (Beam changed.)
+2014-10-20 09:59:12.828 [info] <0.115.0> webserver_app: Reloaded! (Beam changed.)
+2014-10-20 09:59:45.662 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 09:59:45.670 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 09:59:45.673 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 09:59:45.676 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 09:59:45.686 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 09:59:45.712 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 10:05:53.255 [warning] <0.6.0> lager_error_logger_h dropped 71 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 10:06:56.225 [error] emulator Error in process <0.1599.0> with exit value: {{try_clause,{http_req,#Port<0.12720>,ranch_tcp,keepalive,<0.1599.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58350},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<6 bytes>>,<<33 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-20 10:06:56.226 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1599.0> exit with reason: {{try_clause,{http_req,#Port<0.12720>,ranch_tcp,keepalive,<0.1599.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58350},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020100655WS3areaa&state=enter">>,[{<<"code">>,<<"141020100655WS3areaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141020PBe1ojpqzn1u1p">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 11:07:55.811 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:07:55.818 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:07:55.937 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:07:57.930 [info]  auth_handler.erl:51: "authorize"
+
+
+2014-10-20 11:07:58.162 [error] emulator Error in process <0.9851.0> with exit value: {{try_clause,{http_req,#Port<0.14990>,ranch_tcp,keepalive,<0.9851.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59389},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-20 11:07:58.163 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9851.0> exit with reason: {{try_clause,{http_req,#Port<0.14990>,ranch_tcp,keepalive,<0.9851.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59389},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020110757WS28dfaa&state=enter">>,[{<<"code">>,<<"141020110757WS28dfaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 11:07:58.497 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.500 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.582 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.614 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.626 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.632 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.639 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.643 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.649 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.654 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.657 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.742 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.751 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:07:58.784 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.706 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.713 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.778 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.803 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.810 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.815 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.839 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.846 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.852 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.858 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.861 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.984 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:04.992 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:05.015 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:05.060 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:08:17.874 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.878 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.941 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.957 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.966 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.971 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.975 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.980 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:17.992 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.000 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.004 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.009 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.013 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.017 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.168 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.175 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.224 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:08:18.294 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:08:50.329 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:08:50.353 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:08:50.372 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:08:50.505 [info]  auth_handler.erl:51: [[],"assets","css","base.css"]
+
+
+2014-10-20 11:08:50.509 [info]  auth_handler.erl:51: [[],"assets","css","bootstrap.min.css"]
+
+
+2014-10-20 11:08:50.512 [info]  auth_handler.erl:51: [[],"assets","css","bootstrap-select.min.css"]
+
+
+2014-10-20 11:08:50.515 [info]  auth_handler.erl:51: [[],"assets","css","jquery.ui.css"]
+
+
+2014-10-20 11:08:50.518 [info]  auth_handler.erl:51: [[],"assets","css","footer.css"]
+
+
+2014-10-20 11:08:50.522 [info]  auth_handler.erl:51: [[],"assets","css","datepicker.css"]
+
+
+2014-10-20 11:08:50.525 [info]  auth_handler.erl:51: [[],"assets","css","sweet-alert.css"]
+
+
+2014-10-20 11:08:50.528 [info]  auth_handler.erl:51: [[],"assets","css","alertify.default.css"]
+
+
+2014-10-20 11:08:50.531 [info]  auth_handler.erl:51: [[],"assets","css","alertify.core.css"]
+
+
+2014-10-20 11:08:50.534 [info]  auth_handler.erl:51: [[],"assets","css","alertify.bootstrap.css"]
+
+
+2014-10-20 11:08:50.537 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","require.js"]
+
+
+2014-10-20 11:08:50.856 [info]  auth_handler.erl:51: [[],"assets","js","main.js"]
+
+
+2014-10-20 11:08:50.936 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-1.11.1.min.js"]
+
+
+2014-10-20 11:08:50.941 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-router.js"]
+
+
+2014-10-20 11:08:51.006 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","views","add.js"]
+
+
+2014-10-20 11:08:51.024 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layout.js"]
+
+
+2014-10-20 11:08:51.033 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-text.js"]
+
+
+2014-10-20 11:08:51.038 [info]  auth_handler.erl:51: [[],"assets","js","libs","alertify","alertify.min.js"]
+
+
+2014-10-20 11:08:51.043 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","collections","user.js"]
+
+
+2014-10-20 11:08:51.048 [info]  auth_handler.erl:51: [[],"assets","js","libs","sweetalert","sweet-alert.min.js"]
+
+
+2014-10-20 11:08:51.061 [info]  auth_handler.erl:51: [[],"assets","js","libs","underscore","underscore.js"]
+
+
+2014-10-20 11:08:51.068 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap.min.js"]
+
+
+2014-10-20 11:08:51.073 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-select.min.js"]
+
+
+2014-10-20 11:08:51.077 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery.cookie.js"]
+
+
+2014-10-20 11:08:51.080 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-datepicker.js"]
+
+
+2014-10-20 11:08:51.084 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-color.js"]
+
+
+2014-10-20 11:08:51.158 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","templates","addTemplate.html"]
+
+
+2014-10-20 11:08:51.165 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layoutTemplate.html"]
+
+
+2014-10-20 11:08:51.211 [info]  auth_handler.erl:51: [[],"assets","js","libs","backbone","backbone.js"]
+
+
+2014-10-20 11:08:51.288 [info]  auth_handler.erl:51: [[],"api","treatments"]
+
+
+2014-10-20 11:09:06.417 [info]  auth_handler.erl:51: [[],"admin","users","index"]
+
+
+2014-10-20 11:09:06.791 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-1.11.1.min.js"]
+
+
+2014-10-20 11:09:06.795 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-router.js"]
+
+
+2014-10-20 11:09:06.882 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","views","index.js"]
+
+
+2014-10-20 11:09:06.900 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layout.js"]
+
+
+2014-10-20 11:09:06.909 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-text.js"]
+
+
+2014-10-20 11:09:06.914 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","views","item.js"]
+
+
+2014-10-20 11:09:06.917 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","collections","users.js"]
+
+
+2014-10-20 11:09:06.931 [info]  auth_handler.erl:51: [[],"assets","js","libs","underscore","underscore.js"]
+
+
+2014-10-20 11:09:06.936 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap.min.js"]
+
+
+2014-10-20 11:09:06.943 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-select.min.js"]
+
+
+2014-10-20 11:09:06.948 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery.cookie.js"]
+
+
+2014-10-20 11:09:06.952 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-datepicker.js"]
+
+
+2014-10-20 11:09:06.955 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-color.js"]
+
+
+2014-10-20 11:09:07.118 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","templates","indexTemplate.html"]
+
+
+2014-10-20 11:09:07.127 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layoutTemplate.html"]
+
+
+2014-10-20 11:09:07.135 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","templates","itemTemplate.html"]
+
+
+2014-10-20 11:09:07.139 [info]  auth_handler.erl:51: [[],"assets","js","libs","alertify","alertify.min.js"]
+
+
+2014-10-20 11:09:07.142 [info]  auth_handler.erl:51: [[],"assets","js","libs","sweetalert","sweet-alert.min.js"]
+
+
+2014-10-20 11:09:07.212 [info]  auth_handler.erl:51: [[],"assets","js","libs","backbone","backbone.js"]
+
+
+2014-10-20 11:09:07.289 [info]  auth_handler.erl:51: [[],"api","treatments"]
+
+
+2014-10-20 11:09:07.340 [info]  auth_handler.erl:51: [[],"api","users"]
+
+
+2014-10-20 11:09:14.143 [info]  auth_handler.erl:51: [[],"admin","users","index"]
+
+
+2014-10-20 11:09:14.267 [info]  auth_handler.erl:51: [[],"assets","css","base.css"]
+
+
+2014-10-20 11:09:14.270 [info]  auth_handler.erl:51: [[],"assets","css","bootstrap.min.css"]
+
+
+2014-10-20 11:09:14.272 [info]  auth_handler.erl:51: [[],"assets","css","bootstrap-select.min.css"]
+
+
+2014-10-20 11:09:14.275 [info]  auth_handler.erl:51: [[],"assets","css","jquery.ui.css"]
+
+
+2014-10-20 11:09:14.278 [info]  auth_handler.erl:51: [[],"assets","css","footer.css"]
+
+
+2014-10-20 11:09:14.280 [info]  auth_handler.erl:51: [[],"assets","css","datepicker.css"]
+
+
+2014-10-20 11:09:14.283 [info]  auth_handler.erl:51: [[],"assets","css","sweet-alert.css"]
+
+
+2014-10-20 11:09:14.285 [info]  auth_handler.erl:51: [[],"assets","css","alertify.default.css"]
+
+
+2014-10-20 11:09:14.288 [info]  auth_handler.erl:51: [[],"assets","css","alertify.core.css"]
+
+
+2014-10-20 11:09:14.291 [info]  auth_handler.erl:51: [[],"assets","css","alertify.bootstrap.css"]
+
+
+2014-10-20 11:09:14.293 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","require.js"]
+
+
+2014-10-20 11:09:14.486 [info]  auth_handler.erl:51: [[],"assets","js","main.js"]
+
+
+2014-10-20 11:09:14.561 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-1.11.1.min.js"]
+
+
+2014-10-20 11:09:14.567 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-router.js"]
+
+
+2014-10-20 11:09:14.627 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","views","index.js"]
+
+
+2014-10-20 11:09:14.656 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layout.js"]
+
+
+2014-10-20 11:09:14.660 [info]  auth_handler.erl:51: [[],"assets","js","libs","rjs","rjs-text.js"]
+
+
+2014-10-20 11:09:14.663 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","views","item.js"]
+
+
+2014-10-20 11:09:14.669 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","collections","users.js"]
+
+
+2014-10-20 11:09:14.692 [info]  auth_handler.erl:51: [[],"assets","js","libs","underscore","underscore.js"]
+
+
+2014-10-20 11:09:14.695 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap.min.js"]
+
+
+2014-10-20 11:09:14.699 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-select.min.js"]
+
+
+2014-10-20 11:09:14.703 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery.cookie.js"]
+
+
+2014-10-20 11:09:14.707 [info]  auth_handler.erl:51: [[],"assets","js","libs","bootstrap","bootstrap-datepicker.js"]
+
+
+2014-10-20 11:09:14.711 [info]  auth_handler.erl:51: [[],"assets","js","libs","jquery","jquery-color.js"]
+
+
+2014-10-20 11:09:14.854 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","templates","indexTemplate.html"]
+
+
+2014-10-20 11:09:14.860 [info]  auth_handler.erl:51: [[],"assets","js","layouts","layoutAdmin","layoutTemplate.html"]
+
+
+2014-10-20 11:09:14.868 [info]  auth_handler.erl:51: [[],"assets","js","modules","admin","modules","users","templates","itemTemplate.html"]
+
+
+2014-10-20 11:09:14.871 [info]  auth_handler.erl:51: [[],"assets","js","libs","alertify","alertify.min.js"]
+
+
+2014-10-20 11:09:14.875 [info]  auth_handler.erl:51: [[],"assets","js","libs","sweetalert","sweet-alert.min.js"]
+
+
+2014-10-20 11:09:14.914 [info]  auth_handler.erl:51: [[],"assets","js","libs","backbone","backbone.js"]
+
+
+2014-10-20 11:09:14.987 [info]  auth_handler.erl:51: [[],"api","treatments"]
+
+
+2014-10-20 11:09:15.004 [info]  auth_handler.erl:51: [[],"api","users"]
+
+
+2014-10-20 11:10:08.099 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:10:08.111 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:10:08.234 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:10:08.389 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.392 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.396 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.399 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.403 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.406 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.410 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.412 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.415 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.418 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.420 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.598 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.683 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.689 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.768 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.867 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.875 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.882 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.888 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.897 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.901 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.906 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.911 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.915 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:08.919 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.034 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.045 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.055 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.058 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.062 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.093 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.184 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:10:09.206 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:10:09.289 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:10:09.402 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.406 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.409 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.412 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.415 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.417 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.419 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.421 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.423 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.425 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.427 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.626 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.687 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.691 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.782 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.803 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.808 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.812 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.815 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.832 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.837 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.844 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.848 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.852 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.855 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.924 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.931 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.939 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.942 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.945 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:09.976 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:10:10.149 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:10:10.167 [info]  auth_handler.erl:51: "api"
+
+
+2014-10-20 11:11:03.663 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:11:03.671 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:11:04.240 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/base.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Mon, 18 Aug 2014 14:49:33 GMT">>},{<<"if-none-match">>,<<"\"3798910690\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.243 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/bootstrap.min.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 29 Jul 2014 13:42:46 GMT">>},{<<"if-none-match">>,<<"\"109790267\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.247 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/bootstrap-select.min.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 29 Jul 2014 13:42:46 GMT">>},{<<"if-none-match">>,<<"\"2860264957\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.250 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/jquery.ui.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Fri, 08 Aug 2014 15:32:44 GMT">>},{<<"if-none-match">>,<<"\"1916026577\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.254 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/footer.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Tue, 05 Aug 2014 12:26:45 GMT">>},{<<"if-none-match">>,<<"\"1100316484\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.263 [info]  auth_handler.erl:53: {http_req,#Port<0.15409>,ranch_tcp,keepalive,<0.10326.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59460},<<"localhost">>,undefined,8008,<<"/assets/css/datepicker.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Sun, 19 Jan 2014 01:18:48 GMT">>},{<<"if-none-match">>,<<"\"358211496\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.264 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/css/sweet-alert.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Mon, 13 Oct 2014 01:42:00 GMT">>},{<<"if-none-match">>,<<"\"2604166875\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.265 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/css/alertify.default.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Wed, 09 Oct 2013 02:20:58 GMT">>},{<<"if-none-match">>,<<"\"3011033528\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.269 [info]  auth_handler.erl:53: {http_req,#Port<0.15409>,ranch_tcp,keepalive,<0.10326.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59460},<<"localhost">>,undefined,8008,<<"/assets/css/alertify.core.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Wed, 09 Oct 2013 02:20:58 GMT">>},{<<"if-none-match">>,<<"\"338273095\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.272 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/css/alertify.bootstrap.css">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/css,*/*;q=0.1">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Wed, 09 Oct 2013 02:20:58 GMT">>},{<<"if-none-match">>,<<"\"174641552\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.275 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/js/libs/rjs/require.js">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Fri, 01 Aug 2014 04:58:16 GMT">>},{<<"if-none-match">>,<<"\"1088546899\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.459 [info]  auth_handler.erl:53: {http_req,#Port<0.15409>,ranch_tcp,keepalive,<0.10326.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59460},<<"localhost">>,undefined,8008,<<"/assets/js/main.js">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"if-modified-since">>,<<"Thu, 16 Oct 2014 06:52:09 GMT">>},{<<"if-none-match">>,<<"\"4190944996\"">>},{<<"cache-control">>,<<"max-age=0">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.537 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/libs/jquery/jquery-1.11.1.min.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.541 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/libs/rjs/rjs-router.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.628 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/modules/admin/modules/users/views/index.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.652 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/layouts/layoutAdmin/layout.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.657 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/libs/rjs/rjs-text.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.660 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/modules/admin/modules/users/views/item.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.669 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/js/modules/admin/modules/users/collections/users.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.696 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/libs/underscore/underscore.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.697 [info]  auth_handler.erl:53: {http_req,#Port<0.15409>,ranch_tcp,keepalive,<0.10326.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59460},<<"localhost">>,undefined,8008,<<"/assets/js/libs/bootstrap/bootstrap.min.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.697 [info]  auth_handler.erl:53: {http_req,#Port<0.15417>,ranch_tcp,keepalive,<0.10330.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59464},<<"localhost">>,undefined,8008,<<"/assets/js/libs/bootstrap/bootstrap-select.min.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.697 [info]  auth_handler.erl:53: {http_req,#Port<0.15418>,ranch_tcp,keepalive,<0.10331.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59465},<<"localhost">>,undefined,8008,<<"/assets/js/libs/jquery/jquery.cookie.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.746 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/js/libs/bootstrap/bootstrap-datepicker.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.747 [info]  auth_handler.erl:53: {http_req,#Port<0.15420>,ranch_tcp,keepalive,<0.10332.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59466},<<"localhost">>,undefined,8008,<<"/assets/js/libs/jquery/jquery-color.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.792 [info]  auth_handler.erl:53: {http_req,#Port<0.15409>,ranch_tcp,keepalive,<0.10326.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59460},<<"localhost">>,undefined,8008,<<"/assets/js/layouts/layoutAdmin/layoutTemplate.html">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.792 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/modules/admin/modules/users/templates/indexTemplate.html">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.793 [info]  auth_handler.erl:53: {http_req,#Port<0.15417>,ranch_tcp,keepalive,<0.10330.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59464},<<"localhost">>,undefined,8008,<<"/assets/js/modules/admin/modules/users/templates/itemTemplate.html">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.830 [info]  auth_handler.erl:53: {http_req,#Port<0.15418>,ranch_tcp,keepalive,<0.10331.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59465},<<"localhost">>,undefined,8008,<<"/assets/js/libs/alertify/alertify.min.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.831 [info]  auth_handler.erl:53: {http_req,#Port<0.15408>,ranch_tcp,keepalive,<0.10325.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59459},<<"localhost">>,undefined,8008,<<"/assets/js/libs/sweetalert/sweet-alert.min.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:04.906 [info]  auth_handler.erl:53: {http_req,#Port<0.15410>,ranch_tcp,keepalive,<0.10327.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59461},<<"localhost">>,undefined,8008,<<"/assets/js/libs/backbone/backbone.js">>,undefined,<<"bust=1413792664495">>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"*/*">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:11:16.964 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:11:16.976 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:11:17.042 [info]  auth_handler.erl:53: [[],"assets","css","base.css"]
+
+
+2014-10-20 11:11:17.046 [info]  auth_handler.erl:53: [[],"assets","css","bootstrap.min.css"]
+
+
+2014-10-20 11:11:17.050 [info]  auth_handler.erl:53: [[],"assets","css","bootstrap-select.min.css"]
+
+
+2014-10-20 11:11:17.053 [info]  auth_handler.erl:53: [[],"assets","css","jquery.ui.css"]
+
+
+2014-10-20 11:11:17.057 [info]  auth_handler.erl:53: [[],"assets","css","footer.css"]
+
+
+2014-10-20 11:11:17.061 [info]  auth_handler.erl:53: [[],"assets","css","datepicker.css"]
+
+
+2014-10-20 11:11:17.064 [info]  auth_handler.erl:53: [[],"assets","css","sweet-alert.css"]
+
+
+2014-10-20 11:11:17.067 [info]  auth_handler.erl:53: [[],"assets","css","alertify.default.css"]
+
+
+2014-10-20 11:11:17.071 [info]  auth_handler.erl:53: [[],"assets","css","alertify.core.css"]
+
+
+2014-10-20 11:11:17.074 [info]  auth_handler.erl:53: [[],"assets","css","alertify.bootstrap.css"]
+
+
+2014-10-20 11:11:17.077 [info]  auth_handler.erl:53: [[],"assets","js","libs","rjs","require.js"]
+
+
+2014-10-20 11:11:17.274 [info]  auth_handler.erl:53: [[],"assets","js","main.js"]
+
+
+2014-10-20 11:11:17.352 [info]  auth_handler.erl:53: [[],"assets","js","libs","jquery","jquery-1.11.1.min.js"]
+
+
+2014-10-20 11:11:17.356 [info]  auth_handler.erl:53: [[],"assets","js","libs","rjs","rjs-router.js"]
+
+
+2014-10-20 11:11:17.437 [info]  auth_handler.erl:53: [[],"assets","js","modules","admin","modules","users","views","index.js"]
+
+
+2014-10-20 11:11:17.451 [info]  auth_handler.erl:53: [[],"assets","js","layouts","layoutAdmin","layout.js"]
+
+
+2014-10-20 11:11:17.456 [info]  auth_handler.erl:53: [[],"assets","js","libs","rjs","rjs-text.js"]
+
+
+2014-10-20 11:11:17.460 [info]  auth_handler.erl:53: [[],"assets","js","modules","admin","modules","users","views","item.js"]
+
+
+2014-10-20 11:11:17.463 [info]  auth_handler.erl:53: [[],"assets","js","modules","admin","modules","users","collections","users.js"]
+
+
+2014-10-20 11:11:17.480 [info]  auth_handler.erl:53: [[],"assets","js","libs","underscore","underscore.js"]
+
+
+2014-10-20 11:11:17.488 [info]  auth_handler.erl:53: [[],"assets","js","libs","bootstrap","bootstrap.min.js"]
+
+
+2014-10-20 11:11:17.494 [info]  auth_handler.erl:53: [[],"assets","js","libs","bootstrap","bootstrap-select.min.js"]
+
+
+2014-10-20 11:11:17.500 [info]  auth_handler.erl:53: [[],"assets","js","libs","jquery","jquery.cookie.js"]
+
+
+2014-10-20 11:11:17.504 [info]  auth_handler.erl:53: [[],"assets","js","libs","bootstrap","bootstrap-datepicker.js"]
+
+
+2014-10-20 11:11:17.507 [info]  auth_handler.erl:53: [[],"assets","js","libs","jquery","jquery-color.js"]
+
+
+2014-10-20 11:11:17.584 [info]  auth_handler.erl:53: [[],"assets","js","modules","admin","modules","users","templates","indexTemplate.html"]
+
+
+2014-10-20 11:11:17.591 [info]  auth_handler.erl:53: [[],"assets","js","layouts","layoutAdmin","layoutTemplate.html"]
+
+
+2014-10-20 11:11:17.600 [info]  auth_handler.erl:53: [[],"assets","js","modules","admin","modules","users","templates","itemTemplate.html"]
+
+
+2014-10-20 11:11:17.603 [info]  auth_handler.erl:53: [[],"assets","js","libs","alertify","alertify.min.js"]
+
+
+2014-10-20 11:11:17.607 [info]  auth_handler.erl:53: [[],"assets","js","libs","sweetalert","sweet-alert.min.js"]
+
+
+2014-10-20 11:11:17.652 [info]  auth_handler.erl:53: [[],"assets","js","libs","backbone","backbone.js"]
+
+
+2014-10-20 11:12:09.481 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:12:09.493 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:12:09.580 [error] emulator Error in process <0.10492.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.581 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10492.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.582 [error] emulator Error in process <0.10508.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.582 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10508.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.583 [error] emulator Error in process <0.10509.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.583 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10509.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.586 [error] emulator Error in process <0.10510.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.586 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10510.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.589 [error] emulator Error in process <0.10511.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.589 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10511.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.592 [error] emulator Error in process <0.10512.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.592 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10512.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.595 [error] emulator Error in process <0.10513.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.595 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10513.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.598 [error] emulator Error in process <0.10514.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.598 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10514.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.601 [error] emulator Error in process <0.10515.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.601 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10515.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.604 [error] emulator Error in process <0.10516.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.604 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10516.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.607 [error] emulator Error in process <0.10517.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.607 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10517.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09.610 [error] emulator Error in process <0.10518.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:09.610 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10518.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:21.614 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:12:21.626 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:12:22.103 [error] emulator Error in process <0.10560.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.103 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10560.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.105 [error] emulator Error in process <0.10561.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.105 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10561.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.108 [error] emulator Error in process <0.10562.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.108 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10562.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.112 [error] emulator Error in process <0.10563.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.112 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10563.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.114 [error] emulator Error in process <0.10564.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.115 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10564.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.118 [error] emulator Error in process <0.10565.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.118 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10565.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.122 [error] emulator Error in process <0.10566.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.122 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10566.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.125 [error] emulator Error in process <0.10567.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.125 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10567.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.128 [error] emulator Error in process <0.10568.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.128 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10568.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.132 [error] emulator Error in process <0.10569.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.132 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10569.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.135 [error] emulator Error in process <0.10570.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.135 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10570.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22.138 [error] emulator Error in process <0.10571.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:22.138 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10571.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.523 [error] emulator Error in process <0.10579.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.524 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10579.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.525 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10580.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.527 [error] emulator Error in process <0.10580.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.529 [error] emulator Error in process <0.10581.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.529 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10581.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.534 [error] emulator Error in process <0.10582.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.534 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10582.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.538 [error] emulator Error in process <0.10583.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.539 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10583.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.541 [error] emulator Error in process <0.10584.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.541 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10584.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.544 [error] emulator Error in process <0.10585.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.544 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10585.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.546 [error] emulator Error in process <0.10586.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.547 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10586.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.549 [error] emulator Error in process <0.10587.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.549 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10587.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.551 [error] emulator Error in process <0.10588.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.552 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10588.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.554 [error] emulator Error in process <0.10589.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.554 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10589.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25.557 [error] emulator Error in process <0.10590.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:25.557 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10590.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:37.810 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:12:37.820 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:12:38.129 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.131 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.136 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.140 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.143 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.146 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.150 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.152 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.156 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.159 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.162 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.407 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.486 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.491 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.556 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.570 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.574 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.578 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.582 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.598 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.605 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.611 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.615 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.620 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.623 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.701 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.708 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.716 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.720 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.724 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:38.768 [info]  auth_handler.erl:54: "assets"
+
+
+2014-10-20 11:12:53.993 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:12:54.007 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:12:54.023 [error] emulator Error in process <0.10670.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.023 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10670.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.025 [error] emulator Error in process <0.10687.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.028 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10687.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.031 [error] emulator Error in process <0.10688.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.032 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10688.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.033 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10689.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.033 [error] emulator Error in process <0.10689.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.036 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10690.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.039 [error] emulator Error in process <0.10690.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.041 [error] emulator Error in process <0.10691.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.042 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10691.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.046 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10692.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.047 [error] emulator Error in process <0.10692.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.051 [error] emulator Error in process <0.10693.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.051 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10693.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.056 [error] emulator Error in process <0.10694.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.056 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10694.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.061 [error] emulator Error in process <0.10695.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.061 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10695.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.064 [error] emulator Error in process <0.10696.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.065 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10696.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54.067 [error] emulator Error in process <0.10697.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:12:54.068 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10697.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.506 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10817.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.507 [error] emulator Error in process <0.10817.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.509 [error] emulator Error in process <0.10818.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.509 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10818.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.511 [error] emulator Error in process <0.10819.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.511 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10819.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.516 [error] emulator Error in process <0.10820.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.517 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10820.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.520 [error] emulator Error in process <0.10821.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.520 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10821.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.522 [error] emulator Error in process <0.10822.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.522 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10822.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.526 [error] emulator Error in process <0.10823.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.526 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10823.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.529 [error] emulator Error in process <0.10824.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.529 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10824.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.532 [error] emulator Error in process <0.10825.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.532 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10825.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.536 [error] emulator Error in process <0.10826.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.536 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10826.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.539 [error] emulator Error in process <0.10827.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.539 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10827.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.542 [error] emulator Error in process <0.10828.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:47.542 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10828.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47.623 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:59: Error: syntax error before: '->'
+2014-10-20 11:13:50.692 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:13:50.704 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:13:50.863 [error] emulator Error in process <0.10859.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.864 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10859.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.866 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10860.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.867 [error] emulator Error in process <0.10860.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.869 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10861.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.869 [error] emulator Error in process <0.10861.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.871 [error] emulator Error in process <0.10862.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.871 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10862.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.876 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10863.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.876 [error] emulator Error in process <0.10863.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.881 [error] emulator Error in process <0.10864.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.882 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10864.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.884 [error] emulator Error in process <0.10865.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.885 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10865.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.888 [error] emulator Error in process <0.10866.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.888 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10866.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.891 [error] emulator Error in process <0.10867.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.891 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10867.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.894 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10868.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.894 [error] emulator Error in process <0.10868.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.897 [error] emulator Error in process <0.10869.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:50.897 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10869.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.900 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10870.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50.900 [error] emulator Error in process <0.10870.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.241 [error] emulator Error in process <0.10872.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.241 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10872.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.243 [error] emulator Error in process <0.10873.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.243 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10873.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.247 [error] emulator Error in process <0.10874.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.247 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10874.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.250 [error] emulator Error in process <0.10875.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.250 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10875.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.253 [error] emulator Error in process <0.10876.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.253 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10876.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.255 [error] emulator Error in process <0.10877.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.256 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10877.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.258 [error] emulator Error in process <0.10878.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.258 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10878.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.260 [error] emulator Error in process <0.10879.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.261 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10879.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.263 [error] emulator Error in process <0.10880.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.263 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10880.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.265 [error] emulator Error in process <0.10881.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.266 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10881.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.268 [error] emulator Error in process <0.10882.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.268 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10882.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52.270 [error] emulator Error in process <0.10883.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:13:52.271 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10883.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:14:19.978 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:14:19.988 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:15:08.468 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:15:08.483 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:15:08.579 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.582 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.586 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.590 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.595 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.599 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.603 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.607 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.610 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.614 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.617 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.841 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.923 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.928 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:08.998 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.017 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.025 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.030 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.036 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.048 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.054 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.061 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.064 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.068 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.075 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.158 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.165 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.173 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.177 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.180 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:09.215 [info]  auth_handler.erl:53: 1
+
+
+2014-10-20 11:15:18.596 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:15:18.607 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:15:19.721 [info]  auth_handler.erl:55: 1
+
+
+2014-10-20 11:15:19.739 [info]  auth_handler.erl:55: 1
+
+
+2014-10-20 11:15:20.187 [info]  auth_handler.erl:55: 1
+
+
+2014-10-20 11:15:21.018 [info]  auth_handler.erl:55: 1
+
+
+2014-10-20 11:15:21.037 [info]  auth_handler.erl:55: 1
+
+
+2014-10-20 11:15:34.797 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:15:34.805 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:19:11.751 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:19:11.763 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:19:12.345 [error] emulator Error in process <0.11663.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:19:12.345 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.11663.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:19:12.346 [error] emulator Error in process <0.11679.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:19:12.346 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.11679.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:19:43.201 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:19:43.211 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:19:43.899 [info]  auth_handler.erl:61: "admin"
+
+
+2014-10-20 11:19:44.639 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:19:44.687 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:19:51.908 [info]  auth_handler.erl:61: "admin"
+
+
+2014-10-20 11:19:52.679 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:19:52.695 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:20:41.716 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:63: Error: syntax error before: 'end'
+2014-10-20 11:20:41.936 [info]  auth_handler.erl:61: "admin"
+
+
+2014-10-20 11:20:42.666 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:20:42.683 [info]  auth_handler.erl:61: "api"
+
+
+2014-10-20 11:20:57.962 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:20:57.970 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:20:58.357 [info]  auth_handler.erl:62: admin
+
+
+2014-10-20 11:20:59.099 [info]  auth_handler.erl:62: admin
+
+
+2014-10-20 11:20:59.122 [info]  auth_handler.erl:62: admin
+
+
+2014-10-20 11:21:02.867 [info]  auth_handler.erl:62: admin
+
+
+2014-10-20 11:21:03.069 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:21:03.087 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:21:03.682 [info]  auth_handler.erl:62: 12
+
+
+2014-10-20 11:21:03.704 [info]  auth_handler.erl:62: 12
+
+
+2014-10-20 11:21:12.263 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:21:12.275 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:21:12.298 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:13.283 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:13.307 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:14.137 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:14.815 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:14.831 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:16.158 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:16.814 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:16.830 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:21:25.410 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:21:25.422 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:21:25.769 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:26.642 [error] emulator Error in process <0.12062.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:26.642 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12062.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:26.643 [error] emulator Error in process <0.12064.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:26.643 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12064.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:35.646 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:62: Error: illegal pattern
+2014-10-20 11:21:35.937 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:36.637 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12094.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:36.637 [error] emulator Error in process <0.12094.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:36.639 [error] emulator Error in process <0.12095.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:36.639 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12095.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:46.780 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:62: Error: illegal pattern
+2014-10-20 11:21:47.118 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:21:48.034 [error] emulator Error in process <0.12128.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:48.034 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12128.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:48.035 [error] emulator Error in process <0.12132.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:21:48.035 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12132.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:23:42.065 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:23:42.077 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:23:42.196 [info]  auth_handler.erl:62: "admin"
+
+
+2014-10-20 11:23:42.923 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:23:42.954 [info]  auth_handler.erl:62: "api"
+
+
+2014-10-20 11:24:44.673 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:24:44.683 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:24:44.699 [info]  auth_handler.erl:63: <<"admin">>
+
+
+2014-10-20 11:24:45.442 [info]  auth_handler.erl:63: <<"api">>
+
+
+2014-10-20 11:24:45.458 [info]  auth_handler.erl:63: <<"api">>
+
+
+2014-10-20 11:24:55.615 [info]  auth_handler.erl:63: <<"admin">>
+
+
+2014-10-20 11:24:55.819 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:24:55.834 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:24:56.407 [error] emulator Error in process <0.12583.0> with exit value: {{case_clause,<<3 bytes>>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:24:56.408 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12583.0> exit with reason: {{case_clause,<<"api">>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:24:56.408 [error] emulator Error in process <0.12600.0> with exit value: {{case_clause,<<3 bytes>>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+
+2014-10-20 11:24:56.409 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12600.0> exit with reason: {{case_clause,<<"api">>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:25:09.491 [info]  auth_handler.erl:63: <<"admin">>
+
+
+2014-10-20 11:25:10.054 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:25:10.072 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:25:47.455 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:25:47.480 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:25:47.805 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12745.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:25:47.806 [error] emulator Error in process <0.12745.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:25:58.303 [error] emulator Error in process <0.12770.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:25:58.303 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12770.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:25:58.598 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:25:58.608 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:26:05.707 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:26:05.721 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:26:16.539 [info]  auth_handler.erl:63: <<"admin">>
+
+
+2014-10-20 11:26:16.539 [error] emulator Error in process <0.12840.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:26:16.540 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12840.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:26:16.832 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:26:16.842 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:26:27.672 [error] emulator Error in process <0.12878.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,{ok,1}],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:26:27.673 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12878.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,{ok,1}],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:26:27.966 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:26:27.975 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:36:44.539 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:36:44.547 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:36:45.295 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:36:45.296 [error] emulator Error in process <0.14300.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:36:45.296 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14300.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:47.460 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:36:47.460 [error] emulator Error in process <0.14309.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:36:47.460 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14309.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:55.451 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:36:55.451 [error] emulator Error in process <0.14327.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:36:55.452 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14327.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:55.662 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:65: Error: syntax error before: _
+2014-10-20 11:36:59.197 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:36:59.197 [error] emulator Error in process <0.14344.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:36:59.197 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14344.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:59.744 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:36:59.755 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:37:00.509 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:37:05.365 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:38:31.779 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:38:31.796 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:38:31.919 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:38:38.061 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:38:38.061 [error] emulator Error in process <0.14599.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,false],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+
+2014-10-20 11:38:38.062 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14599.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,false],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:39:27.281 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:65: Error: syntax error before: _
+2014-10-20 11:40:06.709 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:40:06.722 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:41:29.500 [info]  auth_handler.erl:63: "dn200288meg"
+
+
+2014-10-20 11:41:29.516 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:41:29.530 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:42:34.186 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:42:34.196 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:42:34.404 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:42:34.433 [info]  auth_handler.erl:51: "access_denied"
+
+
+2014-10-20 11:42:34.549 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.552 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.555 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.558 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.561 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.564 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.568 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.570 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.573 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.576 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.578 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.750 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.805 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.808 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.872 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.892 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.897 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.901 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.913 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.917 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.921 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.927 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.930 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.987 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:34.994 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:35.017 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:35.054 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.356 [info]  auth_handler.erl:51: "admin"
+
+
+2014-10-20 11:42:41.655 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.660 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.738 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.755 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.759 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.763 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.771 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.777 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.781 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.784 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.788 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.866 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.874 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:41.897 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.720 [info]  auth_handler.erl:51: "access_denied"
+
+
+2014-10-20 11:42:47.906 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.907 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.918 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.923 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.931 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.938 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.942 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.947 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.953 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.958 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:47.963 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:48.258 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:48.357 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:48.364 [info]  auth_handler.erl:51: "assets"
+
+
+2014-10-20 11:42:48.408 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:42:48.429 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:43:19.885 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:43:19.899 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:43:25.853 [info]  auth_handler.erl:65: {http_req,#Port<0.19711>,ranch_tcp,keepalive,<0.15345.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60125},<<"localhost">>,undefined,8008,<<"/admin">>,undefined,<<>>,undefined,undefined,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}
+
+
+2014-10-20 11:43:32.050 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:43:32.064 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:43:35.500 [info]  auth_handler.erl:65: <<"admin">>
+
+
+2014-10-20 11:44:26.666 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:44:26.743 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:44:29.746 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:44:29.759 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:44:33.915 [info]  auth_handler.erl:65: "dn200288meg"
+
+
+2014-10-20 11:48:54.030 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:48:54.039 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:49:22.550 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 11:49:22.558 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 11:49:22.560 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 11:49:22.563 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 11:49:22.574 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 11:49:22.599 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 11:49:47.036 [warning] <0.6.0> lager_error_logger_h dropped 67 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 11:49:47.037 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:50:04.179 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:50:04.191 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:50:08.724 [info]  auth_handler.erl:65: "dn200288meg"
+
+
+2014-10-20 11:50:13.807 [info]  auth_handler.erl:65: "dn200288meg"
+
+
+2014-10-20 11:52:31.768 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:52:31.780 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:52:32.019 [error] emulator Error in process <0.1126.0> with exit value: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+
+2014-10-20 11:52:32.019 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1126.0> exit with reason: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:52:34.678 [error] emulator Error in process <0.1133.0> with exit value: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+
+2014-10-20 11:52:34.679 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1133.0> exit with reason: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:53:02.795 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 11:53:02.805 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 11:53:02.808 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 11:53:02.811 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 11:53:02.824 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 11:53:02.854 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 11:54:26.626 [warning] <0.6.0> lager_error_logger_h dropped 66 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 11:54:26.626 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:54:26.634 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:54:27.240 [error] emulator Error in process <0.854.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage... 
+
+
+2014-10-20 11:54:27.240 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.854.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:54:30.342 [error] emulator Error in process <0.866.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage... 
+
+
+2014-10-20 11:54:30.343 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.866.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:54:48.870 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:54:48.883 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:54:49.238 [error] emulator Error in process <0.925.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+
+2014-10-20 11:54:49.238 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.925.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:54:51.592 [error] emulator Error in process <0.931.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+
+2014-10-20 11:54:51.593 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.931.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:55:11.138 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:71: Warning: variable 'LDAP' is unused
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 11:55:11.150 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:55:11.556 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [auth_handler,72]
+2014-10-20 11:55:19.278 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 11:55:19.288 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 11:55:19.705 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:55:34.678 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:56:36.016 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 11:56:36.030 [info] <0.115.0> api_users_handler: Reloaded! (Beam changed.)
+2014-10-20 11:56:36.098 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:56:36.862 [info]  api_users_handler.erl:71: 1
+
+
+2014-10-20 11:57:58.839 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 11:57:58.847 [info] <0.115.0> api_users_handler: Reloaded! (Beam changed.)
+2014-10-20 11:57:59.365 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:58:00.079 [error] emulator Error in process <0.1411.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations... 
+
+
+2014-10-20 11:58:00.080 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1411.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14994>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1411.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60395}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 11:58:27.899 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 11:58:27.908 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 11:58:27.910 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 11:58:27.913 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 11:58:27.924 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 11:58:27.950 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 11:58:29.826 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:58:30.670 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 11:58:30.671 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60416}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 11:58:30.671 [error] emulator Error in process <0.245.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+
+2014-10-20 11:58:43.253 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 11:58:44.886 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:58:45.967 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.294.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13500>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.294.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60421}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 11:58:45.967 [error] emulator Error in process <0.294.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+
+2014-10-20 11:58:49.500 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 11:58:50.346 [error] emulator Error in process <0.306.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+
+2014-10-20 11:58:50.347 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.306.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13520>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.306.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60425}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 12:00:00.178 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 12:00:00.187 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 12:00:00.189 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 12:00:00.192 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 12:00:00.203 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 12:00:00.232 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 12:00:05.206 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:00:06.156 [info]  api_users_handler.erl:73: [[{<<"id">>,<<"131">>},{<<"name">>,<<"dn200288meg">>}],[{<<"id">>,<<"126">>},{<<"name">>,<<"dn200288meg">>}]]
+
+
+2014-10-20 12:00:19.556 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 12:00:19.556 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 12:00:24.808 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:00:25.850 [info]  api_users_handler.erl:73: [[{<<"id">>,<<"131">>},{<<"name">>,<<"dn200288meg">>}],[{<<"id">>,<<"126">>},{<<"name">>,<<"dn200288meg">>}]]
+
+
+2014-10-20 12:00:30.722 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 12:00:32.415 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:00:33.409 [info]  api_users_handler.erl:73: [[{<<"id">>,<<"131">>},{<<"name">>,<<"dn200288meg">>}],[{<<"id">>,<<"126">>},{<<"name">>,<<"dn200288meg">>}]]
+
+
+2014-10-20 12:00:36.942 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:00:37.862 [info]  api_users_handler.erl:73: [[{<<"id">>,<<"131">>},{<<"name">>,<<"dn200288meg">>}],[{<<"id">>,<<"126">>},{<<"name">>,<<"dn200288meg">>}]]
+
+
+2014-10-20 12:01:33.829 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 12:01:33.839 [info] <0.115.0> api_users_handler: Reloaded! (Beam changed.)
+2014-10-20 12:01:34.096 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:01:34.887 [info]  api_users_handler.erl:73: []
+
+
+2014-10-20 12:01:39.892 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:01:39.951 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 12:01:39.964 [info] <0.115.0> api_users_handler: Reloaded! (Beam changed.)
+2014-10-20 12:01:40.662 [info]  api_users_handler.erl:73: [[{<<"id">>,<<"131">>},{<<"name">>,<<"dn200288meg">>}],[{<<"id">>,<<"126">>},{<<"name">>,<<"dn200288meg">>}]]
+
+
+2014-10-20 12:01:57.154 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl:0: Recompiled.
+2014-10-20 12:01:57.169 [info] <0.115.0> api_users_handler: Reloaded! (Beam changed.)
+2014-10-20 12:01:57.563 [info]  auth_handler.erl:72: "dn200288meg"
+
+
+2014-10-20 12:04:09.479 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:04:09.488 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:04:57.996 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 12:04:58.004 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 12:04:58.007 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 12:04:58.010 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 12:04:58.021 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 12:04:58.048 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 12:05:10.412 [warning] <0.6.0> lager_error_logger_h dropped 21 messages in the last second that exceeded the limit of 50 messages/sec
+2014-10-20 12:05:10.412 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:05:22.699 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:01.243 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:01.268 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:06:03.504 [info]  auth_handler.erl:73: []
+
+
+2014-10-20 12:06:04.846 [info]  auth_handler.erl:73: []
+
+
+2014-10-20 12:06:06.225 [info]  auth_handler.erl:73: []
+
+
+2014-10-20 12:06:20.563 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:20.573 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:06:36.770 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:36.784 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:06:50.980 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:50.992 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:08:56.255 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 12:08:56.262 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:08:58.689 [error] emulator Error in process <0.1299.0> with exit value: {{try_clause,{http_req,#Port<0.15182>,ranch_tcp,keepalive,<0.1299.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},60681},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+
+2014-10-20 12:08:58.690 [error] <0.139.0> Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1299.0> exit with reason: {{try_clause,{http_req,#Port<0.15182>,ranch_tcp,keepalive,<0.1299.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60681},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020120857WS16hfaa&state=enter">>,[{<<"code">>,<<"141020120857WS16hfaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+
+2014-10-20 12:09:29.663 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:72: Warning: variable 'IsFind' is unused
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:09:29.677 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:10:07.230 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 12:10:07.241 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:10:14.454 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [auth_handler,73]
+2014-10-20 12:10:16.220 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [auth_handler,73]
+2014-10-20 12:10:18.344 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [auth_handler,73]
+2014-10-20 12:10:25.374 [info]  FORMAT ERROR: "~p.erl:~p: ~p~n~n~n" [auth_handler,73]
+2014-10-20 12:10:25.452 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 12:10:25.465 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:10:27.976 [info]  auth_handler.erl:73: []
+
+
+2014-10-20 12:10:29.288 [info]  auth_handler.erl:73: []
+
+
+2014-10-20 12:10:41.640 [info] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled.
+2014-10-20 12:10:41.653 [info] <0.115.0> auth_handler: Reloaded! (Beam changed.)
+2014-10-20 12:10:42.002 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:06.757 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:06.895 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:80: Error: syntax error before: '.'
+2014-10-20 12:11:08.678 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:09.781 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:18.020 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:80: Error: syntax error before: '.'
+2014-10-20 12:11:18.346 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:21.321 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:11:23.837 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:12:14.529 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:12:14.562 [error] <0.115.0> /Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:82: Error: syntax error before: '.'
+2014-10-20 12:12:17.952 [info]  auth_handler.erl:73: 0
+
+
+2014-10-20 12:13:43.689 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-10-20 12:13:43.699 [info] <0.7.0> Application sync started on node nonode@nohost
+2014-10-20 12:13:43.703 [info] <0.7.0> Application jsx started on node nonode@nohost
+2014-10-20 12:13:43.707 [info] <0.7.0> Application gen_smtp started on node nonode@nohost
+2014-10-20 12:13:43.721 [info] <0.7.0> Application emongo started on node nonode@nohost
+2014-10-20 12:13:43.753 [info] <0.7.0> Application gproc started on node nonode@nohost
+2014-10-20 12:15:03.448 [warning] <0.6.0> lager_error_logger_h dropped 72 messages in the last second that exceeded the limit of 50 messages/sec

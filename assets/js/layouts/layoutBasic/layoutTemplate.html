@@ -11,7 +11,8 @@
     </div>
     <div class="navbar-collapse collapse">
        <ul class="nav navbar-nav">
-          <li <% if (model.routes.sidebar1.active || model.routes.sidebar2.active || model.routes.sidebar3.active) { %>class="bg-info"<% } %> ><a href="/workorders">Консультирование</a></li>
+          <!-- <li <% if (model.routes.sidebar1.active || model.routes.sidebar2.active || model.routes.sidebar3.active) { %>class="bg-info"<% } %> ><a href="/workorders">Консультирование</a></li> -->
+          <li><a href="/">Главная страница</a></li> 
            <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Обращения <span class="glyphicon glyphicon-chevron-down"></span></a>
                <ul class="dropdown-menu" role="menu">
@@ -19,24 +20,38 @@
                    <li><a href="/treatment_s">Уровень 2</a></li>
                </ul>
            </li>
-           <li><a href="#">Наследники</a></li>
+          <!--  <li><a href="#">Наследники</a></li> -->
 
         </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li>
+                        <li>
           <div class="btn-group">
             <a title="Не работает? Жми сюда!" target="_blank" href="https://itsm.privatbank.ua/servicedesk/appeal_to_helpdesk.sd">
               <img style="margin-top: 8px;" src="/assets/img/img.png" />
             </a> 
           </div>
         </li>
-        <li><a href="#">
-              <span class="glyphicon glyphicon-off"></span>
-                Выход
-              </a>
-        </li>
-      </ul>
+                        <li class="dropdown">
+                              
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="icon-user"></i>&nbsp;Мой профиль<i class="caret"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu">
+                                
+                                    <li>
+                                        <a tabindex="-1" href="/admin"><i class="icon-share"></i> Вход в админку</a>
+                                    </li>
+                                
+                                <hr>
+                                <li>
+                                    <a tabindex="-1" href="/"><i class="icon-off"></i> Завершить работу</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
@@ -49,6 +64,6 @@
 
 <div class="footer">
   <div class="container">
-    <p class="text-muted">Place sticky footer content here.</p>
+    <p class="text-muted">ПриватБанк 2014</p>
   </div>
 </div>

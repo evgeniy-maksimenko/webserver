@@ -3,3 +3,665 @@ Error in process <0.271.0> with exit value: {{try_clause,{http_req,#Port<0.10938
 
 2014-10-17 09:01:56 =ERROR REPORT====
 Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.271.0> exit with reason: {{try_clause,{http_req,#Port<0.10938>,ranch_tcp,keepalive,<0.271.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},65278},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017090153WS3i0daa&state=enter">>,[{<<"code">>,<<"141017090153WS3i0daa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-17 14:21:33 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.668.0> exit with reason: {{try_clause,{http_req,#Port<0.11431>,ranch_tcp,keepalive,<0.668.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},54403},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017142132WS3ubeaa&state=enter">>,[{<<"code">>,<<"141017142132WS3ubeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-17 14:21:33 =ERROR REPORT====
+Error in process <0.668.0> with exit value: {{try_clause,{http_req,#Port<0.11431>,ranch_tcp,keepalive,<0.668.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},54403},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-17 17:19:49 =ERROR REPORT====
+Error in process <0.286.0> with exit value: {{try_clause,{http_req,#Port<0.11208>,ranch_tcp,keepalive,<0.286.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56087},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-17 17:19:49 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.286.0> exit with reason: {{try_clause,{http_req,#Port<0.11208>,ranch_tcp,keepalive,<0.286.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56087},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141017171949WS25jeaa&state=enter">>,[{<<"code">>,<<"141017171949WS25jeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 09:37:17 =ERROR REPORT====
+Error in process <0.245.0> with exit value: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.245.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},57780},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-20 09:37:17 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {{try_clause,{http_req,#Port<0.10717>,ranch_tcp,keepalive,<0.245.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},57780},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020093716WS3iqeaa&state=enter">>,[{<<"code">>,<<"141020093716WS3iqeaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 09:59:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:37: Warning: variable 'Request' is unused
+/Users/Admin/Sites/consultations/webserver/src/conveyor/api_request_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:27: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:103: Warning: variable 'AccessToken' is unused
+/Users/Admin/Sites/consultations/webserver/src/orders/orders_module.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function handle/2 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function init/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:9: Warning: undefined callback function terminate/3 (behaviour 'cowboy_http_handler')
+/Users/Admin/Sites/consultations/webserver/src/test_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 09:59:12 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:42: Warning: this clause cannot match because a previous clause at line 29 always matches
+/Users/Admin/Sites/consultations/webserver/src/treatment/tm_module.erl:0: Recompiled with 1 warnings
+2014-10-20 10:06:56 =ERROR REPORT====
+Error in process <0.1599.0> with exit value: {{try_clause,{http_req,#Port<0.12720>,ranch_tcp,keepalive,<0.1599.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58350},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<6 bytes>>,<<33 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-20 10:06:56 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1599.0> exit with reason: {{try_clause,{http_req,#Port<0.12720>,ranch_tcp,keepalive,<0.1599.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58350},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020100655WS3areaa&state=enter">>,[{<<"code">>,<<"141020100655WS3areaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"cookie">>,<<"access_token=141020PBe1ojpqzn1u1p">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 11:07:58 =ERROR REPORT====
+Error in process <0.9851.0> with exit value: {{try_clause,{http_req,#Port<0.14990>,ranch_tcp,keepalive,<0.9851.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},59389},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-20 11:07:58 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.9851.0> exit with reason: {{try_clause,{http_req,#Port<0.14990>,ranch_tcp,keepalive,<0.9851.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},59389},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020110757WS28dfaa&state=enter">>,[{<<"code">>,<<"141020110757WS28dfaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10492.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10492.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10508.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10508.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10509.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10509.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10510.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10510.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10511.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10511.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10512.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10512.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10513.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10513.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10514.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10514.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10515.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10515.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10516.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10516.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10517.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10517.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:09 =ERROR REPORT====
+Error in process <0.10518.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:09 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10518.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10560.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10560.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10561.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10561.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10562.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10562.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10563.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10563.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10564.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10564.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10565.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10565.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10566.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10566.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10567.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10567.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10568.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10568.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10569.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10569.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10570.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10570.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:22 =ERROR REPORT====
+Error in process <0.10571.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:22 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10571.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10579.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10579.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10580.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10580.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10581.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10581.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10582.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10582.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10583.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10583.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10584.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10584.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10585.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10585.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10586.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10586.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10587.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10587.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10588.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10588.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10589.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10589.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:25 =ERROR REPORT====
+Error in process <0.10590.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:25 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10590.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10670.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10670.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10687.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10687.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10688.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10688.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10689.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10689.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10690.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10690.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10691.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10691.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10692.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10692.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10693.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10693.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10694.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10694.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10695.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10695.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10696.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10696.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:12:54 =ERROR REPORT====
+Error in process <0.10697.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:12:54 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10697.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10817.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10817.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10818.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10818.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10819.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10819.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10820.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10820.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10821.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10821.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10822.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10822.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10823.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10823.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10824.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10824.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10825.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10825.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10826.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10826.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10827.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10827.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+Error in process <0.10828.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10828.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:47 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:59: Error: syntax error before: '->'
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10859.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10859.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10860.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10860.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10861.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10861.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10862.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10862.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10863.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10863.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10864.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10864.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10865.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10865.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10866.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10866.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10867.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10867.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10868.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10868.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10869.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10869.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10870.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:50 =ERROR REPORT====
+Error in process <0.10870.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10872.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10872.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10873.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10873.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10874.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10874.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10875.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10875.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10876.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10876.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10877.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10877.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10878.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10878.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10879.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10879.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10880.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10880.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10881.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10881.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10882.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10882.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:13:52 =ERROR REPORT====
+Error in process <0.10883.0> with exit value: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:13:52 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.10883.0> exit with reason: {{case_clause,"assets"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,53}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:19:12 =ERROR REPORT====
+Error in process <0.11663.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:19:12 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.11663.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:19:12 =ERROR REPORT====
+Error in process <0.11679.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:19:12 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.11679.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,60}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:20:41 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:63: Error: syntax error before: 'end'
+2014-10-20 11:21:26 =ERROR REPORT====
+Error in process <0.12062.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:26 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12062.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:21:26 =ERROR REPORT====
+Error in process <0.12064.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:26 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12064.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:21:35 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:62: Error: illegal pattern
+2014-10-20 11:21:36 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12094.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:21:36 =ERROR REPORT====
+Error in process <0.12094.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:36 =ERROR REPORT====
+Error in process <0.12095.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:36 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12095.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:21:46 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:62: Error: illegal pattern
+2014-10-20 11:21:48 =ERROR REPORT====
+Error in process <0.12128.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:48 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12128.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:21:48 =ERROR REPORT====
+Error in process <0.12132.0> with exit value: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:21:48 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12132.0> exit with reason: {{case_clause,"api"},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,61}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:24:56 =ERROR REPORT====
+Error in process <0.12583.0> with exit value: {{case_clause,<<3 bytes>>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:24:56 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12583.0> exit with reason: {{case_clause,<<"api">>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:24:56 =ERROR REPORT====
+Error in process <0.12600.0> with exit value: {{case_clause,<<3 bytes>>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+
+2014-10-20 11:24:56 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12600.0> exit with reason: {{case_clause,<<"api">>},[{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,62}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:25:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12745.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:25:47 =ERROR REPORT====
+Error in process <0.12745.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:25:58 =ERROR REPORT====
+Error in process <0.12770.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:25:58 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12770.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:26:16 =ERROR REPORT====
+Error in process <0.12840.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:26:16 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12840.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:26:27 =ERROR REPORT====
+Error in process <0.12878.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,{ok,1}],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:26:27 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.12878.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,{ok,1}],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:36:45 =ERROR REPORT====
+Error in process <0.14300.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:45 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14300.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:36:47 =ERROR REPORT====
+Error in process <0.14309.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:47 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14309.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:36:55 =ERROR REPORT====
+Error in process <0.14327.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:55 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14327.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:36:55 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:65: Error: syntax error before: _
+2014-10-20 11:36:59 =ERROR REPORT====
+Error in process <0.14344.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:36:59 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14344.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,ok],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:38:38 =ERROR REPORT====
+Error in process <0.14599.0> with exit value: {function_clause,[{cowboy_req,g,[resp_state,false],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+
+2014-10-20 11:38:38 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.14599.0> exit with reason: {function_clause,[{cowboy_req,g,[resp_state,false],[{file,"src/cowboy_req.erl"},{line,1037}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,421}]}]}
+2014-10-20 11:39:27 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:65: Error: syntax error before: _
+2014-10-20 11:52:32 =ERROR REPORT====
+Error in process <0.1126.0> with exit value: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+2014-10-20 11:52:32 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1126.0> exit with reason: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:52:34 =ERROR REPORT====
+Error in process <0.1133.0> with exit value: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+2014-10-20 11:52:34 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1133.0> exit with reason: {function_clause,[{emongo,find,[model,"users","dn200288meg"],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:54:27 =ERROR REPORT====
+Error in process <0.854.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage... 
+
+2014-10-20 11:54:27 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.854.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:54:30 =ERROR REPORT====
+Error in process <0.866.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage... 
+
+2014-10-20 11:54:30 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.866.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:54:49 =ERROR REPORT====
+Error in process <0.925.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+2014-10-20 11:54:49 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.925.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:54:51 =ERROR REPORT====
+Error in process <0.931.0> with exit value: {function_clause,[{emongo,find,[model,"users",{<<4 bytes>>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler... 
+
+2014-10-20 11:54:51 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.931.0> exit with reason: {function_clause,[{emongo,find,[model,"users",{<<"name">>,"dn200288meg"}],[{file,"src/emongo.erl"},{line,134}]},{auth_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,113}]},{auth_handler,getAuthPage,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl"},{line,72}]},{cowboy_protocol,onrequest,2,[{file,"src/cowboy_protocol.erl"},{line,420}]}]}
+2014-10-20 11:55:11 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:71: Warning: variable 'LDAP' is unused
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 11:58:00 =ERROR REPORT====
+Error in process <0.1411.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations... 
+
+2014-10-20 11:58:00 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1411.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"/Users/Admin/Sites/consultations/webserver/src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.14994>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1411.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60395}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 11:58:30 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.245.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.10717>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.245.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60416}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 11:58:30 =ERROR REPORT====
+Error in process <0.245.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+2014-10-20 11:58:45 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.294.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13500>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.294.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60421}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 11:58:45 =ERROR REPORT====
+Error in process <0.294.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+2014-10-20 11:58:50 =ERROR REPORT====
+Error in process <0.306.0> with exit value: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<4 bytes>>,<<11 bytes>>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{... 
+
+2014-10-20 11:58:50 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.306.0> exit with reason: {[{reason,function_clause},{mfa,{api_users_handler,handle,2}},{stacktrace,[{emongo,find,[model,"users",{<<"name">>,<<"dn200288meg">>}],[{file,"src/emongo.erl"},{line,134}]},{api_users_handler,mongo_find,1,[{file,"src/users/api_users_handler.erl"},{line,116}]},{api_users_handler,mongo_find_all,0,[{file,"src/users/api_users_handler.erl"},{line,72}]},{api_users_handler,handle,2,[{file,"src/users/api_users_handler.erl"},{line,37}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]},{req,[{socket,#Port<0.13520>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.306.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},60425}},{host,<<"localhost">>},{host_info,undefined},{port,8008},{path,<<"/api/users">>},{path_info,undefined},{qs,<<"condition=all">>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"application/json, text/javascript, */*; q=0.01">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"x-requested-with">>,<<"XMLHttpRequest">>},{<<"referer">>,<<"http://localhost:8008/admin/users/index">>},{<<"cookie">>,<<"access_token=141020PBe1jocb8q1upz">>},{<<"connection">>,<<"keep-alive">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,undefined}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 12:04:09 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:05:10 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:05:22 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:76: Warning: this clause cannot match because a previous clause at line 74 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:01 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:20 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:36 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:06:50 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:77: Warning: this clause cannot match because a previous clause at line 75 always matches
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:08:58 =ERROR REPORT====
+Error in process <0.1299.0> with exit value: {{try_clause,{http_req,#Port<0.15182>,ranch_tcp,keepalive,<0.1299.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},60681},<<9 bytes>>,undefined,8008,<<10 bytes>>,undefined,<<37 bytes>>,[{<<4 bytes>>,<<20 bytes>>},{<<5 bytes>>,<<5 bytes>>}],[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<81 bytes>>},{<<6 bytes>>,<<63 bytes>>},{<<15 bytes>>,<<35 bytes>>},{<<15 bytes>>,<<13 bytes>>},{<<10 bytes>>,<<10 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{cowboy_handler,handler_handle... 
+
+2014-10-20 12:08:58 =ERROR REPORT====
+Ranch listener http_listener had connection process started with cowboy_protocol:start_link/4 at <0.1299.0> exit with reason: {{try_clause,{http_req,#Port<0.15182>,ranch_tcp,keepalive,<0.1299.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},60681},<<"localhost">>,undefined,8008,<<"/authorize">>,undefined,<<"code=141020120857WS16hfaa&state=enter">>,[{<<"code">>,<<"141020120857WS16hfaa">>},{<<"state">>,<<"enter">>}],[],[{<<"host">>,<<"localhost:8008">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:33.0) Gecko/20100101 Firefox/33.0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3">>},{<<"accept-encoding">>,<<"gzip, deflate">>},{<<"connection">>,<<"keep-alive">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,435}]}]}
+2014-10-20 12:09:29 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:72: Warning: variable 'IsFind' is unused
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:0: Recompiled with 1 warnings
+2014-10-20 12:11:06 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:80: Error: syntax error before: '.'
+2014-10-20 12:11:18 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:80: Error: syntax error before: '.'
+2014-10-20 12:12:14 =ERROR REPORT====
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:15: Error: function getAuthPage/1 undefined
+/Users/Admin/Sites/consultations/webserver/src/auth/auth_handler.erl:82: Error: syntax error before: '.'
